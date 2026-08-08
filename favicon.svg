@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Soft Light Blue Rounded Container -->
+  <rect x="5" y="5" width="90" height="90" rx="22" fill="#eff6ff" stroke="#bfdbfe" stroke-width="4"/>
+  
+  <!-- Code Symbol </> in #2563eb -->
+  <!-- Left Bracket < -->
+  <path d="M34 36L20 50L34 64" stroke="#2563eb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Slash / -->
+  <path d="M55 30L45 70" stroke="#2563eb" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right Bracket > -->
+  <path d="M66 36L80 50L66 64" stroke="#2563eb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
