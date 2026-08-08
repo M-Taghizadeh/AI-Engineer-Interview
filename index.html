@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سوالات استخدامی مهندس هوش مصنوعی | AI Engineer Interview Prep</title>
+    <meta name="description" content="جامع‌ترین بانک سوالات مصاحبه شغلی AI Engineer به فارسی و انگلیسی همراه با پاسخ‌های تفصیلی، دیاگرام‌های اختصاصی، کد پایتون و مهارت‌های نرم.">
+    
+    <!-- Vazirmatn & Inter Font CDNs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="brand">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="brand-text">
+                    <h1><span data-i18n="siteTitle">سوالات استخدامی</span> <span>AI Engineer</span></h1>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <!-- Language Switcher Button -->
+                <button id="lang-toggle" class="btn btn-outline lang-btn" title="تغییر زبان / Switch Language">
+                    <i class="fa-solid fa-globe"></i>
+                    <span id="lang-text">EN</span>
+                </button>
+
+                <!-- Practice Quiz Button -->
+                <button id="quiz-btn" class="btn btn-secondary">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span data-i18n="quizBtn">حالت تمرین و آزمون</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Main Content App Interface -->
+    <main class="container main-layout">
+        <!-- Sidebar Filters -->
+        <aside class="sidebar">
+            <div class="sidebar-box">
+                <div class="sidebar-header">
+                    <h3><i class="fa-solid fa-filter"></i> <span data-i18n="catHeading">دسته‌بندی موضوعی</span></h3>
+                    <button id="reset-filters" class="text-btn" data-i18n="resetBtn">بازنشانی</button>
+                </div>
+                <nav class="category-nav" id="category-list">
+                    <!-- Populated dynamically via JS -->
+                </nav>
+            </div>
+
+            <div class="sidebar-box">
+                <h3><i class="fa-solid fa-layer-group"></i> <span data-i18n="diffHeading">سطح دشواری</span></h3>
+                <div class="filter-group" id="difficulty-filters">
+                    <label class="filter-chip active" data-difficulty="all">
+                        <input type="radio" name="difficulty" value="all" checked hidden>
+                        <span data-i18n="allLevels">همه سطوح</span>
+                    </label>
+                    <label class="filter-chip" data-difficulty="beginner">
+                        <input type="radio" name="difficulty" value="beginner" hidden>
+                        <span class="badge badge-beginner" data-i18n="beginner">مبتدی</span>
+                    </label>
+                    <label class="filter-chip" data-difficulty="intermediate">
+                        <input type="radio" name="difficulty" value="intermediate" hidden>
+                        <span class="badge badge-intermediate" data-i18n="intermediate">متوسط</span>
+                    </label>
+                    <label class="filter-chip" data-difficulty="advanced">
+                        <input type="radio" name="difficulty" value="advanced" hidden>
+                        <span class="badge badge-advanced" data-i18n="advanced">پیشرفته</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- GitHub Profile Box -->
+            <div class="sidebar-box github-box">
+                <h3><i class="fa-brands fa-github"></i> <span data-i18n="githubHeading">گیت‌هاب</span></h3>
+                <a href="https://github.com/M-Taghizadeh" target="_blank" rel="noopener noreferrer" class="github-profile-link">
+                    <div class="github-link-content">
+                        <i class="fa-brands fa-github github-link-icon"></i>
+                        <div class="github-user-info">
+                            <span class="github-username">M-Taghizadeh</span>
+                            <span class="github-label" data-i18n="githubLabel">مشاهده پروفایل در گیت‌هاب</span>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Questions Feed -->
+        <section class="content-area">
+            <!-- Search & Controls Bar -->
+            <div class="controls-bar">
+                <div class="search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" placeholder="جستجو در سوالات، کلمات کلیدی، مباحث (مثلا: RAG, Transformer, LoRA, Docker)..." dir="rtl">
+                    <button id="clear-search" class="clear-btn hidden"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="sorting-wrapper">
+                    <label for="sort-select"><i class="fa-solid fa-sort"></i> <span data-i18n="sortLabel">مرتب‌سازی:</span></label>
+                    <select id="sort-select">
+                        <option value="id-asc" data-i18n="sortDefault">پیش‌فرض</option>
+                        <option value="difficulty-asc" data-i18n="sortDiffAsc">سطح (مبتدی به پیشرفته)</option>
+                        <option value="difficulty-desc" data-i18n="sortDiffDesc">سطح (پیشرفته به مبتدی)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Active Filters Indicator -->
+            <div class="active-tags-bar hidden" id="active-tags-container">
+                <span class="active-tags-label" data-i18n="activeFiltersLabel">فیلترهای فعال:</span>
+                <div id="active-tags-list" class="tags-flex"></div>
+            </div>
+
+            <!-- Questions Grid/List -->
+            <div class="questions-grid" id="questions-grid">
+                <!-- Question Cards populated via JS -->
+            </div>
+
+            <!-- Pagination Control Bar -->
+            <div class="pagination-bar" id="pagination-bar">
+                <div class="pagination-info" id="pagination-info">
+                    نمایش <span>۱</span> تا <span>۱۰</span> از <span>۱۸۰</span>
+                </div>
+                
+                <div class="pagination-controls">
+                    <button class="page-nav-btn" id="prev-page-btn">
+                        <i class="fa-solid fa-angle-right" id="prev-icon"></i> <span data-i18n="prevBtn">قبلی</span>
+                    </button>
+                    <div class="page-numbers" id="page-numbers-container">
+                        <!-- Dynamic Page Buttons -->
+                    </div>
+                    <button class="page-nav-btn" id="next-page-btn">
+                        <span data-i18n="nextBtn">بعدی</span> <i class="fa-solid fa-angle-left" id="next-icon"></i>
+                    </button>
+                </div>
+
+                <div class="page-size-wrapper">
+                    <label for="page-size-select" data-i18n="perPage">تعداد در صفحه:</label>
+                    <select id="page-size-select">
+                        <option value="10" selected>۱۰ سوال</option>
+                        <option value="20">۲۰ سوال</option>
+                        <option value="50">۵۰ سوال</option>
+                        <option value="100">۱۰۰ سوال</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state hidden" id="empty-state">
+                <div class="empty-icon"><i class="fa-solid fa-folder-open"></i></div>
+                <h3 data-i18n="emptyTitle">هیچ سوالی یافت نشد!</h3>
+                <p data-i18n="emptyDesc">عبارت مورد نظر یا فیلترهای انتخابی شما نتیجه‌ای نداشت. لطفاً عبارت دیگری را جستجو کنید.</p>
+                <button class="btn btn-primary" id="empty-reset-btn" data-i18n="emptyReset">مشاهده همه سوالات</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Question Details Modal -->
+    <div class="modal-overlay hidden" id="question-modal">
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close-btn" aria-label="بستن"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="modal-header">
+                <div class="modal-badges">
+                    <span class="category-badge" id="modal-category">دسته‌بندی</span>
+                    <span class="badge" id="modal-difficulty">متوسط</span>
+                </div>
+                <h2 id="modal-title">عنوان کامل سوال</h2>
+            </div>
+
+            <div class="modal-body" id="modal-body-content">
+                <!-- Populated via JS -->
+            </div>
+
+            <div class="modal-footer">
+                <div class="modal-nav-btns modal-nav-full">
+                    <button class="btn btn-secondary" id="modal-prev-btn"><i class="fa-solid fa-arrow-right" id="modal-prev-icon"></i> <span data-i18n="prevQuestion">سوال قبلی</span></button>
+                    <button class="btn btn-secondary" id="modal-next-btn"><span data-i18n="nextQuestion">سوال بعدی</span> <i class="fa-solid fa-arrow-left" id="modal-next-icon"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz / Practice Mode Modal -->
+    <div class="modal-overlay hidden" id="quiz-modal">
+        <div class="modal-container quiz-container">
+            <button class="modal-close" id="quiz-close-btn" aria-label="بستن"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="quiz-header">
+                <div class="quiz-progress-bar">
+                    <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+                </div>
+                <div class="quiz-counter"><span data-i18n="quizHeader">سوال تمرینی</span> <span id="quiz-current-step">۱</span> از <span id="quiz-total-step">۱۰</span></div>
+            </div>
+
+            <div class="quiz-card">
+                <span class="category-badge" id="quiz-category">RAG & GraphRAG</span>
+                <h3 id="quiz-question-title">سوال مطرح شده در مصاحبه...</h3>
+                <div class="quiz-hint-box">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span data-i18n="quizHint">قبل از دیدن پاسخ، ابتدا ۲ دقیقه درباره پاسخ فکر کنید یا روی کاغذ خلاصه آن را بنویسید!</span>
+                </div>
+                
+                <div class="quiz-answer-container hidden" id="quiz-answer-box">
+                    <h4><i class="fa-solid fa-circle-check text-green"></i> <span data-i18n="fullAnswer">پاسخ تشریحی و کامل:</span></h4>
+                    <div id="quiz-answer-content"></div>
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button class="btn btn-primary" id="quiz-show-answer-btn">
+                    <i class="fa-solid fa-eye"></i> <span data-i18n="quizShowAnswer">مشاهده پاسخ کامل</span>
+                </button>
+                <div class="quiz-navigation hidden" id="quiz-nav-box">
+                    <button class="btn btn-secondary" id="quiz-next-btn"><span data-i18n="quizNextStep">سوال بعدی تمرینی</span> <i class="fa-solid fa-arrow-left" id="quiz-next-icon"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p data-i18n="footerTag">راهنمای جامع مصاحبه شغلی مهندس هوش مصنوعی (AI Engineer) - ویژه بازار کار</p>
+            <p class="copyright"><i class="fa-solid fa-graduation-cap text-amber"></i> <span data-i18n="copyright">طراحی شده برای موفقیت شما در مصاحبه‌های هوش مصنوعی و MLOps</span></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
