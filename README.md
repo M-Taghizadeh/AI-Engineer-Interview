@@ -1,6 +1,6 @@
 # AI Engineer Interview Questions & Preparation Platform
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-2563eb?style=for-the-badge&logo=github)](https://m-taghizadeh.github.io/ai-engineer-interview/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-2563eb?style=for-the-badge&logo=github)](https://m-taghizadeh.github.io/AI-Engineer-Interview/)
 [![Questions](https://img.shields.io/badge/Questions-Comprehensive%20Bank-059669?style=for-the-badge)](https://github.com/M-Taghizadeh/ai-engineer-interview)
 [![Bilingual](https://img.shields.io/badge/Language-Persian%20%7C%20English-7c3aed?style=for-the-badge)](https://github.com/M-Taghizadeh/ai-engineer-interview)
 [![Stack](https://img.shields.io/badge/Stack-HTML5%20%2F%20CSS3%20%2F%20ES6-0891b2?style=for-the-badge&logo=javascript)](https://github.com/M-Taghizadeh/ai-engineer-interview)
