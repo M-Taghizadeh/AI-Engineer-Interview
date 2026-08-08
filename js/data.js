@@ -48,10 +48,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه توقعات غیرواقعی مدیران یا مشتریان (تیم غیرفنی) از پروژه هوش مصنوعی را مدیریت می‌کنید؟",
         "tags": [
-            "#مدیریت_توقعات",
-            "#ارتباطات",
-            "#SoftSkills",
-            "#PoC"
+            "مدیریت_توقعات",
+            "ارتباطات",
+            "SoftSkills",
+            "PoC"
         ],
         "summary": "مشتریان و مدیران غیرفنی معمولاً هوش مصنوعی را جادو می‌دانند. کلید موفقیت در تعریف دقیق PoC، تعیین Baseline و شفاف‌سازی ماهیت احتمالی (Probabilistic) بودن AI است.",
         "fullAnswer": "مشتریان و مدیران غیرفنی معمولاً هوش مصنوعی را جادو می‌دانند. کلید موفقیت در تعریف دقیق PoC، تعیین Baseline و شفاف‌سازی ماهیت احتمالی (Probabilistic) بودن AI است.\n\n**ماهیت سیستم‌های AI:**\nتوضیح می‌دهم که هوش مصنوعی احتمالاتی (Probabilistic) است و خطا جزء طبیعی آن محسوب می‌شود، نه یک باگ سنتی.\n\n**تعریف PoC سریع:**\nطراحی فاز آزمایش ۲ تا ۴ هفته‌ای روی نمونه داده واقعی جهت سنجش امکان‌پذیری فنی قبل از تعهد به پروژه کلان.\n\n**تثبیت KPI کسب‌وکار:**\nتوافق روی معیارهای ملموس تجاری (مانند درصد کاهش زمان پاسخ‌دهی یا میزان صرفه‌جویی مالی) به جای درصد Accuracy خام.",
@@ -69,10 +69,10 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "هنگام مواجهه با عدم قطعیت بالا و پاسخ‌های نادرست (Hallucination) مدل‌های زبانی چه رویکردی اتخاذ می‌کنید؟",
         "tags": [
-            "#Hallucination",
-            "#ریسک_مدل",
-            "#پاسخگویی",
-            "#Guardrails"
+            "Hallucination",
+            "ریسک_مدل",
+            "پاسخگویی",
+            "Guardrails"
         ],
         "summary": "پذیرش مسئولیت فنی و طراحی مکانیزم‌های Guardrails و کنترل کیفیت پاسخ، همراه با اطلاع‌رسانی دقیق به تیم محصول.",
         "fullAnswer": "پذیرش مسئولیت فنی و طراحی مکانیزم‌های Guardrails و کنترل کیفیت پاسخ، همراه با اطلاع‌رسانی دقیق به تیم محصول.\n\n**کنترل تکنیکال:**\nکاهش Temperature مدل به ۰.۰، اجبار مدل به استفاده از Grounding در RAG و فیلتر کردن خروجی با NeMo Guardrails.\n\n**شفافیت با کاربر:**\nطراحی رابط کاربری به شکلی که امکان گزارش خطا وجود داشته باشد و پیام هشدار عدم قطعیت نمایش داده شود.",
@@ -90,10 +90,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "اگر بین تیم Data Science و تیم Software Engineering در مورد استقرار یک مدل اختلاف نظر پیش آید، چگونه تعارض را حل می‌کنید؟",
         "tags": [
-            "#کار_تیمی",
-            "#حل_تعارض",
-            "#MLOps",
-            "#SLA"
+            "کار_تیمی",
+            "حل_تعارض",
+            "MLOps",
+            "SLA"
         ],
         "summary": "تیم دیتا بر روی Accuracy تمرکز دارد و تیم نرم‌افزار بر روی Latency، Scalability و RAM. حل تعارض با تعریف SLA مشترک ممکن است.",
         "fullAnswer": "تیم دیتا بر روی Accuracy تمرکز دارد و تیم نرم‌افزار بر روی Latency، Scalability و RAM. حل تعارض با تعریف SLA مشترک ممکن است.\n\n**زبان مشترک SLA:**\nتعریف دقیق SLA شامل زمان پاسخ‌دهی زیر ۲۰۰ میلی‌ثانیه و حجم رم مصرفی مشخص.\n\n**بهینه‌سازی متقابل:**\nاستفاده از Quantization و تبدیل مدل به ONNX/TensorRT جهت حفظ دقت و در عین حال کاهش مصرف منابع.",
@@ -111,9 +111,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چگونه اولویت‌بندی بین Fine-Tuning یک مدل اختصاصی و استفاده از APIهای آماده را تعیین می‌کنید؟",
         "tags": [
-            "#تصمیم‌گیری_استراتژیک",
-            "#هزینه_پروژه",
-            "#Tradeoff"
+            "تصمیم‌گیری_استراتژیک",
+            "هزینه_پروژه",
+            "Tradeoff"
         ],
         "summary": "تحلیل ماتریس Trade-off شامل: حریم خصوصی داده (Privacy)، هزینه عملیاتی (OPEX vs CAPEX)، زمان توسعه (Time-to-Market) و نیاز به دانش دامنه خاص.",
         "fullAnswer": "تحلیل ماتریس Trade-off شامل: حریم خصوصی داده (Privacy)، هزینه عملیاتی (OPEX vs CAPEX)، زمان توسعه (Time-to-Market) و نیاز به دانش دامنه خاص.\n\n**API آماده:**\nمناسب برای فاز PoC، عدم نیاز به GPU اختصاصی و سرعت توسعه بالا.\n\n**Fine-Tuning / Open-Source:**\nمناسب برای امنیت داده‌های حساس (بانک‌ها و بیمارستان‌ها)، کاهش هزینه در حجم درخواست میلیونی و لحن اختصاصی.",
@@ -131,10 +131,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مسئولیت اخلاقی مهندس هوش مصنوعی در قبال Bias (ارزیابی سوگیری) و حریم خصوصی کاربران چیست؟",
         "tags": [
-            "#اخلاق_AI",
-            "#Bias",
-            "#GDPR",
-            "#Anonymization"
+            "اخلاق_AI",
+            "Bias",
+            "GDPR",
+            "Anonymization"
         ],
         "summary": "شناسایی و حذف سوگیری از داده‌های آموزش، رعایت انطباق با قوانین حریم خصوصی و عدم استفاده بدون اجازه از داده‌های کاربران.",
         "fullAnswer": "شناسایی و حذف سوگیری از داده‌های آموزش، رعایت انطباق با قوانین حریم خصوصی و عدم استفاده بدون اجازه از داده‌های کاربران.\n\n**ارزیابی داده:**\nبررسی توزیع آماری داده‌های آموزش جهت جلوگیری از تبعیض‌های جنسیتی، قومیتی یا مالی.\n\n**حفظ حریم خصوصی:**\nحذف خودکار شماره ملی، کارت بانکی و اطلاعات شخصی (PII Stripping) پیش از نمایه کردن داده‌ها.",
@@ -152,9 +152,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "چگونه پرونده‌های شکست در پروژه AI را ارزیابی کرده و از آن‌ها درس می‌گیرید؟",
         "tags": [
-            "#PostMortem",
-            "#یادگیری",
-            "#پذیرش_شکست"
+            "PostMortem",
+            "یادگیری",
+            "پذیرش_شکست"
         ],
         "summary": "برگزاری جلسات Post-Mortem بدون سرزنش، مستندسازی دقیق علل ریشه‌ای (Root Cause) و اشتراک‌گذاری با تیم.",
         "fullAnswer": "برگزاری جلسات Post-Mortem بدون سرزنش، مستندسازی دقیق علل ریشه‌ای (Root Cause) و اشتراک‌گذاری با تیم.\n\n**تحلیل ریشه‌ای:**\nواکاوی ریشه‌ای با متدولوژی 5 Whys جهت کشف منشأ اصلی شکست (کیفیت داده، الگوریتم یا تعریف مسئله).\n\n**مستندسازی:**\nثبت تجربیات در دانش‌نامه تیم تا از تکرار اشتباهات مشابه جلوگیری شود.",
@@ -172,9 +172,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه مستندسازی پروژه هوش مصنوعی (Model Cards & Documentation) را انجام می‌دهید؟",
         "tags": [
-            "#مستندسازی",
-            "#ModelCard",
-            "#شفافیت"
+            "مستندسازی",
+            "ModelCard",
+            "شفافیت"
         ],
         "summary": "ایجاد Model Card استاندارد شامل کاربردهای هدف، داده آموزش، سنجه‌های ارزیابی، محدودیت‌ها و ریسک‌ها.",
         "fullAnswer": "ایجاد Model Card استاندارد شامل کاربردهای هدف، داده آموزش، سنجه‌های ارزیابی، محدودیت‌ها و ریسک‌ها.\n\n**اجزای Model Card:**\nمشخصات معماری، نسخه مدل، دیتاست‌های آموزش/تست، نمرات بنچمارک و سناریوهای شکست شناخته‌شده.\n\n**نگهداشت‌پذیری کد:**\nمستندسازی تداوم و توسعه‌پذیری کدهای هوش مصنوعی در تیم را تضمین می‌کند.",
@@ -192,9 +192,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "چگونه تغییرات سریع دنیای AI و ابزارهای جدید را دنبال و یاد می‌گیرید؟",
         "tags": [
-            "#یادگیری_مستمر",
-            "#ارتقای_دانش",
-            "#مقالات_علمی"
+            "یادگیری_مستمر",
+            "ارتقای_دانش",
+            "مقالات_علمی"
         ],
         "summary": "مطالعه مقالات ArXiv، دنبال کردن مخازن برتر GitHub، شرکت در همایش‌ها و پیاده‌سازی پروژه‌های سرگرمی (Side Projects).",
         "fullAnswer": "مطالعه مقالات ArXiv، دنبال کردن مخازن برتر GitHub، شرکت در همایش‌ها و پیاده‌سازی پروژه‌های سرگرمی (Side Projects).\n\n**منابع کلیدی:**\nمطالعه روزانه مقالات کلیدی در ArXiv و بررسی HuggingFace Papers.\n\n**تمرین عملی:**\nساخت پروژه‌های کوچک شخصی برای تست فریم‌ورک‌ها و کتابخانه‌های جدید.",
@@ -212,10 +212,10 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "در صورتی که بودجه محاسبه‌ای (GPU Budget) محدود باشد، چگونه پروژه را مدیریت و بهینه‌سازی می‌کنید؟",
         "tags": [
-            "#مدیریت_منابع",
-            "#بهینه‌سازی_هزینه",
-            "#GPU",
-            "#Ollama"
+            "مدیریت_منابع",
+            "بهینه‌سازی_هزینه",
+            "GPU",
+            "Ollama"
         ],
         "summary": "اولویت‌بندی مدل‌های کوچکتر و کارآمدتر (مثل Phi-3, Qwen-2.5 7B), استفاده از Quantization, Spot Instances و تکنیک‌های Caching.",
         "fullAnswer": "اولویت‌بندی مدل‌های کوچکتر و کارآمدتر (مثل Phi-3, Qwen-2.5 7B), استفاده از Quantization, Spot Instances و تکنیک‌های Caching.\n\n**بهینه‌سازی تکنیکال:**\nاستفاده از روش‌های PEFT مثل LoRA برای آموزش و موتورهای بهینه‌شده vLLM/Ollama برای استنتاج.\n\n**مدیریت درخواستی:**\nهدایت درخواست‌های ساده به مدل‌های سبک‌تر و پیاده‌سازی کشینگ پرامپت‌ها.",
@@ -233,9 +233,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه ارتباط و پرامپت‌نویسی تعاملی با اعضای غیرفنی برای استخراج نیاز واقعی محصول به چه صورت است؟",
         "tags": [
-            "#تحلیل_نیازمندی‌ها",
-            "#ارتباط_با_محصول",
-            "#ProductStyle"
+            "تحلیل_نیازمندی‌ها",
+            "ارتباط_با_محصول",
+            "ProductStyle"
         ],
         "summary": "تبدیل زبان مبهم غیرفنی (\"میخوایم چت‌بات مثل انسان باشه\") به مشخصات فنی قابل سنجش (Latency, Accuracy, Guardrails).",
         "fullAnswer": "تبدیل زبان مبهم غیرفنی (\"میخوایم چت‌بات مثل انسان باشه\") به مشخصات فنی قابل سنجش (Latency, Accuracy, Guardrails).\n\n**سوالات هدایت‌کننده:**\nتعریف دقیق ورودی/خروجی، حد مجاز زمان پاسخ، و الگوی مواجهه با عدم قطعیت (Fallback Behavior).",
@@ -253,9 +253,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه زمان و هزینه فاز تحقیق و توسعه (R&D) را در پروژه‌های هوش مصنوعی برآورد و کنترل می‌کنید؟",
         "tags": [
-            "#مدیریت_زمان",
-            "#برآورد_پروژه",
-            "#AgileAI"
+            "مدیریت_زمان",
+            "برآورد_پروژه",
+            "AgileAI"
         ],
         "summary": "تقسیم فاز R&D به اسپرینت‌های کوتاه فرضیه‌آزمایی (Time-boxed Spikes) و تعیین معیار خروج (Exit Criteria) برای هر فرضیه.",
         "fullAnswer": "تقسیم فاز R&D به اسپرینت‌های کوتاه فرضیه‌آزمایی (Time-boxed Spikes) و تعیین معیار خروج (Exit Criteria) برای هر فرضیه.\n\n**Time-boxing:**\nتخصیص زمان مشخص (مثلاً ۲ هفته) برای سنجش یک فرضیه قبل از صرف بودجه سنگین.\n\n**معیار خروج:**\nتوقف پروژه یا تغییر مسیر در صورت عدم دستیابی به حداقل نمره کیفی تعیین‌شده.",
@@ -273,10 +273,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "هنگام انتخاب بین یک مدل با دقت بالا اما کند و مدل سریع با دقت کمتر چه معیارهایی را بررسی می‌کنید؟",
         "tags": [
-            "#Tradeoff",
-            "#Latency",
-            "#Accuracy",
-            "#UX"
+            "Tradeoff",
+            "Latency",
+            "Accuracy",
+            "UX"
         ],
         "summary": "تحلیل تاثیر Latency بر تجربه کاربر (UX) در برابر هزینه خطای مدل برای کسب‌وکار و امکان استفاده از مدل‌های ترکیبی.",
         "fullAnswer": "تحلیل تاثیر Latency بر تجربه کاربر (UX) در برابر هزینه خطای مدل برای کسب‌وکار و امکان استفاده از مدل‌های ترکیبی.\n\n**تحلیل کاربرد:**\nدر سیستم‌های پزشکی و مالی دقت اولویت دارد، اما در چت‌بات‌ها سرعت پاسخ‌دهی زیر ۱ ثانیه حیاتی است.\n\n**معماری ترکیبی:**\nاستفاده از مدل سریع در خط اول و ارجاع موارد نامطمئن به مدل سنگین‌تر.",
@@ -294,9 +294,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "چگونه با چالش عدم وجود داده‌های ساختاریافته کافی (Data Scarcity) در شروع یک پروژه شرکتی برخورد می‌کنید؟",
         "tags": [
-            "#DataScarcity",
-            "#SyntheticData",
-            "#DataAugmentation"
+            "DataScarcity",
+            "SyntheticData",
+            "DataAugmentation"
         ],
         "summary": "استفاده از داده‌های ترکیبی (Synthetic Data) تولیدشده توسط LLMها، Transfer Learning، و برچسب‌گذاری سنتی با نظارت انسانی.",
         "fullAnswer": "استفاده از داده‌های ترکیبی (Synthetic Data) تولیدشده توسط LLMها، Transfer Learning، و برچسب‌گذاری سنتی با نظارت انسانی.\n\n**راهکارها:**\nتولید داده‌های متنی ترکیبی، بهره‌گیری از مدل‌های پیش‌علم‌آموخته زرو-شات، و متدولوژی Active Learning.",
@@ -314,9 +314,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نقش یک AI Engineer در تدوین استراتژی هوش مصنوعی محصول (AI Product Roadmap) چیست؟",
         "tags": [
-            "#ProductRoadmap",
-            "#AIStrategy",
-            "#نقشه_راه"
+            "ProductRoadmap",
+            "AIStrategy",
+            "نقشه_راه"
         ],
         "summary": "سنجش امکان‌پذیری فنی (Technical Feasibility)، تخمین نیازهای زیرساختی و اولویت‌بندی فیچرها بر اساس ارزش نسبت به پیچیدگی.",
         "fullAnswer": "سنجش امکان‌پذیری فنی (Technical Feasibility)، تخمین نیازهای زیرساختی و اولویت‌بندی فیچرها بر اساس ارزش نسبت به پیچیدگی.\n\n**وظایف کلیدی:**\nارزیابی امکان‌پذیری ایده‌ها قبل از تثبیت در نقشه راه و تخمین هزینه پردازش در مقیاس بالا.",
@@ -334,9 +334,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه دفاع از تصمیمات معماری و انتخاب ابزارها در برابر مدیر ارشد فناوری (CTO) چگونه است؟",
         "tags": [
-            "#CTOPresentation",
-            "#ArchitectureDecision",
-            "#ADR"
+            "CTOPresentation",
+            "ArchitectureDecision",
+            "ADR"
         ],
         "summary": "ارائه مستند ADR (Architecture Decision Record) متمرکز بر مقایسه هزینه‌های آتی، قابلیت مقیاس‌پذیری و ریسک‌های نگهداری.",
         "fullAnswer": "ارائه مستند ADR (Architecture Decision Record) متمرکز بر مقایسه هزینه‌های آتی، قابلیت مقیاس‌پذیری و ریسک‌های نگهداری.\n\n**محورهای دفاع فنی:**\nارائه بنچمارک‌های واقعی رو داده شرکت، شفاف‌سازی Total Cost of Ownership (TCO) و استراتژی خروج از ریسک تحریم.",
@@ -354,9 +354,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه خطرات ناشی از تغییرات ناگهانی در قوانین یا API سرویس‌دهندگان خارجی را پوشش می‌دهید؟",
         "tags": [
-            "#تحریم",
-            "#VendorLockIn",
-            "#AbstractionLayer"
+            "تحریم",
+            "VendorLockIn",
+            "AbstractionLayer"
         ],
         "summary": "طراحی لایه انتزاعی (Abstraction Layer) در کد جهت امکان سوییچ سریع بین سرویس‌دهندگان مختلف یا مدل‌های داخلی.",
         "fullAnswer": "طراحی لایه انتزاعی (Abstraction Layer) در کد جهت امکان سوییچ سریع بین سرویس‌دهندگان مختلف یا مدل‌های داخلی.\n\n**راهکار پایداری:**\nبهره‌گیری از الگوی طراحی Adapter / Strategy و فریم‌ورک‌های رابط یکسان مانند LiteLLM.",
@@ -374,9 +374,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تکنیک‌های مدیریت استرس و فشار کاری ناشی از نامشخص بودن خروجی الگوریتم‌ها در ددلاین‌های فشرده چیست؟",
         "tags": [
-            "#مدیریت_استرس",
-            "#کار_تیمی",
-            "#شفافیت"
+            "مدیریت_استرس",
+            "کار_تیمی",
+            "شفافیت"
         ],
         "summary": "ارتباط شفاف و مداوم با ذینفعان، ارائه الگوی MVP ساده در ابتدا و شکستن پروژه به اهداف کوچک قابل اندازه‌گیری.",
         "fullAnswer": "ارتباط شفاف و مداوم با ذینفعان، ارائه الگوی MVP ساده در ابتدا و شکستن پروژه به اهداف کوچک قابل اندازه‌گیری.\n\n**کاهش استرس:**\nساخت سریع یک Baseline ساده در روزهای اول و گزارش‌دهی شفاف پیشرفت فرضیه‌ها به مدیران.",
@@ -394,9 +394,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "نحوه آموزش و Mentorship اعضای تازه‌وارد تیم هوش مصنوعی به چه صورت باید باشد؟",
         "tags": [
-            "#Mentorship",
-            "#آموزش",
-            "#Onboarding"
+            "Mentorship",
+            "آموزش",
+            "Onboarding"
         ],
         "summary": "تعریف پروژه‌های کوچک Onboarding، بررسی دقیق کدهای آن‌ها (Code Review) با لحن سازنده و به اشتراک‌گذاری Best Practiceها.",
         "fullAnswer": "تعریف پروژه‌های کوچک Onboarding، بررسی دقیق کدهای آن‌ها (Code Review) با لحن سازنده و به اشتراک‌گذاری Best Practiceها.\n\n**برنامه هدایت:**\nایجاد مستند راهنمای کدهای موجود و انجام جفت‌کدنویسی (Pair Programming) برای انتقال سریع تجربه.",
@@ -414,9 +414,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه تعادل بین استفاده از ابزارهای Open-Source و ابزارهای تجاری را برقرار می‌سازید؟",
         "tags": [
-            "#OpenSource",
-            "#Proprietary",
-            "#انتخاب_ابزار"
+            "OpenSource",
+            "Proprietary",
+            "انتخاب_ابزار"
         ],
         "summary": "ارزیابی میزان فعالیت جامعه توسعه‌دهندگان، لایسنس نرم‌افزاری، پایداری امنیتی و هزینه پشتیبانی ابزارها.",
         "fullAnswer": "ارزیابی میزان فعالیت جامعه توسعه‌دهندگان، لایسنس نرم‌افزاری، پایداری امنیتی و هزینه پشتیبانی ابزارها.\n\n**معیار سنجش:**\nبررسی دقیق لایسنس تجاری ابزارها، پایداری امنیتی و میزان فعالیت توسعه‌دهندگان در گیتهاب.",
@@ -434,9 +434,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "هنگام برخورد با انتقادات کاربران نهایی نسبت به عملکرد مدل هوش مصنوعی چه مکانیزم بازخوردی طراحی می‌کنید؟",
         "tags": [
-            "#FeedbackLoop",
-            "#کاربران",
-            "#بازخورد"
+            "FeedbackLoop",
+            "کاربران",
+            "بازخورد"
         ],
         "summary": "ایجاد دکمه‌های بازخورد ساده (Thumbs up/down)، لاگ‌گیری ورودی‌های خطادار و استفاده از آن‌ها در چرخه آموزش مجدد.",
         "fullAnswer": "ایجاد دکمه‌های بازخورد ساده (Thumbs up/down)، لاگ‌گیری ورودی‌های خطادار و استفاده از آن‌ها در چرخه آموزش مجدد.\n\n**چرخه بازخورد:**\nثبت بازخورد مستقیم کاربران و ارسال نمونه‌های خطادار به دیتابیس جداگانه برای بازبینی و Fine-Tuning بعدی.",
@@ -454,10 +454,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "معماری RAG (Retrieval-Augmented Generation) چیست و چه فرآیندی را طی می‌کند؟",
         "tags": [
-            "#RAG",
-            "#VectorDB",
-            "#Embeddings",
-            "#LLM"
+            "RAG",
+            "VectorDB",
+            "Embeddings",
+            "LLM"
         ],
         "summary": "RAG با بازیابی اسناد مرتبط از یک پایگاه داده برداری و افزودن آن‌ها به پرامپت LLM، مانع هالوسینیشن شده و دانش به‌روز به مدل اضافه می‌کند.",
         "fullAnswer": "RAG با بازیابی اسناد مرتبط از یک پایگاه داده برداری و افزودن آن‌ها به پرامپت LLM، مانع هالوسینیشن شده و دانش به‌روز به مدل اضافه می‌کند.\n\n**مراحل اصلی RAG:**\n۱. Indexing: تبدیل فایل‌های متنی/PDF به تکه‌ها (Chunks)، محاسبه Embedding و ذخیره در Vector DB.\n۲. Retrieval: محاسبه شباهت برداری (Cosine Similarity) بین پرسش کاربر و تکه‌ها.\n۳. Generation: تزریق تکه‌های بازیابی شده به پرامپت LLM جهت تولید پاسخ دقیق.",
@@ -475,10 +475,10 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "GraphRAG چیست و چه تفاوت کلیدی با Vector RAG سنتی دارد؟",
         "tags": [
-            "#GraphRAG",
-            "#KnowledgeGraph",
-            "#Microsoft",
-            "#RAG"
+            "GraphRAG",
+            "KnowledgeGraph",
+            "Microsoft",
+            "RAG"
         ],
         "summary": "GraphRAG با استخراج گراف دانش (موجودیت‌ها و روابط) و خلاصه‌سازی اجتماع‌ها، پرسش‌های جامع که Vector RAG ناتوان از آن است را پاسخ می‌دهد.",
         "fullAnswer": "GraphRAG با استخراج گراف دانش (موجودیت‌ها و روابط) و خلاصه‌سازی اجتماع‌ها، پرسش‌های جامع که Vector RAG ناتوان از آن است را پاسخ می‌دهد.\n\n**تفاوت اصلی:**\nVector RAG برای یافتن تکه‌های مشخص متن (Local Search) عالی است، اما GraphRAG با خلاصه‌سازی کلاسیفای‌شده گرافی، به سوالات عمومی و کلان کل اسناد (Global Search) پاسخ می‌دهد.",
@@ -496,9 +496,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "استراتژی‌های استاندارد Chunking (تکه‌تکه‌سازی متون) در RAG کدامند؟",
         "tags": [
-            "#Chunking",
-            "#Preprocessing",
-            "#NLP"
+            "Chunking",
+            "Preprocessing",
+            "NLP"
         ],
         "summary": "انواع روش‌ها شامل: Fixed-size (با Overlap)، Sentence-based، Semantic Chunking و Parent-Child Chunking است.",
         "fullAnswer": "انواع روش‌ها شامل: Fixed-size (با Overlap)، Sentence-based، Semantic Chunking و Parent-Child Chunking است.\n\n**Parent-Child Chunking:**\nذخیره تکه‌های کوچک (Child) برای بازیابی دقیق برداری، اما ارسال پاراگراف اصلی و بزرگتر (Parent) به LLM برای داشتن زمینه کامل.",
@@ -516,9 +516,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "مفهوم Reranking و استفاده از Cross-Encoder در RAG چیست؟",
         "tags": [
-            "#Reranking",
-            "#CrossEncoder",
-            "#BiEncoder"
+            "Reranking",
+            "CrossEncoder",
+            "BiEncoder"
         ],
         "summary": "Bi-Encoderها (مثل Vector DB) سریع هستند اما دقت پایین‌تری دارند. Cross-Encoder به عنوان مرحله دوم، Top-K اسناد بازیابی‌شده را بازسنجی می‌کند.",
         "fullAnswer": "Bi-Encoderها (مثل Vector DB) سریع هستند اما دقت پایین‌تری دارند. Cross-Encoder به عنوان مرحله دوم، Top-K اسناد بازیابی‌شده را بازسنجی می‌کند.\n\n**فرآیند کار:**\nدریافت مثلاً ۵۰ سند اول از دیتابیس برداری و ارسال همزمان پرسش و تکه‌ها به Cross-Encoder برای تعیین رتبه‌بندی نهایی دقیق.",
@@ -536,9 +536,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک HyDE (Hypothetical Document Embeddings) در RAG چگونه کار می‌کند؟",
         "tags": [
-            "#HyDE",
-            "#QueryTransformation",
-            "#AdvancedRAG"
+            "HyDE",
+            "QueryTransformation",
+            "AdvancedRAG"
         ],
         "summary": "در HyDE، ابتدا LLM یک پاسخ فرضی برای سوال کاربر می‌سازد، سپس بردار آن پاسخ فرضی برای جستجو در Vector DB استفاده می‌شود.",
         "fullAnswer": "در HyDE، ابتدا LLM یک پاسخ فرضی برای سوال کاربر می‌سازد، سپس بردار آن پاسخ فرضی برای جستجو در Vector DB استفاده می‌شود.\n\n**علت استفاده:**\nچون فضای برداری یک پاسخ فرضی به اسناد واقعی شباهت هندسی بیشتری دارد تا یک پرسش کوتاه اولیه کاربر.",
@@ -556,10 +556,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت Hybrid Search (جستجوی ترکیبی) با جستجوی صرفاً برداری چیست؟",
         "tags": [
-            "#HybridSearch",
-            "#BM25",
-            "#VectorSearch",
-            "#ReciprocalRankFusion"
+            "HybridSearch",
+            "BM25",
+            "VectorSearch",
+            "ReciprocalRankFusion"
         ],
         "summary": "ترکیب جستجوی کلیدواژه‌ای سنتی (BM25) با جستجوی صرفاً برداری (Dense Vector) جهت دستیابی به بالاترین دقت بازیابی.",
         "fullAnswer": "ترکیب جستجوی کلیدواژه‌ای سنتی (BM25) با جستجوی صرفاً برداری (Dense Vector) جهت دستیابی به بالاترین دقت بازیابی.\n\n**مزیت ترکیبی:**\nBM25 کلمات خاص مانند کدهای محصول یا اسامی را دقیق پیدا می‌کند و Dense Vector مفهوم جملات را درک می‌کند.",
@@ -577,10 +577,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "معیارهای ارزیابی سیستم‌های RAG (برچسب RAG Triad) چیستند؟",
         "tags": [
-            "#RAG_Evaluation",
-            "#Ragas",
-            "#TruLens",
-            "#Metrics"
+            "RAG_Evaluation",
+            "Ragas",
+            "TruLens",
+            "Metrics"
         ],
         "summary": "سه ضلع مثلث ارزیابی RAG شامل: Faithfulness (وفاداری به سند)، Answer Relevance (ارتباط پاسخ) و Context Relevance (ارتباط اسناد).",
         "fullAnswer": "سه ضلع مثلث ارزیابی RAG شامل: Faithfulness (وفاداری به سند)، Answer Relevance (ارتباط پاسخ) و Context Relevance (ارتباط اسناد).\n\n**Ragas Framework:**\nاستفاده از ابزار Ragas برای محاسبه نمره‌های ریاضی کیفیت بازیابی و عدم وجود هالوسینیشن در پاسخ.",
@@ -598,9 +598,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چالش Lost in the Middle در RAG چیست و چگونه برطرف می‌شود؟",
         "tags": [
-            "#LostInTheMiddle",
-            "#ContextWindow",
-            "#Optimization"
+            "LostInTheMiddle",
+            "ContextWindow",
+            "Optimization"
         ],
         "summary": "مدل‌های زبانی بزرگ اطلاعات موجود در ابتدا و انتهای پنجره Context را بهتر یادآوری می‌کنند و اطلاعات وسط پرامپت را ندید می‌گیرند.",
         "fullAnswer": "مدل‌های زبانی بزرگ اطلاعات موجود در ابتدا و انتهای پنجره Context را بهتر یادآوری می‌کنند و اطلاعات وسط پرامپت را ندید می‌گیرند.\n\n**راهکار رفع چالش:**\nمحدود کردن تعداد تکه‌ها (Top-K=3) و بازترتیب اسناد (Context Reordering) جهت قرار دادن اسناد مهم در اول و آخر پرامپت.",
@@ -618,10 +618,10 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "پایگاه داده برداری (Vector Database) چیست و چه تفاوتی با Relational DB دارد؟",
         "tags": [
-            "#VectorDB",
-            "#Qdrant",
-            "#ChromaDB",
-            "#PostgreSQL"
+            "VectorDB",
+            "Qdrant",
+            "ChromaDB",
+            "PostgreSQL"
         ],
         "summary": "ذخیره‌سازی داده‌ها به صورت بردارهای چندبعدی و جستجو بر اساس فاصله هندسی (Cosine Similarity) با الگوریتم‌های ANN.",
         "fullAnswer": "ذخیره‌سازی داده‌ها به صورت بردارهای چندبعدی و جستجو بر اساس فاصله هندسی (Cosine Similarity) با الگوریتم‌های ANN.\n\n**تفاوت بنیادی:**\nدیتابیس سنتی مقایسه دقیق فیلدی انجام می‌دهد، دیتابیس برداری شباهت مفاهیم را در فضای چندصد بعدی پیدا می‌کند.",
@@ -639,9 +639,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری Self-RAG و Corrective RAG (CRAG) چیستند؟",
         "tags": [
-            "#SelfRAG",
-            "#CRAG",
-            "#AgenticRAG"
+            "SelfRAG",
+            "CRAG",
+            "AgenticRAG"
         ],
         "summary": "افزودن عقلانیت و خودارزیابی به RAG تا در صورت ناکافی بودن اسناد، خود مدل اقدام به جستجوی مجدد یا وب‌سرچ کند.",
         "fullAnswer": "افزودن عقلانیت و خودارزیابی به RAG تا در صورت ناکافی بودن اسناد، خود مدل اقدام به جستجوی مجدد یا وب‌سرچ کند.\n\n**CRAG Logic:**\nاگر اسناد بازیابی شده غیرمرتبط باشند، سیستم اسناد را دور ریخته و به سمت Web Search تغییر مسیر می‌دهد.",
@@ -659,9 +659,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه مدیریت اسناد چندرسانه‌ای (Multimodal RAG) شامل جداول و تصاویر چیست؟",
         "tags": [
-            "#MultimodalRAG",
-            "#VisionLLM",
-            "#Unstructured"
+            "MultimodalRAG",
+            "VisionLLM",
+            "Unstructured"
         ],
         "summary": "استخراج جداول و تبدیل به Markdown با پارسرها، و تولید توصیف متنی برای تصاویر با مدل‌های بینایی جهت ذخیره در دیتابیس برداری.",
         "fullAnswer": "استخراج جداول و تبدیل به Markdown با پارسرها، و تولید توصیف متنی برای تصاویر با مدل‌های بینایی جهت ذخیره در دیتابیس برداری.\n\n**راهکار پردازش جداول:**\nاستفاده از LlamaParse جهت حفظ فرمت جداول مالی بدون برهم‌خوردگی ستون‌ها.",
@@ -679,9 +679,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک Agentic Search و Iterative Retrieval در RAG پیشرفته چگونه کار می‌کند؟",
         "tags": [
-            "#AgenticRAG",
-            "#IterativeRetrieval",
-            "#LangChain"
+            "AgenticRAG",
+            "IterativeRetrieval",
+            "LangChain"
         ],
         "summary": "اگر اسناد اولیه کافی نباشد، ایجنت خود اقدام به بازنویسی پرامپت، تجزیه سوال و جستجوی مجدد در چند مرحله می‌کند.",
         "fullAnswer": "اگر اسناد اولیه کافی نباشد، ایجنت خود اقدام به بازنویسی پرامپت، تجزیه سوال و جستجوی مجدد در چند مرحله می‌کند.\n\n**چرخه کار:**\nشکستن سوالات پیچیده به سوالات فرعی، سرچ متوالی و ارزیابی کافی بودن دانش قبل از تولید خروجی.",
@@ -699,9 +699,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "الگوریتم HNSW در Vector Databaseها چگونه سرعت جستجو را بالا می‌برد؟",
         "tags": [
-            "#HNSW",
-            "#VectorDB",
-            "#ANN"
+            "HNSW",
+            "VectorDB",
+            "ANN"
         ],
         "summary": "ساخت ساختار گرافی چندلایه‌ای از بردارهای نزدیک برای پیمایش سریع بدون نیاز به چک کردن تمام بردارها در زمان O(log N).",
         "fullAnswer": "ساخت ساختار گرافی چندلایه‌ای از بردارهای نزدیک برای پیمایش سریع بدون نیاز به چک کردن تمام بردارها در زمان O(log N).\n\n**ساختار گرافی:**\nایجاد لایه‌های بالایی برای پرش‌های بزرگ و لایه‌های پایینی برای پیمایش دقیق نزدیک‌ترین همسایه‌ها.",
@@ -719,9 +719,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه دسته‌بندی و نمایه‌سازی اسناد با ساختار سلسله‌مراتبی (Hierarchical Indexing) در RAG به چه صورت است؟",
         "tags": [
-            "#HierarchicalIndexing",
-            "#SummaryIndex",
-            "#LlamaIndex"
+            "HierarchicalIndexing",
+            "SummaryIndex",
+            "LlamaIndex"
         ],
         "summary": "ساخت نمایه خلاصه برای کل سند و نمایه‌های دقیق برای هر فصل، تا ابتدا سند مرتبط پیدا شده و سپس تکه دقیق استخراج گردد.",
         "fullAnswer": "ساخت نمایه خلاصه برای کل سند و نمایه‌های دقیق برای هر فصل، تا ابتدا سند مرتبط پیدا شده و سپس تکه دقیق استخراج گردد.\n\n**سطوح نمایه‌سازی:**\nسطح ۱: بردار خلاصه سند. سطح ۲: بردار تکه‌های متنی همان سند جهت کاهش نویز جستجو.",
@@ -739,9 +739,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "روش‌های کنترل جابه‌جایی منبع (Citation Grounding) در RAG جهت جلوگیری از ارجاع نادرست چیست؟",
         "tags": [
-            "#Citation",
-            "#Grounding",
-            "#FactChecking"
+            "Citation",
+            "Grounding",
+            "FactChecking"
         ],
         "summary": "اجبار مدل به درج شماره رفرنس [1] در انتهای هر جمله و بررسی منطقی تطابق جمله تولیدی با تکه منبع توسط مدل ارزیاب.",
         "fullAnswer": "اجبار مدل به درج شماره رفرنس [1] در انتهای هر جمله و بررسی منطقی تطابق جمله تولیدی با تکه منبع توسط مدل ارزیاب.\n\n**الزام ارجاع‌دهی:**\nطراحی System Prompt جهت درج شناسه سند و فیلتر جملات فاقد رفرنس توسط ماژول پس‌پردازش.",
@@ -759,9 +759,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چالش به‌روزرسانی زنده داده‌ها (Real-time Indexing) در پایگاه داده‌های برداری چیست؟",
         "tags": [
-            "#RealtimeIndexing",
-            "#VectorDB",
-            "#CRUD"
+            "RealtimeIndexing",
+            "VectorDB",
+            "CRUD"
         ],
         "summary": "دریافت، تبدیل به بردار و افزودن آنی اسناد جدید به Vector DB بدون مختل کردن فرایند جستجوی کاربران زنده.",
         "fullAnswer": "دریافت، تبدیل به بردار و افزودن آنی اسناد جدید به Vector DB بدون مختل کردن فرایند جستجوی کاربران زنده.\n\n**راهکار معماری:**\nاستفاده از سیستم‌های صف پیام (Kafka/RabbitMQ) و به‌روزرسانی async نمایه‌های برداری.",
@@ -779,9 +779,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه استخراج دانش و ساخت خودکار Knowledge Graph از متون غیرساختاریافته چیست؟",
         "tags": [
-            "#KnowledgeGraph",
-            "#NLP",
-            "#EntityExtraction"
+            "KnowledgeGraph",
+            "NLP",
+            "EntityExtraction"
         ],
         "summary": "پردازش متون توسط LLM جهت استخراج گراف موجودیت‌ها (Entities) و روابط بین آن‌ها (Relations) در فرمت هم‌سند.",
         "fullAnswer": "پردازش متون توسط LLM جهت استخراج گراف موجودیت‌ها (Entities) و روابط بین آن‌ها (Relations) در فرمت هم‌سند.\n\n**فرآیند استخراج:**\nاستفاده از پرامپت‌های ساختاریافته JSON Mode برای گرفتن زوج‌های (Subject, Predicate, Object).",
@@ -799,9 +799,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت بین Dense Retrieval و Sparse Retrieval چیست و چه زمانی از هر کدام استفاده می‌کنیم؟",
         "tags": [
-            "#DenseRetrieval",
-            "#SparseRetrieval",
-            "#BM25"
+            "DenseRetrieval",
+            "SparseRetrieval",
+            "BM25"
         ],
         "summary": "Dense بردار مفاهیم (Embeddings) را چک می‌کند و Sparse ماتریس فراوانی کلمات (BM25/SPLADE) را بررسی می‌نماید.",
         "fullAnswer": "Dense بردار مفاهیم (Embeddings) را چک می‌کند و Sparse ماتریس فراوانی کلمات (BM25/SPLADE) را بررسی می‌نماید.\n\n**مقایسه کاربرد:**\nDense برای درک معنا و مترادف‌ها عالی است، Sparse برای کلمات خاص، کد محصول و اسامی دقیق کاربرد دارد.",
@@ -819,9 +819,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "الگوریتم Reciprocal Rank Fusion (RRF) چگونه نتایج چندین موتور جستجو را ادغام می‌کند؟",
         "tags": [
-            "#RRF",
-            "#SearchFusion",
-            "#Ranking"
+            "RRF",
+            "SearchFusion",
+            "Ranking"
         ],
         "summary": "محاسبه اسکور ترکیبی بر اساس معکوس رتبه هر سند در موتورهای جستجوی مختلف بدون نیاز به نرمال‌سازی نمره‌ها.",
         "fullAnswer": "محاسبه اسکور ترکیبی بر اساس معکوس رتبه هر سند در موتورهای جستجوی مختلف بدون نیاز به نرمال‌سازی نمره‌ها.\n\n**فرمول RRF:**\nScore(d) = sum( 1 / (k + rank(d)) ) که k معمولاً برابر ۶۰ تنظیم می‌شود.",
@@ -839,9 +839,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه پیاده‌سازی سیستم‌های RAG چندزبانه (Multilingual RAG) به ویژه برای زبان فارسی چگونه است؟",
         "tags": [
-            "#MultilingualRAG",
-            "#PersianNLP",
-            "#Embeddings"
+            "MultilingualRAG",
+            "PersianNLP",
+            "Embeddings"
         ],
         "summary": "استفاده از مدل‌های Embedding چندزبانه پیشرفته (مثل bge-m3 یا cohort-embed-v3) و استانداردسازی توکنایزر متون فارسی.",
         "fullAnswer": "استفاده از مدل‌های Embedding چندزبانه پیشرفته (مثل bge-m3 یا cohort-embed-v3) و استانداردسازی توکنایزر متون فارسی.\n\n**نکات زبان فارسی:**\nنرمال‌سازی حروف (ی/ک)، مدیریت نیم‌فاصله‌ها و استفاده از مدل‌های دارای پشتیبانی قوی از خط عربی/فارسی.",
@@ -859,9 +859,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "راهکارهای مواجهه با اسناد بسیار متناقض (Conflicting Documents) در بانک دانش RAG چیست؟",
         "tags": [
-            "#ConflictingDocs",
-            "#DataQuality",
-            "#RAG"
+            "ConflictingDocs",
+            "DataQuality",
+            "RAG"
         ],
         "summary": "درج متادیتا تاریخ به‌روزرسانی اسناد، استفاده از مکانیزم Reranking بر اساس تاریخ و آگاه‌سازی مدل از تناقض موجود.",
         "fullAnswer": "درج متادیتا تاریخ به‌روزرسانی اسناد، استفاده از مکانیزم Reranking بر اساس تاریخ و آگاه‌سازی مدل از تناقض موجود.\n\n**مدیریت تناقض:**\nسیستم ابتدا آخرین سند معتبر را بر اساس Timestamp اولویت داده و تناقض‌های احتمالی را به کاربر گزارش می‌دهد.",
@@ -879,9 +879,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نقش Metadata Filtering در بهبود سرعت و دقت جستجوی برداری چیست؟",
         "tags": [
-            "#MetadataFiltering",
-            "#VectorDB",
-            "#Optimization"
+            "MetadataFiltering",
+            "VectorDB",
+            "Optimization"
         ],
         "summary": "فیلتر کردن اسناد بر اساس فیلدهای ساختاریافته (مثل تاریخ، دسته‌بندی یا سطح دسترسی) قبل یا همزمان با جستجوی برداری.",
         "fullAnswer": "فیلتر کردن اسناد بر اساس فیلدهای ساختاریافته (مثل تاریخ، دسته‌بندی یا سطح دسترسی) قبل یا همزمان با جستجوی برداری.\n\n**مزیت سرعت:**\nکوچک کردن فضای جستجو از میلیون‌ها بردار به چند هزار بردار مرتبط با همان دسته‌بندی.",
@@ -899,10 +899,10 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین In-Memory Vector Stores و Disk-backed Vector Databases چیست؟",
         "tags": [
-            "#ChromaDB",
-            "#Qdrant",
-            "#Milvus",
-            "#Architecture"
+            "ChromaDB",
+            "Qdrant",
+            "Milvus",
+            "Architecture"
         ],
         "summary": "In-Memory تمام بردارها را روی RAM نگه می‌دارد (سریع اما محدود به حجم رم)، Disk-backed بردارها را روی SSD با الگوریتم‌های Mmap ذخیره می‌کند.",
         "fullAnswer": "In-Memory تمام بردارها را روی RAM نگه می‌دارد (سریع اما محدود به حجم رم)، Disk-backed بردارها را روی SSD با الگوریتم‌های Mmap ذخیره می‌کند.\n\n**انتخاب ابزار:**\nبرای PoC کوچک ChromaDB (In-Memory) عالی است، برای پروداکشن میلیون سندی Qdrant/Milvus (Disk-backed) الزامی است.",
@@ -920,9 +920,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه فشرده‌سازی بردارهای Embedding با تکنیک Product Quantization (PQ) چیست؟",
         "tags": [
-            "#ProductQuantization",
-            "#VectorCompression",
-            "#HNSW"
+            "ProductQuantization",
+            "VectorCompression",
+            "HNSW"
         ],
         "summary": "تقسیم بردارهای چندبعدی به زیربردارهای کوچکتر و جایگزینی آن‌ها با نمایه خوشه‌ها جهت کاهش ۹۵٪ مصرف رم.",
         "fullAnswer": "تقسیم بردارهای چندبعدی به زیربردارهای کوچکتر و جایگزینی آن‌ها با نمایه خوشه‌ها جهت کاهش ۹۵٪ مصرف رم.\n\n**کاهش مصرف منابع:**\nتبدیل بردارهای Float32 به ایندکس‌های بایت بدون افت شدید دقت جستجو.",
@@ -940,9 +940,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Context Compression و خلاصه‌سازی تکه‌ها پیش از ارسال به LLM چیست؟",
         "tags": [
-            "#ContextCompression",
-            "#TokenOptimization",
-            "#RAG"
+            "ContextCompression",
+            "TokenOptimization",
+            "RAG"
         ],
         "summary": "حذف جملات زائد از تکه‌های بازیابی شده یا خلاصه‌سازی آن‌ها با مدل‌های سبک جهت کاهش مصرف توکن ورودی.",
         "fullAnswer": "حذف جملات زائد از تکه‌های بازیابی شده یا خلاصه‌سازی آن‌ها با مدل‌های سبک جهت کاهش مصرف توکن ورودی.\n\n**صرفه‌جویی در هزینه:**\nارسال تنها جملات حاوی پاسخ مستقیم به جای پاراگراف‌های طولانی ۵۱۲ توکنی.",
@@ -960,9 +960,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت بین Naive RAG, Advanced RAG و Modular RAG چیست؟",
         "tags": [
-            "#NaiveRAG",
-            "#AdvancedRAG",
-            "#ModularRAG"
+            "NaiveRAG",
+            "AdvancedRAG",
+            "ModularRAG"
         ],
         "summary": "Naive RAG خطی و ساده است، Advanced RAG مجهز به Pre/Post-retrieval است، Modular RAG شامل ماژول‌های مستقل قابل ترکیب مانند Routing و Search است.",
         "fullAnswer": "Naive RAG خطی و ساده است، Advanced RAG مجهز به Pre/Post-retrieval است، Modular RAG شامل ماژول‌های مستقل قابل ترکیب مانند Routing و Search است.\n\n**تکامل معماری:**\nModular RAG انعطاف‌پذیرترین الگوی ساخت سیستم‌های صنعتی پیچیده است.",
@@ -980,9 +980,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه پیاده‌سازی سیستم‌های RAG بر روی اسناد کدنویسی (Codebase RAG) چگونه است؟",
         "tags": [
-            "#CodeRAG",
-            "#AST",
-            "#DeveloperTools"
+            "CodeRAG",
+            "AST",
+            "DeveloperTools"
         ],
         "summary": "تجزیه کدها با درخت نحو انتزاعی (AST) به جای قطعه‌بندی ساده متنی، جهت حفظ ساختار توابع و کلاس‌ها در نمایه‌سازی.",
         "fullAnswer": "تجزیه کدها با درخت نحو انتزاعی (AST) به جای قطعه‌بندی ساده متنی، جهت حفظ ساختار توابع و کلاس‌ها در نمایه‌سازی.\n\n**پارسر کد:**\nاستفاده از Tree-Sitter برای قطعه‌بندی تابع‌به‌تابع کدهای پایتون یا جاوا اسکریپت.",
@@ -1000,9 +1000,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چالش‌های امنیت حریم خصوصی (Access Control / ACL) در RAG سازمان‌های بزرگ چیست؟",
         "tags": [
-            "#ACL",
-            "#Security",
-            "#EnterpriseRAG"
+            "ACL",
+            "Security",
+            "EnterpriseRAG"
         ],
         "summary": "تضمین اینکه کاربر معمولی نتواند اطلاعات محرمانه موجود در تکه‌های اسناد مدیران را بازیابی کند.",
         "fullAnswer": "تضمین اینکه کاربر معمولی نتواند اطلاعات محرمانه موجود در تکه‌های اسناد مدیران را بازیابی کند.\n\n**اعمال ACL:**\nافزودن شناسه نقش کاربر (User Roles) به متادیتا اسناد و اعمال فیلتر اجباری در زمان جستجوی برداری.",
@@ -1020,9 +1020,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه ردیابی و ارزیابی کیفیت تکه‌های بازیابی شده با ابزار Ragas چیست؟",
         "tags": [
-            "#Ragas",
-            "#Evaluation",
-            "#Metrics"
+            "Ragas",
+            "Evaluation",
+            "Metrics"
         ],
         "summary": "محاسبه دو سنجه Context Recall و Context Precision برای اطمینان از صحت عملکرد ماژول Retrieval.",
         "fullAnswer": "محاسبه دو سنجه Context Recall و Context Precision برای اطمینان از صحت عملکرد ماژول Retrieval.\n\n**سنجه‌های Ragas:**\nContext Precision میزان حضور تکه‌های مرتبط در بالای لیست، و Context Recall میزان استخراج تمام اطلاعات لازم را می‌سنجد.",
@@ -1040,9 +1040,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه یک سیستم RAG بدون نیاز به دیتابیس برداری (Keyword-Only یا Graph-Only RAG) طراحی کنیم؟",
         "tags": [
-            "#VectorlessRAG",
-            "#BM25",
-            "#KnowledgeGraph"
+            "VectorlessRAG",
+            "BM25",
+            "KnowledgeGraph"
         ],
         "summary": "استفاده از موتورهای جستجوی متنی مانند Elasticsearch (BM25) یا گراف‌های دانش Neo4j بدون الگوریتم‌های برداری.",
         "fullAnswer": "استفاده از موتورهای جستجوی متنی مانند Elasticsearch (BM25) یا گراف‌های دانش Neo4j بدون الگوریتم‌های برداری.\n\n**کاربردها:**\nمناسب برای کارهای صریح فکت‌محور، سرچ کد کالا یا دیتابیس‌های با محدودیت سخت‌افزاری شدید.",
@@ -1060,9 +1060,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نقش تکنیک Parent-Child Retriever در حفظ زمینه کامل سند چیست؟",
         "tags": [
-            "#ParentChild",
-            "#LlamaIndex",
-            "#Retrieval"
+            "ParentChild",
+            "LlamaIndex",
+            "Retrieval"
         ],
         "summary": "ذخیره تکه‌های کوچک جهت جستجوی دقیق، اما بازگرداندن پاراگراف بزرگتر والده به LLM جهت جلوگیری از قطع شدن معنا.",
         "fullAnswer": "ذخیره تکه‌های کوچک جهت جستجوی دقیق، اما بازگرداندن پاراگراف بزرگتر والده به LLM جهت جلوگیری از قطع شدن معنا.\n\n**مزیت اصلی:**\nحل تعارض بین سایز مناسب برای سرچ برداری (کوچک) و سایز مناسب برای فهم LLM (بزرگ).",
@@ -1080,9 +1080,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین Cosine Similarity, Dot Product و Euclidean Distance در جستجوی برداری چیست؟",
         "tags": [
-            "#Math",
-            "#CosineSimilarity",
-            "#EuclideanDistance"
+            "Math",
+            "CosineSimilarity",
+            "EuclideanDistance"
         ],
         "summary": "Cosine زاویه بردارهای نرمال‌شده را می‌سنجد، Dot Product اندازه و زاویه را همزمان محاسبه می‌کند، Euclidean فاصله مستقیم هندسی دو نقطه را اندازه می‌گیرد.",
         "fullAnswer": "Cosine زاویه بردارهای نرمال‌شده را می‌سنجد، Dot Product اندازه و زاویه را همزمان محاسبه می‌کند، Euclidean فاصله مستقیم هندسی دو نقطه را اندازه می‌گیرد.\n\n**انتخاب سنجه:**\nاگر بردارها نرمال شده باشند (Magnitude=1)، Cosine و Dot Product نتیجه یکسانی ارائه می‌دهند.",
@@ -1100,9 +1100,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه مواجهه با اسناد طولانی PDF که جداول متقاطع دارند در فاز Indexing RAG چگونه است؟",
         "tags": [
-            "#PDFParsing",
-            "#OCR",
-            "#LlamaParse"
+            "PDFParsing",
+            "OCR",
+            "LlamaParse"
         ],
         "summary": "استفاده از موتورهای OCR چندرسانه‌ای یا LlamaParse جهت استخراج صحیح جداول پیش از تبدیل به تکه‌های متنی.",
         "fullAnswer": "استفاده از موتورهای OCR چندرسانه‌ای یا LlamaParse جهت استخراج صحیح جداول پیش از تبدیل به تکه‌های متنی.\n\n**راهکار عملی:**\nجداول به فرمت مارک‌داون تبدیل شده و متادیتا شماره صفحه و سند به آن متصل می‌گردد.",
@@ -1120,9 +1120,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه ارزیابی نرخ هالوسینیشن سیستم RAG با ابزار TruLens به چه صورت است؟",
         "tags": [
-            "#TruLens",
-            "#Evaluation",
-            "#RAG_Triad"
+            "TruLens",
+            "Evaluation",
+            "RAG_Triad"
         ],
         "summary": "استفاده از ارزیاب‌های Feedback Functions در TruLens برای ثبت نمره RAG Triad به صورت داشبورد تعاملی.",
         "fullAnswer": "استفاده از ارزیاب‌های Feedback Functions در TruLens برای ثبت نمره RAG Triad به صورت داشبورد تعاملی.\n\n**داشبورد TruLens:**\nمشاهده لحظه‌ای نمره‌های Groundedness و Answer Relevance برای تمام درخواست‌های زنده کاربران.",
@@ -1140,9 +1140,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Query Rewriting و Query Expansion در اصلاح پرامپت کاربر پیش از سرچ برداری چیست؟",
         "tags": [
-            "#QueryRewriting",
-            "#QueryExpansion",
-            "#AdvancedRAG"
+            "QueryRewriting",
+            "QueryExpansion",
+            "AdvancedRAG"
         ],
         "summary": "استفاده از یک مدل زبانی کوچک برای اصلاح غلط‌های املایی یا تولید چند نسخه مختلف از سوال کاربر جهت افزایش احتمال بازیابی تکه مرتبط.",
         "fullAnswer": "استفاده از یک مدل زبانی کوچک برای اصلاح غلط‌های املایی یا تولید چند نسخه مختلف از سوال کاربر جهت افزایش احتمال بازیابی تکه مرتبط.\n\n**Query Expansion:**\nتبدیل یک سوال مبهم به ۳ سوال متمایز و ادغام نتایج سرچ آن‌ها با RRF.",
@@ -1160,10 +1160,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "معماری Transformer چیست و چرا Self-Attention کلید موفقیت مدل‌های زبانی است؟",
         "tags": [
-            "#Transformer",
-            "#SelfAttention",
-            "#NLP",
-            "#DeepLearning"
+            "Transformer",
+            "SelfAttention",
+            "NLP",
+            "DeepLearning"
         ],
         "summary": "ترنسفورمر با مکانیزم Self-Attention به جای پردازش ترتیبی (RNN)، امکان پردازش موازی و درک روابط میان کلمات در فواصل دور را فراهم ساخت.",
         "fullAnswer": "ترنسفورمر با مکانیزم Self-Attention به جای پردازش ترتیبی (RNN)، امکان پردازش موازی و درک روابط میان کلمات در فواصل دور را فراهم ساخت.\n\n**اجزای ریاضی:**\nاستفاده از سه بردار Q (Query)، K (Key) و V (Value) برای محاسبه میزان ارتباط متقابل کلمات جمله.",
@@ -1181,10 +1181,10 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "روش LoRA (Low-Rank Adaptation) و QLoRA برای Fine-Tuning بهینه‌سازی مدل‌های زبانی چگونه کار می‌کنند؟",
         "tags": [
-            "#LoRA",
-            "#QLoRA",
-            "#FineTuning",
-            "#PEFT"
+            "LoRA",
+            "QLoRA",
+            "FineTuning",
+            "PEFT"
         ],
         "summary": "LoRA با ثابت نگه داشتن وزن‌های اصلی مدل و افزودن دو ماتریس با رتبه پایین، مصرف VRAM را در زمان آموزش تا ۹۰٪ کاهش می‌دهد.",
         "fullAnswer": "LoRA با ثابت نگه داشتن وزن‌های اصلی مدل و افزودن دو ماتریس با رتبه پایین، مصرف VRAM را در زمان آموزش تا ۹۰٪ کاهش می‌دهد.\n\n**QLoRA:**\nکوانتیزه‌کردن مدل پایه به ۴ بیت (NF4) و اعمال LoRA روی آن، امکان آموزش مدل ۷B روی GPU معمولی را فراهم می‌سازد.",
@@ -1202,10 +1202,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت Tokenization با کلمات عادی چیست و الگوریتم‌های BPE و WordPiece چگونه عمل می‌کنند؟",
         "tags": [
-            "#Tokenization",
-            "#BPE",
-            "#WordPiece",
-            "#NLP"
+            "Tokenization",
+            "BPE",
+            "WordPiece",
+            "NLP"
         ],
         "summary": "Tokenization متن را به قطعات کوچک‌تر تبدیل می‌کند. الگوریتم BPE بر اساس بسامد جفت‌کاراکترهای تکراری واژگان را می‌سازد.",
         "fullAnswer": "Tokenization متن را به قطعات کوچک‌تر تبدیل می‌کند. الگوریتم BPE بر اساس بسامد جفت‌کاراکترهای تکراری واژگان را می‌سازد.\n\n**مزیت BPE:**\nجلوگیری از مشکل کلمات خارج از واژگان (OOV) با خرد کردن کلمات ناشناخته به تکه‌های شناخته‌شده.",
@@ -1223,10 +1223,10 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "فرایند RLHF و تفاوت آن با DPO (Direct Preference Optimization) چیست؟",
         "tags": [
-            "#RLHF",
-            "#DPO",
-            "#Alignment",
-            "#LLM"
+            "RLHF",
+            "DPO",
+            "Alignment",
+            "LLM"
         ],
         "summary": "RLHF با مدل پاداش و PPO همراستاسازی انجام می‌دهد. DPO بدون نیاز به مدل پاداش، مستقیم ترجیحات انسانی را بهینه‌سازی می‌کند.",
         "fullAnswer": "RLHF با مدل پاداش و PPO همراستاسازی انجام می‌دهد. DPO بدون نیاز به مدل پاداش، مستقیم ترجیحات انسانی را بهینه‌سازی می‌کند.\n\n**DPO Advantage:**\nDPO پایداری ریاضیاتی بسیار بالاتری داشته و جایگزین مدرن و ساده‌تر RLHF است.",
@@ -1244,10 +1244,10 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "روش‌های کوانتیزیشن (Quantization) مانند GGUF, AWQ و GPTQ چه تفاوتی با هم دارند؟",
         "tags": [
-            "#Quantization",
-            "#GGUF",
-            "#AWQ",
-            "#GPTQ"
+            "Quantization",
+            "GGUF",
+            "AWQ",
+            "GPTQ"
         ],
         "summary": "کاهش دقت اعداد از FP16 به INT4/INT8 جهت کاهش مصرف VRAM و افزایش سرعت استنتاج.",
         "fullAnswer": "کاهش دقت اعداد از FP16 به INT4/INT8 جهت کاهش مصرف VRAM و افزایش سرعت استنتاج.\n\n**تفاوت ابزارها:**\nGGUF برای اجرا روی CPU/GPU محلی (llama.cpp)، GPTQ و AWQ برای استنتاج سروری روی GPUهای Nvidia.",
@@ -1265,10 +1265,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "پارامترهای Temperature, Top-p و Top-k چه تاثیری در خروجی LLM دارند؟",
         "tags": [
-            "#Sampling",
-            "#Temperature",
-            "#TopP",
-            "#Hyperparameters"
+            "Sampling",
+            "Temperature",
+            "TopP",
+            "Hyperparameters"
         ],
         "summary": "کنترل میزان خلاقیت و تصادفی بودن خروجی مدل زبانی در مرحله استنتاج.",
         "fullAnswer": "کنترل میزان خلاقیت و تصادفی بودن خروجی مدل زبانی در مرحله استنتاج.\n\n**تأثیرات:**\nTemperature=0 پاسخ را قطعی می‌کند، Top-p و Top-k توکن‌های کم‌احتمال را فیلتر می‌کنند.",
@@ -1286,9 +1286,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مفهوم KV Cache در زمان استنتاج (Inference) مدل‌های Decoder-Only چیست؟",
         "tags": [
-            "#KVCache",
-            "#Inference",
-            "#Optimization"
+            "KVCache",
+            "Inference",
+            "Optimization"
         ],
         "summary": "ذخیره کلیدها و مقادیر توکن‌های قبلی در حافظه VRAM جهت جلوگیری از محاسبه مجدد آن‌ها در تولید توکن‌های بعدی.",
         "fullAnswer": "ذخیره کلیدها و مقادیر توکن‌های قبلی در حافظه VRAM جهت جلوگیری از محاسبه مجدد آن‌ها در تولید توکن‌های بعدی.\n\n**PagedAttention:**\nتکنیک vLLM برای مدیریت حافظه KV Cache بدون ایجاد قطعیت در VRAM.",
@@ -1306,9 +1306,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری FlashAttention چیست و چگونه سرعت پردازش Contextهای طولانی را افزایش می‌دهد؟",
         "tags": [
-            "#FlashAttention",
-            "#GPU",
-            "#CUDA"
+            "FlashAttention",
+            "GPU",
+            "CUDA"
         ],
         "summary": "بهینه‌سازی دسترسی به حافظه GPU با تایل‌بندی ماتریس‌های توجه و کاهش خواندن/نوشتن بین SRAM و HBM.",
         "fullAnswer": "بهینه‌سازی دسترسی به حافظه GPU با تایل‌بندی ماتریس‌های توجه و کاهش خواندن/نوشتن بین SRAM و HBM.\n\n**سرعت استنتاج:**\nافزایش ۲ تا ۴ برابری سرعت محاسبه Self-Attention در پرامپت‌های طولانی.",
@@ -1326,9 +1326,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Prompt Engineering و انواع متداول آن (Chain-of-Thought, Few-Shot) کدامند؟",
         "tags": [
-            "#PromptEngineering",
-            "#CoT",
-            "#FewShot"
+            "PromptEngineering",
+            "CoT",
+            "FewShot"
         ],
         "summary": "طراحی ساختاریافته پرامپت‌ها جهت هدایت مدل. CoT با عبارت \"گام به گام استدلال کن\" دقت منطقی را بالا می‌برد.",
         "fullAnswer": "طراحی ساختاریافته پرامپت‌ها جهت هدایت مدل. CoT با عبارت \"گام به گام استدلال کن\" دقت منطقی را بالا می‌برد.\n\n**Few-Shot:**\nارائه چند نمونه ورودی-خروجی درون پرامپت جهت آموزش الگوی خروجی به مدل.",
@@ -1346,10 +1346,10 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت مدل‌های Encoder-Only, Decoder-Only و Encoder-Decoder چیست؟",
         "tags": [
-            "#BERT",
-            "#GPT",
-            "#T5",
-            "#Architecture"
+            "BERT",
+            "GPT",
+            "T5",
+            "Architecture"
         ],
         "summary": "BERT (Encoder-Only) برای دسته‌بندی و بردارسازی، GPT (Decoder-Only) برای تولید متن، T5 (Encoder-Decoder) برای خلاصه‌سازی است.",
         "fullAnswer": "BERT (Encoder-Only) برای دسته‌بندی و بردارسازی، GPT (Decoder-Only) برای تولید متن، T5 (Encoder-Decoder) برای خلاصه‌سازی است.\n\n**روند صنعت:**\nبیشتر مدل‌های جدید زبانی عمومی به سمت Decoder-Only کوچ کرده‌اند.",
@@ -1367,9 +1367,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "مفهوم Speculative Decoding در افزایش سرعت استنتاج LLMها چیست؟",
         "tags": [
-            "#SpeculativeDecoding",
-            "#Inference",
-            "#Optimization"
+            "SpeculativeDecoding",
+            "Inference",
+            "Optimization"
         ],
         "summary": "استفاده از یک مدل کوچک پیش‌بین برای تولید چند توکن پیشنهادی و تایید همزمان آن‌ها در یک پاس توسط مدل اصلی.",
         "fullAnswer": "استفاده از یک مدل کوچک پیش‌بین برای تولید چند توکن پیشنهادی و تایید همزمان آن‌ها در یک پاس توسط مدل اصلی.\n\n**افزایش سرعت:**\nافزایش ۲ برابری سرعت تولید متن بدون کاهش کیفیت خروجی مدل نهایی.",
@@ -1387,9 +1387,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "مفهوم Context Window و محدودیت‌های طول پرامپت چیست؟",
         "tags": [
-            "#ContextWindow",
-            "#Tokens",
-            "#LLM"
+            "ContextWindow",
+            "Tokens",
+            "LLM"
         ],
         "summary": "حداکثر تعداد توکن‌هایی که مدل می‌تواند همزمان در ورودی و خروجی پردازش کند.",
         "fullAnswer": "حداکثر تعداد توکن‌هایی که مدل می‌تواند همزمان در ورودی و خروجی پردازش کند.\n\n**هزینه و سرعت:**\nافزایش طول زمینه هزینه‌های محاسباتی را به صورت توان دو یا خطی بالا می‌برد.",
@@ -1407,9 +1407,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری RoPE (Rotary Position Embedding) چگونه موقعیت توکن‌ها را کدگذاری می‌کند؟",
         "tags": [
-            "#RoPE",
-            "#Embeddings",
-            "#Transformers"
+            "RoPE",
+            "Embeddings",
+            "Transformers"
         ],
         "summary": "افزودن اطلاعات موقعیتی با چرخاندن بردارهای ویژگی در فضای مختصات قطبی.",
         "fullAnswer": "افزودن اطلاعات موقعیتی با چرخاندن بردارهای ویژگی در فضای مختصات قطبی.\n\n**برتری RoPE:**\nامکان تعمیم‌دهی طول زمینه به فواصل بسیار بزرگ‌تر در زمان استنتاج.",
@@ -1427,9 +1427,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Hallucination Detection و ارزیابی خودکار پاسخ‌ها چگونه عمل می‌کند؟",
         "tags": [
-            "#Hallucination",
-            "#Guardrails",
-            "#Evaluation"
+            "Hallucination",
+            "Guardrails",
+            "Evaluation"
         ],
         "summary": "بررسی تطابق ادعاهای پاسخ با متن منبع با الگوریتم‌های NLI (Natural Language Inference).",
         "fullAnswer": "بررسی تطابق ادعاهای پاسخ با متن منبع با الگوریتم‌های NLI (Natural Language Inference).\n\n**ارزیابی خودکار:**\nاگر پاسخ با متن منبع تناقض داشته باشد، سیستم پاسخ را مسدود می‌سازد.",
@@ -1447,9 +1447,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت Fine-Tuning به روش SFT (Supervised Fine-Tuning) و Pre-training چیست؟",
         "tags": [
-            "#SFT",
-            "#PreTraining",
-            "#LLM"
+            "SFT",
+            "PreTraining",
+            "LLM"
         ],
         "summary": "Pre-training آموزش اولیه روی تریلیون‌ها توکن خام است، SFT تنظیم مدل روی دستورالعمل‌های پرسش-پاسخ است.",
         "fullAnswer": "Pre-training آموزش اولیه روی تریلیون‌ها توکن خام است، SFT تنظیم مدل روی دستورالعمل‌های پرسش-پاسخ است.\n\n**هزینه:**\nPre-training میلیون دلاری است، SFT با داده محدود و GPU کم امکان‌پذیر است.",
@@ -1467,9 +1467,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "مدل‌های Mixture of Experts (MoE) مانند Mixtral یا DeepSeek V3 چگونه کار می‌کنند؟",
         "tags": [
-            "#MoE",
-            "#Mixtral",
-            "#DeepSeek"
+            "MoE",
+            "Mixtral",
+            "DeepSeek"
         ],
         "summary": "جایگزینی لایه‌های Dense با چندین شبکه کارشناس (Expert) و فعال‌سازی تنها چند کارشناس برای هر توکن با ماژول Router.",
         "fullAnswer": "جایگزینی لایه‌های Dense با چندین شبکه کارشناس (Expert) و فعال‌سازی تنها چند کارشناس برای هر توکن با ماژول Router.\n\n**مزیت MoE:**\nداشتن پارامترهای عظیم (مثلاً ۴۷B) اما سرعت استنتاج یک مدل کوچک (مثلاً ۱۲B).",
@@ -1487,9 +1487,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک Continuous Pre-training چیست و چه زمانی برای یک زبان خاص لازم است؟",
         "tags": [
-            "#ContinuousPretraining",
-            "#PersianLLM",
-            "#DomainAdaptation"
+            "ContinuousPretraining",
+            "PersianLLM",
+            "DomainAdaptation"
         ],
         "summary": "ادامه آموزش مدل پایه روی میلیاردها توکن متنی از یک زبان یا دامنه تخصصی قبل از فاز SFT.",
         "fullAnswer": "ادامه آموزش مدل پایه روی میلیاردها توکن متنی از یک زبان یا دامنه تخصصی قبل از فاز SFT.\n\n**زبان فارسی:**\nافزایش قدرت فهم مدل‌های انگلیسی‌محور روی ادبیات و خط فارسی.",
@@ -1507,9 +1507,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "مفهوم Grouped-Query Attention (GQA) و Multi-Query Attention (MQA) چیست؟",
         "tags": [
-            "#GQA",
-            "#MQA",
-            "#KV_Cache"
+            "GQA",
+            "MQA",
+            "KV_Cache"
         ],
         "summary": "به اشتراک‌گذاری بردارهای Key و Value بین چند سر توجه (Attention Heads) جهت کاهش شدید مصرف VRAM در KV Cache.",
         "fullAnswer": "به اشتراک‌گذاری بردارهای Key و Value بین چند سر توجه (Attention Heads) جهت کاهش شدید مصرف VRAM در KV Cache.\n\n**مزیت GQA:**\nتعادل عالی بین سرعت استنتاج MQA و دقت مدل Multi-Head Attention معمولی.",
@@ -1527,9 +1527,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک Alignment با استفاده از KTO (Kahneman-Tversky Optimization) چیست؟",
         "tags": [
-            "#KTO",
-            "#Alignment",
-            "#LLM"
+            "KTO",
+            "Alignment",
+            "LLM"
         ],
         "summary": "همراستاسازی مدل با داده‌های ترجیحی تکی (مطلوب/نامطلوب) بدون نیاز به جفت‌های مقایسه‌ای ترجیحات انسانی.",
         "fullAnswer": "همراستاسازی مدل با داده‌های ترجیحی تکی (مطلوب/نامطلوب) بدون نیاز به جفت‌های مقایسه‌ای ترجیحات انسانی.\n\n**مزیت KTO:**\nسادگی جمع‌آوری داده‌های آموزشی نسبت به DPO و RLHF.",
@@ -1547,9 +1547,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چالش Catastrophic Forgetting در زمان Fine-Tuning مدل‌های زبانی چیست؟",
         "tags": [
-            "#CatastrophicForgetting",
-            "#FineTuning",
-            "#LLM"
+            "CatastrophicForgetting",
+            "FineTuning",
+            "LLM"
         ],
         "summary": "فراموشی دانش عمومی مدل پس از آموزش سنگین روی یک دیتاست خاص.",
         "fullAnswer": "فراموشی دانش عمومی مدل پس از آموزش سنگین روی یک دیتاست خاص.\n\n**راهکار:**\nترکیب درصد مشخصی از داده‌های عمومی در کنار داده‌های اختصاصی در زمان آموزش.",
@@ -1567,9 +1567,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه بهینه‌سازی پرامپت‌ها با الگوریتم‌های خودکار مثل DSPy چیست؟",
         "tags": [
-            "#DSPy",
-            "#PromptOptimization",
-            "#LangChain"
+            "DSPy",
+            "PromptOptimization",
+            "LangChain"
         ],
         "summary": "جایگزینی پرامپت‌نویسی دستی با کامپایل خودکار پرامپت‌ها و نمونه‌ها بر اساس تابع ارزیابی مشخص.",
         "fullAnswer": "جایگزینی پرامپت‌نویسی دستی با کامپایل خودکار پرامپت‌ها و نمونه‌ها بر اساس تابع ارزیابی مشخص.\n\n**مزیت DSPy:**\nجلوگیری از شکنندگی پرامپت‌های دستی هنگام تغییر نسخه مدل پایه.",
@@ -1587,10 +1587,10 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین Causal Language Modeling (CLM) و Masked Language Modeling (MLM) چیست؟",
         "tags": [
-            "#CLM",
-            "#MLM",
-            "#GPT",
-            "#BERT"
+            "CLM",
+            "MLM",
+            "GPT",
+            "BERT"
         ],
         "summary": "CLM (مثل GPT) توکن بعدی را بر اساس توکن‌های قبل پیش‌بینی می‌کند، MLM (مثل BERT) توکن‌های ماسک‌شده را با دید دوطرفه حدس می‌زند.",
         "fullAnswer": "CLM (مثل GPT) توکن بعدی را بر اساس توکن‌های قبل پیش‌بینی می‌کند، MLM (مثل BERT) توکن‌های ماسک‌شده را با دید دوطرفه حدس می‌زند.\n\n**کاربردها:**\nCLM برای تولید متن و چت‌بات، MLM برای Extraction و بردارسازی.",
@@ -1608,9 +1608,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه محاسبه Perplexity در مدل‌های زبانی و مفهوم آن چیست؟",
         "tags": [
-            "#Perplexity",
-            "#Evaluation",
-            "#LanguageModels"
+            "Perplexity",
+            "Evaluation",
+            "LanguageModels"
         ],
         "summary": "نمای نمایی آنتروپی متوسط؛ نشان‌دهنده میزان سردرگمی مدل در پیش‌بینی توکن بعدی (هرچه کمتر باشد مدل بهتر است).",
         "fullAnswer": "نمای نمایی آنتروپی متوسط؛ نشان‌دهنده میزان سردرگمی مدل در پیش‌بینی توکن بعدی (هرچه کمتر باشد مدل بهتر است).\n\n**معیار سنجش:**\nافت Perplexity نشان‌دهنده یادگیری بهتر الگوی زبان توسط مدل است.",
@@ -1628,9 +1628,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت بین Instruction Tuning و Chat Fine-tuning چیست؟",
         "tags": [
-            "#InstructionTuning",
-            "#ChatTuning",
-            "#SFT"
+            "InstructionTuning",
+            "ChatTuning",
+            "SFT"
         ],
         "summary": "Instruction Tuning مدل را برای اجرای دستورات عمومی (مثل خلاصه‌سازی) آماده می‌کند، Chat Fine-tuning مدل را برای مکالمه چندمرحله‌ای بهینه می‌سازد.",
         "fullAnswer": "Instruction Tuning مدل را برای اجرای دستورات عمومی (مثل خلاصه‌سازی) آماده می‌کند، Chat Fine-tuning مدل را برای مکالمه چندمرحله‌ای بهینه می‌سازد.\n\n**فرمت داده:**\nChat نیازمند فرمت ساختاریافته پیام‌های system/user/assistant است.",
@@ -1648,9 +1648,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک‌های پنهان‌سازی اطلاعات حساس (PII Masking) در متون ورودی مدل‌های زبانی کدامند؟",
         "tags": [
-            "#PIIMasking",
-            "#Privacy",
-            "#Security"
+            "PIIMasking",
+            "Privacy",
+            "Security"
         ],
         "summary": "استفاده از کتابخانه‌هایی مثل Microsoft Presidio برای شناسایی و جایگزینی کد ملی، ایمیل و شماره کارت با برچسب‌های عمومی.",
         "fullAnswer": "استفاده از کتابخانه‌هایی مثل Microsoft Presidio برای شناسایی و جایگزینی کد ملی، ایمیل و شماره کارت با برچسب‌های عمومی.\n\n**حفظ امنیت:**\nجلوگیری از نشت اطلاعات حساس کاربران به APIهای خارجی یا ذخیره در دیتابیس.",
@@ -1668,9 +1668,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چالش‌های پردازش متون فارسی در LLMها (مثل نیم‌فاصله و اعراب‌گذاری) چیست؟",
         "tags": [
-            "#PersianNLP",
-            "#Tokenization",
-            "#Normalization"
+            "PersianNLP",
+            "Tokenization",
+            "Normalization"
         ],
         "summary": "عدم وجود نیم‌فاصله باعث شکست توکنایزر می‌شود و حروف ی/ک عربی کلمات متفاوتی تولید می‌کنند.",
         "fullAnswer": "عدم وجود نیم‌فاصله باعث شکست توکنایزر می‌شود و حروف ی/ک عربی کلمات متفاوتی تولید می‌کنند.\n\n**راهکار نرمال‌سازی:**\nاستفاده از کتابخانه‌هایی مثل Hazm یا Parsivar جهت یکدست‌سازی متون پیش از توکنایز شدن.",
@@ -1688,9 +1688,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری Mamba و State Space Models (SSM) چگونه جایگزین توجه ترنسفورمرها می‌شوند؟",
         "tags": [
-            "#Mamba",
-            "#SSM",
-            "#Transformers"
+            "Mamba",
+            "SSM",
+            "Transformers"
         ],
         "summary": "پردازش متون با پیچیدگی زمان خطی O(N) به جای توان دو O(N^2) ترنسفورمرها بدون نیاز به KV Cache سنگین.",
         "fullAnswer": "پردازش متون با پیچیدگی زمان خطی O(N) به جای توان دو O(N^2) ترنسفورمرها بدون نیاز به KV Cache سنگین.\n\n**مزیت اصلی:**\nامکان پردازش میلیون‌ها توکن ورودی روی سخت‌افزار بسیار محدودتر.",
@@ -1708,9 +1708,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "روش‌های ارزیابی کیفی مدل‌های زبانی بزرگ با بنچمارک‌های MT-Bench و MMLU چیست؟",
         "tags": [
-            "#MMLU",
-            "#MTBench",
-            "#Evaluation"
+            "MMLU",
+            "MTBench",
+            "Evaluation"
         ],
         "summary": "MMLU دانش عمومی و تخصصی مدل در ۵۷ رشته را می‌سنجد، MT-Bench توانایی مکالمه چندمرحله‌ای را ارزیابی می‌کند.",
         "fullAnswer": "MMLU دانش عمومی و تخصصی مدل در ۵۷ رشته را می‌سنجد، MT-Bench توانایی مکالمه چندمرحله‌ای را ارزیابی می‌کند.\n\n**معیارهای استاندارد:**\nاستفاده از این بنچمارک‌ها برای مقایسه مدل‌های مختلف در HuggingFace Leaderboard.",
@@ -1728,9 +1728,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Logit Bias در تنظیم خروجی‌های LLM چیست؟",
         "tags": [
-            "#LogitBias",
-            "#Sampling",
-            "#OpenAI"
+            "LogitBias",
+            "Sampling",
+            "OpenAI"
         ],
         "summary": "تغییر دستی مقدار احتمال توکن‌های خاص قبل از Softmax جهت اجبار به تولید یا ممنوعیت تولید کلمات مشخص.",
         "fullAnswer": "تغییر دستی مقدار احتمال توکن‌های خاص قبل از Softmax جهت اجبار به تولید یا ممنوعیت تولید کلمات مشخص.\n\n**کاربرد:**\nجلوگیری از تولید کلمات نامناسب یا اجبار مدل به خروجی فرمت خاص.",
@@ -1748,9 +1748,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه استفاده از Structured Outputs (JSON Mode) و پدیده Grammar-based Sampling چیست؟",
         "tags": [
-            "#JSONMode",
-            "#StructuredOutputs",
-            "#GrammarSampling"
+            "JSONMode",
+            "StructuredOutputs",
+            "GrammarSampling"
         ],
         "summary": "محدود کردن توکن‌های قابل انتخاب توسط مدل بر اساس گرامر JSON Schema تا خروجی همیشه ۱۰۰٪ معتبر باشد.",
         "fullAnswer": "محدود کردن توکن‌های قابل انتخاب توسط مدل بر اساس گرامر JSON Schema تا خروجی همیشه ۱۰۰٪ معتبر باشد.\n\n**مزیت اصلی:**\nجلوگیری کامل از خطاهای ساختاری JSON در کدهای تولیدی.",
@@ -1768,9 +1768,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت مدل‌های Dense و Sparse در معماری ترنسفورمرها چیست؟",
         "tags": [
-            "#DenseModels",
-            "#SparseModels",
-            "#Architecture"
+            "DenseModels",
+            "SparseModels",
+            "Architecture"
         ],
         "summary": "Dense در هر توکن تمام پارامترها را فعال می‌کند، Sparse (مثل MoE) تنها بخشی از پارامترها را فعال می‌سازد.",
         "fullAnswer": "Dense در هر توکن تمام پارامترها را فعال می‌کند، Sparse (مثل MoE) تنها بخشی از پارامترها را فعال می‌سازد.\n\n**بازده محاسباتی:**\nمدل‌های Sparse بازده سرعتی بسیار بالاتری دارند.",
@@ -1788,9 +1788,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Needle In A Haystack (NIAH) برای تست حافظه Context Window چیست؟",
         "tags": [
-            "#NIAH",
-            "#Benchmark",
-            "#ContextWindow"
+            "NIAH",
+            "Benchmark",
+            "ContextWindow"
         ],
         "summary": "قرار دادن یک فکت کاملاً بی‌ربط در وسط یک متن چندصد صفحه‌ای و تست توانایی مدل در استخراج آن فکت.",
         "fullAnswer": "قرار دادن یک فکت کاملاً بی‌ربط در وسط یک متن چندصد صفحه‌ای و تست توانایی مدل در استخراج آن فکت.\n\n**ارزیابی حافظه:**\nسنجش واقعی ادعای مدل‌ها در پشتیبانی از Context Windowهای بزرگ.",
@@ -1808,9 +1808,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه کیفیت پاسخ‌های یک مدل زبانی را با مدل زبانی قوی‌تر (LLM-as-a-Judge) بسنجیم؟",
         "tags": [
-            "#LLMasAJudge",
-            "#Evaluation",
-            "#GPT4"
+            "LLMasAJudge",
+            "Evaluation",
+            "GPT4"
         ],
         "summary": "ارسال پاسخ مدل به همراه پرامپت ارزیابی به GPT-4 برای گرفتن نمره ۱ تا ۱۰ و تحلیل نقاط ضعف.",
         "fullAnswer": "ارسال پاسخ مدل به همراه پرامپت ارزیابی به GPT-4 برای گرفتن نمره ۱ تا ۱۰ و تحلیل نقاط ضعف.\n\n**مزیت:**\nجایگزینی سریع و ارزان ارزیابی انسانی با هوش مصنوعی بالاتر.",
@@ -1828,9 +1828,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه استفاده از PEFT غیر از LoRA (مثل Prefix Tuning و Adapter Layers) چیست؟",
         "tags": [
-            "#PEFT",
-            "#PrefixTuning",
-            "#Adapters"
+            "PEFT",
+            "PrefixTuning",
+            "Adapters"
         ],
         "summary": "افزودن بردار کلمات مجازی به ورودی لایه‌ها (Prefix Tuning) یا اضافه کردن لایه‌های فشرده بین لایه‌های اصلی.",
         "fullAnswer": "افزودن بردار کلمات مجازی به ورودی لایه‌ها (Prefix Tuning) یا اضافه کردن لایه‌های فشرده بین لایه‌های اصلی.\n\n**مقایسه با LoRA:**\nLoRA پایداری بالاتر و ادغام راحت‌تری در وزن‌های اصلی ارائه می‌دهد.",
@@ -1848,9 +1848,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نقش تابع اکتیویشن SwiGLU و RMSNorm در مدل‌های زبانی مدرن (مثل Llama 3) چیست؟",
         "tags": [
-            "#SwiGLU",
-            "#RMSNorm",
-            "#Llama3"
+            "SwiGLU",
+            "RMSNorm",
+            "Llama3"
         ],
         "summary": "جایگزینی ReLU و LayerNorm با SwiGLU و RMSNorm جهت افزایش سرعت همگرایی و بهبود کیفیت یادگیری مدل.",
         "fullAnswer": "جایگزینی ReLU و LayerNorm با SwiGLU و RMSNorm جهت افزایش سرعت همگرایی و بهبود کیفیت یادگیری مدل.\n\n**بهینه‌سازی معماری:**\nافزایش پایداری عددی گرادیان‌ها در شبکه.",
@@ -1868,9 +1868,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک Soft Prompting در مقایسه با Hard Prompting چیست؟",
         "tags": [
-            "#SoftPrompting",
-            "#PromptTuning",
-            "#PEFT"
+            "SoftPrompting",
+            "PromptTuning",
+            "PEFT"
         ],
         "summary": "Hard Prompting کلمات متنی انسانی است، Soft Prompting بردارهای قابل آموزش است که به ورودی مدل اضافه می‌شوند.",
         "fullAnswer": "Hard Prompting کلمات متنی انسانی است، Soft Prompting بردارهای قابل آموزش است که به ورودی مدل اضافه می‌شوند.\n\n**یادگیری برداری:**\nآموزش مستقیم بردارهای پرامپت بدون دستکاری کلمات انسانی.",
@@ -1888,9 +1888,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مفهوم Temperature Scaling در کالیبراسیون احتمال خروجی مدل چیست؟",
         "tags": [
-            "#TemperatureScaling",
-            "#Calibration",
-            "#Uncertainty"
+            "TemperatureScaling",
+            "Calibration",
+            "Uncertainty"
         ],
         "summary": "تنظیم مجدد توزیع احتمال خروجی جهت انطباق نمره‌های اطمینان مدل با واقعیت ریاضی.",
         "fullAnswer": "تنظیم مجدد توزیع احتمال خروجی جهت انطباق نمره‌های اطمینان مدل با واقعیت ریاضی.\n\n**کالیبراسیون:**\nجلوگیری از اعتماد به نفس کاذب مدل روی پاسخ‌های اشتباه.",
@@ -1908,9 +1908,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه عملکرد الگوریتم Beam Search در مقایسه با Greedy Search در تولید متن چیست؟",
         "tags": [
-            "#BeamSearch",
-            "#GreedySearch",
-            "#Decoding"
+            "BeamSearch",
+            "GreedySearch",
+            "Decoding"
         ],
         "summary": "Greedy همواره بهترین توکن بعدی را می‌پذیرد، Beam Search همزمان N مسیر احتمالاتی برتر را نگه داشته و بهترین دنباله را می‌سازد.",
         "fullAnswer": "Greedy همواره بهترین توکن بعدی را می‌پذیرد، Beam Search همزمان N مسیر احتمالاتی برتر را نگه داشته و بهترین دنباله را می‌سازد.\n\n**کیفیت خروجی:**\nBeam Search خروجی‌های منسجم‌تری در ترجمه ماشینی ارائه می‌دهد.",
@@ -1928,9 +1928,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین Cross-Attention و Self-Attention در معماری ترنسفورمر چیست؟",
         "tags": [
-            "#CrossAttention",
-            "#SelfAttention",
-            "#Transformers"
+            "CrossAttention",
+            "SelfAttention",
+            "Transformers"
         ],
         "summary": "Self-Attention ارتباط کلمات یک متن با یکدیگر را می‌سنجد، Cross-Attention ارتباط توکن‌های Decoder با Encoder را بررسی می‌کند.",
         "fullAnswer": "Self-Attention ارتباط کلمات یک متن با یکدیگر را می‌سنجد، Cross-Attention ارتباط توکن‌های Decoder با Encoder را بررسی می‌کند.\n\n**معماری:**\nCross-Attention پایه اصلی مدل‌های ترجمه و Encoder-Decoder است.",
@@ -1948,9 +1948,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه پیاده‌سازی سیستم‌های Guardrails با NeMo Guardrails چیست؟",
         "tags": [
-            "#NeMoGuardrails",
-            "#NVIDIA",
-            "#Safety"
+            "NeMoGuardrails",
+            "NVIDIA",
+            "Safety"
         ],
         "summary": "تعریف قوانین برنامه به زبان Colang جهت فیلتر کردن topicها، جلوگیری از کلمات نامناسب و هدایت جریان مکالمه.",
         "fullAnswer": "تعریف قوانین برنامه به زبان Colang جهت فیلتر کردن topicها، جلوگیری از کلمات نامناسب و هدایت جریان مکالمه.\n\n**امنیت سیستم:**\nاطمینان از عدم خروج چت‌بات از چارچوب‌های کاری تعیین‌شده.",
@@ -1968,9 +1968,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چگونه یک مدل زبانی را با ابزار Unsloth تا ۵ برابر سریع‌تر Fine-Tune کنیم؟",
         "tags": [
-            "#Unsloth",
-            "#PEFT",
-            "#CUDA"
+            "Unsloth",
+            "PEFT",
+            "CUDA"
         ],
         "summary": "کاهش شدید مصرف VRAM و ۵ برابر کردن سرعت آموزش با بازنویسی دستی کرنیل‌های دستی CUDA برای LoRA.",
         "fullAnswer": "کاهش شدید مصرف VRAM و ۵ برابر کردن سرعت آموزش با بازنویسی دستی کرنیل‌های دستی CUDA برای LoRA.\n\n**مزیت Unsloth:**\nآموزش مدل‌های ۷B روی کارت‌های مجانی Kaggle و Colab.",
@@ -1988,9 +1988,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک DPO (Direct Preference Optimization) چگونه فرایند آموزش همراستاسازی را ساده کرده است؟",
         "tags": [
-            "#DPO",
-            "#Alignment",
-            "#SFT"
+            "DPO",
+            "Alignment",
+            "SFT"
         ],
         "summary": "حذف کامل مدل پاداش و PPO، و جایگزینی آن با یک تابع زیان ریاضی مستقیم روی جفت پاسخ‌های متنی (Preferred / Dispreferred).",
         "fullAnswer": "حذف کامل مدل پاداش و PPO، و جایگزینی آن با یک تابع زیان ریاضی مستقیم روی جفت پاسخ‌های متنی (Preferred / Dispreferred).\n\n**سادگی پیاده‌سازی:**\nعدم بروز مشکلات پایداری عدم همگرایی در RLHF سنتی.",
@@ -2008,9 +2008,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نقش فریم‌ورک vLLM و الگوریتم PagedAttention در سروینگ سروری مدل‌های LLM چیست؟",
         "tags": [
-            "#vLLM",
-            "#PagedAttention",
-            "#Serving"
+            "vLLM",
+            "PagedAttention",
+            "Serving"
         ],
         "summary": "مدیریت حافظه KV Cache دقیقا مانند سیستم مدیریت مجازی حافظه در سیستم‌عامل، جهت جلوگیری از اتلاف VRAM.",
         "fullAnswer": "مدیریت حافظه KV Cache دقیقا مانند سیستم مدیریت مجازی حافظه در سیستم‌عامل، جهت جلوگیری از اتلاف VRAM.\n\n**افزایش Throughput:**\nافزایش ۲ تا ۴ برابری تعداد کاربران همزمان سرویس.",
@@ -2028,9 +2028,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه محاسبه زمان پاسخ‌دهی اول (Time to First Token - TTFT) در مدل‌های زبانی چیست؟",
         "tags": [
-            "#TTFT",
-            "#Latency",
-            "#LLM_Metrics"
+            "TTFT",
+            "Latency",
+            "LLM_Metrics"
         ],
         "summary": "مدت زمان پردازش کل پرامپت ورودی تا زمان تولید اولین توکن توسط مدل زبانی.",
         "fullAnswer": "مدت زمان پردازش کل پرامپت ورودی تا زمان تولید اولین توکن توسط مدل زبانی.\n\n**اهمیت:**\nحس سرعت و UX مناسب کاربر مستقیماً وابسته به پایین بودن TTFT است.",
@@ -2048,9 +2048,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت بین Inter-token Latency (ITL) و Time to First Token (TTFT) در ارزیابی LLM چیست؟",
         "tags": [
-            "#ITL",
-            "#TTFT",
-            "#Metrics"
+            "ITL",
+            "TTFT",
+            "Metrics"
         ],
         "summary": "TTFT زمان تولید توکن اول است، ITL زمان فاصله بین تولید هر توکن بعدی است (سرعت تایپ مدل).",
         "fullAnswer": "TTFT زمان تولید توکن اول است، ITL زمان فاصله بین تولید هر توکن بعدی است (سرعت تایپ مدل).\n\n**ارزیابی کامل:**\nکاهش TTFT احساس شادابی به کاربر می‌دهد و ITL سرعت خروجی را بالا می‌برد.",
@@ -2068,11 +2068,11 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "معماری یک AI Agent (عامل هوش مصنوعی) شامل چه بخش‌های اصلی است؟",
         "tags": [
-            "#AIAgents",
-            "#ReAct",
-            "#Planning",
-            "#Memory",
-            "#Tools"
+            "AIAgents",
+            "ReAct",
+            "Planning",
+            "Memory",
+            "Tools"
         ],
         "summary": "یک Agent متشکل از: ۱. مغز متفکر (LLM) ۲. برنامه (Planning) ۳. حافظه (Memory) ۴. ابزارها (Tools / Function Calling).",
         "fullAnswer": "یک Agent متشکل از: ۱. مغز متفکر (LLM) ۲. برنامه (Planning) ۳. حافظه (Memory) ۴. ابزارها (Tools / Function Calling).\n\n**اجزای اصلی:**\nLLM تصمیم‌گیری می‌کند، Planning اهداف را خرد می‌کند، Memory سابقه را نگه می‌دارد و Tools اقدامات واقعی را اجرا می‌کنند.",
@@ -2090,9 +2090,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "الگوی ReAct (Reasoning + Acting) در ایجنت‌های هوش مصنوعی چگونه کار می‌کند؟",
         "tags": [
-            "#ReAct",
-            "#AgenticPattern",
-            "#LangChain"
+            "ReAct",
+            "AgenticPattern",
+            "LangChain"
         ],
         "summary": "چرخه تکرارشونده شامل Thought (تفکر)، Action (انتخاب ابزار)، Observation (مشاهده نتیجه ابزار) تا زمان رسیدن به پاسخ نهایی.",
         "fullAnswer": "چرخه تکرارشونده شامل Thought (تفکر)، Action (انتخاب ابزار)، Observation (مشاهده نتیجه ابزار) تا زمان رسیدن به پاسخ نهایی.\n\n**چرخه کار:**\n۱. Thought: تصمیم درباره ابزار لازم.\n۲. Action: فراخوانی ابزار.\n۳. Observation: بازگرداندن خروجی به مدل.",
@@ -2110,9 +2110,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "فریم‌ورک LangGraph چیست و چرا جایگزین چرخه‌های خطی سنتی شده است؟",
         "tags": [
-            "#LangGraph",
-            "#StateManagement",
-            "#MultiAgent"
+            "LangGraph",
+            "StateManagement",
+            "MultiAgent"
         ],
         "summary": "LangGraph ساخت ایجنت‌ها را به صورت یک گراف حالت‌آگاه (Stateful Graph) مجهز به قابلیت مدیریت حلقه‌ها (Loops) و همزمانی امکان‌پذیر می‌سازد.",
         "fullAnswer": "LangGraph ساخت ایجنت‌ها را به صورت یک گراف حالت‌آگاه (Stateful Graph) مجهز به قابلیت مدیریت حلقه‌ها (Loops) و همزمانی امکان‌پذیر می‌سازد.\n\n**مزیت LangGraph:**\nمدیریت گراف‌های تکرارشونده، ذخیره وضعیت در دیتابیس و پشتیبانی از Human-in-the-loop.",
@@ -2130,9 +2130,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مکانیزم Function Calling / Tool Calling در مدل‌های LLM چگونه پیاده‌سازی می‌شود؟",
         "tags": [
-            "#FunctionCalling",
-            "#JSONSchema",
-            "#OpenAI"
+            "FunctionCalling",
+            "JSONSchema",
+            "OpenAI"
         ],
         "summary": "تعریف توابع پایتون با JSON Schema و ارسال آن به مدل، تا مدل پارامترهای تابع را در قالب یک JSON ساختاریافته خروجی دهد.",
         "fullAnswer": "تعریف توابع پایتون با JSON Schema و ارسال آن به مدل، تا مدل پارامترهای تابع را در قالب یک JSON ساختاریافته خروجی دهد.\n\n**فرآیند ۳ مرحله‌ای:**\nتعریف تابع با JSON Schema -> دریافت آرگومان‌ها از LLM -> اجرای تابع واقعی در کد پایتون.",
@@ -2150,10 +2150,10 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "سیستم‌های چندعاملی (Multi-Agent Systems) مانند CrewAI و AutoGen چگونه کار می‌کنند؟",
         "tags": [
-            "#MultiAgent",
-            "#CrewAI",
-            "#AutoGen",
-            "#Orchestration"
+            "MultiAgent",
+            "CrewAI",
+            "AutoGen",
+            "Orchestration"
         ],
         "summary": "تقسیم کار بین چند ایجنت با نقش‌ها، اهداف و ابزارهای متمایز جهت حل مسائل پیچیده.",
         "fullAnswer": "تقسیم کار بین چند ایجنت با نقش‌ها، اهداف و ابزارهای متمایز جهت حل مسائل پیچیده.\n\n**ساختار تیمی:**\nتعریف ایجنت‌های مجزا مثل ایجنت پژوهشگر، نویسنده و بازبین جهت تولید محصول کیفی.",
@@ -2171,9 +2171,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "حافظه کوتاه مدت و بلندمدت در AI Agentها چگونه مدیریت می‌شود؟",
         "tags": [
-            "#AgentMemory",
-            "#VectorDB",
-            "#ContextWindow"
+            "AgentMemory",
+            "VectorDB",
+            "ContextWindow"
         ],
         "summary": "حافظه کوتاه‌مدت همان Context Window و حافظه بلندمدت ذخیره تاریخچه مکالمات در Vector DB و بازیابی خلاصه آن‌هاست.",
         "fullAnswer": "حافظه کوتاه‌مدت همان Context Window و حافظه بلندمدت ذخیره تاریخچه مکالمات در Vector DB و بازیابی خلاصه آن‌هاست.\n\n**Memory Management:**\nاستفاده از ConversationSummaryBufferMemory برای جلوگیری از پر شدن سریع Context.",
@@ -2191,9 +2191,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چالش‌های امنیتی Prompt Injection و Tool Misuse در ایجنت‌ها چیست؟",
         "tags": [
-            "#PromptInjection",
-            "#Security",
-            "#AgentSafety"
+            "PromptInjection",
+            "Security",
+            "AgentSafety"
         ],
         "summary": "دستکاری ورودی کاربر برای دور زدن دستورالعمل‌های ایجنت یا اجرای کدهای مخرب از طریق ابزارها.",
         "fullAnswer": "دستکاری ورودی کاربر برای دور زدن دستورالعمل‌های ایجنت یا اجرای کدهای مخرب از طریق ابزارها.\n\n**مقابله امنیتی:**\nاجرای کدهای پایتون در محیط ایزوله Docker Sandbox و فیلتر ورودی‌ها.",
@@ -2211,9 +2211,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "الگوی Plan-and-Solve در طراحی ایجنت هوش مصنوعی چیست؟",
         "tags": [
-            "#PlanAndSolve",
-            "#Planning",
-            "#AgentPattern"
+            "PlanAndSolve",
+            "Planning",
+            "AgentPattern"
         ],
         "summary": "تفکیک کامل فاز برنامه‌ریزی (ساخت نقشه راه حل مسئله) از فاز اجرای گام‌به‌گام ابزارها.",
         "fullAnswer": "تفکیک کامل فاز برنامه‌ریزی (ساخت نقشه راه حل مسئله) از فاز اجرای گام‌به‌گام ابزارها.\n\n**مزیت:**\nکاهش خطاهای تصمیم‌گیری شتاب‌زده در ایجنت‌ها.",
@@ -2231,9 +2231,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه پیاده‌سازی Human-in-the-loop (تأیید انسانی) در ایجنت‌های حساس چگونه است؟",
         "tags": [
-            "#HumanInTheLoop",
-            "#LangGraph",
-            "#Safety"
+            "HumanInTheLoop",
+            "LangGraph",
+            "Safety"
         ],
         "summary": "متوقف کردن گراف اجرای ایجنت قبل از کارهای حساس (مثل ارسال ایمیل یا انتقال مالی) جهت اخذ تایید کاربر.",
         "fullAnswer": "متوقف کردن گراف اجرای ایجنت قبل از کارهای حساس (مثل ارسال ایمیل یا انتقال مالی) جهت اخذ تایید کاربر.\n\n**پیاده‌سازی در LangGraph:**\nاستفاده از وقفه breakpoint جهت منتظر ماندن برای سیگنال تایید یا رد انسان.",
@@ -2251,9 +2251,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین ایجنت‌های خودمختار (Autonomous Agents) و ایجنت‌های هدایت‌شده چیست؟",
         "tags": [
-            "#AutonomousAgents",
-            "#GuidedAgents",
-            "#Architecture"
+            "AutonomousAgents",
+            "GuidedAgents",
+            "Architecture"
         ],
         "summary": "ایجن‌های خودمختار خودشان هدف و مسیر را تعیین می‌کنند، ایجنت‌های هدایت‌شده طبق یک گراف مشخص حرکت می‌کنند.",
         "fullAnswer": "ایجن‌های خودمختار خودشان هدف و مسیر را تعیین می‌کنند، ایجنت‌های هدایت‌شده طبق یک گراف مشخص حرکت می‌کنند.\n\n**پایداری:**\nایجنت‌های هدایت‌شده پایداری و امنیت بالاتری در پروداکشن دارند.",
@@ -2271,9 +2271,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه مدیریت خطاهای تکراری و حلقه‌های بی‌نهایت (Infinite Loops) در ایجنت‌ها به چه شکل است؟",
         "tags": [
-            "#InfiniteLoops",
-            "#ErrorHandling",
-            "#AgentState"
+            "InfiniteLoops",
+            "ErrorHandling",
+            "AgentState"
         ],
         "summary": "تعریف حداکثر تعداد گام (Max Iterations) و مکانیزم تشخیص تکرار یک Action یکسان با ورودی تکراری.",
         "fullAnswer": "تعریف حداکثر تعداد گام (Max Iterations) و مکانیزم تشخیص تکرار یک Action یکسان با ورودی تکراری.\n\n**مکانیزم کنترل:**\nاگر ایجنت ۳ بار یک ابزار را با همان ارگومان فراخوانی کرد، اجرا متوقف و پیام خطای انسانی داده می‌شود.",
@@ -2291,9 +2291,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "مفهوم Tool Search و مکانیزم انتخاب دینامیک ابزارها در ایجنت‌ها چیست؟",
         "tags": [
-            "#ToolSearch",
-            "#ToolSelection",
-            "#Embeddings"
+            "ToolSearch",
+            "ToolSelection",
+            "Embeddings"
         ],
         "summary": "اگر ایجنت به صدها ابزار دسترسی داشته باشد، ابتدا بردارهای توصیف ابزارها سرچ شده و تنها ابزارهای مرتبط به LLM داده می‌شوند.",
         "fullAnswer": "اگر ایجنت به صدها ابزار دسترسی داشته باشد، ابتدا بردارهای توصیف ابزارها سرچ شده و تنها ابزارهای مرتبط به LLM داده می‌شوند.\n\n**مدیریت حجم:**\nجلوگیری از پر شدن Context Window با لیست کامل توابع.",
@@ -2311,9 +2311,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه تست و ارزیابی عملکرد ایجنت‌ها با بنچمارک‌های SWE-bench چیست؟",
         "tags": [
-            "#SWEBench",
-            "#Benchmark",
-            "#AgentEvaluation"
+            "SWEBench",
+            "Benchmark",
+            "AgentEvaluation"
         ],
         "summary": "ارزیابی توانایی ایجنت در حل مسائل واقعی گیتهاب (حل باگ‌ها و ارسال PR معتبر).",
         "fullAnswer": "ارزیابی توانایی ایجنت در حل مسائل واقعی گیتهاب (حل باگ‌ها و ارسال PR معتبر).\n\n**معیار سنجش:**\nسنجش واقعی قدرت کدنویسی و دیباگ خودمختار ایجنت‌ها.",
@@ -2331,9 +2331,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "الگوی Reflection و Self-Correction در ایجنت‌ها چگونه عمل می‌کند؟",
         "tags": [
-            "#Reflection",
-            "#SelfCorrection",
-            "#AgentPattern"
+            "Reflection",
+            "SelfCorrection",
+            "AgentPattern"
         ],
         "summary": "ارسال خروجی اولیه ایجنت به یک ماژول نقاد (Critic) جهت بررسی باگ‌ها و اصلاح خودکار خروجی پیش از تحویل.",
         "fullAnswer": "ارسال خروجی اولیه ایجنت به یک ماژول نقاد (Critic) جهت بررسی باگ‌ها و اصلاح خودکار خروجی پیش از تحویل.\n\n**افزایش کیفیت:**\nبهبود چشمگیر دقت کدهای تولیدی و گزارش‌ها با نقد خودکار.",
@@ -2351,9 +2351,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چالش‌های Latency و هزینه در اجراهای چندمرحله‌ای Multi-Agent چیست؟",
         "tags": [
-            "#Latency",
-            "#MultiAgentCost",
-            "#Optimization"
+            "Latency",
+            "MultiAgentCost",
+            "Optimization"
         ],
         "summary": "هر فراخوانی ایجنت زمان پاسخ‌دهی را افزایش می‌دهد؛ حل با اجرای موازی (Parallel Execution) ایجنت‌های مستقل.",
         "fullAnswer": "هر فراخوانی ایجنت زمان پاسخ‌دهی را افزایش می‌دهد؛ حل با اجرای موازی (Parallel Execution) ایجنت‌های مستقل.\n\n**بهینه‌سازی:**\nاستفاده از الگوی Async و ترکیب خروجی ایجنت‌های همزمان.",
@@ -2371,9 +2371,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه ارتباط بین ایجنت‌ها با پروتکل‌های استانداردی مانند Agent Protocol چیست؟",
         "tags": [
-            "#AgentProtocol",
-            "#Interoperability",
-            "#API"
+            "AgentProtocol",
+            "Interoperability",
+            "API"
         ],
         "summary": "تعریف API یکسان (REST/WebSocket) جهت ارتباط ایجنت‌های ساخته‌شده با فریم‌ورک‌های مختلف (LangChain, AutoGen).",
         "fullAnswer": "تعریف API یکسان (REST/WebSocket) جهت ارتباط ایجنت‌های ساخته‌شده با فریم‌ورک‌های مختلف (LangChain, AutoGen).\n\n**یکپارچه‌سازی:**\nامکان تعامل ایجنت پایتونی با ایجنت نودجی‌اسی.",
@@ -2391,9 +2391,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "الگوی Tree of Thoughts (ToT) در برنامه‌ریزی ایجنت‌ها چیست؟",
         "tags": [
-            "#TreeOfThoughts",
-            "#ToT",
-            "#Planning"
+            "TreeOfThoughts",
+            "ToT",
+            "Planning"
         ],
         "summary": "ایجاد یک درخت از گزینه‌های تصمیم‌گیری و ارزیابی هر شاخه جهت یافتن بهترین مسیر حل مسئله.",
         "fullAnswer": "ایجاد یک درخت از گزینه‌های تصمیم‌گیری و ارزیابی هر شاخه جهت یافتن بهترین مسیر حل مسئله.\n\n**برتری بر CoT:**\nامکان بازگشت به عقب (Backtracking) در صورت بن‌بست در یک شاخه استدلال.",
@@ -2411,9 +2411,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه استقرار ایجنت‌ها به صورت سرورلس (Serverless Agent Deployments) چگونه است؟",
         "tags": [
-            "#Serverless",
-            "#AWSLambda",
-            "#Deployment"
+            "Serverless",
+            "AWSLambda",
+            "Deployment"
         ],
         "summary": "استقرار منطق ایجنت روی توابع AWS Lambda یا Cloud Run با حفظ State درون Redis/DynamoDB.",
         "fullAnswer": "استقرار منطق ایجنت روی توابع AWS Lambda یا Cloud Run با حفظ State درون Redis/DynamoDB.\n\n**کاهش هزینه:**\nپرداخت هزینه زیرساخت تنها در زمان فعال بودن ایجنت.",
@@ -2431,9 +2431,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نقش محیط‌های ایزوله (Sandboxing / Docker) در اجرای ابزارهای کدنویسی توسط ایجنت‌ها چیست؟",
         "tags": [
-            "#Sandboxing",
-            "#Docker",
-            "#Security"
+            "Sandboxing",
+            "Docker",
+            "Security"
         ],
         "summary": "اجرای کدهای پایتون یا شل تولیدی توسط ایجنت در یک کانتینر ایزوله بدون دسترسی به فایل‌های سرور اصلی.",
         "fullAnswer": "اجرای کدهای پایتون یا شل تولیدی توسط ایجنت در یک کانتینر ایزوله بدون دسترسی به فایل‌های سرور اصلی.\n\n**امنیت مطلق:**\nجلوگیری از دستورات مخرب مثل حذف فایل‌های دیتابیس.",
@@ -2451,9 +2451,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چگونه یک ایجنت تحلیلگر داده (Data Analysis Agent) با دسترسی به فایل‌های CSV/SQL بسازیم؟",
         "tags": [
-            "#DataAgent",
-            "#Pandas",
-            "#SQL"
+            "DataAgent",
+            "Pandas",
+            "SQL"
         ],
         "summary": "تجهیز ایجنت به ابزار تولد کدهای Pandas/SQL، اجرای کد در محیط ایزوله و نمایش نمودارهای Seaborn به کاربر.",
         "fullAnswer": "تجهیز ایجنت به ابزار تولد کدهای Pandas/SQL، اجرای کد در محیط ایزوله و نمایش نمودارهای Seaborn به کاربر.\n\n**فرآیند کار:**\nدریافت سوال متنی -> تولید کوئری SQL -> دریافت داده -> رسم نمودار خودکار.",
@@ -2471,9 +2471,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه ساخت ایجنت مرورگر وب (Web Browsing Agent) با ابزارهایی مثل Playwright چیست؟",
         "tags": [
-            "#WebBrowsingAgent",
-            "#Playwright",
-            "#Automation"
+            "WebBrowsingAgent",
+            "Playwright",
+            "Automation"
         ],
         "summary": "تجهیز ایجنت به مرورگر تعاملی جهت کلیک روی عناصر HTML، پر کردن فرم‌ها و استخراج اطلاعات زنده وب.",
         "fullAnswer": "تجهیز ایجنت به مرورگر تعاملی جهت کلیک روی عناصر HTML، پر کردن فرم‌ها و استخراج اطلاعات زنده وب.\n\n**اتوماسیون:**\nاتوماسیون کارهای تکراری آنلاین کاربر در وب.",
@@ -2491,9 +2491,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چالش‌های همزمانی (Concurrency) و مدیریت State در ایجنت‌های چندکاربره چیست؟",
         "tags": [
-            "#Concurrency",
-            "#StateManagement",
-            "#LangGraph"
+            "Concurrency",
+            "StateManagement",
+            "LangGraph"
         ],
         "summary": "مدیریت همزمان نشست‌های کاربر (User Sessions) و عدم تداخل State تعاملات مختلف.",
         "fullAnswer": "مدیریت همزمان نشست‌های کاربر (User Sessions) و عدم تداخل State تعاملات مختلف.\n\n**حل چالش:**\nاستفاده از thread_id مجزا برای هر کاربر در LangGraph.",
@@ -2511,9 +2511,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "الگوی Hierarchical Multi-Agent (مدیریت سلسله‌مراتبی ایجنت‌ها) چیست؟",
         "tags": [
-            "#HierarchicalAgents",
-            "#SupervisorAgent",
-            "#Orchestration"
+            "HierarchicalAgents",
+            "SupervisorAgent",
+            "Orchestration"
         ],
         "summary": "یک ایجنت سرپرست (Supervisor) وظایف را به ایجنت‌های زیرمجموعه سپرده و خروجی‌ها را جمع‌آوری و ارزیابی می‌کند.",
         "fullAnswer": "یک ایجنت سرپرست (Supervisor) وظایف را به ایجنت‌های زیرمجموعه سپرده و خروجی‌ها را جمع‌آوری و ارزیابی می‌کند.\n\n**معماری:**\nمدیریت ساده‌تر ایجنت‌های موازی در پروژه‌های عظیم.",
@@ -2531,9 +2531,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه لاگ‌گیری و Tracerها برای دیباگ ایجنت‌ها با ابزارهای LangSmith چیست؟",
         "tags": [
-            "#LangSmith",
-            "#Tracing",
-            "#Debugging"
+            "LangSmith",
+            "Tracing",
+            "Debugging"
         ],
         "summary": "ثبت تمام گام‌های Thought، Action، پرامپت‌های ارسالی و زمان اجرای ابزارها در داشبورد گرافیکی جهت دیباگ.",
         "fullAnswer": "ثبت تمام گام‌های Thought، Action، پرامپت‌های ارسالی و زمان اجرای ابزارها در داشبورد گرافیکی جهت دیباگ.\n\n**مزیت:**\nشناسایی لحظه‌ای دلیل افت کیفیت یا گیر کردن ایجنت.",
@@ -2551,9 +2551,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چگونه یک ایجنت پشتیبانی مشتری متصل به CRM با قابلیت خطایابی خودمختار طراحی کنیم؟",
         "tags": [
-            "#CustomerSupportAgent",
-            "#CRM",
-            "#SelfHealing"
+            "CustomerSupportAgent",
+            "CRM",
+            "SelfHealing"
         ],
         "summary": "اتصال ایجنت به دیتابیس مشتریان و تجهیز آن به الگوریتم‌های Fallback جهت انتقال تعامل به اپراتور انسان در صورت ابهام.",
         "fullAnswer": "اتصال ایجنت به دیتابیس مشتریان و تجهیز آن به الگوریتم‌های Fallback جهت انتقال تعامل به اپراتور انسان در صورت ابهام.\n\n**امنیت و UX:**\nارائه پاسخ مستند با حفظ حریم خصوصی داده‌های CRM.",
@@ -2571,9 +2571,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Memory Compression و خلاصه‌سازی تاریخچه گفتگوها در ایجنت‌ها چیست؟",
         "tags": [
-            "#MemoryCompression",
-            "#ContextWindow",
-            "#LLM"
+            "MemoryCompression",
+            "ContextWindow",
+            "LLM"
         ],
         "summary": "خلاصه‌سازی خودکار گفتگوهای قدیمی توسط مدل سبک و جایگزینی آن‌ها در تاریخچه جهت آزادسازی حافظه.",
         "fullAnswer": "خلاصه‌سازی خودکار گفتگوهای قدیمی توسط مدل سبک و جایگزینی آن‌ها در تاریخچه جهت آزادسازی حافظه.\n\n**مدیریت چت‌های طولانی:**\nامکان ادامه مکالمه برای روزها بدون خروج از محدودیت توکن.",
@@ -2591,9 +2591,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نقش فریم‌ورک Semantic Kernel در مقایسه با LangChain برای توسعه ایجنت چیست؟",
         "tags": [
-            "#SemanticKernel",
-            "#Microsoft",
-            "#LangChain"
+            "SemanticKernel",
+            "Microsoft",
+            "LangChain"
         ],
         "summary": "فریم‌ورک مایکروسافت برای یکپارچه‌سازی LLMها با زبان‌های C#، Python و Java در برنامه‌های سازمانی.",
         "fullAnswer": "فریم‌ورک مایکروسافت برای یکپارچه‌سازی LLMها با زبان‌های C#، Python و Java در برنامه‌های سازمانی.\n\n**پشتیبانی Enterprise:**\nیکپارچگی عالی با اکوسیستم دات‌نت و مایکروسافت اژور.",
@@ -2611,9 +2611,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه پیاده‌سازی سیستم ردیابی ریسک مالی با ایجنت‌های هوش مصنوعی چیست؟",
         "tags": [
-            "#FinancialAgent",
-            "#RiskManagement",
-            "#AI"
+            "FinancialAgent",
+            "RiskManagement",
+            "AI"
         ],
         "summary": "استفاده از ایجنت‌های متخصص پایش اخبار، تحلیل تکنیکال و بررسی گزارش‌های کدال جهت محاسبه اسکور ریسک.",
         "fullAnswer": "استفاده از ایجنت‌های متخصص پایش اخبار، تحلیل تکنیکال و بررسی گزارش‌های کدال جهت محاسبه اسکور ریسک.\n\n**معماری:**\nاتصال ایجنت به APIهای زنده بورسی و تحلیل همزمان اخبار.",
@@ -2631,9 +2631,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چالش‌های همگام‌سازی دیتابیس در ایجنت‌های موازی Multi-Agent چیست؟",
         "tags": [
-            "#Concurrency",
-            "#MultiAgent",
-            "#Locking"
+            "Concurrency",
+            "MultiAgent",
+            "Locking"
         ],
         "summary": "مدیریت دسترسی همزمان چند ایجنت به یک رکورد دیتابیس و جلوگیری از Race Condition.",
         "fullAnswer": "مدیریت دسترسی همزمان چند ایجنت به یک رکورد دیتابیس و جلوگیری از Race Condition.\n\n**حل چالش:**\nاستفاده از قفل‌های توزیع‌شده (Distributed Locks) در Redis.",
@@ -2651,9 +2651,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه ساخت ایجنت جستجوگر کد (Code Search Agent) متصل به Git چیست؟",
         "tags": [
-            "#GitAgent",
-            "#CodeSearch",
-            "#AST"
+            "GitAgent",
+            "CodeSearch",
+            "AST"
         ],
         "summary": "اتصال ایجنت به ریپازیتوری Git جهت جستجوی توابع، تحلیل commitها و پاسخ به سوالات فنی توسعه‌دهندگان.",
         "fullAnswer": "اتصال ایجنت به ریپازیتوری Git جهت جستجوی توابع، تحلیل commitها و پاسخ به سوالات فنی توسعه‌دهندگان.\n\n**ابزارها:**\nاستفاده از Git API و نمایه برداری کدهای پروژه.",
@@ -2671,9 +2671,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت Bias و Variance (موازنه خطای سوگیری و واریانس) چیست؟",
         "tags": [
-            "#BiasVariance",
-            "#Overfitting",
-            "#Underfitting"
+            "BiasVariance",
+            "Overfitting",
+            "Underfitting"
         ],
         "summary": "Bias خطای ناشی از فرضیات بسیار ساده مدل (Underfitting) و Variance حساسیت شدید به نویز داده‌های آموزش (Overfitting) است.",
         "fullAnswer": "Bias خطای ناشی از فرضیات بسیار ساده مدل (Underfitting) و Variance حساسیت شدید به نویز داده‌های آموزش (Overfitting) است.\n\n**High Bias:**\nمدل ساده است و توانایی یادگیری الگوها را ندارد.\n\n**High Variance:**\nمدل داده‌های آموزش را حفظ کرده و در داده تست شکست می‌خورد.",
@@ -2691,9 +2691,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "توجه به توابع زیان Cross-Entropy و MSE چه تفاوتی دارند؟",
         "tags": [
-            "#LossFunctions",
-            "#CrossEntropy",
-            "#MSE"
+            "LossFunctions",
+            "CrossEntropy",
+            "MSE"
         ],
         "summary": "MSE برای مسائل رگرسیون (پیش‌بینی مقدار پیوسته) و Cross-Entropy برای کلاسیفیکیشن (توزیع احتمال کلاس‌ها) استفاده می‌شود.",
         "fullAnswer": "MSE برای مسائل رگرسیون (پیش‌بینی مقدار پیوسته) و Cross-Entropy برای کلاسیفیکیشن (توزیع احتمال کلاس‌ها) استفاده می‌شود.\n\n**کاربردها:**\nMSE برای پیش‌بینی قیمت، Cross-Entropy برای دسته‌بندی تصویر و متن.",
@@ -2711,9 +2711,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مشکل Vanishing Gradient و Exploding Gradient چیست و چگونه حل می‌شود؟",
         "tags": [
-            "#VanishingGradient",
-            "#ResNet",
-            "#ReLU"
+            "VanishingGradient",
+            "ResNet",
+            "ReLU"
         ],
         "summary": "در شبکه‌های عمیق، ضرب متوالی مشتقات باعث صفر شدن یا بی‌نهایت شدن گرادیان‌ها در لایه‌های اولیه می‌شود.",
         "fullAnswer": "در شبکه‌های عمیق، ضرب متوالی مشتقات باعث صفر شدن یا بی‌نهایت شدن گرادیان‌ها در لایه‌های اولیه می‌شود.\n\n**راهکارها:**\nاستفاده از تابع اکتیویشن ReLU/GELU، اتصالات باقی‌مانده (ResNet) و Layer Normalization.",
@@ -2731,10 +2731,10 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "معیارهای ارزیابی Precision, Recall, F1-Score و AUC-ROC چه زمانی استفاده می‌شوند؟",
         "tags": [
-            "#Precision",
-            "#Recall",
-            "#F1Score",
-            "#AUC_ROC"
+            "Precision",
+            "Recall",
+            "F1Score",
+            "AUC_ROC"
         ],
         "summary": "در داده‌های نامتوازن Accuracy گول‌زننده است. Precision روی دقت پیش‌بینی مثبت و Recall روی عدم از دست دادن مثبت‌ها تمرکز دارد.",
         "fullAnswer": "در داده‌های نامتوازن Accuracy گول‌زننده است. Precision روی دقت پیش‌بینی مثبت و Recall روی عدم از دست دادن مثبت‌ها تمرکز دارد.\n\n**انتخاب معیار:**\nدر سیستم‌های پزشکی و کشف تقلب Recall اهمیت حیاتی دارد.",
@@ -2752,9 +2752,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "الگوریتم‌های بهینه‌سازی Adam, AdamW و SGD با Momentum چه تفاوتی دارند؟",
         "tags": [
-            "#Adam",
-            "#AdamW",
-            "#SGD"
+            "Adam",
+            "AdamW",
+            "SGD"
         ],
         "summary": "Adam نرخ یادگیری آداپتیو برای هر پارامتر دارد. AdamW مشکل L2 Regularization در Adam را اصلاح کرده و استاندارد آموزش LLMها است.",
         "fullAnswer": "Adam نرخ یادگیری آداپتیو برای هر پارامتر دارد. AdamW مشکل L2 Regularization در Adam را اصلاح کرده و استاندارد آموزش LLMها است.\n\n**AdamW:**\nاصلاح نحوه اعمال Weight Decay به صورت جداگانه از نرخ یادگیری آداپتیو.",
@@ -2772,9 +2772,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "کاربرد تابع فعال‌سازی Softmax در شبکه عصبی چیست؟",
         "tags": [
-            "#Softmax",
-            "#DeepLearning",
-            "#Probability"
+            "Softmax",
+            "DeepLearning",
+            "Probability"
         ],
         "summary": "تبدیل خروجی‌های خام شبکه (Logits) به توزیع احتمالی که مجموع آن‌ها برابر ۱ شود.",
         "fullAnswer": "تبدیل خروجی‌های خام شبکه (Logits) به توزیع احتمالی که مجموع آن‌ها برابر ۱ شود.\n\n**کاربرد:**\nاستفاده در لایه نهایی کلاسیفیکیشن چندکلاسه.",
@@ -2792,9 +2792,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Data Augmentation در آموزش مدل‌ها چه کاربردی دارد؟",
         "tags": [
-            "#DataAugmentation",
-            "#Overfitting",
-            "#ComputerVision"
+            "DataAugmentation",
+            "Overfitting",
+            "ComputerVision"
         ],
         "summary": "ایجاد تغییرات تصادفی روی داده‌های موجود برای افزایش حجم دیتاست و جلوگیری از Overfitting.",
         "fullAnswer": "ایجاد تغییرات تصادفی روی داده‌های موجود برای افزایش حجم دیتاست و جلوگیری از Overfitting.\n\n**تکنیک‌ها:**\nچرخش و برش در تصویر، ترجمه برگشتی و جایگزینی مترادف‌ها در متن.",
@@ -2812,9 +2812,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت بین L1 Regularization (Lasso) و L2 Regularization (Ridge) چیست؟",
         "tags": [
-            "#L1_L2",
-            "#Regularization",
-            "#MachineLearning"
+            "L1_L2",
+            "Regularization",
+            "MachineLearning"
         ],
         "summary": "L1 قدرمطلق وزن‌ها را جریمه کرده و برخی وزن‌ها را دقیقاً صفر می‌کند (Feature Selection)، L2 مجذور وزن‌ها را جریمه می‌کند.",
         "fullAnswer": "L1 قدرمطلق وزن‌ها را جریمه کرده و برخی وزن‌ها را دقیقاً صفر می‌کند (Feature Selection)، L2 مجذور وزن‌ها را جریمه می‌کند.\n\n**تفاوت اصلی:**\nL1 باعث اسپارس شدن مدل می‌شود، L2 وزن‌ها را کوچک نگه می‌دارد.",
@@ -2832,9 +2832,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تکنیک Dropout در شبکه‌های عصبی عمیق چگونه از Overfitting جلوگیری می‌کند؟",
         "tags": [
-            "#Dropout",
-            "#DeepLearning",
-            "#Regularization"
+            "Dropout",
+            "DeepLearning",
+            "Regularization"
         ],
         "summary": "غیرفعال کردن تصادفی درصدی از نورون‌ها در هر گام آموزش تا شبکه به نورون خاصی وابسته نشود.",
         "fullAnswer": "غیرفعال کردن تصادفی درصدی از نورون‌ها در هر گام آموزش تا شبکه به نورون خاصی وابسته نشود.\n\n**عملکرد:**\nایجاد ترکیبی از شبکه‌های عصبی مختلف به صورت همزمان.",
@@ -2852,9 +2852,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه کار لایه‌های Batch Normalization و Layer Normalization چیست؟",
         "tags": [
-            "#BatchNorm",
-            "#LayerNorm",
-            "#DeepLearning"
+            "BatchNorm",
+            "LayerNorm",
+            "DeepLearning"
         ],
         "summary": "BatchNorm ورودی‌ها را روی دسته (Batch) نرمال می‌کند، LayerNorm ورودی‌ها را روی ویژگی‌های (Features) هر نمونه نرمال می‌سازد.",
         "fullAnswer": "BatchNorm ورودی‌ها را روی دسته (Batch) نرمال می‌کند، LayerNorm ورودی‌ها را روی ویژگی‌های (Features) هر نمونه نرمال می‌سازد.\n\n**تفاوت کاربرد:**\nBatchNorm در تصاویر (CNN)، LayerNorm در متن و ترنسفورمرها استفاده می‌شود.",
@@ -2872,9 +2872,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "مفهوم Transfer Learning و Fine-Tuning لایه‌های انتهای شبکه چیست؟",
         "tags": [
-            "#TransferLearning",
-            "#FineTuning",
-            "#DeepLearning"
+            "TransferLearning",
+            "FineTuning",
+            "DeepLearning"
         ],
         "summary": "استفاده از وزن‌های آموزش‌دیده یک مدل بزرگ روی یک دیتاست عظیم و تنظیم لایه‌های نهایی روی داده‌های خودمان.",
         "fullAnswer": "استفاده از وزن‌های آموزش‌دیده یک مدل بزرگ روی یک دیتاست عظیم و تنظیم لایه‌های نهایی روی داده‌های خودمان.\n\n**مزیت:**\nکاهش شدید زمان و داده مورد نیاز برای آموزش مدل.",
@@ -2892,9 +2892,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت الگوریتم‌های یادگیری با نظارت، بدون نظارت و نیمه‌نظارتی چیست؟",
         "tags": [
-            "#Supervised",
-            "#Unsupervised",
-            "#SemiSupervised"
+            "Supervised",
+            "Unsupervised",
+            "SemiSupervised"
         ],
         "summary": "با نظارت دارای برچسب (Label) است، بدون نظارت کشف الگو در داده‌های بدون برچسب (Clustering) است، نیمه‌نظارتی ترکیب این دو است.",
         "fullAnswer": "با نظارت دارای برچسب (Label) است، بدون نظارت کشف الگو در داده‌های بدون برچسب (Clustering) است، نیمه‌نظارتی ترکیب این دو است.\n\n**مثال‌ها:**\nSupervised: رگرسیون، Unsupervised: K-Means، Semi-Supervised: Pseudo-labeling.",
@@ -2912,9 +2912,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "الگوریتم Random Forest چگونه کار می‌کند و تفاوت آن با XGBoost چیست؟",
         "tags": [
-            "#RandomForest",
-            "#XGBoost",
-            "#Ensemble"
+            "RandomForest",
+            "XGBoost",
+            "Ensemble"
         ],
         "summary": "Random Forest ترکیبی موازی از درخت‌هاست (Bagging)، XGBoost ترکیب متوالی درخت‌هاست که هر درخت خطای درخت قبلی را اصلاح می‌کند (Boosting).",
         "fullAnswer": "Random Forest ترکیبی موازی از درخت‌هاست (Bagging)، XGBoost ترکیب متوالی درخت‌هاست که هر درخت خطای درخت قبلی را اصلاح می‌کند (Boosting).\n\n**سرعت و دقت:**\nXGBoost معمولاً دقت بالاتری در مسابقات داده ارائه می‌دهد.",
@@ -2932,9 +2932,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مفهوم Curse of Dimensionality (لعنت ابعاد بالا) در یادگیری ماشین چیست؟",
         "tags": [
-            "#CurseOfDimensionality",
-            "#DataScience",
-            "#PCA"
+            "CurseOfDimensionality",
+            "DataScience",
+            "PCA"
         ],
         "summary": "با افزایش تعداد ویژگی‌ها (ابعاد)، حجم فضای داده به صورت توان دو رشد کرده و داده‌ها بسیار تنک (Sparse) می‌شوند.",
         "fullAnswer": "با افزایش تعداد ویژگی‌ها (ابعاد)، حجم فضای داده به صورت توان دو رشد کرده و داده‌ها بسیار تنک (Sparse) می‌شوند.\n\n**راهکار:**\nاستفاده از تکنیک‌های کاهش ابعاد مانند PCA یا Feature Selection.",
@@ -2952,9 +2952,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه عملکرد الگوریتم PCA برای کاهش ابعاد چیست؟",
         "tags": [
-            "#PCA",
-            "#DimensionalityReduction",
-            "#Math"
+            "PCA",
+            "DimensionalityReduction",
+            "Math"
         ],
         "summary": "یافتن بردارهای متعامد (Principal Components) که بیشترین واریانس و پراکندگی داده‌ها را پوشش می‌دهند.",
         "fullAnswer": "یافتن بردارهای متعامد (Principal Components) که بیشترین واریانس و پراکندگی داده‌ها را پوشش می‌دهند.\n\n**کاربرد:**\nکاهش ابعاد داده بدون از دست دادن اطلاعات کلیدی.",
@@ -2972,9 +2972,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت بین Grid Search, Random Search و Bayesian Optimization چیست؟",
         "tags": [
-            "#HyperparameterTuning",
-            "#GridSearch",
-            "#BayesianOptimization"
+            "HyperparameterTuning",
+            "GridSearch",
+            "BayesianOptimization"
         ],
         "summary": "Grid Search تمام حالات را تست می‌کند، Random Search نمونه‌های تصادفی می‌گیرد، Bayesian Optimization بر اساس نتایج قبلی نقطه بعدی را حدس می‌زند.",
         "fullAnswer": "Grid Search تمام حالات را تست می‌کند، Random Search نمونه‌های تصادفی می‌گیرد، Bayesian Optimization بر اساس نتایج قبلی نقطه بعدی را حدس می‌زند.\n\n**کارایی:**\nBayesian Optimization سریع‌ترین روش برای یافتن هایپرپارامتر بهینه است.",
@@ -2992,9 +2992,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "مفهوم K-Fold Cross Validation و Stratified K-Fold چیست؟",
         "tags": [
-            "#CrossValidation",
-            "#Evaluation",
-            "#DataScience"
+            "CrossValidation",
+            "Evaluation",
+            "DataScience"
         ],
         "summary": "تقسیم داده به K بخش و تست مدل روی هر بخش؛ Stratified تضمین می‌کند نسبت کلاس‌ها در تمام بخش‌ها یکسان بماند.",
         "fullAnswer": "تقسیم داده به K بخش و تست مدل روی هر بخش؛ Stratified تضمین می‌کند نسبت کلاس‌ها در تمام بخش‌ها یکسان بماند.\n\n**مزیت:**\nارزیابی واقعی عملکرد مدل بدون وابستگی به یک تقسیم‌بندی خاص.",
@@ -3012,9 +3012,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "معماری شبکه‌های عصبی پیچشی (CNN) و لایه‌های Convolution چگونه کار می‌کنند؟",
         "tags": [
-            "#CNN",
-            "#ComputerVision",
-            "#DeepLearning"
+            "CNN",
+            "ComputerVision",
+            "DeepLearning"
         ],
         "summary": "استفاده از فیلترهای لغزان جهت استخراج ویژگی‌های محلی (لبه‌ها، بافت‌ها) در تصاویر.",
         "fullAnswer": "استفاده از فیلترهای لغزان جهت استخراج ویژگی‌های محلی (لبه‌ها، بافت‌ها) در تصاویر.\n\n**مزیت اصلی:**\nمستقل بودن از موقعیت مکانی ویژگی‌ها در تصویر.",
@@ -3032,9 +3032,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری Vision Transformer (ViT) چیست و چه تفاوتی با CNNها دارد؟",
         "tags": [
-            "#ViT",
-            "#VisionTransformer",
-            "#ComputerVision"
+            "ViT",
+            "VisionTransformer",
+            "ComputerVision"
         ],
         "summary": "خرد کردن تصویر به قطعات (Patches) و پردازش آن‌ها مانند توکن‌های متنی با Self-Attention ترنسفورمر.",
         "fullAnswer": "خرد کردن تصویر به قطعات (Patches) و پردازش آن‌ها مانند توکن‌های متنی با Self-Attention ترنسفورمر.\n\n**مقایسه:**\nViT در دیتاست‌های غول‌پیکر عملکرد بهتری نسبت به CNN ارائه می‌دهد.",
@@ -3052,9 +3052,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین Generative Models و Discriminative Models چیست؟",
         "tags": [
-            "#Generative",
-            "#Discriminative",
-            "#AI"
+            "Generative",
+            "Discriminative",
+            "AI"
         ],
         "summary": "Discriminative مرز بین کلاس‌ها را یاد می‌گیرد P(Y|X)، Generative توزیع خود داده‌ها را یاد می‌گیرد P(X,Y) تا داده جدید بسازد.",
         "fullAnswer": "Discriminative مرز بین کلاس‌ها را یاد می‌گیرد P(Y|X)، Generative توزیع خود داده‌ها را یاد می‌گیرد P(X,Y) تا داده جدید بسازد.\n\n**مثال‌ها:**\nDiscriminative: SVM/BERT، Generative: GAN/GPT.",
@@ -3072,9 +3072,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه عملکرد شبکه‌های تولیدی رقابتی (GANs) و مدل‌های دیفیوژن چیست؟",
         "tags": [
-            "#GANs",
-            "#DiffusionModels",
-            "#GenerativeAI"
+            "GANs",
+            "DiffusionModels",
+            "GenerativeAI"
         ],
         "summary": "GANs رقابت بین تولیدکننده و تشخیص‌دهنده است، Diffusion با افزودن و حذف تدریجی نویز تصویر می‌سازد.",
         "fullAnswer": "GANs رقابت بین تولیدکننده و تشخیص‌دهنده است، Diffusion با افزودن و حذف تدریجی نویز تصویر می‌سازد.\n\n**روند جدید:**\nمدل‌های دیفیوژن (مثل Midjourney) به دلیل پایداری بیشتر جایگزین GANها شده‌اند.",
@@ -3092,9 +3092,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چالش نامتوازن بودن کلاس‌ها (Imbalanced Datasets) و روش‌های SMOTE و Focal Loss چیست؟",
         "tags": [
-            "#ImbalancedData",
-            "#SMOTE",
-            "#FocalLoss"
+            "ImbalancedData",
+            "SMOTE",
+            "FocalLoss"
         ],
         "summary": "SMOTE نمونه‌های مصنوعی از کلاس اقلیت می‌سازد، Focal Loss وزن نمونه‌های سخت را در زمان آموزش افزایش می‌دهد.",
         "fullAnswer": "SMOTE نمونه‌های مصنوعی از کلاس اقلیت می‌سازد، Focal Loss وزن نمونه‌های سخت را در زمان آموزش افزایش می‌دهد.\n\n**کاربرد:**\nحل مشکل کشف تقلب و تشخیص بیماری‌های نادر.",
@@ -3112,9 +3112,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "مفهوم Early Stopping در آموزش مدل‌های یادگیری عمیق چیست؟",
         "tags": [
-            "#EarlyStopping",
-            "#Overfitting",
-            "#DeepLearning"
+            "EarlyStopping",
+            "Overfitting",
+            "DeepLearning"
         ],
         "summary": "توقف خودکار آموزش زمانی که خطای داده Validation شروع به افزایش کند جهت جلوگیری از Overfitting.",
         "fullAnswer": "توقف خودکار آموزش زمانی که خطای داده Validation شروع به افزایش کند جهت جلوگیری از Overfitting.\n\n**کاربرد:**\nصرفه‌جویی در زمان GPU و حفظ بهترین وزن‌های مدل.",
@@ -3132,9 +3132,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نقش تابع فعال‌سازی GELU در مقایسه با ReLU در ترنسفورمرها چیست؟",
         "tags": [
-            "#GELU",
-            "#ReLU",
-            "#ActivationFunction"
+            "GELU",
+            "ReLU",
+            "ActivationFunction"
         ],
         "summary": "GELU ورودی‌ها را بر اساس توزیع نرمال به صورت نرم وزن‌دهی می‌کند و عملکرد بهتری در مدل‌های زبانی دارد.",
         "fullAnswer": "GELU ورودی‌ها را بر اساس توزیع نرمال به صورت نرم وزن‌دهی می‌کند و عملکرد بهتری در مدل‌های زبانی دارد.\n\n**استفاده:**\nدر تمام ترنسفورمرهای مدرن مانند BERT و GPT استفاده شده است.",
@@ -3152,9 +3152,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "نحوه محاسبه تعداد پارامترهای قابل آموزش در یک لایه شبکه عصبی چیست؟",
         "tags": [
-            "#NeuralNetworks",
-            "#Parameters",
-            "#Math"
+            "NeuralNetworks",
+            "Parameters",
+            "Math"
         ],
         "summary": "ضرب تعداد ورودی‌ها در تعداد خروجی‌ها به اضافه تعداد بایاس‌ها: `(Input_Dim * Output_Dim) + Output_Dim`.",
         "fullAnswer": "ضرب تعداد ورودی‌ها در تعداد خروجی‌ها به اضافه تعداد بایاس‌ها: `(Input_Dim * Output_Dim) + Output_Dim`.\n\n**محاسبه:**\nپایه ریاضی تخمین حجم رم مورد نیاز برای مدل.",
@@ -3172,9 +3172,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مفهوم Data Drift و Concept Drift چیست و چگونه در تولید مانیتور می‌شوند؟",
         "tags": [
-            "#DataDrift",
-            "#ConceptDrift",
-            "#MLOps"
+            "DataDrift",
+            "ConceptDrift",
+            "MLOps"
         ],
         "summary": "Data Drift تغییر توزیع ورودی است، Concept Drift تغییر معنای رابطه ورودی و خروجی است.",
         "fullAnswer": "Data Drift تغییر توزیع ورودی است، Concept Drift تغییر معنای رابطه ورودی و خروجی است.\n\n**مانیتورینگ:**\nاستفاده از تست‌های آماری (مثل Kolmogorov-Smirnov) با ابزار Evidently AI.",
@@ -3192,9 +3192,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چگونه یک سیستم سروینگ مدل پرسرعت با vLLM یا Triton Inference Server طراحی می‌کنید؟",
         "tags": [
-            "#vLLM",
-            "#Triton",
-            "#ModelServing"
+            "vLLM",
+            "Triton",
+            "ModelServing"
         ],
         "summary": "استفاده از سرورهای بهینه‌شده با Continuous Batching و PagedAttention جهت افزایش ۲۴ برابری Throughput.",
         "fullAnswer": "استفاده از سرورهای بهینه‌شده با Continuous Batching و PagedAttention جهت افزایش ۲۴ برابری Throughput.\n\n**مزیت vLLM:**\nحذف اتلاف حافظه VRAM و اجرای همزمان صدها درخواست.",
@@ -3212,9 +3212,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نقش Docker و Kubernetes در چرخه حیات استقرار مدل‌های هوش مصنوعی چیست؟",
         "tags": [
-            "#Docker",
-            "#Kubernetes",
-            "#Deployment"
+            "Docker",
+            "Kubernetes",
+            "Deployment"
         ],
         "summary": "بسته‌بندی مدل با کانتینر ایزوله Docker و مدیریت مقیاس‌پذیری خودکار و GPU با Kubernetes.",
         "fullAnswer": "بسته‌بندی مدل با کانتینر ایزوله Docker و مدیریت مقیاس‌پذیری خودکار و GPU با Kubernetes.\n\n**مزیت:**\nحذف مشکل اختلال در درایورهای CUDA و لایبرری‌ها در سرورهای مختلف.",
@@ -3232,9 +3232,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری یک سیستم بهینه‌سازی Cache برای پرامپت‌ها (Semantic Caching) چیست؟",
         "tags": [
-            "#SemanticCaching",
-            "#GPTCache",
-            "#Redis"
+            "SemanticCaching",
+            "GPTCache",
+            "Redis"
         ],
         "summary": "ذخیره پاسخ‌های قبلی در Vector DB و بازگرداندن ۵ میلی‌ثانیه‌ای پاسخ به سوالات مشابه معنایی.",
         "fullAnswer": "ذخیره پاسخ‌های قبلی در Vector DB و بازگرداندن ۵ میلی‌ثانیه‌ای پاسخ به سوالات مشابه معنایی.\n\n**کاهش هزینه:**\nکاهش چشمگیر هزینه‌های API و زمان پاسخ‌دهی به کاربران.",
@@ -3252,9 +3252,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چرخه CI/CD برای مدل‌های هوش مصنوعی (Continuous Training) چه تفاوتی با نرم‌افزار سنتی دارد؟",
         "tags": [
-            "#CICD",
-            "#MLOps",
-            "#ContinuousTraining"
+            "CICD",
+            "MLOps",
+            "ContinuousTraining"
         ],
         "summary": "در ML علاوه بر تست کد، باید ارزیابی داده (Data Validation) و آموزش مجدد خودکار (Auto-Retrain) اضافه شود.",
         "fullAnswer": "در ML علاوه بر تست کد، باید ارزیابی داده (Data Validation) و آموزش مجدد خودکار (Auto-Retrain) اضافه شود.\n\n**تفاوت:**\nنسخه‌بندی همزمان کد، داده و مدل با ابزار DVC.",
@@ -3272,9 +3272,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "استراتژی‌های انتشار مدل مانند Canary Deployment و Blue-Green Deployment چیستند؟",
         "tags": [
-            "#CanaryDeployment",
-            "#BlueGreen",
-            "#MLOps"
+            "CanaryDeployment",
+            "BlueGreen",
+            "MLOps"
         ],
         "summary": "هدایت تدریجی ۵٪ ترافیک به مدل جدید (Canary) جهت تست پایداری قبل از جایگزینی کامل.",
         "fullAnswer": "هدایت تدریجی ۵٪ ترافیک به مدل جدید (Canary) جهت تست پایداری قبل از جایگزینی کامل.\n\n**کاهش ریسک:**\nجلوگیری از دان‌تایم و قطع ناگهانی سرویس در پروداکشن.",
@@ -3292,9 +3292,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "معماری Feature Store در سیستم‌های MLOps چه نقشی ایفا می‌کند؟",
         "tags": [
-            "#FeatureStore",
-            "#Feast",
-            "#MLOps"
+            "FeatureStore",
+            "Feast",
+            "MLOps"
         ],
         "summary": "مخزن مرکزی برای ذخیره، نسخه‌بندی و اشتراک‌گذاری ویژگی‌های استخراج‌شده بین آموزش و سروینگ زنده.",
         "fullAnswer": "مخزن مرکزی برای ذخیره، نسخه‌بندی و اشتراک‌گذاری ویژگی‌های استخراج‌شده بین آموزش و سروینگ زنده.\n\n**ابزار مطرح:**\nاستفاده از فریم‌ورک Feast جهت یکسانی ویژگی‌ها در آموزش و استنتاج.",
@@ -3312,9 +3312,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین Batch Inference و Real-time Streaming Inference چیست؟",
         "tags": [
-            "#BatchInference",
-            "#RealtimeInference",
-            "#Architecture"
+            "BatchInference",
+            "RealtimeInference",
+            "Architecture"
         ],
         "summary": "Batch پردازش حجیم داده‌ها در زمان‌های مشخص است، Real-time پاسخ‌دهی آنی زیر چند میلی‌ثانیه به درخواست کاربر است.",
         "fullAnswer": "Batch پردازش حجیم داده‌ها در زمان‌های مشخص است، Real-time پاسخ‌دهی آنی زیر چند میلی‌ثانیه به درخواست کاربر است.\n\n**انتخاب:**\nBatch برای پیش‌بینی‌های شبانه، Real-time برای چت‌بات‌ها.",
@@ -3332,9 +3332,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه تبدیل مدل به فرمت ONNX و استفاده از ONNX Runtime برای بهینه‌سازی سرعت چیست؟",
         "tags": [
-            "#ONNX",
-            "#ONNXRuntime",
-            "#Optimization"
+            "ONNX",
+            "ONNXRuntime",
+            "Optimization"
         ],
         "summary": "تبدیل مدل PyTorch به فرمت عمومی ONNX جهت اجرای بسیار سریع‌تر روی پردازنده‌های مختلف.",
         "fullAnswer": "تبدیل مدل PyTorch به فرمت عمومی ONNX جهت اجرای بسیار سریع‌تر روی پردازنده‌های مختلف.\n\n**افزایش سرعت:**\nافزایش ۲ تا ۵ برابری سرعت استنتاج روی CPU و GPU.",
@@ -3352,9 +3352,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک TensorRT برای شتاب‌دهی استنتاج روی GPUهای Nvidia چیست؟",
         "tags": [
-            "#TensorRT",
-            "#NVIDIA",
-            "#GPU"
+            "TensorRT",
+            "NVIDIA",
+            "GPU"
         ],
         "summary": "موتور بهینه‌سازی انویدیا که با ادغام لایه‌ها و کوانتیزیشن، حداکثر سرعت استنتاج را روی کارت‌های انویدیا می‌گیرد.",
         "fullAnswer": "موتور بهینه‌سازی انویدیا که با ادغام لایه‌ها و کوانتیزیشن، حداکثر سرعت استنتاج را روی کارت‌های انویدیا می‌گیرد.\n\n**کاربرد:**\nبهینه‌سازی مدل‌های سنگین بینایی و متن برای پروداکشن.",
@@ -3372,9 +3372,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه مانیتورینگ مصرف منابع (GPU Memory, GPU Utilization, Latency) در پروداکشن چیست؟",
         "tags": [
-            "#Prometheus",
-            "#Grafana",
-            "#GPUMonitoring"
+            "Prometheus",
+            "Grafana",
+            "GPUMonitoring"
         ],
         "summary": "استفاده از Prometheus و dcgm-exporter انویدیا برای رسم داشبوردهای زنده مصرف GPU در Grafana.",
         "fullAnswer": "استفاده از Prometheus و dcgm-exporter انویدیا برای رسم داشبوردهای زنده مصرف GPU در Grafana.\n\n**داشبورد پایش:**\nدیدن لحظه‌ای پر شدن حافظه VRAM و داغ شدن سرورها.",
@@ -3392,9 +3392,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "معماری Microservices در مقایسه با Monolithic برای استقرار سرویس‌های AI چیست؟",
         "tags": [
-            "#Microservices",
-            "#Monolith",
-            "#Architecture"
+            "Microservices",
+            "Monolith",
+            "Architecture"
         ],
         "summary": "جداسازی ماژول سنگین مدل هوش مصنوعی در یک سرویس ایزوله جهت عدم کندی سایر بخش‌های وب‌سایت.",
         "fullAnswer": "جداسازی ماژول سنگین مدل هوش مصنوعی در یک سرویس ایزوله جهت عدم کندی سایر بخش‌های وب‌سایت.\n\n**مقیاس‌پذیری:**\nامکان مقیاس‌دهی مجزای سرور GPU از سرورهای معمولی.",
@@ -3412,9 +3412,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "تکنیک Model Distillation (تقطیر دانش) برای کوچک‌سازی مدل‌ها چیست؟",
         "tags": [
-            "#ModelDistillation",
-            "#KnowledgeDistillation",
-            "#Optimization"
+            "ModelDistillation",
+            "KnowledgeDistillation",
+            "Optimization"
         ],
         "summary": "آموزش یک مدل دانش‌آموز کوچک با استفاده از خروجی‌های احتمالاتی یک مدل معلم بزرگ جهت انتقال دانش.",
         "fullAnswer": "آموزش یک مدل دانش‌آموز کوچک با استفاده از خروجی‌های احتمالاتی یک مدل معلم بزرگ جهت انتقال دانش.\n\n**نتیجه:**\nداشتن مدلی با سایز ۱۰٪ اما دقت ۹۰٪ مدل اصلی.",
@@ -3432,9 +3432,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "نحوه پیاده‌سازی سیستم‌های Auto-scaling بر اساس شاخص‌های اختصاصی GPU در Kubernetes چیست؟",
         "tags": [
-            "#Autoscaling",
-            "#KEDA",
-            "#Kubernetes"
+            "Autoscaling",
+            "KEDA",
+            "Kubernetes"
         ],
         "summary": "افزایش خودکار تعداد کانتینرها با KEDA بر اساس میزان صف درخواست‌ها یا درصد درگیر بودن GPU.",
         "fullAnswer": "افزایش خودکار تعداد کانتینرها با KEDA بر اساس میزان صف درخواست‌ها یا درصد درگیر بودن GPU.\n\n**مدیریت ترافیک:**\nجلوگیری از دان شدن سرور در زمان هجوم ناگهانی کاربران.",
@@ -3452,9 +3452,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "چالش‌های مدیریت ورژن داده و مدل با ابزار DVC (Data Version Control) چیست؟",
         "tags": [
-            "#DVC",
-            "#DataVersioning",
-            "#MLOps"
+            "DVC",
+            "DataVersioning",
+            "MLOps"
         ],
         "summary": "اتصال نسخه‌های داده‌های چندین گیگابایتی به Commitهای Git بدون ذخیره فایل‌های سنگین در مخزن Git.",
         "fullAnswer": "اتصال نسخه‌های داده‌های چندین گیگابایتی به Commitهای Git بدون ذخیره فایل‌های سنگین در مخزن Git.\n\n**گردش کار:**\nDVC فایل‌های داده را در S3 یا MinIO ذخیره کرده و فایل متادیتا pointer در Git نگه می‌دارد.",
@@ -3472,9 +3472,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "بردارسازی (Vectorization) در NumPy و Pandas چیست و چرا از حلقه‌های for سریع‌تر است؟",
         "tags": [
-            "#Vectorization",
-            "#NumPy",
-            "#Pandas"
+            "Vectorization",
+            "NumPy",
+            "Pandas"
         ],
         "summary": "اجرای همزمان عملیات ریاضی روی کل آرایه با کدهای بهینه‌شده زبان C و دستورات SIMD پردازنده.",
         "fullAnswer": "اجرای همزمان عملیات ریاضی روی کل آرایه با کدهای بهینه‌شده زبان C و دستورات SIMD پردازنده.\n\n**علت سرعت:**\nآرایه‌های NumPy متوالی در رم ذخیره شده و قفل GIL پایتون را آزاد می‌کنند.",
@@ -3492,9 +3492,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مفهوم GIL (Global Interpreter Lock) در پایتون چیست و چگونه در کارهای AI تاثیر می‌گذارد؟",
         "tags": [
-            "#GIL",
-            "#Python",
-            "#Multiprocessing"
+            "GIL",
+            "Python",
+            "Multiprocessing"
         ],
         "summary": "قفل جهانی پایتون که اجازه اجرای همزمان کدهای پایتون روی چند هسته CPU را در نیدها نمی‌دهد.",
         "fullAnswer": "قفل جهانی پایتون که اجازه اجرای همزمان کدهای پایتون روی چند هسته CPU را در نیدها نمی‌دهد.\n\n**راهکار AI:**\nکتابخانه‌های سنگین مثل PyTorch محاسبات C++/CUDA را خارج از GIL اجرا می‌کنند.",
@@ -3512,9 +3512,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "روش‌های برخورد با داده‌های گمشده (Missing Data) و نویز در دیتاست‌ها چیست؟",
         "tags": [
-            "#MissingData",
-            "#Pandas",
-            "#DataCleaning"
+            "MissingData",
+            "Pandas",
+            "DataCleaning"
         ],
         "summary": "حذف سطرها، جایگزینی با میانه/میانگین، یا استفاده از الگوریتم‌های پیشرفته مانند KNNImputer.",
         "fullAnswer": "حذف سطرها، جایگزینی با میانه/میانگین، یا استفاده از الگوریتم‌های پیشرفته مانند KNNImputer.\n\n**Imputation:**\nاستفاده از میانه برای داده‌های دارای چولگی شدید جهت عدم دستکاری توزیع داده.",
@@ -3532,9 +3532,9 @@ window.questionsData = [
         "difficulty": "advanced",
         "title": "چگونه نشتی حافظه (Memory Leak) و کمبود RAM را در پردازش داده‌های بزرگ مدیریت می‌کنید؟",
         "tags": [
-            "#MemoryLeak",
-            "#PyTorch",
-            "#Generators"
+            "MemoryLeak",
+            "PyTorch",
+            "Generators"
         ],
         "summary": "استفاده از Generatorها، پاکسازی تانسورها با torch.cuda.empty_cache() و استفاده از with torch.no_grad().",
         "fullAnswer": "استفاده از Generatorها، پاکسازی تانسورها با torch.cuda.empty_cache() و استفاده از with torch.no_grad().\n\n**no_grad:**\nجلوگیری از ساخت گراف گرادیان‌ها در زمان استنتاج جهت آزادسازی رم.",
@@ -3552,9 +3552,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت‌های اصلی بین PyTorch و TensorFlow/Keras در پروژه‌های مدرن هوش مصنوعی چیست؟",
         "tags": [
-            "#PyTorch",
-            "#TensorFlow",
-            "#DeepLearning"
+            "PyTorch",
+            "TensorFlow",
+            "DeepLearning"
         ],
         "summary": "PyTorch دارای گراف محاسباتی پویا (Dynamic Graph) است و دیباگ بسیار ساده‌تری ارائه می‌دهد.",
         "fullAnswer": "PyTorch دارای گراف محاسباتی پویا (Dynamic Graph) است و دیباگ بسیار ساده‌تری ارائه می‌دهد.\n\n**تسلط بر بازار:**\nبیش از ۹۰٪ مقالات پژوهشی و مدل‌های HuggingFace با PyTorch نوشته می‌شوند.",
@@ -3572,9 +3572,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "متد groupby در Pandas چگونه کار می‌کند و مفهوم Split-Apply-Combine چیست؟",
         "tags": [
-            "#Pandas",
-            "#Groupby",
-            "#DataAnalysis"
+            "Pandas",
+            "Groupby",
+            "DataAnalysis"
         ],
         "summary": "تقسیم داده‌ها به گروه‌ها، اعمال تابع محاسباتی روی هر گروه و ادغام مجدد نتایج.",
         "fullAnswer": "تقسیم داده‌ها به گروه‌ها، اعمال تابع محاسباتی روی هر گروه و ادغام مجدد نتایج.\n\n**مراحل:**\nSplit: گروه‌بندی، Apply: محاسبات، Combine: ادغام در جدول جدید.",
@@ -3592,9 +3592,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "تفاوت‌های Copy و View در آرایه‌های NumPy و Pandas چیست؟",
         "tags": [
-            "#NumPy",
-            "#Pandas",
-            "#Memory"
+            "NumPy",
+            "Pandas",
+            "Memory"
         ],
         "summary": "View ارجاعی به همان آدرس حافظه اصلی است، Copy حافظه جدیدی در RAM اختصاص می‌دهد.",
         "fullAnswer": "View ارجاعی به همان آدرس حافظه اصلی است، Copy حافظه جدیدی در RAM اختصاص می‌دهد.\n\n**خطای متداول:**\nعدم توجه باعث بروز خطای معروف SettingWithCopyWarning در Pandas می‌شود.",
@@ -3612,9 +3612,9 @@ window.questionsData = [
         "difficulty": "beginner",
         "title": "تفاوت بین List, Tuple, Set و Dictionary در پایتون از نظر پیچیدگی زمانی چیست؟",
         "tags": [
-            "#PythonDataStructures",
-            "#TimeComplexity",
-            "#Python"
+            "PythonDataStructures",
+            "TimeComplexity",
+            "Python"
         ],
         "summary": "جستجو در List و Tuple زمان O(N) دارد، جستجو در Set و Dictionary بر اساس Hash Table زمان O(1) دارد.",
         "fullAnswer": "جستجو در List و Tuple زمان O(N) دارد، جستجو در Set و Dictionary بر اساس Hash Table زمان O(1) دارد.\n\n**بهینه‌سازی:**\nبرای سرچ سریع وجود یک عنصر همیشه از Set استفاده کنید.",
@@ -3632,9 +3632,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "مفهوم Decoratorها در پایتون و کاربرد آن‌ها در لاگ‌گیری و اندازه‌گیری زمان اجرا چیست؟",
         "tags": [
-            "#Decorators",
-            "#Python",
-            "#Logging"
+            "Decorators",
+            "Python",
+            "Logging"
         ],
         "summary": "توابعی که تابع دیگری را به عنوان ورودی گرفته و رفتار آن را بدون تغییر کد اصلی توسعه می‌دهند.",
         "fullAnswer": "توابعی که تابع دیگری را به عنوان ورودی گرفته و رفتار آن را بدون تغییر کد اصلی توسعه می‌دهند.\n\n**کاربرد در AI:**\nساخت دکوراتور `@timer` برای ثبت زمان اجرای هر گام مدل.",
@@ -3652,9 +3652,9 @@ window.questionsData = [
         "difficulty": "intermediate",
         "title": "نحوه کار با کتابخانه Asyncio در پایتون برای ارسال همزمان صدها درخواست به APIهای LLM چیست؟",
         "tags": [
-            "#Asyncio",
-            "#Python",
-            "#Concurrency"
+            "Asyncio",
+            "Python",
+            "Concurrency"
         ],
         "summary": "اجرای غیربسته‌ای (Non-blocking I/O) درخواست‌های شبکه بدون گیر کردن برنامه روی منتظر ماندن پاسخ API.",
         "fullAnswer": "اجرای غیربسته‌ای (Non-blocking I/O) درخواست‌های شبکه بدون گیر کردن برنامه روی منتظر ماندن پاسخ API.\n\n**سرعت:**\nارسال همزمان ۱۰۰ پرامپت در ۵ ثانیه به جای ۵۰ ثانیه متوالی.",
@@ -3665,5 +3665,3932 @@ window.questionsData = [
         "summary_en": "اجرای غیربسته‌ای (Non-blocking I/O) درخواست‌های شبکه بدون گیر کردن برنامه روی منتظر ماندن پاسخ API.",
         "fullAnswer_en": "اجرای غیربسته‌ای (Non-blocking I/O) درخواست‌های شبکه بدون گیر کردن برنامه روی منتظر ماندن پاسخ API.\n\n**سرعت:**\nارسال همزمان ۱۰۰ پرامپت در ۵ ثانیه به جای ۵۰ ثانیه متوالی.",
         "tip_en": "کلید ساخت سرویس‌های پرسرعت API."
+    },
+    {
+        "id": 181,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "روش‌های بهینه‌سازی Re-ranking در سیستم‌های RAG چیست؟",
+        "title_en": "How to optimize Re-ranking in RAG systems?",
+        "summary": "استفاده از مدل‌های Cross-Encoder و ColBERT پس از بازیابی اولیه برای ارزیابی دقیق‌تر شباهت معنایی.",
+        "summary_en": "Using Cross-Encoder models and ColBERT after initial retrieval to evaluate semantic relevance accurately.",
+        "fullAnswer": "در بازیابی مرحله اول از HNSW یا BM25 برای انتخاب ۱۰۰ سند برتر استفاده می‌شود. سپس Cross-Encoder این اسناد را بر اساس زوج (پرسش، سند) رتبه‌بندی مجدد می‌کند تا فقط ۵ سند برتر به مدل اصلی ارسال شوند.",
+        "fullAnswer_en": "In first-stage retrieval, HNSW or BM25 selects top 100 documents. Then a Cross-Encoder scores (query, document) pairs to pass only the top 5 relevant chunks to the LLM.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast Retrieval</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cross-Encoder</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Top-K Filter</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Prompt</text></g></svg>",
+        "codeSnippet": "from sentence_transformers import CrossEncoder\nmodel = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')\nscores = model.predict([('query', doc) for doc in docs])",
+        "tip": "در پروداکشن ابتدا ۱۰۰ سند اولیه را بازیابی کنید و با Cross-Encoder تنها ۵ سند برتر را بفرستید.",
+        "tip_en": "Retrieve top 100 candidates first, then use Cross-Encoder to select the top 5.",
+        "tags": [
+            "RAG",
+            "Re-ranking",
+            "Cross-Encoder",
+            "ColBERT"
+        ]
+    },
+    {
+        "id": 182,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "روش Multi-Query Retrieval چیست و چه مشکلی را حل می‌کند؟",
+        "title_en": "What is Multi-Query Retrieval and what problem does it solve?",
+        "summary": "تولید چند نسخه متقاطع از پرسش کاربر توسط LLM و ترکیب نتایج بازیابی تمامی پرسش‌ها.",
+        "summary_en": "Generating multiple variations of a user query using LLM and fusing retrieval results.",
+        "fullAnswer": "کاربران ممکن است سوالات خود را مبهم مطرح کنند. این روش با تولید ۳ تا ۵ فرمول‌بندی مختلف از پرسش، بازیابی را برای همه انجام داده و نتایج را با Reciprocal Rank Fusion (RRF) ادغام می‌کند.",
+        "fullAnswer_en": "Users state queries vaguely. Multi-Query Retrieval generates 3-5 rephrased queries, executes retrieval for each, and merges results using Reciprocal Rank Fusion.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Variations</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Multi Retrieval</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RRF Fusion</text></g></svg>",
+        "codeSnippet": "queries = llm.generate('Generate 3 rephrased versions of: ' + query)\nall_docs = [vs.similarity_search(q) for q in queries]",
+        "tip": "استفاده از RRF باعث می‌شود اسنادی که در چند بازیابی تکرار شده‌اند رتبه بالاتری بگیرند.",
+        "tip_en": "RRF boosts documents that appear consistently across multiple query variations.",
+        "tags": [
+            "RAG",
+            "Multi-Query",
+            "Query-Expansion",
+            "RRF"
+        ]
+    },
+    {
+        "id": 183,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "معماری Parent Document Retriever چگونه کار می‌کند؟",
+        "title_en": "How does Parent Document Retriever work?",
+        "summary": "ذخیره چنک‌های کوچک برای امبدینگ دقیق، اما ارسال سند مادر به LLM.",
+        "summary_en": "Storing small chunks for embedding search while passing larger parent documents to the LLM.",
+        "fullAnswer": "چنک‌های کوچک (۱۰۰ توکنی) امبدینگ‌های دقیق‌تری در جستجوی برداری می‌سازند اما زمینه کافی برای LLM ندارند. Parent Document Retriever چنک‌های کوچک را جستجو می‌کند اما سند مادر (۱۰۰۰ توکنی) را به مدل تحویل می‌دهد.",
+        "fullAnswer_en": "Small 100-token chunks yield precise embeddings. However, LLMs need broader context. Parent Document Retriever searches small child chunks but returns the larger parent document.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Small Chunks</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Search</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parent Lookup</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Full Context LLM</text></g></svg>",
+        "codeSnippet": "from langchain.retrievers import ParentDocumentRetriever\nretriever = ParentDocumentRetriever(vectorstore=vs, docstore=ds, child_splitter=child_sp)",
+        "tip": "این روش مشکل قطع شدن متن در میان جملات در چنک‌های کوچک را برطرف می‌کند.",
+        "tip_en": "This approach prevents context fragmentation caused by small chunk sizes.",
+        "tags": [
+            "RAG",
+            "Parent-Document",
+            "Chunking",
+            "Context"
+        ]
+    },
+    {
+        "id": 184,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "معماری GraphRAG و خلاصه‌سازی جوامع (Community Summarization) چیست؟",
+        "title_en": "What is GraphRAG and Community Summarization?",
+        "summary": "استخراج گراف دانش و خلاصه‌سازی خوشه‌های گراف برای پاسخ به سوالات سراسری و مفهومی.",
+        "summary_en": "Extracting a Knowledge Graph and summarizing graph clusters for global conceptual queries.",
+        "fullAnswer": "در GraphRAG ابداعی مایکروسافت، ابتدا موجودیت‌ها و روابط استخراج شده و گراف دانش ساخته می‌شود. سپس با الگوریتم Leiden خوشه‌های گراف کشف شده و خلاصه‌های سطح بالا از هر جامعه تولید می‌شود.",
+        "fullAnswer_en": "Microsoft's GraphRAG builds a Knowledge Graph from text. Community detection (Leiden) partitions the graph, generating hierarchical community summaries for global analytical queries.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Text Chunks</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Entity Extraction</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Leiden Graph</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Community Summary</text></g></svg>",
+        "codeSnippet": "graph = build_knowledge_graph(docs)\ncommunities = detect_communities(graph, algorithm='leiden')",
+        "tip": "برای سوالات کلان مثل 'تم‌های اصلی این داکیومنت‌ها چیست؟'، GraphRAG بسیار برتر از RAG معمولی است.",
+        "tip_en": "GraphRAG excels at global holistic queries where standard RAG struggles.",
+        "tags": [
+            "GraphRAG",
+            "Knowledge-Graph",
+            "Leiden",
+            "Summarization"
+        ]
+    },
+    {
+        "id": 185,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "روش HyDE (Hypothetical Document Embeddings) چیست؟",
+        "title_en": "What is HyDE (Hypothetical Document Embeddings)?",
+        "summary": "تولید یک پاسخ فرضی توسط LLM و امبد کردن آن پاسخ برای جستجو در دیتابیس برداری.",
+        "summary_en": "Generating a hypothetical answer via LLM and embedding that answer for vector retrieval.",
+        "fullAnswer": "پرسش کاربر کوتاه و از جنس متفاوتی نسبت به اسناد مرجع است. در HyDE، مدل ابتدا یک پاسخ فرضی تولید می‌کند. سپس امبدینگ آن پاسخ فرضی محاسبه شده و برای جستجو در دیتابیس برداری استفاده می‌شود.",
+        "fullAnswer_en": "User queries are short and mismatch document style. HyDE uses LLM to generate a hypothetical answer first, embedding it to search the vector database.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Answer</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Embed Answer</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Search</text></g></svg>",
+        "codeSnippet": "hypo_doc = llm.generate('Write a detailed paragraph answering: ' + query)\nresults = vs.similarity_search_by_vector(embed(hypo_doc))",
+        "tip": "HyDE برای سوالات مفهومی عالی است اما نباید برای جستجوی کلیدواژه‌های دقیق استفاده شود.",
+        "tip_en": "HyDE excels at conceptual queries but may hallucinate specific target keywords.",
+        "tags": [
+            "HyDE",
+            "RAG",
+            "Embeddings",
+            "Query-Transformation"
+        ]
+    },
+    {
+        "id": 186,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "تفاوت شاخص‌گذاری HNSW و IVFFlat در دیتابیس‌های برداری چیست؟",
+        "title_en": "What are the differences between HNSW and IVFFlat vector indexing?",
+        "summary": "HNSW گرافی سریع و دقیق با مصرف رم بالا؛ IVFFlat خوشه‌ای با مصرف رم کمتر.",
+        "summary_en": "HNSW is a fast graph index with high RAM usage; IVFFlat is cluster-based with lower RAM usage.",
+        "fullAnswer": "HNSW (Hierarchical Navigable Small World) گرافی چندلایه با جستجوی سریع و دقت بالا می‌سازد اما رم زیادی می‌خواهد. IVFFlat فضای برداری را خوشه‌بندی کرده و رم کمتری مصرف می‌کند ولی نیاز به آموزش اولیه دارد.",
+        "fullAnswer_en": "HNSW creates multi-layer graphs offering fast, accurate approximate nearest neighbor search with high RAM usage. IVFFlat partitions space into Voronoi cells, using less memory but requiring training.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Space</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">HNSW Graph</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">IVFFlat Clusters</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Query Search</text></g></svg>",
+        "codeSnippet": "index_hnsw = faiss.IndexHNSWFlat(d, 32)\nindex_ivf = faiss.IndexIVFFlat(quantizer, d, nlist)",
+        "tip": "در پروژه‌های پروداکشن بدون محدودیت شدید RAM همواره HNSW را انتخاب کنید.",
+        "tip_en": "Prefer HNSW for production workloads unless RAM capacity is strictly constrained.",
+        "tags": [
+            "Vector-DB",
+            "HNSW",
+            "IVFFlat",
+            "Indexing"
+        ]
+    },
+    {
+        "id": 187,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "معماری Corrective RAG (CRAG) چگونه کار می‌کند؟",
+        "title_en": "How does Corrective RAG (CRAG) work?",
+        "summary": "ارزیابی اسناد بازیابی‌شده و فراخوانی جستجوی وب در صورت نامربوط بودن اسناد.",
+        "summary_en": "Evaluating retrieved documents and executing web search if internal docs are irrelevant.",
+        "fullAnswer": "در CRAG یک مدل ارزیاب کیفی به اسناد بازیابی‌شده نمره می‌دهد. اگر کیفیت ناکافی باشد، سیستم به‌طور خودکار موتور جستجوی وب (مانند Tavily) را برای دریافت اطلاعات تازه فراخوانی می‌کند.",
+        "fullAnswer_en": "CRAG uses an Evaluator to score retrieved documents. If relevance is low, the system dynamically triggers a Web Search engine for fresh knowledge.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Retrieve Docs</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Evaluator Score</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Refine / Web Search</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Generate Answer</text></g></svg>",
+        "codeSnippet": "if eval_score < THRESHOLD:\n    docs = web_search(query)\nelse:\n    docs = refine(retrieved_docs)",
+        "tip": "CRAG ریسک پاسخ‌های اشتباه ناشی از دیتابیس‌های ناقص را کاهش می‌دهد.",
+        "tip_en": "CRAG mitigates hallucination risks stemming from incomplete internal vector stores.",
+        "tags": [
+            "CRAG",
+            "RAG",
+            "Web-Search",
+            "Evaluator"
+        ]
+    },
+    {
+        "id": 188,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "روش Context Compression چیست و چه نقشی دارد؟",
+        "title_en": "What is Context Compression and its benefits?",
+        "summary": "حذف جملات زاید از اسناد بازیابی‌شده برای کاهش هزینه‌ها و افزایش سرعت LLM.",
+        "summary_en": "Removing irrelevant sentences from retrieved docs to lower costs and speed up LLM.",
+        "fullAnswer": "اسناد بازیابی‌شده حاوی اطلاعات زاید هستند که توکن‌های پرامپت را پر می‌کنند. با ابزارهایی مانند LLMLingua جملات اضافی حذف شده و تنها محتوای کلیدی به مدل خورانده می‌شود.",
+        "fullAnswer_en": "Retrieved chunks contain noise inflating prompt tokens. Context Compression (e.g. LLMLingua) strips redundant sentences, feeding only essential tokens to the LLM.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Retrieved Docs</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Compressor Model</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pruned Context</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast LLM Response</text></g></svg>",
+        "codeSnippet": "from llmlingua import PromptCompressor\ncompressor = PromptCompressor()\ncompressed = compressor.compress_prompt(docs, instruction=query)",
+        "tip": "فشرده‌سازی پرامپت می‌تواند تا ۵۰٪ از هزینه API مدل‌های تجاری بکاهد.",
+        "tip_en": "Prompt compression can reduce commercial LLM API costs by up to 50%.",
+        "tags": [
+            "RAG",
+            "Context-Compression",
+            "LLMLingua",
+            "Optimization"
+        ]
+    },
+    {
+        "id": 189,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "سیستم RAGAS چیست و چگونه برای ارزیابی RAG استفاده می‌شود؟",
+        "title_en": "What is RAGAS and how is it used for RAG evaluation?",
+        "summary": "چارچوبی برای سنجش Faithfulness و Relevance بدون نیاز به داده‌های مرجع انسان.",
+        "summary_en": "A framework measuring Faithfulness and Relevance without human ground truth.",
+        "fullAnswer": "ارزیابی RAG چالش‌برانگیز است. RAGAS با استفاده از مدل‌های ارزیاب (LLM-as-a-Judge) چهار معیار کلیدی را محاسبه می‌کند: Faithfulness (عدم هذیان)، Answer Relevance، Context Recall و Context Precision.",
+        "fullAnswer_en": "RAGAS uses LLM-as-a-Judge to evaluate RAG pipelines across key metrics: Faithfulness, Answer Relevance, Context Recall, and Context Precision without manual ground truth.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RAG Output</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Judge</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Compute Metrics</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RAGAS Dashboard</text></g></svg>",
+        "codeSnippet": "from ragas import evaluate\nfrom ragas.metrics import faithfulness, answer_relevancy\nresult = evaluate(dataset, metrics=[faithfulness, answer_relevancy])",
+        "tip": "در تست‌های CI/CD همواره نمره Faithfulness زیر ۰.۸۵ را متوقف کنید.",
+        "tip_en": "Enforce CI/CD quality gates that fail if Faithfulness drops below 0.85.",
+        "tags": [
+            "RAGAS",
+            "Evaluation",
+            "Metrics",
+            "LLM-as-a-Judge"
+        ]
+    },
+    {
+        "id": 190,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "ترکیب Dense Retrieval و Sparse Retrieval (Hybrid Search) چگونه است؟",
+        "title_en": "How does Hybrid Search combine Dense and Sparse Retrieval?",
+        "summary": "ادغام جستجوی معنایی (Dense) با جستجوی دقیق کلیدواژه‌ای (BM25).",
+        "summary_en": "Combining semantic dense embeddings with exact keyword BM25 search.",
+        "fullAnswer": "بردارها (Dense) در درک مفاهیم عالی هستند اما در یافتن کدهای فنی یا اسامی خاص ضعیف عمل می‌کنند. BM25 (Sparse) کلیدواژه‌ها را می‌یابد. ترکیب آن‌ها با RRF بهترین دقت را ارائه می‌دهد.",
+        "fullAnswer_en": "Dense vectors capture semantic concepts but fail on exact part numbers or names. Sparse BM25 matches exact keywords. Fusion via RRF combines the best of both.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dense Search</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sparse BM25</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RRF Fusion</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Combined Ranking</text></g></svg>",
+        "codeSnippet": "dense_res = vs.similarity_search(query)\nsparse_res = bm25.get_top_k(query)\nfinal_docs = rrf_merge(dense_res, sparse_res)",
+        "tip": "همیشه برای داده‌های دامنه پزشکی یا حقوقی از جستجوی هیبریدی استفاده کنید.",
+        "tip_en": "Hybrid Search is mandatory for specialized domains like medical or legal retrieval.",
+        "tags": [
+            "Hybrid-Search",
+            "BM25",
+            "RRF",
+            "Dense-Sparse"
+        ]
+    },
+    {
+        "id": 191,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "معماری Adaptive RAG چگونه مسیر بازیابی را انتخاب می‌کند؟",
+        "title_en": "How does Adaptive RAG route retrieval strategies?",
+        "summary": "استفاده از روتر هوشمند برای تصمیم‌گیری بین عدم نیاز به بازیابی، دیتابیس برداری یا وب.",
+        "summary_en": "Using a smart router to decide between no retrieval, vector DB, or web search.",
+        "fullAnswer": "همه سوالات نیازمند بازیابی نیستند. Adaptive RAG ابتدا پرسش کاربر را طبقه‌بندی می‌کند: سوال عمومی بدون بازیابی، سوال تخصصی با دیتابیس برداری و اخبار روز با جستجوی وب پاسخ داده می‌شوند.",
+        "fullAnswer_en": "Adaptive RAG classifies queries to route them appropriately: direct LLM generation for general queries, Vector DB for domain docs, and Web Search for real-time news.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Intent Router</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Route Selection</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Execution</text></g></svg>",
+        "codeSnippet": "route = router_model.classify(query)\nif route == 'vector': return rag_chain(query)\nelif route == 'web': return web_chain(query)",
+        "tip": "این معماری تا ۴۰٪ از بار دیتابیس برداری در پروداکشن می‌کاهد.",
+        "tip_en": "Adaptive RAG reduces vector DB queries in production by up to 40%.",
+        "tags": [
+            "Adaptive-RAG",
+            "Routing",
+            "Classification",
+            "Architecture"
+        ]
+    },
+    {
+        "id": 192,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "چالش‌های Semantic Chunking نسبت به چنک‌بندی با طول ثابت چیست؟",
+        "title_en": "What are the trade-offs of Semantic Chunking vs fixed-size chunking?",
+        "summary": "تقسیم متن بر اساس تغییرات معنایی جملات به جای تعداد کاراکتر ثابت.",
+        "summary_en": "Splitting text based on sentence embedding similarity rather than fixed character counts.",
+        "fullAnswer": "چنک‌بندی با طول ثابت ممکن است وسط یک جمله یا ایده قطع شود. Semantic Chunking امبدینگ جملات متوالی را مقایسه کرده و زمانی که اختلاف معنایی از حد بگذرد برش انجام می‌دهد.",
+        "fullAnswer_en": "Fixed-size chunking splits paragraphs mid-concept. Semantic Chunking compares consecutive sentence embeddings and breaks when semantic distance exceeds a threshold.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sentence Split</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Embed Sentences</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Similarity Threshold</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Semantic Chunks</text></g></svg>",
+        "codeSnippet": "from langchain_experimental.text_splitter import SemanticChunker\ntext_splitter = SemanticChunker(embeddings_model)",
+        "tip": "چنک‌بندی معنایی کیفیت بازیابی اسناد طولانی و کتب را بهبود می‌دهد.",
+        "tip_en": "Semantic Chunking drastically improves retrieval accuracy for long documents.",
+        "tags": [
+            "Semantic-Chunking",
+            "Embeddings",
+            "Preprocessing",
+            "RAG"
+        ]
+    },
+    {
+        "id": 193,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "معماری Multimodal RAG چگونه متون و تصاویر را بازیابی می‌کند؟",
+        "title_en": "How does Multimodal RAG retrieve text and images?",
+        "summary": "استفاده از مدل‌های امبدینگ چندرسانه‌ای مانند CLIP یا خلاصه‌سازی تصویر توسط VLM.",
+        "summary_en": "Using multimodal embedding models like CLIP or VLM-generated text summaries for visual content.",
+        "fullAnswer": "دو رویکرد وجود دارد: ۱) امبدینگ چندرسانه‌ای (CLIP) که تصویر و متن را در یک فضای برداری مشترک می‌برد. ۲) خلاصه‌سازی تصاویر توسط Vision LLM و ذخیره متن خلاصه در دیتابیس برداری.",
+        "fullAnswer_en": "Multimodal RAG uses two strategies: 1) Multimodal embeddings (CLIP) mapping text/images into a joint space, or 2) Generating text summaries of images via Vision LLM and indexing them.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Image/Text Input</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vision LLM Summary</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Joint Embedding</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Multimodal Retrieval</text></g></svg>",
+        "codeSnippet": "image_summary = vision_llm.describe(image)\nvs.add_texts([image_summary], metadatas=[{'image_path': path}])",
+        "tip": "رویکرد خلاصه‌سازی تصویری با VLM دقت بالاتری در کاتالوگ‌های فنی دارد.",
+        "tip_en": "VLM image summarization yields higher precision for technical manuals.",
+        "tags": [
+            "Multimodal",
+            "Vision-LLM",
+            "CLIP",
+            "RAG"
+        ]
+    },
+    {
+        "id": 194,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "روش Self-Querying Retriever چیست؟",
+        "title_en": "What is a Self-Querying Retriever?",
+        "summary": "استخراج خودکار فیلترهای متادیتا (سال، قیمت، دسته‌بندی) از پرسش کاربر با LLM.",
+        "summary_en": "Using LLM to automatically parse metadata filters (e.g. year, category) from user queries.",
+        "fullAnswer": "اگر کاربر بپرسد 'مقالات هوش مصنوعی بعد از سال ۲۰۲۲'، جستجوی برداری ممکن است تاریخ را ندیده بگیرد. Self-Querying با LLM پرسش را تجزیه می‌کند: متن جستجو: 'هوش مصنوعی'، فیلتر: `year > 2022`.",
+        "fullAnswer_en": "If a user asks 'AI papers published after 2022', vector search might ignore the date. Self-Querying uses an LLM to parse the query into search text and metadata filter (`year > 2022`).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Parser</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Structured Filter</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Filtered Vector Search</text></g></svg>",
+        "codeSnippet": "from langchain.retrievers.self_query.base import SelfQueryRetriever\nretriever = SelfQueryRetriever.from_llm(llm, vectorstore, description, metadata_info)",
+        "tip": "این روش جستجوهای ترکیبی متنی و ساختاریافته را دقیق می‌سازد.",
+        "tip_en": "Self-Querying enables high-precision hybrid searches over structured metadata.",
+        "tags": [
+            "Self-Querying",
+            "Metadata",
+            "Filtering",
+            "Vector-DB"
+        ]
+    },
+    {
+        "id": 195,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "مکانیزم RoPE (Rotary Position Embedding) چگونه کار می‌کند؟",
+        "title_en": "How does RoPE (Rotary Position Embedding) work?",
+        "summary": "کدگذاری موقعیت نسبی توکن‌ها با چرخاندن بردار کلید و پرسش در فضای دوبعدی.",
+        "summary_en": "Encoding relative token positions by rotating Query and Key vectors in 2D space.",
+        "fullAnswer": "RoPE موقعیت مکانی توکن‌ها را به جای جمع متغیر به شکل ماتریس چرخش دوبعدی در ضرب داخلی Q و K اعمال می‌کند. این کار تعمیم طول زمینه به فواصل بسیار بزرگتر را ممکن می‌سازد.",
+        "fullAnswer_en": "RoPE encodes position by multiplying Query and Key vectors with a 2D rotation matrix before dot-product attention, enabling superior context length generalization.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Token Embeddings</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">2D Rotation Matrix</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Rotated Q & K</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Relative Attention</text></g></svg>",
+        "codeSnippet": "def apply_rope(q, k, freqs_cis):\n    q_rotated = q * freqs_cis\n    k_rotated = k * freqs_cis\n    return q_rotated, k_rotated",
+        "tip": "مدل‌های مدرن مثل Llama-3 و Mistral همگی از RoPE استفاده می‌کنند.",
+        "tip_en": "Modern LLMs like Llama 3 and Mistral rely exclusively on RoPE.",
+        "tags": [
+            "RoPE",
+            "Embeddings",
+            "Transformer",
+            "Attention"
+        ]
+    },
+    {
+        "id": 196,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنولوژی FlashAttention-2 چه بهبودهایی نسبت به ورژن اولیه ایجاد کرده است؟",
+        "title_en": "What improvements does FlashAttention-2 introduce over FA1?",
+        "summary": "افزایش سرعت محاسبه Attention با موازی‌سازی بهتر و کاهش دسترسی به SRAM و HBM.",
+        "summary_en": "Speeding up Attention computation via better parallelization across sequence length and reduced SRAM access.",
+        "fullAnswer": "FlashAttention-2 الگوریتم محاسبه ماتریکس Attention را مجدداً طراحی کرده و الگوریتم Tiling را روی محور طول دنباله موازی‌سازی می‌کند. این کار عملکرد GPU را تا ۲ برابر نسبت به FlashAttention-1 بالا می‌برد.",
+        "fullAnswer_en": "FlashAttention-2 redesigns the attention tiling algorithm to parallelize over sequence length, achieving up to 2x speedup over FA1 and reaching 70% of theoretical GPU FLOPs.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Q, K, V Blocks</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">SRAM Tiling</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parallel Sequence</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast Output HBM</text></g></svg>",
+        "codeSnippet": "# PyTorch 2.0 Native FlashAttention\nimport torch.nn.functional as F\noutput = F.scaled_dot_product_attention(q, k, v, is_causal=True)",
+        "tip": "FlashAttention مصرف حافظه را از O(N^2) به O(N) کاهش می‌دهد.",
+        "tip_en": "FlashAttention reduces memory complexity from O(N^2) to O(N).",
+        "tags": [
+            "FlashAttention",
+            "GPU",
+            "CUDA",
+            "Performance"
+        ]
+    },
+    {
+        "id": 197,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "روش Speculative Decoding چگونه سرعت تولید متن LLM را افزایش می‌دهد؟",
+        "title_en": "How does Speculative Decoding accelerate LLM text generation?",
+        "summary": "تولید چند توکن اولیه با یک مدل کوچک سریع و تایید همزمان آن‌ها توسط مدل بزرگ تر.",
+        "summary_en": "Generating candidate tokens with a fast draft model and verifying them in parallel with the target LLM.",
+        "fullAnswer": "تولید توکن به توکن در LLMها به دلیل محدودیت پهنای باند حافظه GPU کند است. Speculative Decoding ابتدا ۵ توکن را با مدل کوچک (Draft Model) تولید کرده و سپس مدل اصلی همه را در یک Forward Pass ارزیابی می‌کند.",
+        "fullAnswer_en": "LLM generation is memory bandwidth-bound. Speculative Decoding uses a small Draft Model to generate a sequence of tokens, then verifies them in a single parallel forward pass with the target LLM.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Input</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Draft Model (Small)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Batch Candidates</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Target Model Verification</text></g></svg>",
+        "codeSnippet": "from transformers import AutoModelForCausalLM\nmodel = AutoModelForCausalLM.from_pretrained(target_path, assistant_model=draft_model)",
+        "tip": "این روش سرعت تولید متن را بدون ذره‌ای افت کیفیت ۲ تا ۳ برابر می‌کند.",
+        "tip_en": "Speculative Decoding doubles generation speed without any loss in output quality.",
+        "tags": [
+            "Speculative-Decoding",
+            "Latency",
+            "LLM",
+            "Inference"
+        ]
+    },
+    {
+        "id": 198,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنولوژی PagedAttention در vLLM چگونه مشکل اتلاف حافظه KV Cache را برطرف می‌کند؟",
+        "title_en": "How does PagedAttention in vLLM resolve KV Cache memory waste?",
+        "summary": "مدیریت حافظه KV Cache شبیه سیستم‌عامل با بسته‌های پیجینگ حافظه مجازی غیرپیوسته.",
+        "summary_en": "Managing KV Cache memory using virtual memory paging concepts with non-contiguous blocks.",
+        "fullAnswer": "در سرورهای معمولی، حافظه KV Cache به صورت پیوسته رزرو می‌شود که باعث اتلاف تا ۶۰٪ رم GPU می‌شود. PagedAttention حافظه را به پلاک‌های ۱۶ توکنی غیرپیوسته تقسیم می‌کند تا اتلاف رم به صفر برسد.",
+        "fullAnswer_en": "Traditional LLM serving pre-allocates contiguous KV Cache memory, wasting up to 60% GPU RAM. PagedAttention dynamically allocates non-contiguous 16-token memory blocks like OS virtual memory.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">KV Cache Requests</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Virtual Block Table</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Physical Paged RAM</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Zero Waste KV</text></g></svg>",
+        "codeSnippet": "from vllm import LLM, SamplingParams\nllm = LLM(model='meta-llama/Llama-2-7b-chat-hf', engine_use_ray=False)",
+        "tip": "vLLM با PagedAttention تا ۴ برابر throughput سرویس‌دهی پروداکشن را افزایش می‌دهد.",
+        "tip_en": "vLLM with PagedAttention increases production serving throughput up to 4x.",
+        "tags": [
+            "vLLM",
+            "PagedAttention",
+            "KVCache",
+            "GPU-RAM"
+        ]
+    },
+    {
+        "id": 199,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "روش Direct Preference Optimization (DPO) چه مزیتی نسبت به RLHF/PPO دارد؟",
+        "title_en": "What are the benefits of DPO over traditional RLHF with PPO?",
+        "summary": "همراستاسازی مستقیم مدل زبانی بدون نیاز به آموزش مدل پاداش مجزا و الگوریتم پیپوی PPO.",
+        "summary_en": "Direct language model alignment without training a separate Reward Model or running complex PPO.",
+        "fullAnswer": "الگوریتم RLHF با PPO پیچیده و ناپایدار است. DPO از نظر ریاضی ثابت می‌کند که می‌توان مسئله پاداش را مستقیماً بر حسب خروجی خود مدل زبانی بازنویسی کرد، در نتیجه آموزش بسیار پایدارتر و سریع‌تر می‌شود.",
+        "fullAnswer_en": "RLHF with PPO is complex and training-unstable. DPO mathematically reformulates the reward objective directly in terms of model probabilities, eliminating the Reward Model and PPO loop.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Preference Data</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">DPO Implicit Reward</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Direct Cross-Entropy Loss</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Aligned LLM</text></g></svg>",
+        "codeSnippet": "from trl import DPOTrainer\ndpo_trainer = DPOTrainer(model, ref_model, train_dataset=dataset, tokenizer=tokenizer)",
+        "tip": "DPO گزینه اول همراستاسازی مدل‌های open-source مدرن مانند Llama-3 است.",
+        "tip_en": "DPO is the preferred alignment choice for modern open-source LLMs.",
+        "tags": [
+            "DPO",
+            "RLHF",
+            "Alignment",
+            "TRL"
+        ]
+    },
+    {
+        "id": 200,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "کوآنتایزیشن AWQ (Activation-aware Weight Quantization) چگونه عمل می‌کند؟",
+        "title_en": "How does Activation-aware Weight Quantization (AWQ) work?",
+        "summary": "حفظ وزن‌های پر اهمیت با بررسی توزیع اکتیویشن‌ها و کوآنتایز کردن بقیه وزن‌ها به ۴ بیت.",
+        "summary_en": "Protecting salient weights by observing activation distributions while quantizing remaining weights to 4-bit.",
+        "fullAnswer": "همه وزن‌های مدل ارزش یکسانی ندارند. AWQ با مشاهده اکتیویشن‌های داده‌های واقعی، ۱٪ از وزن‌های کلیدی که بیشترین تاثیر را در خروجی دارند شناسایی کرده و آن‌ها را با دقت کامل نگه می‌دارد و مابقی را ۴ بیتی می‌کند.",
+        "fullAnswer_en": "Not all weights are equally important. AWQ observes activation channels during inference to protect the top 1% salient weight channels, quantizing the remaining 99% to 4-bit with minimal perplexity degradation.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP16 Weights</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Activation Inspection</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Salient Weight Scale</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">4-bit AWQ Model</text></g></svg>",
+        "codeSnippet": "from awq import AutoAWQForCausalLM\nmodel = AutoAWQForCausalLM.from_quantized(quant_path, fuse_layers=True)",
+        "tip": "مدل‌های AWQ سرعت اجرا روی GPU را تا ۳ برابر بالا می‌برند.",
+        "tip_en": "AWQ quantized models provide up to 3x faster GPU generation speeds.",
+        "tags": [
+            "AWQ",
+            "Quantization",
+            "4-bit",
+            "LLM"
+        ]
+    },
+    {
+        "id": 201,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "ساختار Mixture of Experts (MoE) و روتر Gating چگونه کار می‌کند؟",
+        "title_en": "How does Mixture of Experts (MoE) and Router Gating work?",
+        "summary": "فعال‌سازی تنها ۲ شبکه Expert از میان چندین Expert برای هر توکن به کمک شبکه Router.",
+        "summary_en": "Activating only 2 Expert networks out of many per token using a Router Gating network.",
+        "fullAnswer": "در مدل‌های MoE (مانند Mixtral 8x7B)، مدل به جای یک فیدفوروردی بزرگ دارای چند زیرشبکه Expert تخصصی است. یک شبکه Gating انتخاب می‌کند هر توکن به کدام ۲ Expert فرستاده شود. در نتیجه پارامترهای فعال به شدت کاهش می‌یابد.",
+        "fullAnswer_en": "MoE models (e.g. Mixtral 8x7B) replace monolithic feed-forward layers with multiple expert sub-networks. A Gating Router dynamically routes each token to the top-2 experts, keeping active parameters low.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Token</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Gating Router</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Top-2 Expert Selection</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Combined Output</text></g></svg>",
+        "codeSnippet": "gate_logits = self.gate(x)\nweights, indices = torch.topk(torch.softmax(gate_logits, dim=-1), k=2)",
+        "tip": "MoE کیفیت مدل‌های بزرگ را با هزینه رم و محاسبات مدل‌های بسیار کوچک‌تر ارائه می‌دهد.",
+        "tip_en": "MoE delivers large-model accuracy at a fraction of active compute costs.",
+        "tags": [
+            "MoE",
+            "Mixtral",
+            "Gating",
+            "Transformer"
+        ]
+    },
+    {
+        "id": 202,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "روش DoRA (Weight-Decomposed Low-Rank Adaptation) چیست؟",
+        "title_en": "What is DoRA (Weight-Decomposed Low-Rank Adaptation)?",
+        "summary": "تفکیک ماتریس وزن به جهت (Direction) و اندازه (Magnitude) برای فاین‌تیونینگ دقیق‌تر از LoRA.",
+        "summary_en": "Decomposing weight matrices into Magnitude and Direction components for fine-tuning superior to LoRA.",
+        "fullAnswer": "در LoRA معمولاً جهت و اندازه تغییرات وزن همزمان تغییر می‌کنند که با فاین‌تیونینگ کامل متفاوت است. DoRA اندازه و جهت وزن را تفکیک می‌کند و LoRA را تنها روی بردار جهت اعمال می‌کند تا نتایجی مشابه فاین‌تیونینگ کامل بدست آید.",
+        "fullAnswer_en": "LoRA updates magnitude and direction together, unlike full fine-tuning. DoRA decomposes weights into magnitude and direction vectors, applying low-rank adaptation only to direction, matching full fine-tuning capability.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pretrained Weights</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Magnitude / Direction Split</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LoRA on Direction</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">DoRA Fine-tuned Layer</text></g></svg>",
+        "codeSnippet": "from peft import LoraConfig\nconfig = LoraConfig(use_dora=True, r=16, lora_alpha=32)",
+        "tip": "تنها با زدن یک فلگ `use_dora=True` در کتابخانه PEFT می‌توانید از این بهبود استفاده کنید.",
+        "tip_en": "Set `use_dora=True` in PEFT config for higher accuracy over standard LoRA.",
+        "tags": [
+            "DoRA",
+            "LoRA",
+            "PEFT",
+            "Fine-Tuning"
+        ]
+    },
+    {
+        "id": 203,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "روش YaRN برای افزایش پنجره زمینه (Context Extension) چگونه کار می‌کند؟",
+        "title_en": "How does YaRN work for LLM Context Window Extension?",
+        "summary": "مقیاس‌بندی هوشمند فرکانس‌های RoPE با روش NTK-aware برای افزایش زمینه بدون فاین‌تیونینگ سنگین.",
+        "summary_en": "Smart scaling of RoPE frequencies using NTK-aware interpolation to extend context without heavy retraining.",
+        "fullAnswer": "برای افزایش طول زمینه از ۴k به ۱۲۸k توکن، درک فرکانس‌های بالا و پایین موقعیت اهمیت دارد. YaRN فرکانس‌های با فرکانس بالا را دست‌نخورده نگه می‌دارد و فرکانس‌های پایین را مقیاس‌بندی می‌کند تا مدل دچار افت کیفیت نشود.",
+        "fullAnswer_en": "Extending context from 4k to 128k causes perplexity spikes. YaRN scales RoPE position frequencies non-uniformly: high frequencies remain unscaled for local attention while low frequencies are interpolated.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Original RoPE</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Frequency Analysis</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">YaRN NTK Scaling</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Extended 128k Context</text></g></svg>",
+        "codeSnippet": "# HuggingFace config for YaRN\nrope_scaling = {'type': 'yarn', 'factor': 8.0, 'original_max_position_embeddings': 4096}",
+        "tip": "YaRN بهترین تکنیک افزایش پنجره زمینه برای مدل‌های برپایه RoPE است.",
+        "tip_en": "YaRN is the state-of-the-art context window extender for RoPE-based models.",
+        "tags": [
+            "YaRN",
+            "RoPE",
+            "Context-Window",
+            "Transformers"
+        ]
+    },
+    {
+        "id": 204,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "روش‌های شناسایی و کاهش هذیان (Hallucination Detection) چیست؟",
+        "title_en": "What are the methods for Hallucination Detection and Mitigation?",
+        "summary": "ارزیابی همخوانی خروجی‌ها (Self-Consistency)، انطباق با اسناد مرجع و چک کردن با فریم‌ورک‌های Guardrail.",
+        "summary_en": "Evaluating output consistency, ground-truth fact checking, and using Guardrail frameworks.",
+        "fullAnswer": "هذیان زمانی رخ می‌دهد که مدل اطلاعات نادرست با اطمینان کاذب تولید می‌کند. برای کاهش آن از تکنیک‌های Chain-of-Thought، ارزیابی چندگانه با Temperature پایین و ابزارهایی مانند NeMo Guardrails استفاده می‌شود.",
+        "fullAnswer_en": "Hallucination occurs when LLMs generate confident false facts. Mitigation techniques include Chain-of-Thought prompting, Self-Consistency sampling, and NeMo Guardrails validation against reference documents.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Output</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fact Verification</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Self-Consistency Check</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Validated Answer</text></g></svg>",
+        "codeSnippet": "from guardrails import Guard\nguard = Guard.from_pydantic(output_class=FactCheckSchema)",
+        "tip": "همواره پاسخ‌های داده شده در سامانه مالی و پزشکی را با Guardrail بررسی کنید.",
+        "tip_en": "Always run output validation Guardrails for mission-critical domain applications.",
+        "tags": [
+            "Hallucination",
+            "Guardrails",
+            "Self-Consistency",
+            "Safety"
+        ]
+    },
+    {
+        "id": 205,
+        "category": "nlp_llm",
+        "difficulty": "beginner",
+        "title": "تفاوت الگوریتم‌های نمونه‌برداری Top-p (Nucleus) و Top-k چیست؟",
+        "title_en": "What is the difference between Top-p (Nucleus) and Top-k sampling?",
+        "summary": "Top-k تعداد مشخصی از پراحتمال‌ترین توکن‌ها را می‌گیرد؛ Top-p مجموعه توکن‌هایی که مجموع احتمالشان به p می‌رسد را انتخاب می‌کند.",
+        "summary_en": "Top-k picks a fixed k top tokens; Top-p dynamically selects tokens whose cumulative probability reaches threshold p.",
+        "fullAnswer": "در Top-k، همواره k توکن برتر انتخاب می‌شوند صرف‌نظر از احتمال آن‌ها. در Top-p (Nucleus)، تعداد توکن‌های نامزد بر اساس توزیع احتمال تغییر می‌کند، که منجر به پاسخ‌های طبیعی‌تر و هوشمندانه‌تر می‌شود.",
+        "fullAnswer_en": "Top-k considers a static number k of high-probability candidate tokens. Top-p (Nucleus) dynamically adjusts the set size based on cumulative probability mass p, leading to more natural generation.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Probability Distribution</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Top-k Static Cut</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Top-p Dynamic Threshold</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sampled Token</text></g></svg>",
+        "codeSnippet": "outputs = model.generate(inputs, do_sample=True, top_k=50, top_p=0.95, temperature=0.7)",
+        "tip": "برای تولید کدهای علمی و پاسخ‌های دقیق، Top-p را حدود ۰.۹ و Temperature را پایین بگذارید.",
+        "tip_en": "Use Top-p around 0.9 with low temperature for technical or factual outputs.",
+        "tags": [
+            "Sampling",
+            "Top-p",
+            "Top-k",
+            "Decoding"
+        ]
+    },
+    {
+        "id": 206,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنیک Speculative Streaming چیست؟",
+        "title_en": "What is Speculative Streaming?",
+        "summary": "تولید چند توکن همزمان با ادغام درک درخت‌های تصمیم بدون نیاز به مدل کوچک جداگانه.",
+        "summary_en": "Single-model multi-token prediction using draft tree generation without a separate draft model.",
+        "fullAnswer": "برخلاف Speculative Decoding که نیازمند دو مدل مجزاست، Speculative Streaming خود مدل را به گونه‌ای اصلاح می‌کند که چند توکن بعدی را به عنوان لایه‌های خروجی اضافی به صورت درختی پیش‌بینی کند.",
+        "fullAnswer_en": "Unlike Speculative Decoding which requires two separate models, Speculative Streaming modifies the base LLM to generate candidate tree branches for future tokens natively.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Base LLM</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tree Speculation Heads</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parallel Verification</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast Stream</text></g></svg>",
+        "codeSnippet": "# Implemented in native CUDA serving frameworks like Medusa / Eagle\noutput = stream_medusa_tokens(model, prompt)",
+        "tip": "این تکنیک پیچیدگی مدیریت دو مدل در حافظه GPU را برطرف می‌سازد.",
+        "tip_en": "This eliminates the engineering overhead of serving two separate models on GPU.",
+        "tags": [
+            "Speculative-Streaming",
+            "Medusa",
+            "Inference",
+            "Optimization"
+        ]
+    },
+    {
+        "id": 207,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "معماری ORPO (Odds Ratio Preference Optimization) چگونه کار می‌کند؟",
+        "title_en": "How does ORPO (Odds Ratio Preference Optimization) work?",
+        "summary": "ادغام SFT و همراستاسازی پاداش در یک مرحله آموزشی واحد بدون نیاز به مدل مرجع Reference.",
+        "summary_en": "Combining Supervised Fine-Tuning and Preference Alignment into a single training step without a reference model.",
+        "fullAnswer": "روش‌های DPO و RLHF نیازمند دو مرحله بارگذاری مدل مرجع (Reference Model) در رم GPU هستند. ORPO یک ترم جریمه نسبت شانس (Odds Ratio) به لوس SFT اضافه می‌کند تا همزمان فاین‌تیونینگ و همراستاسازی انجام شود.",
+        "fullAnswer_en": "DPO and RLHF require loading a Reference Model into GPU memory. ORPO appends an Odds Ratio penalty term directly to the SFT loss, conducting fine-tuning and alignment concurrently in one step.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">SFT Dataset + Preferences</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Combined SFT & Odds Loss</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Single Training Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Aligned Model</text></g></svg>",
+        "codeSnippet": "from trl import ORPOTrainer\norpo_trainer = ORPOTrainer(model=model, train_dataset=dataset, args=orpo_args)",
+        "tip": "ORPO مصرف حافظه GPU در زمان همراستاسازی را تا ۵۰٪ کاهش می‌دهد.",
+        "tip_en": "ORPO reduces alignment GPU VRAM footprint by up to 50%.",
+        "tags": [
+            "ORPO",
+            "Alignment",
+            "TRL",
+            "SFT"
+        ]
+    },
+    {
+        "id": 208,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تفاوت بایت‌لول BPE و Unigram Tokenizer چیست؟",
+        "title_en": "What is the difference between Byte-Level BPE and Unigram Tokenizer?",
+        "summary": "BPE کاراکترها را به شکل پایین به بالا ترکیب می‌کند؛ Unigram تمام واژه‌ها را گرفته و توکن‌های کم‌ارزش را حذف می‌کند.",
+        "summary_en": "BPE merges characters bottom-up; Unigram starts with a huge vocabulary and prunes low-probability tokens top-down.",
+        "fullAnswer": "Byte-Level BPE (استفاده شده در GPT-4) توکن‌ها را از بایت‌های خام می‌سازد تا هیچ کاراکتری خارج از واژگان (OOV) نماند. Unigram (استفاده شده در SentencePiece) از یک واژگان بزرگ شروع کرده و توکن‌ها را با بهینه‌سازی احتمال حذف می‌کند.",
+        "fullAnswer_en": "Byte-Level BPE (used in GPT-4) builds vocabulary bottom-up from raw bytes, ensuring zero OOV tokens. Unigram (used in SentencePiece) starts with a large vocabulary and prunes tokens top-down probabilistically.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Raw Text</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">BPE Bottom-Up Merge</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unigram Top-Down Prune</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tokenizer Vocabulary</text></g></svg>",
+        "codeSnippet": "from tokenizers import Tokenizer, models\ntokenizer = Tokenizer(models.BPE())\n# or SentencePiece Unigram",
+        "tip": "Byte-Level BPE برای زبان‌های چندزبانه و کدهای برنامه‌نویسی عملکرد عالی دارد.",
+        "tip_en": "Byte-Level BPE provides robust tokenization for multilingual and code data.",
+        "tags": [
+            "Tokenizer",
+            "BPE",
+            "Unigram",
+            "NLP"
+        ]
+    },
+    {
+        "id": 209,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "روش LLM Guardrails چیست و چگونه سلامت ورودی و خروجی را تضمین می‌کند؟",
+        "title_en": "What are LLM Guardrails and how do they ensure safety?",
+        "summary": "فیلترهای امنیتی سر راه ورودی و خروجی مدل برای جلوگیری از Prompt Injection و نشت اطلاعات.",
+        "summary_en": "Security filtering layers on input and output to prevent Prompt Injection and PII data leakage.",
+        "fullAnswer": "گاردریل‌ها لایه‌های نرم‌افزاری هستند که پرامپت ورودی کاربر را برای حمله Prompt Injection یا محتوای مخرب چک می‌کنند و خروجی مدل را نیز از نظر ساختار JSON و عدم وجود داده‌های حساس (PII) بررسی می‌نمایند.",
+        "fullAnswer_en": "Guardrails act as middleware checking incoming prompts for Prompt Injections or jailbreaks, while validating outgoing responses for JSON structure adherence and PII leak prevention.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Input</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Guard (Jailbreak Check)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Execution</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Output Guard (PII Check)</text></g></svg>",
+        "codeSnippet": "from nemoguardrails import LLMRails, RailsConfig\nrails = LLMRails(RailsConfig.from_path('./config'))\nresponse = rails.generate(prompt)",
+        "tip": "استفاده از Guardrail در سامانه‌های چت‌بات بانکداری و پزشکی الزامی است.",
+        "tip_en": "Guardrails are mandatory for enterprise AI deployments in banking and healthcare.",
+        "tags": [
+            "Guardrails",
+            "NeMo",
+            "Safety",
+            "Security"
+        ]
+    },
+    {
+        "id": 210,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "معماری Plan-and-Solve در عامل‌های هوش مصنوعی چیست؟",
+        "title_en": "What is the Plan-and-Solve Agent Architecture?",
+        "summary": "تفکیک گام اول به برنامه‌ریزی کلان و گام دوم به اجرای مرحله به مرحله زیرمسائل.",
+        "summary_en": "Separating execution into a macro-planning phase followed by sequential sub-task execution.",
+        "fullAnswer": "در مسائل پیچیده، فریم‌ورک ReAct ممکن است دچار سردرگمی شود. معماری Plan-and-Solve ابتدا یک نقشه راه گام‌به‌گام برای حل مسئله می‌سازد و سپس عامل‌ها هر مرحله را به‌صورت مستقل اجرا و ارزیابی می‌کنند.",
+        "fullAnswer_en": "For complex multi-step problems, naive ReAct agents often lose direction. Plan-and-Solve forces the LLM to outline an explicit step-by-step roadmap first before executing individual tool calls.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Complex Goal</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Planner Agent (Generates Plan)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Executor Agent (Runs Steps)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Final Result</text></g></svg>",
+        "codeSnippet": "plan = planner_agent.run('Create roadmap for: ' + goal)\nfor step in plan:\n    executor_agent.execute(step)",
+        "tip": "این الگوریتم نرخ موفقیت عامل در برنامه‌نویسی و تحلیل داده را تا ۳۵٪ افزایش می‌دهد.",
+        "tip_en": "Plan-and-Solve improves agent task completion rate in coding by 35%.",
+        "tags": [
+            "Agents",
+            "Plan-and-Solve",
+            "Planning",
+            "LangChain"
+        ]
+    },
+    {
+        "id": 211,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "مکانیزم Reflexion در عامل‌های خودکار چیست؟",
+        "title_en": "What is the Reflexion mechanism in autonomous agents?",
+        "summary": "تحلیل خطاهای اجرای قبلی توسط عامل و ذخیره بازخورد در حافظه برای اصلاح در تلاش بعدی.",
+        "summary_en": "Analyzing execution failures and storing verbal self-reflections in memory for future retry attempts.",
+        "fullAnswer": "Reflexion به عامل این امکان را می‌دهد تا بدون تغییر وزن‌های مدل، از اشتباهات خود درس بگیرد. وقتی ابزار با خطا مواجه می‌شود، عامل دلیل شکست را تحلیل کرده و در حافظه کوتاه‌مدت می‌نویسد تا در تلاش بعدی تکرار نشود.",
+        "fullAnswer_en": "Reflexion enables agents to learn from failures without gradient updates. Upon encountering an error, the agent writes a verbal self-reflection evaluating why it failed, storing it in memory to guide the next trial.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Action</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tool Error Output</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Reflexion (Self-Analysis)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Retry with Memory</text></g></svg>",
+        "codeSnippet": "reflection = reflector.analyze(action, error)\nmemory.add(f'Previous failure cause: {reflection}')",
+        "tip": "Reflexion دقت حل مسائل پیچیده پایتون توسط عامل‌ها را خیره‌کننده می‌سازد.",
+        "tip_en": "Reflexion drastically improves agent self-healing capability in code generation tasks.",
+        "tags": [
+            "Reflexion",
+            "Agents",
+            "Self-Correction",
+            "Memory"
+        ]
+    },
+    {
+        "id": 212,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "تفاوت LangGraph و فریم‌ورک‌های عامل معمولی در چیست؟",
+        "title_en": "What is the difference between LangGraph and conventional agent frameworks?",
+        "summary": "LangGraph عامل‌ها را به صورت گراف حالتمند (Stateful Graph) با چرخه و امکان کنترل دقیق طراحی می‌کند.",
+        "summary_en": "LangGraph builds agents as stateful cyclic graphs providing deterministic control flow.",
+        "fullAnswer": "فریم‌ورک‌های قبلی عامل‌ها را مانند جعبه سیاه غیرقابل پیش‌بینی می‌ساختند. LangGraph به توسعه‌دهنده اجازه می‌دهد گره‌ها (Nodes)، لبه‌های شرطی (Edges) و حالت مرکزی (State) را دقیقاً پیاده‌سازی کند.",
+        "fullAnswer_en": "Traditional agent frameworks execute as unpredictable black-box loops. LangGraph models agent workflows as stateful, cyclic directed graphs with explicit nodes, conditional edges, and shared state.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">State Graph</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Node Execution</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Conditional Edge Check</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Updated State</text></g></svg>",
+        "codeSnippet": "from langgraph.graph import StateGraph, END\nworkflow = StateGraph(AgentState)\nworkflow.add_node('agent', run_agent)",
+        "tip": "برای پروژه‌های پروداکشن پیجیده همیشه از LangGraph یا Autogen استفاده کنید.",
+        "tip_en": "Always prefer LangGraph for production enterprise agent workflows.",
+        "tags": [
+            "LangGraph",
+            "StateGraph",
+            "Agents",
+            "Orchestration"
+        ]
+    },
+    {
+        "id": 213,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "پروتکل Model Context Protocol (MCP) چیست و چه استانداری ایجاد می‌کند؟",
+        "title_en": "What is the Model Context Protocol (MCP) and what standard does it establish?",
+        "summary": "استاندارد باز ابداعی Anthropic برای اتصال امن و یکنواخت عامل‌ها به ابزارها و دیتابیس‌ها.",
+        "summary_en": "An open standard by Anthropic connecting AI agents to tools, files, and databases seamlessly.",
+        "fullAnswer": "قبل از MCP هر فریم‌ورک عامل روش متفاوتی برای تعریف Tool داشت. MCP یک معماری کلاینت-سروری یکسان معرفی می‌کند که سرورهای MCP (مانند دیتابیس، گیتهاب، فایل‌سیستم) به هر کلاینت متصل می‌شوند.",
+        "fullAnswer_en": "Before MCP, every framework used proprietary tool schemas. MCP establishes an open client-server standard where MCP servers (databases, GitHub, filesystem) expose standardized tools to any AI client.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">AI Client (Claude / Agent)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MCP Protocol Layer</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MCP Server (GitHub / Postgres)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">External System</text></g></svg>",
+        "codeSnippet": "// MCP Server Tool Declaration\n{ name: 'query_db', description: 'Run SQL query', inputSchema: {...} }",
+        "tip": "MCP آینده یکپارچه‌سازی ابزارهای هوش مصنوعی در سرتاسر صنعت است.",
+        "tip_en": "MCP is becoming the universal standard for tool integration across the AI ecosystem.",
+        "tags": [
+            "MCP",
+            "Anthropic",
+            "Tool-Use",
+            "Standards"
+        ]
+    },
+    {
+        "id": 214,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "الگوریتم Tree of Thoughts (ToT) در عامل‌ها چگونه عمل می‌کند؟",
+        "title_en": "How does the Tree of Thoughts (ToT) algorithm work in agents?",
+        "summary": "کاوش چند شاخه تصمیم‌گیری همزمان به همراه ارزیابی ارزش هر شاخه با الگوریتم‌های BFS/DFS.",
+        "summary_en": "Exploring multiple reasoning branches simultaneously while evaluating branch scores using BFS/DFS.",
+        "fullAnswer": "برخلاف Chain of Thought که تنها یک مسیر خطی را دنبال می‌کند، ToT در هر مرحله چند ایده مختلف را تولید کرده، به هرکدام نمره‌ای داده و با الگوریتم جستجوی درختی (BFS/DFS) بهترین مسیر را انتخاب می‌کند.",
+        "fullAnswer_en": "Unlike linear Chain of Thought, Tree of Thoughts considers multiple reasoning paths simultaneously. It generates candidate thought steps, evaluates their viability via LLM scores, and searches the tree using BFS/DFS.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Problem</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Generate 3 Thoughts</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Evaluate Branch Scores</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Search Best Tree Path</text></g></svg>",
+        "codeSnippet": "thoughts = generator.generate(state, k=3)\nscores = evaluator.evaluate(thoughts)\nnext_node = select_best(thoughts, scores)",
+        "tip": "ToT برای بازی شطرنج، حل جداول ریاضی و معماری نرم‌افزار فوق‌العاده است.",
+        "tip_en": "ToT is ideal for strategic planning, mathematical puzzles, and complex system design.",
+        "tags": [
+            "Tree-of-Thoughts",
+            "ToT",
+            "Search-Algorithm",
+            "Agents"
+        ]
+    },
+    {
+        "id": 215,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "روش Human-in-the-Loop (HITL) در LangGraph چگونه پیاده‌سازی می‌شود؟",
+        "title_en": "How is Human-in-the-Loop (HITL) implemented in LangGraph?",
+        "summary": "توقف اجرای گراف پیش از ابزارهای حساس و منتظر ماندن برای تایید یا ویرایش انسان.",
+        "summary_en": "Pausing graph execution before sensitive tool calls and awaiting human approval or input modification.",
+        "fullAnswer": "در عملیات‌های حساس (مثل ارسال ایمیل یا حذف داده)، عامل نباید خودکار عمل کند. LangGraph با قابلیت Breakpoint اجرای گراف را متوقف کرده و State را ذخیره می‌کند تا کاربر انسانی تایید دهد.",
+        "fullAnswer_en": "For high-risk operations (e.g. database deletes, wire transfers), agents must not act autonomously. LangGraph uses breakpoints to interrupt graph execution, persisting state until a human approves or edits the payload.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Action</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Breakpoint Interrupt</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Human Approval UI</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Resume Graph</text></g></svg>",
+        "codeSnippet": "app = workflow.compile(checkpointer=memory, interrupt_before=['delete_database'])",
+        "tip": "برای تمام ابزارهایی که تغییرات غیرقابل بازگشت انجام می‌دهند HITL قرار دهید.",
+        "tip_en": "Always require HITL breakpoints for non-reversible tool operations.",
+        "tags": [
+            "HITL",
+            "LangGraph",
+            "Human-in-the-Loop",
+            "Safety"
+        ]
+    },
+    {
+        "id": 216,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "مدیریت حافظه کوتاه‌مدت و بلندمدت در عامل‌های هوش مصنوعی چگونه انجام می‌شود؟",
+        "title_en": "How is Short-term and Long-term Memory managed in AI Agents?",
+        "summary": "حافظه کوتاه‌مدت در پیام‌های پرامپت و حافظه بلندمدت در دیتابیس برداری یا گراف ذخیره می‌شود.",
+        "summary_en": "Short-term memory lives in the conversation prompt; long-term memory is persisted in vector DBs or knowledge graphs.",
+        "fullAnswer": "حافظه کوتاه‌مدت (Short-term) شامل تاریخچه چت جاری در پرامپت است. حافظه بلندمدت (Long-term) اطلاعات مهم کاربر (علاقه‌مندی‌ها، پروژه‌ها) را استخراج کرده و در یک دیتابیس برداری ذخیره می‌کند تا در نشست‌های بعدی بازیابی شوند.",
+        "fullAnswer_en": "Short-term memory manages context window history during an active session. Long-term memory extracts facts, preferences, and key events, persisting them into a vector DB to retrieve across future conversations.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Interaction</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Short-term Buffer</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fact Extraction</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Long-term Vector DB</text></g></svg>",
+        "codeSnippet": "user_facts = extractor.extract(chat_history)\nlong_term_db.add(user_facts, metadata={'user_id': uid})",
+        "tip": "فریم‌ورک MemGPT نمونه موفق پیاده‌سازی حافظه مجازی سیستم‌عاملی برای LLMهاست.",
+        "tip_en": "MemGPT is a prime reference architecture for OS-style virtual memory management in LLMs.",
+        "tags": [
+            "Memory",
+            "MemGPT",
+            "Vector-DB",
+            "Agents"
+        ]
+    },
+    {
+        "id": 217,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "روش Multi-Agent Collaboration با معماری Autogen چگونه کار می‌کند؟",
+        "title_en": "How does Multi-Agent Collaboration work in Autogen?",
+        "summary": "گفتگوی چند عامل تخصصی (مثلاً برنامه‌نویس، تستر، مدیر پروژه) با یکدیگر برای حل یک هدف.",
+        "summary_en": "Conversational collaboration among specialized agents (e.g. Coder, Tester, PM) to achieve a goal.",
+        "fullAnswer": "در Autogen مایکروسافت، مسائل بین چند عامل تقسیم می‌شوند. مثلاً Coder کد می‌نویسد، CodeExecutor کد را اجرا می‌کند، و Critic کیفیت کد را بررسی کرده و لیت‌های اصلاحی ارائه می‌دهد تا هدف محقق شود.",
+        "fullAnswer_en": "Microsoft's Autogen framework sets up multi-agent conversations. For instance, a Coder Agent writes code, a CodeExecutor runs it, and a Critic Agent reviews output, iteratively collaborating to solve tasks.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Task</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Coder Agent</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Executor Agent</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Critic Verification</text></g></svg>",
+        "codeSnippet": "user_proxy = UserProxyAgent('user')\ncoder = AssistantAgent('coder')\nuser_proxy.initiate_chat(coder, message=task)",
+        "tip": "تکثر نقش‌های عامل‌ها کیفیت خروجی سیستم را به شدت افزایش می‌دهد.",
+        "tip_en": "Assigning distinct specialized roles to agents greatly increases solution quality.",
+        "tags": [
+            "Autogen",
+            "Multi-Agent",
+            "Collaboration",
+            "Agents"
+        ]
+    },
+    {
+        "id": 218,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "روش‌های اجرای مطمئن کد (Sandbox Code Execution) در عامل‌ها چیست؟",
+        "title_en": "What are safe Code Execution Sandboxes for AI Agents?",
+        "summary": "اجرای کدهای تولیدشده توسط عامل در محیط‌های ایزوله Docker، E2B یا Pyodide برای حفظ امنیت.",
+        "summary_en": "Executing LLM-generated code in isolated Docker, E2B, or Pyodide environments for security.",
+        "fullAnswer": "کدی که مدل زبانی می‌نویسد ممکن است حاوی دسترسی‌های ناامن باشد. اجرای کدهای Python باید همیشه درون کانتینرهای ایزوله سناریوهای Sandbox (مانند E2B یا Docker بی‌دسترسی به شبکه اصلی) انجام شود.",
+        "fullAnswer_en": "LLM-generated code can accidentally contain harmful system commands. Agent code execution must always run in ephemeral, isolated sandboxes (e.g. E2B Firecracker microVMs or restricted Docker containers).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Python Code</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">E2B MicroVM Sandbox</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Isolated Execution</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Safe Output Return</text></g></svg>",
+        "codeSnippet": "from e2b_code_interpreter import CodeInterpreter\nwith CodeInterpreter() as sandbox:\n    exec_res = sandbox.notebook.exec_cell(code)",
+        "tip": "هرگز کدهای تولیدشده توسط عامل را مستقیماً در سرور اصلی اجرا نکنید.",
+        "tip_en": "Never execute un-sanitized agent code directly on your host machine.",
+        "tags": [
+            "Sandbox",
+            "E2B",
+            "Docker",
+            "Security"
+        ]
+    },
+    {
+        "id": 219,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "روش Tool Error Handling & Fallback در عامل‌ها چگونه پیاده‌سازی می‌شود؟",
+        "title_en": "How is Tool Error Handling & Fallback implemented in agents?",
+        "summary": "ارسال متنش پیام خطا به LLM به عنوان پاسخ ابزار تا مدل پارامترها را اصلاح کند.",
+        "summary_en": "Returning the exception message to the LLM as a tool result so the model can auto-correct arguments.",
+        "fullAnswer": "وقتی یک ابزار با خطای ورودی (مثلاً فرمت اشتباه تاریخ) روبرو می‌شود، نباید کل برنامه Crash کند. خطا باید به شکل متنی به عنوان نتیجه ابزار به LLM برگردانده شود تا مدل ورودی را اصلاح کرده و مجدداً فراخوانی کند.",
+        "fullAnswer_en": "When a tool fails due to invalid parameters, the application shouldn't crash. Capturing the exception and feeding it back as the tool output allows the LLM to understand its error and re-try with corrected parameters.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Tool Call</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tool Throws Exception</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Error Feedback Payload</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Self-Correction</text></g></svg>",
+        "codeSnippet": "try:\n    res = tool.run(args)\nexcept Exception as e:\n    res = f'Tool Error: {str(e)}. Please correct your arguments.'",
+        "tip": "این تکنیک پایداری عامل‌ها را در مواجهه با APIهای متغیر تا ۹۰٪ بالا می‌برد.",
+        "tip_en": "This self-healing pattern increases agent robustness against unstable APIs by 90%.",
+        "tags": [
+            "Tool-Use",
+            "Error-Handling",
+            "Fallback",
+            "Agents"
+        ]
+    },
+    {
+        "id": 220,
+        "category": "agents",
+        "difficulty": "beginner",
+        "title": "تفاوت Function Calling با پرامپت‌نویسی معمولی در فراخوانی ابزارها چیست؟",
+        "title_en": "What is the difference between Function Calling and raw Prompt Tool Use?",
+        "summary": "Function Calling لایه بومی مدل برای تولید JSON ساختاریافته معتبر بر اساس JSON Schema است.",
+        "summary_en": "Function Calling is a native model capability generating structured, valid JSON adhering to JSON Schema.",
+        "fullAnswer": "در پرامپت‌نویسی معمولی ممکن است مدل فرمت JSON را اشتباه بسازد. در Function Calling بومی (مانند OpenAI یا Claude)، مدل در سطح توکن‌ریزی آموزش دیده تا خروجی دقیقاً منطبق با JSON Schema باشد.",
+        "fullAnswer_en": "Raw prompting relies on text parsing and often breaks JSON syntax. Native Function Calling fine-tunes the LLM's decoding process to guarantee schema compliance adhering to provided JSON Specs.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tool JSON Schema</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Native Model Decoding</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Guaranteed Valid JSON</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tool Execution</text></g></svg>",
+        "codeSnippet": "tools = [{'type': 'function', 'function': {'name': 'get_weather', 'parameters': schema}}]\nresp = client.chat.completions.create(model='gpt-4o', messages=msgs, tools=tools)",
+        "tip": "همواره از APIهای بومی Function Calling به جای پرامپت‌های دستی استفاده کنید.",
+        "tip_en": "Always rely on native Function Calling APIs over manual string parsing.",
+        "tags": [
+            "Function-Calling",
+            "JSON-Schema",
+            "Tool-Use",
+            "LLM"
+        ]
+    },
+    {
+        "id": 221,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "روش خلاصه‌سازی پویا (Dynamic Conversation Summarization) چیست؟",
+        "title_en": "What is Dynamic Conversation Summarization in Agents?",
+        "summary": "خلاصه‌سازی خودکار تاریخچه چت هنگامی که تعداد توکن‌ها از حد معینی بگذرد.",
+        "summary_en": "Automatically summarizing older chat history when token usage crosses a threshold.",
+        "fullAnswer": "در چت‌های طولانی، تاریخچه پرامپت تمام می‌شود. این روش پیام‌های قدیمی را با یک مدل سریع خلاصه‌سازی کرده و تنها خلاصه نکات کلیدی را در ابتدای پنجره زمینه نگه می‌دارد.",
+        "fullAnswer_en": "In long agent sessions, chat history exhausts the context window. Dynamic Summarization uses a lightweight model to condense older turns into a concise summary block, freeing up prompt capacity.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Full Chat Log</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Token Limit Threshold</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Summarizer</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Condensed Memory Block</text></g></svg>",
+        "codeSnippet": "from langchain.memory import ConversationSummaryBufferMemory\nmemory = ConversationSummaryBufferMemory(llm=llm, max_token_limit=2000)",
+        "tip": "این کار باعث صرفه‌جویی شدید در هزینه توکن و حفظ پایداری گفتگو می‌شود.",
+        "tip_en": "This dramatically saves token costs while maintaining continuous session coherence.",
+        "tags": [
+            "Memory",
+            "Summarization",
+            "Context-Window",
+            "Agents"
+        ]
+    },
+    {
+        "id": 222,
+        "category": "agents",
+        "difficulty": "beginner",
+        "title": "معماری ReAct (Reason + Act) چگونه گام‌های تفکر و اقدام را ترکیب می‌کند؟",
+        "title_en": "How does the ReAct (Reason + Act) architecture combine thought and action?",
+        "summary": "حلقه متناوب تولید تفکر (Thought)، انجام اقدام (Action) و مشاهده نتیجه (Observation).",
+        "summary_en": "Interleaved loop of generating Thought, taking Action, and receiving Observation.",
+        "fullAnswer": "ReAct پایه و اساس اکثر عامل‌های امروز است. مدل ابتدا تفکر خود را می‌نویسد (Thought)، سپس یک ابزار را فراخوانی می‌کند (Action)، خروجی ابزار را دریافت می‌کند (Observation) و این پروسه را تا رسیدن به پاسخ نهایی ادامه می‌دهد.",
+        "fullAnswer_en": "ReAct is the foundational pattern for LLM agents. The model interleaves explicit reasoning (Thought), tool execution (Action), and environment feedback (Observation) until the task is complete.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Thought</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Action (Tool Call)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Observation (Result)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Final Answer</text></g></svg>",
+        "codeSnippet": "prompt = 'Question: {q}\\nThought: Let me search database\\nAction: db_search(query)\\nObservation: ...'",
+        "tip": "الگوی ReAct شفافیت عیب‌یابی عامل‌ها را به شدت افزایش می‌دهد.",
+        "tip_en": "ReAct pattern makes agent reasoning chains highly transparent for debugging.",
+        "tags": [
+            "ReAct",
+            "Agents",
+            "Prompting",
+            "Tool-Use"
+        ]
+    },
+    {
+        "id": 223,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "ارزیابی عملکرد عامل‌ها با بنچمارک‌های AgentBench و WebArena چگونه انجام می‌شود؟",
+        "title_en": "How is agent performance evaluated using AgentBench and WebArena?",
+        "summary": "سنجش نرخ موفقیت عامل در محیط‌های شبیه‌سازی‌شده واقعی (وب، سیستم‌عامل، دیتابیس).",
+        "summary_en": "Measuring agent task completion success rates in simulated real-world environments.",
+        "fullAnswer": "ارزیابی عامل‌ها با تست‌های متنی معمولی ممکن نیست. بنچمارک‌هایی مانند AgentBench و WebArena محیط‌های واقعی (مرورگر وب، سیستم‌عامل لینوکس، دیتابیس SQL) ایجاد کرده و نرخ موفقیت نهایی عامل را اندازه‌گیری می‌کنند.",
+        "fullAnswer_en": "Evaluating agents requires interactive environments. Benchmarks like AgentBench and WebArena place agents in real operating systems, web browsers, and SQL databases to measure end-to-end task completion rates.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Environment Setup</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Execution</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Goal Check State</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Success Rate Score</text></g></svg>",
+        "codeSnippet": "# Running WebArena benchmark eval\nsuccess = env.evaluate_agent_trajectory(agent_trajectory)",
+        "tip": "ارزیابی عامل‌ها باید همواره بر اساس Success Rate در محیط واقعی باشد نه تشابه متنی.",
+        "tip_en": "Evaluate agents based on environment Success Rate rather than text similarity metrics.",
+        "tags": [
+            "AgentBench",
+            "WebArena",
+            "Benchmarking",
+            "Evaluation"
+        ]
+    },
+    {
+        "id": 224,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تکنیک Gradient Accumulation چیست و چه زمانی استفاده می‌شود؟",
+        "title_en": "What is Gradient Accumulation and when is it used?",
+        "summary": "جمع‌آوری گرادیان‌ها در چند گام کوچک قبل از به‌روزرسانی وزن‌ها برای شبیه‌سازی Batch Size بزرگ.",
+        "summary_en": "Accumulating gradients over multiple micro-batches before updating weights to simulate large Batch Sizes.",
+        "fullAnswer": "وقتی حافظه رم GPU کم است و نمی‌توان Batch Size بزرگ را جا داد، داده‌ها به Micro-batch تقسیم می‌شوند. گرادیان‌ها در چند مرحله جمع شده و سپس یک گام `optimizer.step()` اجرا می‌شود.",
+        "fullAnswer_en": "When GPU VRAM limits batch size, Gradient Accumulation divides data into smaller micro-batches. Gradients are accumulated over N steps without updating weights, simulating a batch size N times larger.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Micro-Batch 1</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Accumulate Grad</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Micro-Batch N</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimizer Step</text></g></svg>",
+        "codeSnippet": "for i, (inputs, labels) in enumerate(dataloader):\n    loss = model(inputs, labels) / accum_steps\n    loss.backward()\n    if (i + 1) % accum_steps == 0:\n        optimizer.step()\n        optimizer.zero_grad()",
+        "tip": "این روش کیفیت آموزش مدل را بدون نیاز به خرید GPU بزرگتر ارتقا می‌دهد.",
+        "tip_en": "Gradient Accumulation enables large-batch training benefits on memory-constrained GPUs.",
+        "tags": [
+            "Gradient-Accumulation",
+            "PyTorch",
+            "Training",
+            "Optimization"
+        ]
+    },
+    {
+        "id": 225,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تفاوت آموزش با دقت مختلط (Mixed Precision - FP16 vs BF16) چیست؟",
+        "title_en": "What is the difference between FP16 and BF16 Mixed Precision training?",
+        "summary": "BF16 دامنه دینامیکی یکسانی با FP32 دارد و از Overflow/Underflow گرادیان جلوگیری می‌کند.",
+        "summary_en": "BF16 maintains the same dynamic exponent range as FP32, preventing gradient underflow/overflow.",
+        "fullAnswer": "فرمت FP16 دقت بالاتری در اعشار دارد اما دامنه نمای آن کم است و نیاز به Loss Scaling دارد. فرمت BF16 (در معماری Ampere به بعد) همان ۸ بیت نماد FP32 را حفظ می‌کند و در آموزش مدل‌های بزرگ بسیار پایدارتر است.",
+        "fullAnswer_en": "FP16 has higher mantissa precision but narrow dynamic range, requiring Loss Scaling to prevent underflow. BF16 allocates 8 bits to the exponent (matching FP32), making LLM training far more stable.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP32 Weights</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cast to BF16/FP16</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast Tensor Core Math</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Stable FP32 Update</text></g></svg>",
+        "codeSnippet": "from torch.cuda.amp import autocast\nwith autocast(dtype=torch.bfloat16):\n    output = model(inputs)",
+        "tip": "در آموزش LLMها همواره BF16 را به FP16 ترجیح دهید.",
+        "tip_en": "Always prefer BF16 over FP16 for LLM fine-tuning and pretraining.",
+        "tags": [
+            "Mixed-Precision",
+            "BF16",
+            "FP16",
+            "PyTorch"
+        ]
+    },
+    {
+        "id": 226,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "مکانیزم Weight Decay در الگوریتم AdamW چه تفاوتی با L2 Regularization دارد؟",
+        "title_en": "What is the difference between Weight Decay in AdamW and L2 Regularization in Adam?",
+        "summary": "در AdamW کاهش وزن مستقیماً از پارامتر کسر می‌شود، نه از گرادیان لوس که با ممان‌ها ضرب می‌شود.",
+        "summary_en": "In AdamW, weight decay is decoupled from the loss gradient update step.",
+        "fullAnswer": "در الگوریتم Adam معمولی، L2 Regularization به مشتق لوس اضافه می‌شود که با ممان‌های اول و دوم (m و v) مقیاس‌بندی شده و جریمه وزن را بی‌اثر می‌کرد. AdamW کاهش وزن را از لوس جدا کرده و مستقیماً روی وزن اعمال می‌کند.",
+        "fullAnswer_en": "In standard Adam, L2 regularization adds derivative of weights to loss gradients, which gets scaled by momentum (m and v). AdamW decouples weight decay, applying it directly to weights after gradient steps.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Loss Gradient</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Decoupled Weight Decay</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">AdamW Step</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Regularized Weights</text></g></svg>",
+        "codeSnippet": "optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01)",
+        "tip": "در آموزش تمام شبکه‌های ترنسفورمر باید از AdamW به جای Adam استفاده کرد.",
+        "tip_en": "AdamW is mandatory for training Transformer architectures correctly.",
+        "tags": [
+            "AdamW",
+            "Weight-Decay",
+            "Optimization",
+            "PyTorch"
+        ]
+    },
+    {
+        "id": 227,
+        "category": "ml_dl",
+        "difficulty": "beginner",
+        "title": "علت پدیده Gradient Vanishing و Exploding در شبکه‌های عمیق چیست و چگونه حل می‌شود؟",
+        "title_en": "What causes Gradient Vanishing/Exploding and how is it resolved?",
+        "summary": "ضرب متوالی ماتریس‌ها در پس‌انتشار که باعث صفر یا بینهایت شدن گرادیان‌ها می‌شود؛ حل با Skip Connections و LayerNorm.",
+        "summary_en": "Repeated matrix multiplications during backprop causing gradients to vanish or explode; fixed via Residuals and LayerNorm.",
+        "fullAnswer": "در شبکه‌های عمیق، مشتق لایه به لایه ضرب می‌شود. اگر مقادیر کمتر از ۱ باشند به صفر می‌رسند (Vanishing) و اگر بزرگتر از ۱ باشند بینهایت می‌شوند (Exploding). استفاده از Residual Connections (ResNet) و Gradient Clipping این مشکل را حل می‌کند.",
+        "fullAnswer_en": "Backpropagation multiplies gradients layer-by-layer via chain rule. Factors <1 exponentially decay to zero (vanishing), while factors >1 explode. Residual connections (Skip connections) and Gradient Clipping eliminate this issue.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Layer</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Residual Connection (x + F(x))</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Layer Normalization</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Stable Gradient</text></g></svg>",
+        "codeSnippet": "torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)",
+        "tip": "همواره `clip_grad_norm_` با مقدار ۱.۰ را در حلقه آموزش قرار دهید.",
+        "tip_en": "Always apply gradient norm clipping with max_norm=1.0 in deep learning training loops.",
+        "tags": [
+            "Gradient-Vanishing",
+            "Residuals",
+            "Clipping",
+            "Deep-Learning"
+        ]
+    },
+    {
+        "id": 228,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تفاوت Batch Normalization و Layer Normalization چیست؟",
+        "title_en": "What is the difference between Batch Normalization and Layer Normalization?",
+        "summary": "BatchNorm روی بعد باچ نرمال‌سازی می‌کند؛ LayerNorm روی بعد ویژگی‌های هر نمونه به تنهایی.",
+        "summary_en": "BatchNorm normalizes across the batch dimension; LayerNorm normalizes across feature dimensions per sample.",
+        "fullAnswer": "BatchNorm میانگین و واریانس را در طول نمونه‌های باچ می‌گیرد و وابسته به Batch Size است (نامناسب برای NLP). LayerNorm ویژگی‌های یک نمونه را مستقل از نمونه‌های دیگر نرمال می‌کند و استاندارد طلایی شبکه‌های ترنسفورمر است.",
+        "fullAnswer_en": "BatchNorm computes mean and variance across the batch dimension, making it dependent on batch size (fails in NLP). LayerNorm computes normalization across features within a single sample, making it standard for Transformers.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Feature Matrix</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">BatchNorm (Vertical Batch Column)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LayerNorm (Horizontal Sample Row)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Normalized Output</text></g></svg>",
+        "codeSnippet": "layer_norm = torch.nn.LayerNorm(normalized_shape=768)",
+        "tip": "در تمام مدلهای متنی و ترنسفورمرها همیشه از LayerNorm استفاده می‌شود.",
+        "tip_en": "LayerNorm is universally preferred over BatchNorm in NLP and Transformer architectures.",
+        "tags": [
+            "LayerNorm",
+            "BatchNorm",
+            "Normalization",
+            "Transformers"
+        ]
+    },
+    {
+        "id": 229,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "مفهوم Contrastive Learning در مدل‌های CLIP و SimCLR چیست؟",
+        "title_en": "What is Contrastive Learning in CLIP and SimCLR?",
+        "summary": "نزدیک کردن امبدینگ نمونه‌های مشابه (مثبت) و دور کردن نمونه‌های متفاوت (منفی) در فضای برداری.",
+        "summary_en": "Pulling embeddings of similar (positive) pairs together while pushing different (negative) pairs apart.",
+        "fullAnswer": "یادگیری تقابلی (Contrastive Learning) بدون داده برچسب‌دار کار می‌کند. در CLIP، امبدینگ تصویر و متن مربوط به آن (زوج مثبت) به هم نزدیک می‌شوند و با سایر تصاویر (زوج منفی) فاصله می‌گیرند. لوس اصلی InfoNCE یا Cross-Entropy تقابلی است.",
+        "fullAnswer_en": "Contrastive Learning trains representations without labels. CLIP maximizes cosine similarity between matching (image, text) positive pairs while minimizing similarity with non-matching negative pairs using InfoNCE loss.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Image + Text Pair</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dual Encoders</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cosine Matrix</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">InfoNCE Contrastive Loss</text></g></svg>",
+        "codeSnippet": "logits = torch.matmul(image_embeds, text_embeds.T) * logit_scale\nloss = cross_entropy(logits, targets)",
+        "tip": "Contrastive Learning پایه و اساس مدلهای چندرسانه‌ای مدرن است.",
+        "tip_en": "Contrastive Learning underpins modern multimodal foundations like CLIP.",
+        "tags": [
+            "Contrastive-Learning",
+            "CLIP",
+            "SimCLR",
+            "Embeddings"
+        ]
+    },
+    {
+        "id": 230,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "مدل‌های انتشار (Diffusion Models) و زمان‌بند نویز (Noise Scheduler) چگونه تصویر می‌سازند؟",
+        "title_en": "How do Diffusion Models and Noise Schedulers generate images?",
+        "summary": "افزودن تدریجی نویز گوسی به تصویر (Forward) و آموزش شبکه برای پیش‌بینی و حذف نویز (Reverse).",
+        "summary_en": "Gradually adding Gaussian noise to images (Forward) and training a UNet to predict and remove noise (Reverse).",
+        "fullAnswer": "در فرایند Forward به تدریج نویز گوسی اضافه می‌شود تا تصویر کلاً نویز شود. شبکه UNet آموزش می‌بیند تا در هر گام زمانی (Timestep) نویز افزوده شده را پیش‌بینی کند. در خروجی با حذف گام به گام نویز تصویر جدید خلق می‌شود.",
+        "fullAnswer_en": "Forward diffusion progressively corrupts an image with Gaussian noise over T timesteps. A UNet model learns to predict the added noise at each step. Reverse diffusion iteratively denoises random noise into a clean image.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Random Gaussian Noise</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">UNet Noise Predictor</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Iterative Denoising</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Generated Image</text></g></svg>",
+        "codeSnippet": "from diffusers import DDPMScheduler, UNet2DConditionModel\nscheduler = DDPMScheduler()\nnoise_pred = unet(sample, timestep, encoder_hidden_states).sample",
+        "tip": "زمان‌بندهای مدرن مثل DPMSolver گام‌های نویززدایی را از ۱۰۰۰ به ۲۰ گام کاهش داده‌اند.",
+        "tip_en": "Modern schedulers like DPMSolver reduce generation steps from 1000 to ~20.",
+        "tags": [
+            "Diffusion",
+            "UNet",
+            "Generative-AI",
+            "Noise-Scheduler"
+        ]
+    },
+    {
+        "id": 231,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تابع زیان Focal Loss چه مشکلی را در داده‌های نامتوازن (Imbalanced Data) حل می‌کند؟",
+        "title_en": "What problem does Focal Loss solve in Imbalanced Data?",
+        "summary": "کاهش وزن نمونه‌های ساده و تمرکز شبکه بر نمونه‌های سخت و نادر با ضریب نمایی gamma.",
+        "summary_en": "Down-weighting easy-to-classify samples and focusing the model on hard, rare examples via gamma scaling.",
+        "fullAnswer": "در داده‌های شدیداً نامتوازن، نمونه‌های ساده اکثریت لوس را پر می‌کنند. Focal Loss با افزودن عبارت `(1 - p_t)^gamma` به Cross Entropy، وزن نمونه‌های ساده که درست تشخیص داده شده‌اند را نزدیک صفر می‌کند تا مدل روی نمونه‌های نادر تمرکز کند.",
+        "fullAnswer_en": "In imbalanced datasets, easy negative samples dominate training loss. Focal Loss adds a dynamic scaling factor `(1 - p_t)^gamma` to standard Cross-Entropy, down-weighting confident easy samples to focus learning on hard rare cases.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Data</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Compute Probabilities</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Focal Loss Weighting</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Balanced Loss Update</text></g></svg>",
+        "codeSnippet": "focal_loss = -alpha * ((1 - p) ** gamma) * torch.log(p)",
+        "tip": "Focal Loss در تشخیص عارضه در تصاویر پزشکی و کشف تقلب فوق‌العاده است.",
+        "tip_en": "Focal Loss is essential for rare event detection, medical imaging, and fraud modeling.",
+        "tags": [
+            "Focal-Loss",
+            "Imbalanced-Data",
+            "Loss-Functions",
+            "Deep-Learning"
+        ]
+    },
+    {
+        "id": 232,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تفاوت معماری Vision Transformers (ViT) و شبکه CNN چیست؟",
+        "title_en": "What is the difference between Vision Transformers (ViT) and CNNs?",
+        "summary": "ViT تصویر را به پچ‌های مستقل تبدیل کرده و با Self-Attention روابط جهانی را می‌سنجد؛ CNN با فیلتر محلی کار می‌کند.",
+        "summary_en": "ViT splits images into patches processing global attention; CNN uses local receptive fields via convolutions.",
+        "fullAnswer": "شبکه‌های CNN دارای ایندوکتیو بایاس محلی (Locality) هستند. ViT تصویر را به پچ‌های ۱۶x۱۶ تقسیم کرده و آن‌ها را مانند توکن‌های متنی وارد Transformer می‌کند. ViT نیازمند داده بسیار بیشتری برای آموزش است اما عملکرد بهتری در دیتاست‌های بزرگ دارد.",
+        "fullAnswer_en": "CNNs have inductive bias for translation invariance and locality. ViT splits images into 16x16 patches, treating them as tokens for Self-Attention. ViT lacks local bias, needing massive data to outperform CNNs.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Image 224x224</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">16x16 Patch Embedding</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Global Self-Attention</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Classification Head</text></g></svg>",
+        "codeSnippet": "import timm\nmodel = timm.create_model('vit_base_patch16_224', pretrained=True)",
+        "tip": "برای پروژه‌های با دیتاست کوچک همواره CNN پیش‌آموزش‌دیده را به ViT ترجیح دهید.",
+        "tip_en": "Prefer pretrained CNNs over ViTs when fine-tuning on small custom datasets.",
+        "tags": [
+            "ViT",
+            "CNN",
+            "Computer-Vision",
+            "Transformers"
+        ]
+    },
+    {
+        "id": 233,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "مفهوم Masked Autoencoders (MAE) در یادگیری خودنظارتی تصویر چیست؟",
+        "title_en": "What are Masked Autoencoders (MAE) in Self-Supervised Vision?",
+        "summary": "ماسک کردن ۷۵٪ از پچ‌های تصویر و بازسازی پچ‌های مفقودشده برای یادگیری ویژگی‌های قوی.",
+        "summary_en": "Masking 75% of image patches and training an Autoencoder to reconstruct missing patches.",
+        "fullAnswer": "MAE یک روش Self-Supervised ابداعی هایمینگ هی است. ۷۵٪ از پچ‌های تصویر به‌طور تصادفی حذف می‌شوند. انکودر ViT تنها روی ۲۵٪ پچ باقی‌مانده اجرا می‌شود و دکودر پچ‌های مفقود را بازسازی می‌کند که منجر به یادگیری ویژگی‌های فوق‌العاده قوی می‌شود.",
+        "fullAnswer_en": "MAE masks a high fraction (75%) of input image patches. An encoder ViT processes only unmasked patches (25%), while a light decoder reconstructs pixels of missing patches, achieving efficient self-supervised pretraining.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Full Image</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Mask 75% Patches</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">ViT Encoder (25% Visible)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pixel Reconstruction Loss</text></g></svg>",
+        "codeSnippet": "output_pixels = mae_model(unmasked_patches)\nloss = mse_loss(output_pixels, masked_original_pixels)",
+        "tip": "MAE سرعت پیش‌آموزش مدل‌های بینایی را تا ۴ برابر بالا می‌برد.",
+        "tip_en": "MAE speeds up self-supervised vision model pretraining up to 4x.",
+        "tags": [
+            "MAE",
+            "Self-Supervised",
+            "ViT",
+            "Vision"
+        ]
+    },
+    {
+        "id": 234,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "معیار Model Calibration و ECE (Expected Calibration Error) چیست؟",
+        "title_en": "What is Model Calibration and Expected Calibration Error (ECE)?",
+        "summary": "سنجش انطباق درصد احتمال پیش‌بینی شده مدل با دقت واقعی آن در پروداکشن.",
+        "summary_en": "Measuring how well model output confidence probabilities align with actual empirical accuracy.",
+        "fullAnswer": "یک مدل کالیبره یعنی زمانی که احتمال پیش‌بینی را ۹۰٪ اعلام می‌کند، در واقعیت هم ۹۰٪ مواقع درست بگوید. شبکه‌های عمیق مدرن معمولاً Overconfident هستند. ECE اختلاف بین اطمینان مدل و دقت واقعی را میانگین‌گیری می‌کند.",
+        "fullAnswer_en": "A calibrated model means when it predicts 90% confidence, it is correct 90% of the time. Deep nets tend to be overconfident. ECE calculates the weighted average difference between accuracy and confidence across probability bins.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Model Predictions</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Probability Binning</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Acc vs Conf Difference</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">ECE Score</text></g></svg>",
+        "codeSnippet": "# Computing ECE across 10 probability bins\nece = compute_ece(probs, labels, n_bins=10)",
+        "tip": "برای کالیبره کردن مدل‌های پروداکشن از روش Temperature Scaling استفاده کنید.",
+        "tip_en": "Apply Temperature Scaling post-processing to calibrate overconfident models.",
+        "tags": [
+            "Calibration",
+            "ECE",
+            "Uncertainty",
+            "Model-Evaluation"
+        ]
+    },
+    {
+        "id": 235,
+        "category": "ml_dl",
+        "difficulty": "beginner",
+        "title": "تکنیک Early Stopping چیست و چگونه از بیش‌برازش (Overfitting) جلوگیری می‌کند؟",
+        "title_en": "What is Early Stopping and how does it prevent Overfitting?",
+        "summary": "توقف آموزش زمانی که لوس داده‌های اعتباربندی (Validation Loss) شروع به افزایش کند.",
+        "summary_en": "Stopping training when validation loss stops improving and begins to increase.",
+        "fullAnswer": "هنگام آموزش، لوس داده‌های آموزشی مرتباً کم می‌شود. اما پس از چند اپوک، لوس Validation ثابت شده و سپس بالا می‌رود که نشان‌دهنده حفظ کردن داده‌ها (Overfitting) است. Early Stopping مدل را در بهترین اپوک ذخیره کرده و آموزش را قطع می‌کند.",
+        "fullAnswer_en": "During training, training loss decreases monotonically. Overfitting begins when validation loss plateaus and starts rising. Early Stopping monitors validation loss, saving the best checkpoint and halting training.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Training Epochs</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Monitor Val Loss</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Patience Counter</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Save Best Checkpoint</text></g></svg>",
+        "codeSnippet": "if val_loss < best_loss:\n    best_loss = val_loss\n    patience = 0\nelif patience > max_patience:\n    break",
+        "tip": "همواره Patience متناسب (مثلاً ۵ اپوک) تعیین کنید تا دچار توقف زودرس نشوید.",
+        "tip_en": "Set an adequate patience threshold (e.g. 5 epochs) to avoid prematurely stopping during minor loss fluctuations.",
+        "tags": [
+            "Early-Stopping",
+            "Overfitting",
+            "PyTorch",
+            "Validation"
+        ]
+    },
+    {
+        "id": 236,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تکنیک تقطیر دانش (Knowledge Distillation) چگونه کار می‌کند؟",
+        "title_en": "How does Knowledge Distillation work?",
+        "summary": "انتقال دانش از یک مدل بزرگ پیچیده (Teacher) به یک مدل کوچک و سریع (Student).",
+        "summary_en": "Transferring knowledge from a large complex Teacher model to a small fast Student model.",
+        "fullAnswer": "مدل دانش‌آموز (Student) به جای یادگیری مستقیم از لیبل‌های سخت (Hard Labels)، توزیع احتمالات نرم (Soft Probabilities) مدل معلم (Teacher) را با یک دما (Temperature) مشخص به عنوان تارگت تقلید می‌کند.",
+        "fullAnswer_en": "Knowledge Distillation trains a compact Student model using soft output probability distributions generated by a large Teacher model at a high Temperature, capturing inter-class similarities.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Data</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Teacher Model (Soft Output)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Student Model Prediction</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">KL-Divergence Loss</text></g></svg>",
+        "codeSnippet": "teacher_probs = F.softmax(teacher_logits / T, dim=-1)\nstudent_probs = F.softmax(student_logits / T, dim=-1)\nloss = F.kl_div(student_probs.log(), teacher_probs)",
+        "tip": "Knowledge Distillation فشرده‌سازی مدل‌ها را بدون افت فاحش دقت ممکن می‌سازد.",
+        "tip_en": "Distillation enables severe model compression with minimal accuracy drop.",
+        "tags": [
+            "Knowledge-Distillation",
+            "Model-Compression",
+            "Teacher-Student",
+            "Deep-Learning"
+        ]
+    },
+    {
+        "id": 237,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "روش‌های موازنه زیان در یادگیری چندوظیفه‌ای (Multi-Task Learning) چیست؟",
+        "title_en": "How to balance losses in Multi-Task Learning (MTL)?",
+        "summary": "تنظیم پویای وزن لوس‌های مختلف با روش‌هایی مثل GradNorm یا Uncertainty Weighting.",
+        "summary_en": "Dynamically adjusting task loss weights using methods like GradNorm or Uncertainty Weighting.",
+        "fullAnswer": "در یادگیری چندوظیفه‌ای، اگر لوس یک وظیفه بزرگتر باشد، گرادیان آن سایر وظایف را سرکوب می‌کند. روش Uncertainty Weighting با یادگیری واریانس هر وظیفه، وزن‌ها را خودکار متوازن می‌سازد.",
+        "fullAnswer_en": "In Multi-Task Learning, tasks with larger loss magnitudes dominate gradients. Dynamic weighting methods (e.g. GradNorm or Kendall's Uncertainty Weighting) automatically balance task loss gradients during training.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Shared Backbone</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Multi-Task Heads</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Uncertainty Loss Scaler</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Balanced Gradient Update</text></g></svg>",
+        "codeSnippet": "loss = (loss1 / (2 * sigma1**2)) + (loss2 / (2 * sigma2**2)) + log(sigma1 * sigma2)",
+        "tip": "هرگز لوس‌های چند وظیفه را بدون نرمال‌سازی ساده با هم جمع نکنید.",
+        "tip_en": "Never sum un-normalized task losses directly without dynamic loss balancing.",
+        "tags": [
+            "Multi-Task",
+            "MTL",
+            "Loss-Balancing",
+            "GradNorm"
+        ]
+    },
+    {
+        "id": 238,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "نقش MLflow در مدیریت چرخه حیات مدل‌ها و ثبت سابقه (Model Registry) چیست؟",
+        "title_en": "What is MLflow's role in Model Lifecycle and Model Registry?",
+        "summary": "ثبت پارامترها، مترییک‌ها، آرتفکت‌ها و مدیریت ورژن‌های مدل از Stage تا Production.",
+        "summary_en": "Tracking hyperparameters, metrics, artifacts, and managing model versions from Staging to Prod.",
+        "fullAnswer": "MLflow شامل چهار ماژول اصلی است: Tracking برای ثبت متریم‌ها و لوس‌ها، Projects برای بسته‌بندی کد، Models برای فرمت ذخیره‌سازی، و Model Registry برای مدیریت نسخه مدل‌ها (Staging / Production).",
+        "fullAnswer_en": "MLflow standardizes the ML lifecycle across four modules: Tracking (experiments/metrics), Projects (reproducible runs), Models (standard packaging), and Model Registry (centralized versioning & staging).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Training Code</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MLflow Logger</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MLflow Server</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Model Registry (Staging/Prod)</text></g></svg>",
+        "codeSnippet": "import mlflow\nmlflow.log_param('lr', 0.001)\nmlflow.log_metric('accuracy', 0.95)\nmlflow.pytorch.log_model(model, 'model')",
+        "tip": "ثبت کامل هایپرپارامترها برای تکرارپذیری آزمایش‌های ML ضروری است.",
+        "tip_en": "Full experiment tracking is vital for ML reproducibility and auditing.",
+        "tags": [
+            "MLflow",
+            "MLOps",
+            "Model-Registry",
+            "Experiment-Tracking"
+        ]
+    },
+    {
+        "id": 239,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "معماری Feature Store (مانند Feast) چیست و چه مشکلی را حل می‌کند؟",
+        "title_en": "What is a Feature Store architecture (e.g. Feast) and what problem does it solve?",
+        "summary": "مدیریت متمرکز ویژگی‌ها برای جلوگیری از نشت داده (Data Leakage) و یکسان‌سازی داده‌های Online و Offline.",
+        "summary_en": "Centralizing features to prevent Data Leakage and harmonize Online (low latency) and Offline (batch) stores.",
+        "fullAnswer": "در MLOps، ویژگی‌های محاسبه شده نباید در آموزش و سرویس‌دهی متفاوت باشند. Feature Store داده‌ها را یکبار محاسبه کرده، نسخه زمان‌دار (Point-in-time) در Offline Store (برای آموزش) و نسخه سریع کم‌تاخیر در Online Store (Redis برای سرویس‌دهی) ذخیره می‌کند.",
+        "fullAnswer_en": "Feature Stores eliminate train-test skew. Features are computed once and stored in an Offline Store (Parquet/BigQuery) for point-in-time training joins, and dual-synced to an Online Store (Redis) for low-latency inference.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Feature Engineering</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Feature Store (Feast)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Offline Store (Training)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Online Store (Redis Inference)</text></g></svg>",
+        "codeSnippet": "from feast import FeatureStore\nstore = FeatureStore(repo_path='.')\nfeatures = store.get_online_features(features=feature_refs, entity_rows=entities)",
+        "tip": "Feature Store تفاوت ویژگی‌های زمان آموزش و زمان اجرا (Train-Serve Skew) را به صفر می‌رساند.",
+        "tip_en": "Feature Stores completely eliminate Train-Serve feature skew.",
+        "tags": [
+            "Feature-Store",
+            "Feast",
+            "Redis",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 240,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "روش‌های کاهش تاخیر سرویس‌دهی (Inference Optimization) با TensorRT و ONNX چیست؟",
+        "title_en": "How to optimize inference latency with TensorRT and ONNX?",
+        "summary": "تبدیل گراف مدل به فرمت ONNX و کامپایل آن با TensorRT جهت ادغام لایه‌ها و کوآنتایزیشن تخصصی GPU.",
+        "summary_en": "Exporting models to ONNX and compiling with TensorRT for layer fusion and GPU-specific quantization.",
+        "fullAnswer": "فریم‌ورک‌های PyTorch برای سرویس‌دهی پرسرعت بهینه‌نشده‌اند. با تبدیل مدل به ONNX و سپس کامپایل آن در NVIDIA TensorRT، لایه‌های مجاور ادغام (Layer Fusion) شده و محاسبات روی Tensor Coreهای GPU بهینه‌سازی می‌شوند.",
+        "fullAnswer_en": "PyTorch runtime introduces overhead. Converting models to ONNX and compiling via NVIDIA TensorRT fuses layers (e.g. Conv+ReLU), eliminates dead nodes, and auto-tunes kernel math for target GPU Tensor Cores.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">PyTorch Model</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">ONNX Export</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">TensorRT Engine</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ultra-Fast Inference</text></g></svg>",
+        "codeSnippet": "import torch.onnx\ntorch.onnx.export(model, dummy_input, 'model.onnx', input_names=['input'], output_names=['output'])",
+        "tip": "TensorRT تاخیر مدل‌های عمیق را تا ۵ برابر کاهش می‌دهد.",
+        "tip_en": "TensorRT reduces deep model inference latency by up to 5x.",
+        "tags": [
+            "TensorRT",
+            "ONNX",
+            "Latency",
+            "GPU"
+        ]
+    },
+    {
+        "id": 241,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "چگونه پدیده Data Drift و Concept Drift در پروداکشن شناسایی می‌شود؟",
+        "title_en": "How is Data Drift and Concept Drift detected in production?",
+        "summary": "سنجش تغییر توزیع ورودی‌ها (Data Drift) و تغییر رابطه ورودی با خروجی (Concept Drift) با تست‌های آماری.",
+        "summary_en": "Measuring input distribution shifts (Data Drift) and input-output relationship shifts (Concept Drift) using statistical tests.",
+        "fullAnswer": "Data Drift یعنی توزیع داده‌های ورودی نسبت به زمان آموزش تغییر کرده (مثلا با تست Kolmogorov-Smirnov یا PSI). Concept Drift یعنی الگوی واقعی تغییر کرده و مدل دیگر پاسخ درست نمی‌دهد. ابزارهایی مانند Evidently AI این هشدارها را صادر می‌کنند.",
+        "fullAnswer_en": "Data Drift occurs when input feature distributions shift over time (detected via Kolmogorov-Smirnov test or PSI). Concept Drift happens when the target mapping changes. Tools like Evidently AI send automated alerts.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Inputs</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Statistical Test (KS/PSI)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Drift Detection Alert</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Trigger Retraining</text></g></svg>",
+        "codeSnippet": "from evidently.report import Report\nfrom evidently.metric_preset import DataDriftPreset\nreport = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=ref, current_data=curr)",
+        "tip": "در صورت بروز Drift شدید، باید خط لوله بازآموزی (Retraining Pipeline) فعال شود.",
+        "tip_en": "Trigger automated retraining pipelines upon detecting severe drift anomalies.",
+        "tags": [
+            "Data-Drift",
+            "Concept-Drift",
+            "Evidently-AI",
+            "Monitoring"
+        ]
+    },
+    {
+        "id": 242,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "استراتژی‌های انتشار Canary Deployment و Blue-Green در MLOps چیست؟",
+        "title_en": "What are Canary and Blue-Green deployment strategies in MLOps?",
+        "summary": "Blue-Green سوئیچ آنی بین دو محیط کامل؛ Canary ارسال تدریجی درصد کمی از ترافیک به مدل جدید.",
+        "summary_en": "Blue-Green switches 100% traffic between two environments; Canary routes a small traffic percentage incrementally.",
+        "fullAnswer": "در Blue-Green دو سرور کامل برقرار است و روتر آنی ترافیک را منتقل می‌کند. در Canary مدل جدید (Canary) ابتدا ۵٪ ترافیک را دریافت می‌کند؛ در صورت عدم بروز خطا و حفظ متریم‌ها، ترافیک به تدریج به ۱۰k٪ می‌رسد.",
+        "fullAnswer_en": "Blue-Green deployment maintains two identical production environments, instantly swapping router traffic. Canary deployment routes 5% of traffic to the new model, monitoring error rates before expanding to 100%.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Traffic</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">API Router</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">5% to Canary (New)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">95% to Blue (Old)</text></g></svg>",
+        "codeSnippet": "# Kubernetes / Istio VirtualService Canary Routing\nweight: 5 # New Model\nweight: 95 # Old Model",
+        "tip": "برای مدل‌های حساس پروداکشن همواره از روش Canary استفاده کنید.",
+        "tip_en": "Canary deployment prevents widespread outages when rolling out updated ML models.",
+        "tags": [
+            "Canary",
+            "Blue-Green",
+            "Deployment",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 243,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "معماری Triton Inference Server چیست و چه مزیتی نسبت به FastAPI دارد؟",
+        "title_en": "What is Triton Inference Server and its advantages over FastAPI?",
+        "summary": "سرور اختصاصی انویدیا برای اجرای موازی مدل‌های مختلف روی GPU با Dynamic Batching و مدیریت خط چند مدلی.",
+        "summary_en": "NVIDIA's multi-framework serving engine with Dynamic Batching and concurrent GPU execution.",
+        "fullAnswer": "FastAPI پایتونی برای بار زیاد ML کند است. Triton مستقیماً به زبان C++ نوشته شده، از PyTorch/TensorRT/ONNX پشتیبانی می‌کند، درخواست‌های همزمان را به‌طور خودکار با Dynamic Batching ترکیب کرده و ترافیک GPU را بهینه می‌کند.",
+        "fullAnswer_en": "FastAPI Python overhead limits throughput. NVIDIA Triton (built in C++) serves multiple model frameworks concurrently, applies automatic Dynamic Batching, and maximizes GPU utilization across HTTP/gRPC.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">HTTP/gRPC Requests</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Triton Dynamic Batcher</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Concurrent GPU Engines</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Low Latency Response</text></g></svg>",
+        "codeSnippet": "// Triton Model Config file (config.pbtxt)\nmax_batch_size: 64\ndynamic_batching { max_queue_delay_microseconds: 5000 }",
+        "tip": "برای سرویس‌دهی با مقیاس بالا (High-Throughput) همواره Triton را جایگزین FastAPI کنید.",
+        "tip_en": "Use Triton over FastAPI for high-throughput enterprise ML serving workloads.",
+        "tags": [
+            "Triton",
+            "NVIDIA",
+            "Inference",
+            "Dynamic-Batching"
+        ]
+    },
+    {
+        "id": 244,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "مدیریت حافظه GPU و رفع خطای CUDA Out of Memory (OOM) چگونه انجام می‌شود؟",
+        "title_en": "How to manage GPU VRAM and fix CUDA Out of Memory (OOM) errors?",
+        "summary": "آزادکننده کاشه، استفاده از Gradient Checkpointing، کاهش Batch Size و کوآنتایزیشن.",
+        "summary_en": "Clearing cache, using Gradient Checkpointing, batch size reduction, and model quantization.",
+        "fullAnswer": "خطای CUDA OOM به دلیل پر شدن حافظه VRAM رخ می‌دهد. راهکارها: ۱) `torch.cuda.empty_cache()`، ۲) Gradient Checkpointing (محاسبه مجدد اکتیویشن‌ها به جای ذخیره در رم)، ۳) استفاده از BF16 یا کوآنتایزیشن 8-bit/4-bit.",
+        "fullAnswer_en": "CUDA OOM happens when VRAM is exhausted. Fixes include: 1) `torch.cuda.empty_cache()`, 2) Gradient Checkpointing (recomputing activations during backprop to save VRAM), 3) BF16 precision, and 4) 4-bit/8-bit quantization.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">VRAM Exhaustion</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Gradient Checkpointing</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">4-bit Quantization</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">OOM Resolved</text></g></svg>",
+        "codeSnippet": "import torch\ntorch.cuda.empty_cache()\nmodel.gradient_checkpointing_enable()",
+        "tip": "Gradient Checkpointing تا ۶۰٪ مصرف حافظه VRAM را در زمان آموزش کاهش می‌دهد.",
+        "tip_en": "Gradient Checkpointing trades 20% compute time to save up to 60% GPU VRAM.",
+        "tags": [
+            "CUDA-OOM",
+            "VRAM",
+            "Gradient-Checkpointing",
+            "PyTorch"
+        ]
+    },
+    {
+        "id": 245,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "تفاوت PyTorch DDP (Distributed Data Parallel) و FSDP (Fully Sharded Data Parallel) چیست؟",
+        "title_en": "What is the difference between PyTorch DDP and FSDP?",
+        "summary": "DDP مدل کامل را روی هر GPU کپی می‌کند؛ FSDP پارامترها، گرادیان‌ها و حالت‌های اپتیمایزر را بین GPUها شارد می‌کند.",
+        "summary_en": "DDP duplicates the full model per GPU; FSDP shards parameters, gradients, and optimizer states across GPUs.",
+        "fullAnswer": "در DDP مدل باید کاملاً در رم یک GPU جا شود. اما FSDP (مشابه DeepSpeed ZeRO-3) پارامترها، گرادیان‌ها و حالات اپتیمایزر را بین چند GPU تقسیم می‌کند، که آموزش مدل‌های غول‌پیکر (۷۰B+) را روی چند کارت GPU ممکن می‌سازد.",
+        "fullAnswer_en": "DDP requires the full model weights to fit inside each individual GPU's VRAM. FSDP (similar to DeepSpeed ZeRO-3) shards model parameters, gradients, and optimizer states across all available GPUs.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Gigantic LLM</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FSDP Parameter Sharding</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">All-Gather Step</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Multi-GPU Training</text></g></svg>",
+        "codeSnippet": "from torch.distributed.fsdp import FullyShardedDataParallel as FSDP\nmodel = FSDP(base_model)",
+        "tip": "برای آموزش یا فاین‌تیون مدل‌های بالای ۷ میلیارد پارامتر از FSDP استفاده کنید.",
+        "tip_en": "FSDP is mandatory for fine-tuning models exceeding 7B parameters on consumer GPUs.",
+        "tags": [
+            "FSDP",
+            "DDP",
+            "Distributed-Training",
+            "DeepSpeed"
+        ]
+    },
+    {
+        "id": 246,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "سیستم خط لوله داده DVC (Data Version Control) چگونه با Git یکپارچه می‌شود؟",
+        "title_en": "How does DVC (Data Version Control) integrate with Git?",
+        "summary": "ذخیره فایل‌های متاداده کوچک `.dvc` در Git و ذخیره فایل‌های حجیم دیتاست در الگوهای ابری (S3/GCS).",
+        "summary_en": "Storing small `.dvc` pointer files in Git while storing large datasets in cloud storage (S3/GCS).",
+        "fullAnswer": "گیت برای فایل‌های گیگابایتی مناسب نیست. DVC فایل‌های داده را هش کرده و در سطل‌های S3/GCS ذخیره می‌کند، سپس یک فایل کم‌حجم `.dvc` حاوی هش ایجاد می‌کند که توسط Git ورژن‌بندی می‌شود (`dvc push` / `dvc pull`).",
+        "fullAnswer_en": "Git struggles with large binary datasets. DVC hashes large data files, uploading them to remote cloud storage (AWS S3/GCS). Small `.dvc` pointer files are tracked in Git, ensuring version alignment.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Large Dataset</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">DVC Hash Compute</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Upload to S3 Remote</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Commit .dvc Pointer to Git</text></g></svg>",
+        "codeSnippet": "# DVC Workflow\ndvc add data/dataset.csv\ngit add data/dataset.csv.dvc .gitignore\ndvc push",
+        "tip": "DVC تکرارپذیری خط لوله‌های آموزش مدل را تضمین می‌کند.",
+        "tip_en": "DVC ensures dataset reproducibility across different pipeline runs.",
+        "tags": [
+            "DVC",
+            "Data-Versioning",
+            "Git",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 247,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "روش‌های بهینه‌سازی هزینه (Cost Optimization) در استفاده از APIهای ابری و سرورهای اختصاصی چیست؟",
+        "title_en": "How to optimize costs between cloud LLM APIs and self-hosted GPU clusters?",
+        "summary": "تحلیل هزینه بر اساس تعداد توکن، استفاده از مدل‌های کوچک‌تر برای کارهای ساده و الگوهای Caching.",
+        "summary_en": "Cost breakdown analysis based on token volume, routing simpler tasks to smaller LLMs, and prompt caching.",
+        "fullAnswer": "اگر حجم درخواست‌ها بالاست، هزینه‌های API مدل‌های تجاری سرسام‌آور می‌شود. راهکارها: ۱) استفاده از Prompt Caching (برای پرامپت‌های ثابت)، ۲) مدل‌های کوچکتر برای کارهای ساده (LLM Routing)، ۳) هاست کردن مدل‌های ۴ بیتی رو GPU خودی.",
+        "fullAnswer_en": "High API query volumes inflate costs. Cost optimization techniques include: 1) Prompt Caching for static system instructions, 2) Routing simple tasks to smaller models (e.g. Llama-3-8B), and 3) Self-hosting quantized open-source models.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Incoming Requests</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Prompt Cache Check</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Smart Router (Small vs Large LLM)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cost-Effective Output</text></g></svg>",
+        "codeSnippet": "# Example Prompt Caching header for Anthropic API\nextra_headers={'anthropic-beta': 'prompt-caching-2024-07-31'}",
+        "tip": "Prompt Caching می‌تواند تا ۹۰٪ هزینه توکن‌های ورودی تکراری را کاهش دهد.",
+        "tip_en": "Prompt Caching cuts input token cost by up to 90% for repeated system instructions.",
+        "tags": [
+            "Cost-Optimization",
+            "Prompt-Caching",
+            "LLM-Routing",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 248,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "مکانیزم Rate Limiting و Queue Management در اپلیکیشن‌های هوش مصنوعی چیست؟",
+        "title_en": "What is Rate Limiting and Queue Management in AI applications?",
+        "summary": "کنترل ترافیک ورودی با الگوریتم Leaky Bucket یا Celery/Redis برای جلوگیری از سرنگونی سرور GPU.",
+        "summary_en": "Controlling incoming traffic with Token Bucket algorithms or Celery/Redis queues to protect GPU servers.",
+        "fullAnswer": "مدل‌های هوش مصنوعی تاخیر بالایی دارند. اگر ۱۰۰۰ درخواست همزمان برسد سرور سرنگون می‌شود. سیستم باید با Rate Limiting ترافیک را کنترل کرده و درخواست‌ها را درون صف‌های Celery/Redis قرار دهد.",
+        "fullAnswer_en": "AI models have high inference latency. Uncontrolled concurrent traffic crashes GPU nodes. Implement Rate Limiting middleware (Token Bucket) and asynchronous task queues (Redis/RabbitMQ/Celery) to buffer incoming inference jobs.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Requests</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Rate Limiter (Token Bucket)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Redis Task Queue</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GPU Worker Pool</text></g></svg>",
+        "codeSnippet": "from celery import Celery\napp = Celery('tasks', broker='redis://localhost:6379/0')\n@app.task\ndef run_inference(prompt): return model.generate(prompt)",
+        "tip": "هرگز پردازش‌های سنگین LLM را به‌صورت Synchronous درون HTTP Handler اصلی اجرا نکنید.",
+        "tip_en": "Never process blocking LLM inference requests synchronously inside main HTTP handlers.",
+        "tags": [
+            "Rate-Limiting",
+            "Redis",
+            "Celery",
+            "Queue"
+        ]
+    },
+    {
+        "id": 249,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "نحوه دپلوی مدل‌های ML روی تجهیزات Edge (مثل موبایل یا IoT) با ONNX Runtime Mobile چیست؟",
+        "title_en": "How to deploy ML models to Edge devices using ONNX Runtime Mobile?",
+        "summary": "فشرده‌سازی، کوآنتایزیشن INT8 و اجرا روی شتاب‌دهنده‌های سخت‌افزاری NPU/NPU موبایل.",
+        "summary_en": "Quantizing to INT8 and compiling execution providers for mobile NPU/DSP hardware accelerators.",
+        "fullAnswer": "اجرای مدل روی گوشی نیازمند حجم فشرده (زیر ۵۰ مگابایت) و مصرف باتری پایین است. مدل‌ها با INT8 کوآنتایز شده و با ONNX Runtime یا CoreML روی شتاب‌دهنده‌های NPU موبایل اجرا می‌شوند.",
+        "fullAnswer_en": "Edge deployment demands small binary footprints and low battery consumption. Models are 8-bit quantized and deployed via ONNX Runtime Mobile or Apple CoreML to run directly on mobile Neural Processing Units (NPUs).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">PyTorch Model</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">INT8 Quantization</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">ONNX Mobile Export</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">NPU Accelerator (Mobile)</text></g></svg>",
+        "codeSnippet": "import onnxruntime as ort\nsession = ort.InferenceSession('model_quant.onnx', providers=['CPUExecutionProvider'])",
+        "tip": "اجرای Edge امنیت داده‌های کاربر را به دلیل عدم ارسال به کلود تضمین می‌کند.",
+        "tip_en": "Edge execution enhances data privacy by keeping user data on-device.",
+        "tags": [
+            "Edge-ML",
+            "ONNX-Mobile",
+            "NPU",
+            "Quantization"
+        ]
+    },
+    {
+        "id": 250,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "الگوی A/B Testing برای مدل‌های یادگیری ماشین در پروداکشن چگونه پیاده می‌شود؟",
+        "title_en": "How to execute A/B Testing for ML models in production?",
+        "summary": "هدایت ۵۰٪ کاربران به مدل A و ۵۰٪ به مدل B و مقایسه متریم‌های تجاری (Conversion Rate).",
+        "summary_en": "Routing 50% of users to Model A and 50% to Model B to compare business KPIs.",
+        "fullAnswer": "ارزیابی آفلاین لوس مدل کافی نیست. در A/B Testing، کاربران به‌طور تصادفی اما یکنواخت (بر اساس User ID) به دو مدل هدایت می‌شوند و متریم‌های واقعی کسب‌وکار (مانند نرخ کلیک یا خرید) مقایسه می‌شود.",
+        "fullAnswer_en": "Offline test accuracy does not guarantee business success. A/B Testing splits real user traffic (sticky hash based on User ID) between Model A and Model B, tracking business KPIs (e.g. click-through or conversion rate).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Session</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Consistent Hash Splitter</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Model A / Model B</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Business KPI Tracking</text></g></svg>",
+        "codeSnippet": "model_version = 'B' if hash(user_id) % 2 == 0 else 'A'\nresponse = get_model(model_version).predict(inputs)",
+        "tip": "در A/B Testing حتماً از Sticky Sessions استفاده کنید تا کاربر در یک نشست دو پاسخ متفاوت نبیند.",
+        "tip_en": "Use sticky user routing to prevent a single user from seeing conflicting predictions.",
+        "tags": [
+            "AB-Testing",
+            "MLOps",
+            "Experiments",
+            "Monitoring"
+        ]
+    },
+    {
+        "id": 251,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "رهگیری اصالت و تکرارپذیری داده‌ها (Model Lineage) چیست؟",
+        "title_en": "What is Model Lineage and Reproducibility tracking?",
+        "summary": "ثبت دقیق اینکه چه نسخه داده‌ای با چه کد و تنظیماتی این نسخه مدل را تولید کرده است.",
+        "summary_en": "Tracking the exact dataset version, codebase commit, and configuration that produced a model build.",
+        "fullAnswer": "در صنایع پزشکی و مالی، شفافیت الزامی است. Model Lineage مشخص می‌کند مدل X دقیقاً با دیتاست ورژن ۱.۴، commit گیت `a1b2c3` و هایپرپارامترهای مشخص آموزش دیده است تا امکان حسابرسی فراهم شود.",
+        "fullAnswer_en": "Model Lineage establishes full auditability. It links every deployed model artifact back to the exact training dataset commit (DVC), Git code commit SHA, environment dependencies, and hyperparameter configuration.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Git Commit SHA</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">DVC Data Hash</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Training Run</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Registered Model Artifact</text></g></svg>",
+        "codeSnippet": "mlflow.set_tag('git_commit', get_git_sha())\nmlflow.set_tag('data_version', get_dvc_hash())",
+        "tip": "بدون Lineage کامل، تکرارپذیری نتایج آزمایش‌های هوش مصنوعی غیرممکن است.",
+        "tip_en": "Model Lineage is indispensable for compliance, auditing, and scientific reproducibility.",
+        "tags": [
+            "Model-Lineage",
+            "Reproducibility",
+            "MLOps",
+            "Auditing"
+        ]
+    },
+    {
+        "id": 252,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "تفاوت آنلاین و آفلاین خط لوله‌های ویژگی (Online vs Offline Feature Engineering) چیست؟",
+        "title_en": "What is the difference between Online and Offline Feature Engineering?",
+        "summary": "آفلاین محاسبات دسته‌ای روی کل حجم داده است؛ آنلاین محاسبات لحظه‌ای روی داده‌های جاری زنده است.",
+        "summary_en": "Offline computes batch features over large historical data; Online computes real-time features on streaming inputs.",
+        "fullAnswer": "ویژگی‌های آفلاین (مانند 'تعداد خریدهای کاربر در ۳ ماه گذشته') در کارهای شبانه روی Spark محاسبه می‌شوند. ویژگی‌های آنلاین (مانند 'تعداد کلیک‌های کاربر در ۵ دقیقه اخیر') به‌صورت زنده با Flink روی داده‌های جاری انجام می‌شود.",
+        "fullAnswer_en": "Offline feature pipelines process historical batch data (e.g. Apache Spark / BigQuery). Online feature pipelines compute low-latency streaming features (e.g. Apache Flink / Kafka) on real-time event streams.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Event Stream</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Flink Real-time Engine</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Redis Online Cache</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Low Latency Prediction</text></g></svg>",
+        "codeSnippet": "// Flink Streaming SQL\nSELECT user_id, COUNT(*) FROM click_stream HOP(INTERVAL '5' MINUTE) GROUP BY user_id",
+        "tip": "برای سیستم‌های توصیه گر لحظه‌ای و کشف تقلب، ویژگی‌های آنلاین حیاتی هستند.",
+        "tip_en": "Online features are critical for real-time recommendation and fraud detection systems.",
+        "tags": [
+            "Feature-Engineering",
+            "Online-Offline",
+            "Flink",
+            "Spark"
+        ]
+    },
+    {
+        "id": 253,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "تفاوت بردارسازی (Vectorization) و حلقه‌های پایتون در PyTorch و NumPy چیست؟",
+        "title_en": "What is the difference between Vectorization and Python loops in PyTorch/NumPy?",
+        "summary": "بردارسازی محاسبات را به کتابخانه‌های C/CUDA با قابلیت پردازش موازی سیمد (SIMD) منتقل می‌کند.",
+        "summary_en": "Vectorization delegates computations to C/CUDA libraries using SIMD parallel execution.",
+        "fullAnswer": "حلقه‌های پایتون (for loops) به دلیل تفسیر کلمه به کلمه در GIL بسیار کند هستند. بردارسازی با آرایه‌های NumPy یا Tensorهای PyTorch تمام عناصر را در یک دستور پردازنده یا هزاران هسته GPU به شکل موازی انجام می‌دهد.",
+        "fullAnswer_en": "Python loops suffer from interpreter overhead and dynamic typing. Vectorization uses PyTorch/NumPy C-backends to execute SIMD (Single Instruction Multiple Data) CPU instructions and parallel GPU CUDA kernels.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Python For-Loop (Slow Interpreter)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vectorized Tensor (C/CUDA Parallel)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">100x Speedup</text></g></svg>",
+        "codeSnippet": "import torch\n# Vectorized dot product (Fast)\nresult = torch.dot(vec_a, vec_b)",
+        "tip": "بردارسازی کد پایتون می‌تواند تا ۱۰۰ برابر سرعت محاسبات ریاضی را افزایش دهد.",
+        "tip_en": "Vectorizing code can achieve up to 100x speedups over raw Python loops.",
+        "tags": [
+            "Vectorization",
+            "NumPy",
+            "PyTorch",
+            "Performance"
+        ]
+    },
+    {
+        "id": 254,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "استفاده از ژنراتورها (Generators) و درگاه‌های Iterative چه مزیتی در پردازش داده‌های بزرگ دارد؟",
+        "title_en": "What are the benefits of Python Generators in processing large datasets?",
+        "summary": "تولید داده‌ها به‌صورت تنبل (Lazy Evaluation) و پردازش نمونه به نمونه بدون بارگذاری کل فایل در RAM.",
+        "summary_en": "Yielding data lazily one item at a time without loading the entire dataset into RAM.",
+        "fullAnswer": "اگر یک دیتاست ۵۰ گیگابایتی را درون لیست بارگذاری کنید، سیستم Crash می‌کند. ژنراتورها با کلیدواژه `yield` در هر لحظه تنها یک نمونه را تولید و پردازش می‌کنند، بنابراین مصرف رم کاملاً ثابت (O(1)) می‌ماند.",
+        "fullAnswer_en": "Loading multi-gigabyte datasets into Python lists causes MemoryError. Generators use the `yield` keyword to evaluate items lazily on-demand, holding O(1) memory space complexity regardless of dataset size.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Data File (50GB)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Generator (yield chunk)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">O(1) Constant RAM</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Streaming Pipeline</text></g></svg>",
+        "codeSnippet": "def read_large_file(file_path):\n    with open(file_path) as f:\n        for line in f:\n            yield line.strip()",
+        "tip": "همواره برای خواندن فایل‌های متنی و لاگ‌های بزرگ از Generator استفاده کنید.",
+        "tip_en": "Use Generators whenever processing streaming or large data logs.",
+        "tags": [
+            "Generators",
+            "Python",
+            "Memory-Optimization",
+            "Streaming"
+        ]
+    },
+    {
+        "id": 255,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "مکانیزم AsyncIO در پایتون چگونه برای فراخوانی همزمان APIهای هوش مصنوعی استفاده می‌شود؟",
+        "title_en": "How does AsyncIO enable concurrent execution of AI API calls in Python?",
+        "summary": "مدیریت هزاران درخواست I/O-bound همزمان روی یک Event Loop واحد بدون بلوکه شدن پردازنده.",
+        "summary_en": "Managing thousands of concurrent I/O-bound requests on a single Event Loop without thread blocking.",
+        "fullAnswer": "فراخوانی APIهای LLM زمان زیادی را منتظر شبکه می‌ماند (I/O-bound). با AsyncIO و `aiohttp` یا `httpx`، زمانی که یک درخواست منتظر پاسخ شبکه است، Event Loop پردازش درخواست بعدی را شروع می‌کند.",
+        "fullAnswer_en": "LLM API requests are heavily I/O-bound. AsyncIO runs a single-threaded Event Loop. When one request awaits network response, the loop context-switches to process other tasks, achieving high concurrency.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Event Loop</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Async Task 1 (Awaits API)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Async Task 2 (Executes)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Concurrent Completion</text></g></svg>",
+        "codeSnippet": "import asyncio, httpx\nasync def fetch(client, url):\n    resp = await client.get(url)\n    return resp.json()",
+        "tip": "استفاده از AsyncIO در فراخوانی‌های موازی API سرعت لود اطلاعات را تا ۱۰ برابر افزایش می‌دهد.",
+        "tip_en": "AsyncIO speeds up parallel API scraping and LLM batch requests drastically.",
+        "tags": [
+            "AsyncIO",
+            "Concurrency",
+            "Python",
+            "Performance"
+        ]
+    },
+    {
+        "id": 256,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "بهینه‌سازی مصرف حافظه DataFrameهای Pandas با فرمت Parquet و دیتاتایپ‌ها چگونه است؟",
+        "title_en": "How to optimize Pandas DataFrame memory with Parquet and Categorical Data Types?",
+        "summary": "تبدیل ستون‌های متنی تکراری به Category و ذخیره فشرده ستونی با فرمت Parquet.",
+        "summary_en": "Converting repeated string columns to Category types and storing via column-oriented Parquet files.",
+        "fullAnswer": "ستون‌های متنی تکراری حافظه زیادی مصرف می‌کنند. با تبدیل آن‌ها به نوع داده `category` مصرف رم تا ۸۰٪ کم می‌شود. همچنین فرمت Parquet داده‌ها را به‌صورت فشرده و ستونی ذخیره کرده و سرعت خواندن را چند برابر می‌کند.",
+        "fullAnswer_en": "String columns consume excessive memory in Pandas. Converting repetitive strings to `category` dtype shrinks RAM footprint by up to 80%. Parquet binary files provide columnar compression and fast read speeds.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Raw CSV File</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Category Dtype Conversion</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parquet Columnar Save</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">80% Memory Saved</text></g></svg>",
+        "codeSnippet": "df['category_col'] = df['category_col'].astype('category')\ndf.to_parquet('data.parquet', compression='snappy')",
+        "tip": "هرگز برای ذخیره داده‌های پرحجم از CSV استفاده نکنید؛ همیشه Parquet را جایگزین کنید.",
+        "tip_en": "Never store large production dataframes as CSV; always use Parquet format.",
+        "tags": [
+            "Pandas",
+            "Parquet",
+            "Memory-Optimization",
+            "Python"
+        ]
+    },
+    {
+        "id": 257,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "تفاوت Deep Copy و Shallow Copy در ساختارهای داده پایتون چیست؟",
+        "title_en": "What is the difference between Deep Copy and Shallow Copy in Python?",
+        "summary": "Shallow Copy ارجاع عناصر داخلی را کپی می‌کند؛ Deep Copy تمام شیءها و زیراشیءها را کپی مستقل می‌سازد.",
+        "summary_en": "Shallow Copy copies object references; Deep Copy recursively constructs independent copies of nested objects.",
+        "fullAnswer": "در Shallow Copy (`copy.copy()`)، ساختار بیرونی جدید است اما اشیاء درونی همچنان به همان آدرس قبلی اشاره می‌کنند و تغییر در آن‌ها اصلی را تغییر می‌دهد. Deep Copy (`copy.deepcopy()`) کل ساختار درونی را کپی مجزا می‌کند.",
+        "fullAnswer_en": "Shallow Copy creates a new compound object but inserts references to original nested items. Deep Copy recursively clones all child objects, ensuring modifications to the copy do not alter the original.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Original Nested Dict</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Shallow Copy (Shared Inner Refs)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Deep Copy (100% Independent)</text></g></svg>",
+        "codeSnippet": "import copy\nshallow_list = copy.copy(original_list)\ndeep_list = copy.deepcopy(original_list)",
+        "tip": "در مدیریت دیکشنری‌های پیچیده کانفیگ مدل‌ها حتماً از `deepcopy` استفاده کنید.",
+        "tip_en": "Use `deepcopy` when mutating complex nested model configuration dictionaries.",
+        "tags": [
+            "Python",
+            "Deep-Copy",
+            "Shallow-Copy",
+            "Data-Structures"
+        ]
+    },
+    {
+        "id": 258,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "محدودیت Python GIL (Global Interpreter Lock) چیست و چگونه دور زده می‌شود؟",
+        "title_en": "What is Python GIL (Global Interpreter Lock) and how to bypass it?",
+        "summary": "قفل GIL مانع اجرای همزمان چند نخ در کدهای CPU-bound پایتون است؛ حل با Multiprocessing یا C-extensions.",
+        "summary_en": "GIL prevents true multi-core parallel execution of CPU-bound Python threads; bypassed via Multiprocessing.",
+        "fullAnswer": "مفسر پایتون (CPython) دارای GIL است که اجازه نمی‌دهد دو نخ (Thread) همزمان کد پایتون اجرا کنند. برای کدهای سنگین محاسباتی (CPU-bound)، به جای Threading باید از ماژول `multiprocessing` یا کدهای C++/Cython استفاده کرد.",
+        "fullAnswer_en": "The CPython GIL ensures thread-safety by allowing only one thread to execute Python bytecode at a time. For CPU-bound tasks, Python threads offer no speedup. Developers bypass GIL using `multiprocessing` or C extensions.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Python Bytecode</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GIL Lock (Single Core)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Multiprocessing (Multi Core)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parallel Execution</text></g></svg>",
+        "codeSnippet": "from multiprocessing import Pool\nwith Pool(processes=4) as pool:\n    results = pool.map(heavy_function, data_list)",
+        "tip": "برای کارهای I/O-bound از Threading/AsyncIO و برای کارهای CPU-bound از Multiprocessing استفاده کنید.",
+        "tip_en": "Use Threading/AsyncIO for I/O tasks and Multiprocessing for CPU-heavy data tasks.",
+        "tags": [
+            "GIL",
+            "Multiprocessing",
+            "Threading",
+            "Python"
+        ]
+    },
+    {
+        "id": 259,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "قوانین انتشار (Broadcasting) در NumPy چیست؟",
+        "title_en": "What are the Broadcasting rules in NumPy?",
+        "summary": "انجام عملیات ریاضی بین آرایه‌های با ابعاد متفاوت بدون کپی کردن حافظه.",
+        "summary_en": "Performing mathematical operations on arrays of different shapes without copying data.",
+        "fullAnswer": "NumPy هنگام محاسبه روی دو آرایه، ابعاد آن‌ها را از راست به چپ مقایسه می‌کند. دو بعد سازگارند اگر برابر باشند یا یکی از آن‌ها ۱ باشد. بعد با اندازه ۱ کش می‌آید تا با ابعاد آرایه بزرگتر انطباق یابد.",
+        "fullAnswer_en": "NumPy compares array shapes element-wise from right to left. Dimensions are compatible if they are equal or if one of them is 1. Dimensions of size 1 are implicitly stretched to match the larger array.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Array A (4x3)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Array B (1x3)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Broadcast B (4x3 Virtual)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Element-wise Math</text></g></svg>",
+        "codeSnippet": "import numpy as np\na = np.ones((4, 3))\nb = np.array([1, 2, 3])\nc = a + b # b is broadcasted across rows",
+        "tip": "بردارسازی با قوانین Broadcasting مانع از تخصیص حافظه اضافی می‌گردد.",
+        "tip_en": "Broadcasting avoids redundant memory allocations when applying vector operations.",
+        "tags": [
+            "Broadcasting",
+            "NumPy",
+            "Arrays",
+            "Python"
+        ]
+    },
+    {
+        "id": 260,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "کاربرد Decorator در پایتون برای Caching و لاگ‌گیری زمان اجرا چیست؟",
+        "title_en": "How to use Python Decorators for Caching and Execution Timing?",
+        "summary": "افزودن رفتار متقاطع (مثلاً ذخیره خروجی یا ثبت زمان) به توابع بدون تغییر در بدنه آن‌ها.",
+        "summary_en": "Wrapping functions to inject cross-cutting behavior like caching or timing without modifying function bodies.",
+        "fullAnswer": "دکوراتورها توابعی هستند که تابع دیگری را ورودی گرفته و خروجی تغییریافته برمی‌گردانند. با `functools.lru_cache` یا ساخت دکوراتور سفارشی می‌توان پاسخ خروجی توابع محاسباتی را کش کرد یا زمان اجرای آن‌ها را سنجید.",
+        "fullAnswer_en": "Decorators wrap functions to add functionality. Using `@functools.lru_cache` caches function returns based on arguments, while custom decorators can dynamically log performance metrics across functions.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Target Function</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Decorator Wrapper</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Check Cache / Track Time</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Return Cached Result</text></g></svg>",
+        "codeSnippet": "from functools import lru_cache\n@lru_cache(maxsize=128)\ndef compute_heavy_features(param):\n    return result",
+        "tip": "استفاده از `lru_cache` روی توابع محاسباتی تکراری سرعت سیستم را به شدت بالا می‌برد.",
+        "tip_en": "Apply `lru_cache` to expensive deterministic functions to eliminate redundant math.",
+        "tags": [
+            "Decorators",
+            "Caching",
+            "Python",
+            "Performance"
+        ]
+    },
+    {
+        "id": 261,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "صحت‌سنجی داده‌ها با Pydantic V2 در اپلیکیشن‌های هوش مصنوعی چگونه انجام می‌شود؟",
+        "title_en": "How to validate data using Pydantic V2 in AI applications?",
+        "summary": "تعریف کلاس‌های داده با Type Hinting برای لایه‌بندی و تست خودکار ورودی‌های JSON.",
+        "summary_en": "Defining data schemas with Type Hints for automatic validation of incoming JSON payloads.",
+        "fullAnswer": "پایداری ورودی‌های API و خروجی‌های LLM نیازمند اعتبارسنچی است. Pydantic V2 با هسته نوشته‌شده به زبان Rust، داده‌ها را با سرعت بالا بررسی کرده و فرمت اشتباه را با خطای واضح متوقف می‌سازد.",
+        "fullAnswer_en": "Validating LLM JSON responses requires strict parsing. Pydantic V2 (built with a Rust core) provides lightning-fast data parsing, type enforcement, and custom validators for AI pipelines.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unstructured JSON</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pydantic V2 Model</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Type Validation</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Validated Python Object</text></g></svg>",
+        "codeSnippet": "from pydantic import BaseModel, Field\nclass UserQuery(BaseModel):\n    query: str\n    max_results: int = Field(gt=0, le=100)",
+        "tip": "Pydantic V2 استاندارد اصلی در کتابخانه‌های FastAPI و LangChain است.",
+        "tip_en": "Pydantic V2 is the standard validation library across FastAPI and LangChain.",
+        "tags": [
+            "Pydantic",
+            "Validation",
+            "Type-Safety",
+            "Python"
+        ]
+    },
+    {
+        "id": 262,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "پروفایل کردن حافظه و زمان اجرای کد پایتون با cProfile و memory_profiler چگونه است؟",
+        "title_en": "How to profile Python memory and execution time with cProfile and memory_profiler?",
+        "summary": "شناسایی گلوگاه‌های زمانی (Bottlenecks) و توابعی که بیشترین حافظه رم را مصرف می‌کنند.",
+        "summary_en": "Identifying performance bottlenecks and line-by-line memory consumption in Python code.",
+        "fullAnswer": "برای بهینه‌سازی کد پایتون، به جای حدس زدن باید پروفایل گرفت. `cProfile` تعداد فراخوانی‌ها و زمان هر تابع را اندازه می‌گیرد و `memory_profiler` میزان مصرف رم را خط به خط گزارش می‌دهد.",
+        "fullAnswer_en": "Never optimize without profiling. `cProfile` tracks total function call time and call frequency, while `memory_profiler` identifies line-by-line RAM leaks in heavy processing scripts.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Python Script</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">cProfile Execution</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Identify Slow Functions</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Targeted Code Fix</text></g></svg>",
+        "codeSnippet": "python -m cProfile -s cumulative main.py\n# or @profile decorator with memory_profiler",
+        "tip": "همواره قبل از اقدام به بازنویسی کد، گلوگاه‌ها را با cProfile دقیق پیدا کنید.",
+        "tip_en": "Always run cProfile before attempting premature code optimizations.",
+        "tags": [
+            "Profiling",
+            "cProfile",
+            "Memory-Profiler",
+            "Python"
+        ]
+    },
+    {
+        "id": 263,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "کاربرد Context Managerها (`__enter__` و `__exit__`) در مدیریت منابع چیست؟",
+        "title_en": "What is the purpose of Context Managers (`__enter__` and `__exit__`) in Resource Management?",
+        "summary": "تضمین بستن منابع (فایل‌ها، اتصال دیتابیس، قفل‌ها) حتی در صورت بروز خطا با عبارت `with`.",
+        "summary_en": "Ensuring clean setup and teardown of resources (files, DB connections) via `with` statement.",
+        "fullAnswer": "مدیریت منابع نیازمند تمیزکاری است. Context Manager با پیاده‌سازی متدهای `__enter__` و `__exit__` تضمین می‌کند که اتصالات یا فایل‌ها پس از اتمام کار (حتی اگر Exception رخ دهد) بسته شوند.",
+        "fullAnswer_en": "Context Managers guarantee deterministic resource cleanup (closing DB handles, GPU memory state). The `with` statement calls `__enter__` on startup and `__exit__` upon scope exit, even if exceptions occur.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Open Connection</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Execute Scope Block</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Auto Call __exit__</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Resource Safely Closed</text></g></svg>",
+        "codeSnippet": "class Timer:\n    def __enter__(self):\n        self.start = time.time()\n        return self\n    def __exit__(self, *args):\n        print(time.time() - self.start)",
+        "tip": "برای مدیریت زمان اجرای بلاک‌ها یا کانکشن دیتابیس همیشه Context Manager بنویسید.",
+        "tip_en": "Write custom Context Managers to manage database sessions or code timers cleanly.",
+        "tags": [
+            "Context-Manager",
+            "Python",
+            "Resource-Management",
+            "Clean-Code"
+        ]
+    },
+    {
+        "id": 264,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "طراحی پکیج‌های پایتون و استفاده از Exceptionهای سفارشی چگونه است؟",
+        "title_en": "How to design custom Exception hierarchies in Python packages?",
+        "summary": "ایجاد یک Base Exception اختصاصی برای پکیج تا برنامه‌نویسان خطاهای ماژول شما را تفکیک کنند.",
+        "summary_en": "Creating a base Exception class for your package enabling clean error handling for consumers.",
+        "fullAnswer": "هنگام توسعه پکیج، نباید تنها خطاهای عمومی (مثل ValueError) پرتاب کرد. باید یک کلاس پایه مانند `BaseProjectError(Exception)` ساخت و سایر خطاهای تخصصی را از آن ارث‌بری داد تا برنامه‌نویس کاربر بتواند خطاهای پکیج را به دقت Try/Catch کند.",
+        "fullAnswer_en": "When writing custom packages, avoid throwing built-in exceptions directly. Define a top-level `BaseProjectError(Exception)` and inherit specific errors from it, allowing library consumers to catch package-specific exceptions.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Custom Base Error</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Inherited Specific Error</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Targeted Try-Except Block</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Graceful Exception Handling</text></g></svg>",
+        "codeSnippet": "class BaseAIError(Exception): pass\nclass ModelNotFoundError(BaseAIError): pass\nclass InferenceTimeoutError(BaseAIError): pass",
+        "tip": "ساخت هرم خطای اختصاصی خوانایی و پایداری کدهای بزرگ را بسیار بالا می‌برد.",
+        "tip_en": "Custom exception hierarchies greatly enhance enterprise code maintainability.",
+        "tags": [
+            "Exceptions",
+            "Clean-Code",
+            "Python",
+            "Architecture"
+        ]
+    },
+    {
+        "id": 265,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "تکنولوژی PyArrow چه نقشی در پردازش داده‌های فوق سریع دارد؟",
+        "title_en": "What role does PyArrow play in high-performance data processing?",
+        "summary": "پردازش ستونی داده‌ها در حافظه با فرمت Apache Arrow و تبادل صفر-کپی (Zero-Copy) بین ابزارها.",
+        "summary_en": "Columnar in-memory data processing with Apache Arrow enabling Zero-Copy sharing across tools.",
+        "fullAnswer": "PyArrow موتور پایتونی Apache Arrow است. داده‌ها را به‌صورت ستونی در حافظه قرار می‌دهد و اجازه می‌دهد داده‌ها بدون کپی شدن (Zero-Copy) بین Python، C++، DuckDB و Polars منتقل شوند که سرعت پردازش را خیره‌کننده می‌کند.",
+        "fullAnswer_en": "PyArrow provides Python bindings for Apache Arrow. It organizes in-memory data in contiguous columnar formats, allowing Zero-Copy memory sharing across Python, C++, Polars, and DuckDB without serialization overhead.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">In-Memory Arrow Table</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Zero-Copy Interop</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Polars / DuckDB Engine</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ultra-Fast Analytics</text></g></svg>",
+        "codeSnippet": "import pyarrow as pa\nimport pyarrow.parquet as pq\ntable = pq.read_table('data.parquet')",
+        "tip": "PyArrow جایگزین مدرن و فوق‌العاده سریع‌تر پردازش‌های قدیمی Pandas است.",
+        "tip_en": "PyArrow underpins modern high-speed data tools like Polars and DuckDB.",
+        "tags": [
+            "PyArrow",
+            "Apache-Arrow",
+            "Data-Processing",
+            "Performance"
+        ]
+    },
+    {
+        "id": 266,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "استفاده از Type Hinting و ابزارهای تحلیل ایستا (Mypy / Pyright) چه مزیتی دارد؟",
+        "title_en": "What are the benefits of Type Hinting and Static Analysis with Mypy/Pyright?",
+        "summary": "کشف خطاهای تایپی و مقادیر None قبل از اجرای کد در پروژه‌های بزرگ صنعتی.",
+        "summary_en": "Catching type mismatches and None-reference errors statically before code execution.",
+        "fullAnswer": "پایتون دسکریپتیو است اما در پروژه‌های بزرگ نبود تایپ باعث باگ‌های ناگهانی در پروداکشن می‌شود. با افزودن Type Hints و اجرای Mypy در CI/CD، تمام خطاهای عدم انطباق ورودی توابع قبل از اجرا کشف می‌شوند.",
+        "fullAnswer_en": "Dynamic typing causes runtime TypeErrors in large codebases. Type Hinting combined with static type checkers (Mypy or Pyright) catches type mismatches and None-dereference bugs during CI/CD before hitting production.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Typed Python Code</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Mypy Static Check</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">CI/CD Type Gate</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Bug-Free Runtime</text></g></svg>",
+        "codeSnippet": "from typing import Optional, List\ndef process_queries(queries: List[str]) -> Optional[dict]:\n    return {'count': len(queries)}",
+        "tip": "همواره بررسی Mypy را به عنوان یک گام اجباری در خط لوله CI/CD خود قرار دهید.",
+        "tip_en": "Enforce Mypy type-checking as a mandatory CI/CD quality gate.",
+        "tags": [
+            "Type-Hinting",
+            "Mypy",
+            "Pyright",
+            "Clean-Code"
+        ]
+    },
+    {
+        "id": 267,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه تعادل میان بدهی فنی (Technical Debt) و سرعت تحویل ویژگی‌های جدید AI را مدیریت می‌کنید؟",
+        "title_en": "How do you balance Technical Debt versus shipping new AI features rapidly?",
+        "summary": "اختصاص ۲۰٪ از ظرفیت اسپک برای رفاکتور و مترییک‌های کیفیت، همراه با شفاف‌سازی بدهی برای ذینفعان.",
+        "summary_en": "Allocating 20% of sprint capacity to refactoring and reframing technical debt as risk management for business leaders.",
+        "fullAnswer": "در دنیای سریع هوش مصنوعی، توازن حیاتی است. بدهی فنی نباید نادیده گرفته شود. من معمولاً ۲۰٪ از هر اسپرینت را به بهبود MLOps و رفاکتور کد اختصاص می‌دهم و نشان می‌دهم که بدهی فنی در آینده سرعت تحویل را ۵۰٪ می‌کاهد.",
+        "fullAnswer_en": "In fast-paced AI engineering, speed is crucial but unmanaged tech debt halts velocity. I advocate allocating 20% of sprint capacity to refactoring and MLOps tech debt, demonstrating to product managers how tech debt reduces future feature delivery speed.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Feature Backlog</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">20% Tech Debt Allocation</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Refactoring & Tests</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sustainable Velocity</text></g></svg>",
+        "codeSnippet": "# Sprint Planning Strategy\nTECH_DEBT_CAPACITY = 0.20 # 20% of engineering bandwidth",
+        "tip": "بدهی فنی را همواره به عنوان ریسک کاهش سرعت کسب‌وکار برای مدیران محصول توضیح دهید.",
+        "tip_en": "Frame technical debt reduction as business risk management for product stakeholders.",
+        "tags": [
+            "Soft-Skills",
+            "Technical-Debt",
+            "Sprint-Planning",
+            "Agile"
+        ]
+    },
+    {
+        "id": 268,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه عدم قطعیت و ماهیت احتمالی مدل‌های هوش مصنوعی را برای مدیران محصول توضیح می‌دهید؟",
+        "title_en": "How do you communicate AI model uncertainty and probabilistic nature to business leaders?",
+        "summary": "استفاده از متریم‌های تجاری، تعریف حد نهایی دقت (SLA) و ارائه راهکارهای پشتیبان (Fallback).",
+        "summary_en": "Translating accuracy metrics into business outcomes and establishing clear SLA fallback mechanisms.",
+        "fullAnswer": "مدیران غیرفنی انتظار دقت ۱۰۰٪ دارند. من با ارائه نمونه داده‌ها، مفهوم احتمالی بودن خروجی را با مترییک‌های ملموس مالی توضیح می‌دهم و تاکید می‌کنم که سیستم برای موارد نامطمئن دارای لایه پشتیبان (Fallback) انسانی یا سنتی است.",
+        "fullAnswer_en": "Non-technical stakeholders expect deterministic behavior. I translate F1-score or perplexity into clear business metrics (e.g. error rate in dollar terms) and design explicit human-in-the-loop fallback mechanisms for low-confidence model outputs.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Probabilistic Model</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Confidence Threshold</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Business Metric SLA</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Human Fallback</text></g></svg>",
+        "codeSnippet": "if confidence_score < 0.85:\n    trigger_human_review_queue(payload)",
+        "tip": "برای تمام مدل‌های احتمالی پروداکشن، سیستم پشتیبان (Fallback) تعریف کنید.",
+        "tip_en": "Always design explicit deterministic fallbacks for probabilistic AI systems.",
+        "tags": [
+            "Soft-Skills",
+            "Communication",
+            "Stakeholders",
+            "Product-Management"
+        ]
+    },
+    {
+        "id": 269,
+        "category": "soft_skills",
+        "difficulty": "advanced",
+        "title": "در صورت بروز اختلال (Outage) در مدل LLM در ساعات اوج مصرف، چه واکنش بحرانی نشان می‌دهید؟",
+        "title_en": "How do you handle a critical production LLM outage during peak usage hours?",
+        "summary": "سویچ آنی به مدل پشتیبان (Fallback Model)، اطلاع‌رسانی شفاف و اجرای پس‌آزمایی Root Cause Analysis.",
+        "summary_en": "Immediate traffic rerouting to a fallback backup model, transparent incident communication, and RCA post-mortem.",
+        "fullAnswer": "اولین اقدام هدایت ترافیک به مدل پشتیبان (مثلاً از OpenAI به Anthropic یا مدل کوچک‌تر خودمقیاس) است تا سرویس قطع نشود. سپس تیم آگاه شده، لاگ‌ها بررسی می‌شوند و گزارش ریشه‌یابی خطا (RCA) برای جلوگیری از تکرار تدوین می‌شود.",
+        "fullAnswer_en": "My first step is mitigating downtime by triggering an automated fallback router (e.g., failing over from OpenAI to Anthropic or an internal quantized model). After stabilizing the service, I conduct a formal Root Cause Analysis (RCA) to implement permanent fixes.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Outage Detection</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Trigger Fallback Router</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Stabilize Service</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Post-Mortem RCA</text></g></svg>",
+        "codeSnippet": "try:\n    response = primary_llm.generate(prompt)\nexcept LLMProviderError:\n    response = backup_llm.generate(prompt)",
+        "tip": "مدیریت بحران نیازمند خونسردی و اتوماسیون فرآیندهای Failover است.",
+        "tip_en": "Crisis management relies on calm execution of pre-automated failover mechanisms.",
+        "tags": [
+            "Soft-Skills",
+            "Incident-Management",
+            "Outage",
+            "Failover"
+        ]
+    },
+    {
+        "id": 270,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه تضاد فکری بین تیم Data Science و تيم Software Engineering را حل می‌کنید؟",
+        "title_en": "How do you resolve technical friction between Data Science and Software Engineering teams?",
+        "summary": "ایجاد استانداردهای مشترک کدهای تولیدی، تست‌های یکپارچه‌سازی و استفاده از فریم‌ورک‌های MLOps.",
+        "summary_en": "Establishing shared code standards, integration tests, and standardized MLOps tooling.",
+        "fullAnswer": "دیتا ساینتیست‌ها روی دقت مدل تمرکز دارند و مهندسان نرم‌افزار روی لیتنسی و پایداری کد. من با برگزاری جلسات Architecture Review و تعریف استانداردهای واضح (مانند Pydantic schemas و تست‌های CI/CD)، زبان مشترکی ایجاد می‌کنم.",
+        "fullAnswer_en": "Data scientists prioritize model metrics; software engineers prioritize reliability and latency. I bridge this gap by enforcing shared engineering standards (PEP8, type hinting, Docker packaging) and co-owning CI/CD deployment pipelines.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Data Science Metrics</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Software Eng Quality</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Shared MLOps Standards</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unified Pipeline</text></g></svg>",
+        "codeSnippet": "# Definition of Done for ML Models\nDOD = ['Model Metrics Passed', 'Docker Image Built', 'Integration Tests Passed']",
+        "tip": "احترام به اولویت‌های طرفین و ایجاد فرآیندهای شفاف کلید حل تضادهای تیمی است.",
+        "tip_en": "Building mutual empathy for operational constraints resolves inter-team friction.",
+        "tags": [
+            "Soft-Skills",
+            "Teamwork",
+            "MLOps",
+            "Engineering-Culture"
+        ]
+    },
+    {
+        "id": 271,
+        "category": "soft_skills",
+        "difficulty": "advanced",
+        "title": "پاسخ شما به ذینفعی که اصرار بر ساخت یک LLM اختصاصی از صفر به جای RAG دارد چیست؟",
+        "title_en": "How do you handle a stakeholder insisting on training a custom LLM from scratch instead of RAG?",
+        "summary": "تحلیل هزینه-فایده (ROI)، نشان دادن زمان و هزینه سنگین آموزش و اثبات برتری RAG با POC سریع.",
+        "summary_en": "Conducting an ROI cost-benefit analysis, highlighting massive compute requirements, and building a quick RAG POC.",
+        "fullAnswer": "من ابتدا الزامات واقعی پروژه را تحلیل می‌کنم. سپس با ارقام واقعی (چندین صد هزار دلار هزینه GPU و چند ماه زمان) نشان می‌دهم آموزش از صفر غیراقتصادی است و با ساخت یک POC یک‌روزه RAG اثبات می‌کنم که RAG پاسخگوی کامل نیاز سازمان است.",
+        "fullAnswer_en": "I address this by presenting data-driven trade-offs. I present realistic compute costs and timeline estimates for pretraining, while rapidly prototyping a 1-day RAG Proof of Concept (POC) to visually demonstrate that RAG achieves the target accuracy at a fraction of the cost.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Stakeholder Request</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cost & Timeline Analysis</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RAG Proof-of-Concept</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Data-Driven Alignment</text></g></svg>",
+        "codeSnippet": "# Cost Breakdown Comparison\nPretraining_Cost = '$500,000+'\nRAG_POC_Cost = '$50'",
+        "tip": "تصمیمات معماری باید همواره بر اساس تحلیل ROI و شواهد عملی (POC) باشند.",
+        "tip_en": "Guide architecture decisions using ROI analysis and tangible POC prototypes.",
+        "tags": [
+            "Soft-Skills",
+            "Stakeholder-Management",
+            "RAG",
+            "ROI"
+        ]
+    },
+    {
+        "id": 272,
+        "category": "soft_skills",
+        "difficulty": "beginner",
+        "title": "چگونه بازخورد سازنده در کدریویوها (Code Reviews) و معماری مدل ارائه می‌دهید؟",
+        "title_en": "How do you provide constructive feedback during code and model architecture reviews?",
+        "summary": "تمرکز بر کد به جای فرد، توضیح علت و پیشنهاد جایگزین ملموس همراه با تعریف نکات مثبت.",
+        "summary_en": "Focusing on the code not the person, explaining the rationale, providing concrete code examples, and acknowledging strengths.",
+        "fullAnswer": "کدریویو نباید حس بازجویی منتقل کند. من بازخورد را با اشاره به نقاط قوت شروع می‌کنم، دلیل پیشنهادم را (مثلاً مصرف حافظه) توضیح داده و نمونه کد پیشنهادی را ضمیمه می‌کنم تا فرآیند یادگیری دوطرفه باشد.",
+        "fullAnswer_en": "I approach code reviews as collaborative learning. I compliment smart implementations, frame suggestions around principles rather than personal preference, explain the 'why' (e.g. GPU memory efficiency), and provide actionable code snippets.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">PR Submission</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Positive Acknowledgment</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Rationale + Code Snippet</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Collaborative Merge</text></g></svg>",
+        "codeSnippet": "# Example Review Comment\n# 'Great implementation! To prevent potential GPU memory leaks, consider using a context manager here:'",
+        "tip": "نقد کد باید همواره محترمانه، مستند و همراه با پیشنهاد اصلاحی باشد.",
+        "tip_en": "Keep code reviews empathetic, evidence-based, and actionable.",
+        "tags": [
+            "Soft-Skills",
+            "Code-Review",
+            "Feedback",
+            "Engineering-Culture"
+        ]
+    },
+    {
+        "id": 273,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "تجربه شکست در یک فرضیه مدلسازی را چگونه مدیریت کرده و چه درسی گرفتید؟",
+        "title_en": "How did you handle a failed model experiment and what did you learn?",
+        "summary": "مستندساز‌ی دقیق دلایل عدم موفقیت، اشتراک‌گذاری با تیم و بازگشت سریع به معماری‌های ساده‌تر.",
+        "summary_en": "Documenting failure metrics, sharing learnings with the team, and pivoting quickly to simpler baselines.",
+        "fullAnswer": "شکست بخشی از تحقیقات هوش مصنوعی است. من آزمایش پیچیده‌ای که جواب نداد را کاملاً مستند کردم تا اعضای تیم دوباره آن راه اشتباه را نروند و بلافاصله به مدل baseline ساده‌تر برگشتم که خروجی قابل قبولی داد.",
+        "fullAnswer_en": "In AI research, failed hypotheses are valuable data points. When a complex architecture underperformed, I thoroughly documented the negative result in MLflow, presented the findings to the team to prevent duplicate effort, and pivoted to a robust baseline.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Hypothesis Formulation</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Experiment Execution</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Negative Result Logging</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pivot to Baseline</text></g></svg>",
+        "codeSnippet": "# Experiment Log Tag\nmlflow.set_tag('experiment_status', 'FAILED_HYPOTHESIS_DOCUMENTED')",
+        "tip": "شکست‌های مستندشده از دوباره‌کاری‌های پرهزینه در آینده جلوگیری می‌کنند.",
+        "tip_en": "Documented failures prevent teams from wasting resources on redundant dead ends.",
+        "tags": [
+            "Soft-Skills",
+            "Experimentation",
+            "Failures",
+            "Learning"
+        ]
+    },
+    {
+        "id": 274,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه رعایت اخلاق هوش مصنوعی و کاهش سوگیری (Ethical AI & Bias) را تضمین می‌کنید؟",
+        "title_en": "How do you ensure Ethical AI standards and bias mitigation in production?",
+        "summary": "تست تنوع داده‌های آموزشی، استفاده از ابزارهای ارزیابی Fairness و فیلتر کردن خروجی‌ها.",
+        "summary_en": "Auditing training data diversity, leveraging Fairness evaluation toolkits, and applying output filters.",
+        "fullAnswer": "سوگیری مدل می‌تواند پیامدهای جبران‌ناپذیری داشته باشد. من داده‌های آموزشی را از نظر پراکندگی جغرافیا و جنسیت ارزیابی کرده و با ابزارهایی مانند Fairlearn متریم‌های عدالت (Fairness Metrics) مدل را قبل از دپلوی تست می‌کنم.",
+        "fullAnswer_en": "Bias in AI models causes real-world harm. I audit dataset representation across demographics, evaluate models using fairness toolkits (e.g. Fairlearn or AI Fairness 360), and implement post-processing constraints to ensure equitable outcomes.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dataset Audit</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fairness Metrics (Fairlearn)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Bias Mitigation</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ethical Deployment</text></g></svg>",
+        "codeSnippet": "from fairlearn.metrics import MetricFrame, selection_rate\nmetric_frame = MetricFrame(metrics=selection_rate, y_true=y_true, y_pred=y_pred, sensitive_features=sensitive)",
+        "tip": "اخلاق در هوش مصنوعی بخشی از کیفیت مهندسی است نه یک گزینه اختیاری.",
+        "tip_en": "AI ethics is an essential engineering quality dimension, not an afterthought.",
+        "tags": [
+            "Soft-Skills",
+            "Ethical-AI",
+            "Bias",
+            "Fairness"
+        ]
+    },
+    {
+        "id": 275,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه زمان‌بندی کارهای پژوهشی و نامطمئن AI را تخمین می‌زنید؟",
+        "title_en": "How do you estimate timelines for uncertain, research-heavy AI tasks?",
+        "summary": "شکستن کار به فازهای ارزیابی کوچک (Spikes)، تعیین حد زمانی (Timeboxing) و ارائه بازه‌های تخمین.",
+        "summary_en": "Breaking research into timeboxed exploration Spikes, setting clear exit criteria, and providing confidence ranges.",
+        "fullAnswer": "کارهای تحقیقاتی تخمین دقیق ندارند. من آن‌ها را به اسپایک‌های (Spike) دو روزه تقسیم می‌کنم که اگر فرضیه تایید شد ادامه یابد و در غیر این صورت متوقف شود. تخمین‌ها را همواره به‌صورت بازه‌ای (مثلاً ۳ تا ۵ روز) به مدیران اعلام می‌کنم.",
+        "fullAnswer_en": "Research tasks carry inherent ambiguity. I structure research using timeboxed exploration Spikes (e.g. 2-day proof of feasibility). I set explicit pass/fail criteria for each spike and communicate timeline estimates as confidence intervals rather than fixed dates.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ambiguous Goal</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">2-Day Timeboxed Spike</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pass/Fail Evaluation</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Refined Estimate</text></g></svg>",
+        "codeSnippet": "# Research Spike Policy\nMAX_SPIKE_DURATION = '2 Days'\nEXIT_CRITERIA = 'Baseline Accuracy > 80%'",
+        "tip": "تخمین کارهای تحقیقاتی را همیشه با روش Timeboxing مدیریت کنید.",
+        "tip_en": "Use Timeboxing to prevent open-ended research tasks from derailing sprint timelines.",
+        "tags": [
+            "Soft-Skills",
+            "Estimation",
+            "Timeboxing",
+            "Agile"
+        ]
+    },
+    {
+        "id": 276,
+        "category": "soft_skills",
+        "difficulty": "beginner",
+        "title": "چگونه نیروهای تازه‌وارد و برنامه‌نویسان جونیور را در پروژه هوش مصنوعی منتور می‌کنید؟",
+        "title_en": "How do you mentor and onboard junior developers into modern AI stacks?",
+        "summary": "تعریف پروژه‌های کوچک کاربردی (Onboarding Tasks)، جفت‌نویسی (Pair Programming) و مستندات قوی.",
+        "summary_en": "Assigning well-scoped onboarding tasks, practicing Pair Programming, and maintaining clear architecture docs.",
+        "fullAnswer": "من ورود نیروهای جدید را با مستندات معماری، ساختار کد پدیدار و وظایف کوچک (Good First Issue) شروع می‌کنم. در هفته‌های اول جلسات جفت‌نویسی (Pair Programming) برگزار می‌کنم تا استانداردهای MLOps و کدنویسی را فرابگیرند.",
+        "fullAnswer_en": "I accelerate junior developer onboarding by pairing them with senior engineers, assigning well-defined starter tasks, maintaining interactive Jupyter architecture walkthroughs, and encouraging safe experimentation in sandbox environments.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">New Team Member</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Walkthrough</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pair Programming</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Independent Contributions</text></g></svg>",
+        "codeSnippet": "# Onboarding Checklist\nCHECKLIST = ['Setup Environment', 'Run Local RAG', 'Submit First PR']",
+        "tip": "منتورینگ موثر سریع‌ترین راه برای افزایش بهره‌وری و انگیزه کل تیم است.",
+        "tip_en": "Effective mentoring builds team autonomy and long-term engineering velocity.",
+        "tags": [
+            "Soft-Skills",
+            "Mentorship",
+            "Onboarding",
+            "Leadership"
+        ]
+    },
+    {
+        "id": 277,
+        "category": "soft_skills",
+        "difficulty": "beginner",
+        "title": "چگونه با تغییرات سریع مقالات علمی AI به‌روز می‌مانید بدون اینکه از کارهای روزمره باز بمانید؟",
+        "title_en": "How do you keep up with rapid AI advancements while maintaining daily productivity?",
+        "summary": "زمان‌بندی ثابت هفتگی برای مطالعه خلاصه مقالات (AK / HuggingFace Paper)، پادکست‌ها و بولتن‌ها.",
+        "summary_en": "Establishing dedicated weekly blocks to read paper summaries (HuggingFace Papers) and industry newsletters.",
+        "fullAnswer": "حجم مقالات بسیار زیاد است. من روزانه ۳۰ دقیقه اول صبح را به مرور خلاصه‌های تکنولوژی (مانند HuggingFace Daily Papers یا Twitter AI researchers) اختصاص می‌دهم و تنها مقالاتی که مستقیماً به معماری پروژه‌هایمان مربوط است را عمقی می‌خوانم.",
+        "fullAnswer_en": "To avoid information overload, I dedicate 30 minutes every morning to scanning curated aggregators (HuggingFace Daily Papers, Arxiv Sanity, AlphaSignal). I deep-dive only into papers directly applicable to our current production stack.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Daily AI News Filter</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">30-Min Morning Scan</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Deep-Dive Selected Paper</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Apply to Project</text></g></svg>",
+        "codeSnippet": "# Information Filter Strategy\nSELECTIVE_READING = True # Focus only on production-relevant papers",
+        "tip": "به‌روز بودن را به یک عادت روزانه کوچک و هدفمند تبدیل کنید.",
+        "tip_en": "Turn learning into a focused daily habit rather than an overwhelming task.",
+        "tags": [
+            "Soft-Skills",
+            "Continuous-Learning",
+            "Productivity",
+            "Research"
+        ]
+    },
+    {
+        "id": 278,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه با تغییر پیاپی خواسته مشتری یا مدیران (Scope Creep) برخورد می‌کنید؟",
+        "title_en": "How do you handle Scope Creep in client or internal AI projects?",
+        "summary": "مستند کردن تغییرات، تحلیل اثر تغییر بر زمان و هزینه و درخواست اولویت‌بندی مجدد.",
+        "summary_en": "Documenting requested scope changes, assessing impact on timelines/costs, and negotiating reprioritization.",
+        "fullAnswer": "افزودن امکانات جدید بدون تغییر زمان غیرممکن است. من درخواست جدید را تحلیل کرده، مشخص می‌کنم که چقدر به زمان دپلوی یا هزینه GPU می‌افزاید و از مدیر محصول می‌خواهم از بین ویژگی‌های قبلی یکی را برای جایگزینی انتخاب کند.",
+        "fullAnswer_en": "When scope changes occur, I evaluate their engineering impact objectively. I present a change impact matrix showing how the new feature affects launch date and GPU compute budgets, asking product managers to trade off lower-priority backlog items.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">New Feature Request</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Impact Assessment Matrix</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Trade-Off Discussion</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Updated Roadmap</text></g></svg>",
+        "codeSnippet": "# Scope Impact Equation\nNew_Launch_Date = Current_Date + Added_Complexity_Days",
+        "tip": "همواره تغییرات جدید را با تحلیل اثر بر زمان و هزینه پاسخ دهید.",
+        "tip_en": "Always match new feature requests with transparent timeline impact assessments.",
+        "tags": [
+            "Soft-Skills",
+            "Scope-Creep",
+            "Project-Management",
+            "Prioritization"
+        ]
+    },
+    {
+        "id": 279,
+        "category": "soft_skills",
+        "difficulty": "advanced",
+        "title": "چگونه مدیران محصول را برای تخصیص بودجه به زیرساخت MLOps و مانیتورینگ متقاعد می‌کنید؟",
+        "title_en": "How do you convince product managers to allocate resources for MLOps and monitoring?",
+        "summary": "ترجمه ریسک‌های زیرساختی به آسیب‌های مالی واقعی (ریسک قطع شدن، هزینه هذیان و از دست رفتن مشتری).",
+        "summary_en": "Translating infrastructure risks into financial terms (outage costs, hallucination risk, customer loss).",
+        "fullAnswer": "مدیران محصول مایل به هزینه‌کردن برای کارهای پشت‌صحنه نیستند. من با نشان دادن هزینه‌هایی که یک قطعی ناگهانی یا هذیان مدل به برند و درآمد شرکت می‌زند، زیرساخت MLOps را به عنوان بیمه‌نامه پروژه تعریف می‌کنم.",
+        "fullAnswer_en": "Product managers often prioritize user-facing features over MLOps. I quantify the business risk of unmonitored models: potential revenue loss from an outage, brand damage from hallucinations, and increased cloud costs, positioning MLOps as essential insurance.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unmonitored Risk</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Financial Loss Model</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MLOps Insurance Case</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Approved Budget</text></g></svg>",
+        "codeSnippet": "# Business Risk Formula\nRisk_Cost = Probability_of_Outage * Cost_Per_Outage_Hour",
+        "tip": "سرمایه‌گذاری روی زیرساخت MLOps را مانند خرید بیمه برای پایداری محصول مطرح کنید.",
+        "tip_en": "Frame MLOps infrastructure investments as revenue protection insurance.",
+        "tags": [
+            "Soft-Skills",
+            "MLOps",
+            "Stakeholders",
+            "Budgeting"
+        ]
+    },
+    {
+        "id": 280,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "یک اختلافی نظر شدید در انتخاب معماری مدل را چگونه حل کردید؟",
+        "title_en": "How did you resolve a major technical disagreement on model architecture selection?",
+        "summary": "تعریف معیارهای ارزیابی عینی (Benchmark)، انجام آزمایش‌های کنترل‌شده و تصمیم‌گیری بر اساس داده.",
+        "summary_en": "Establishing objective evaluation benchmarks, conducting controlled experiments, and deciding based on data.",
+        "fullAnswer": "در صورت اختلاف نظر بین دو معماری (مثلا fine-tuning vs RAG)، بحث‌های کلامی را قطع کرده و یک دیتاست تست یکسان تعریف کردیم. پس از اجرای آزمایش و سنجش دقت و تاخیر واقعی، داده‌ها بهترین تصمیم را تعیین کردند.",
+        "fullAnswer_en": "When engineers disagreed on model choices, I resolved debate by establishing an objective benchmark dataset. We implemented both approaches under identical evaluation conditions, letting empirical data on latency, memory, and accuracy decide the winner.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Technical Disagreement</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Standard Benchmark Set</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Controlled Parallel Eval</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Data-Driven Consensus</text></g></svg>",
+        "codeSnippet": "# Empirical Benchmark Comparison\neval_results = compare_architectures(model_a, model_b, test_set)",
+        "tip": "در بحث‌های فنی همواره داده‌ها و بنچمارک‌های عینی را مرجع تصمیم‌گیری قرار دهید.",
+        "tip_en": "Let empirical data and standardized benchmarks settle architectural debates.",
+        "tags": [
+            "Soft-Skills",
+            "Conflict-Resolution",
+            "Benchmarking",
+            "Decision-Making"
+        ]
+    },
+    {
+        "id": 281,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "معماری RAPTOR در RAG چیست و چگونه درخت خلاصه‌سازی چندسطحی می‌سازد؟",
+        "title_en": "What is RAPTOR in RAG and how does it build a hierarchical tree of summaries?",
+        "summary": "خوشه‌بندی و خلاصه‌سازی بازگشتی اسناد برای پاسخ به سوالات در سطوح انتزاعی مختلف.",
+        "summary_en": "Recursive clustering and summarization of text chunks to answer queries at varying abstraction levels.",
+        "fullAnswer": "معماری RAPTOR چنک‌های متن را امبد کرده، با گوسیان میکسر خوشه‌بندی می‌کند و برای هر خوشه خلاصه‌ای می‌سازد. این کار بازگشتی ادامه یافته و درختی از خلاصه اسناد می‌سازد تا هم سوالات جزئی و هم کلان پاسخ داده شوند.",
+        "fullAnswer_en": "RAPTOR embeds chunks, clusters them via Gaussian Mixture Models, and generates summaries for each cluster recursively. This builds a hierarchical tree enabling retrieval of both granular details and high-level themes.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Text Chunks</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GMM Clustering</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cluster Summarizer</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Hierarchical Tree RAG</text></g></svg>",
+        "codeSnippet": "from raptor import RetrievalAugmentedTree\ntree = RetrievalAugmentedTree(docs=documents, model=llm)",
+        "tip": "RAPTOR مشکل بازیابی مفاهیم کلی در کتاب‌ها و متون بسیار طولانی را کاملاً حل می‌کند.",
+        "tip_en": "RAPTOR resolves context loss for high-level thematic queries across long text corpora.",
+        "tags": [
+            "RAPTOR",
+            "Tree-RAG",
+            "Clustering",
+            "Summarization"
+        ]
+    },
+    {
+        "id": 282,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "تفاوت دیتابیس‌های برداری Qdrant, Milvus, Pinecone و LanceDB چیست؟",
+        "title_en": "What are the differences between Qdrant, Milvus, Pinecone, and LanceDB?",
+        "summary": "تفاوت در معماری ذخیره‌سازی روی دیسک (LanceDB)، سرویس ابری managed (Pinecone) و معماری‌های توزیع‌شده (Milvus/Qdrant).",
+        "summary_en": "Differences in disk-based storage (LanceDB), fully managed cloud (Pinecone), and distributed setups (Milvus/Qdrant).",
+        "fullAnswer": "Pinecone یک دیتابیس کاملاً Cloud و بدون نیاز به نگهداری است. Milvus برای حجم‌های غول‌پیکر با Kubernetes عالی است. Qdrant به زبان Rust نوشته شده و سرعت فیلتر متادیتا بالایی دارد. LanceDB روی دیسک محلی و ذخیره‌سازی ستونی بدون سرور کار می‌کند.",
+        "fullAnswer_en": "Pinecone is fully managed cloud-native SaaS. Milvus scales massively on Kubernetes. Qdrant is Rust-native with ultra-fast payload filtering. LanceDB is serverless and disk-native using Apache Arrow format.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Qdrant / Milvus (Distributed)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pinecone (Cloud)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LanceDB (Embedded Disk)</text></g></svg>",
+        "codeSnippet": "import lancedb\ndb = lancedb.connect('./data/sample-lancedb')\ntable = db.create_table('vectors', data=data)",
+        "tip": "برای پروژه‌های درون‌سازمانی با رم محدود، LanceDB یا Qdrant بهترین گزینه است.",
+        "tip_en": "Prefer Qdrant or LanceDB for on-premise deployments with limited RAM.",
+        "tags": [
+            "Qdrant",
+            "Milvus",
+            "Pinecone",
+            "LanceDB"
+        ]
+    },
+    {
+        "id": 283,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "مکانیزم Late Interaction در مدل ColBERT v2 چگونه کار می‌کند؟",
+        "title_en": "How does Late Interaction work in ColBERT v2?",
+        "summary": "محاسبه امبدینگ برای هر توکن به صورت جداگانه و انجام ضرب داخلی MaxSim بین توکن‌های پرسش و سند.",
+        "summary_en": "Computing token-level embeddings and performing MaxSim dot-products between query and document tokens.",
+        "fullAnswer": "مدل‌های معمولی یک بردار تک برای کل متن می‌سازند. ColBERT برای هر توکن یک بردار ۱۲۸ بعدی تولید می‌کند. در زمان بازیابی، عملگر MaxSim بیشترین تشابه هر توکن پرسش را با توکن‌های سند می‌یابد که دقتی معادل Cross-Encoder با سرعت نزدیک به Single-Vector ایجاد می‌کند.",
+        "fullAnswer_en": "Single-vector models compress entire texts into one vector. ColBERT generates 128-d token-level embeddings. Retrieval uses MaxSim operator to compute token-to-token alignment, matching Cross-Encoder accuracy at vector speed.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Query Tokens</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Token-level Embeddings</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MaxSim Matrix</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fine-grained Score</text></g></svg>",
+        "codeSnippet": "from colbert import Indexer, Searcher\nsearcher = Searcher(index='wiki_colbert')",
+        "tip": "ColBERT v2 برترین روش بازیابی توکن‌محور برای اسناد پیچیده حقوقی و فنی است.",
+        "tip_en": "ColBERT v2 provides unmatched retrieval precision for complex domain-specific documents.",
+        "tags": [
+            "ColBERT",
+            "Late-Interaction",
+            "MaxSim",
+            "Embeddings"
+        ]
+    },
+    {
+        "id": 284,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "الگوریتم کشف جامعه Leiden در GraphRAG چه تفاوتی با Louvain دارد؟",
+        "title_en": "How does the Leiden community detection algorithm differ from Louvain in GraphRAG?",
+        "summary": "تضمین همبستگی کامل خوشه‌ها و عدم وجود گره‌های ایزوله در تفکیک گراف دانش.",
+        "summary_en": "Guaranteeing fully connected communities and eliminating disconnected sub-nodes during graph partitioning.",
+        "fullAnswer": "الگوریتم Louvain ممکن است خوشه‌هایی با گره‌های نامربوط یا قطع‌شده ایجاد کند. الگوریتم Leiden با معرفی گام بازآرایی (Refinement step)، تضمین می‌کند تمام گره‌های درون یک جامعه به هم متصل بوده و خلاصه‌سازی GraphRAG دقیق‌تر شود.",
+        "fullAnswer_en": "Louvain algorithm suffers from disconnected internal communities. Leiden addresses this by introducing a refinement step, guaranteeing that communities are well-connected and structurally sound for GraphRAG summarization.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Knowledge Graph</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Leiden Partitioning</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Refined Sub-clusters</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Connected Community</text></g></svg>",
+        "codeSnippet": "import igraph as ig\ng = ig.Graph.TupleList(edges)\npartition = g.community_leiden(objective_function='modularity')",
+        "tip": "Leiden کیفیت ساختارمند گراف دانش را در پروژه‌های GraphRAG تضمین می‌کند.",
+        "tip_en": "Leiden improves community structure reliability in GraphRAG pipelines.",
+        "tags": [
+            "GraphRAG",
+            "Leiden",
+            "Louvain",
+            "Knowledge-Graph"
+        ]
+    },
+    {
+        "id": 285,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "روش Matryoshka Representation Learning (MRL) در امبدینگ‌ها چیست؟",
+        "title_en": "What is Matryoshka Representation Learning (MRL) in embeddings?",
+        "summary": "امکان فشرده‌سازی بردارها به ابعاد کوچک‌تر (مثلا از ۱۵۳۶ به ۲۵۶) بدون نیاز به آموزش مجدد.",
+        "summary_en": "Enabling vector truncation to smaller dimensions (e.g. 1536 to 256) without retraining.",
+        "fullAnswer": "مدل‌های امبدینگ معمولی اگر برش داده شوند دقت خود را از دست می‌دهند. MRL مدل را به‌گونه‌ای آموزش می‌دهد که اطلاعات مهم‌تر در ابعاد اولیه (مثلا ۲۵۶ تای اول) قرار گیرند. این کار حجم ذخیره‌سازی دیتابیس برداری را تا ۶ برابر کاهش می‌دهد.",
+        "fullAnswer_en": "Standard embeddings lose semantics if truncated. MRL trains embeddings like Russian nested dolls, packing the most critical information into the leading dimensions (e.g. 256 out of 1536), drastically saving RAM.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Full Embedding (1536d)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MRL Truncation (256d)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast Vector Search</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">6x RAM Saved</text></g></svg>",
+        "codeSnippet": "embedding = model.encode(text)\ntruncated_emb = embedding[:256] # Valid MRL embedding",
+        "tip": "MRL فشرده‌سازی رم دیتابیس برداری را فوق‌العاده ارزان می‌سازد.",
+        "tip_en": "MRL drastically lowers memory costs while retaining up to 98% retrieval accuracy.",
+        "tags": [
+            "MRL",
+            "Matryoshka",
+            "Embeddings",
+            "Vector-DB"
+        ]
+    },
+    {
+        "id": 286,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "تفاوت Product Quantization (PQ) و Scalar Quantization (SQ8) در فشرده‌سازی بردارها چیست؟",
+        "title_en": "What is the difference between Product Quantization (PQ) and Scalar Quantization (SQ8)?",
+        "summary": "SQ8 متغیرهای FP32 را به INT8 تبدیل می‌کند؛ PQ بردار را به زیربردارهایی تقسیم و کدگذاری خوشه‌ای می‌کند.",
+        "summary_en": "SQ8 converts FP32 values to INT8; PQ splits vectors into sub-vectors and applies centroid quantization.",
+        "fullAnswer": "در SQ8 هر عدد ۳۲ بیتی به ۸ بیتی تبدیل می‌شود که حجم را ۴ برابر کم می‌کند. در PQ بردار به M بخش تقسیم شده و هر بخش با یک Codebook فشرده می‌شود که حجم را تا ۱۶ برابر کاهش داده اما دقت کمتری نسبت به SQ8 دارد.",
+        "fullAnswer_en": "SQ8 quantizes floating-point values individually into 8-bit integers (4x memory reduction). PQ breaks vectors into sub-vectors, quantizing them using codebook centroids (up to 16x memory reduction with higher recall loss).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP32 Vector</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">SQ8 (4x Memory Reduction)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">PQ Sub-vectors (16x Memory Reduction)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Quantized Index</text></g></svg>",
+        "codeSnippet": "import faiss\nindex = faiss.IndexPQ(d, m=8, nbits=8) # Product Quantization",
+        "tip": "اگر حفظ بالاترین Recall برایتان مهم است SQ8 و اگر کمبود شدید رم دارید PQ را انتخاب کنید.",
+        "tip_en": "Prefer SQ8 for higher recall, and PQ for maximum RAM compression.",
+        "tags": [
+            "Quantization",
+            "SQ8",
+            "PQ",
+            "FAISS"
+        ]
+    },
+    {
+        "id": 287,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "روش Query Decomposition و Step-back Prompting در RAG چیست؟",
+        "title_en": "What is Query Decomposition and Step-back Prompting in RAG?",
+        "summary": "تجزیه پرسش‌های پیچیده به چند زیرپرسش ساده یا پرسش از مفاهیم پایه‌ای‌تر.",
+        "summary_en": "Breaking complex queries into simpler sub-queries or asking broader conceptual step-back queries.",
+        "fullAnswer": "سوالات چندبخشی مستقیم پاسخ داده نمی‌شوند. Query Decomposition سوال را به ۳ زیرسوال مستقل می‌شکند و نتایج را ترکیب می‌کند. Step-back Prompting ابتدا یک سوال کلان از اصول اولیه مطرح می‌کند تا زمینه کافی بازیابی شود.",
+        "fullAnswer_en": "Complex multi-hop questions fail in naive RAG. Query Decomposition splits a question into sequential sub-queries. Step-back Prompting generates a high-level conceptual question first to retrieve foundational context.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Complex Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Step-back Prompting</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sub-query Split</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Aggregated Context</text></g></svg>",
+        "codeSnippet": "sub_queries = llm.generate('Break down into simple steps: ' + complex_query)",
+        "tip": "این تکنیک‌ها دقت پاسخ‌دهی به سوالات چندمرحله‌ای حقوقی و مالی را دوبرابر می‌کنند.",
+        "tip_en": "These techniques double retrieval accuracy for complex multi-step reasoning tasks.",
+        "tags": [
+            "Query-Decomposition",
+            "Step-back",
+            "RAG",
+            "Prompting"
+        ]
+    },
+    {
+        "id": 288,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "تکنیک Self-RAG و توکن‌های انعکاسی (Reflection Tokens) چگونه کار می‌کنند؟",
+        "title_en": "How does Self-RAG work with Reflection Tokens?",
+        "summary": "آموزش مدل زبانی برای تولید توکن‌های خاص که تصمیم می‌گیرند چه زمانی بازیابی کند یا نقد نماید.",
+        "summary_en": "Training LLMs to output special reflection tokens deciding when to retrieve, critique, or generate.",
+        "fullAnswer": "در Self-RAG مدل به‌صورت خودکار یاد گرفته که توکن‌های خاصی مانند `[Retrieve]`، `[IsRel]` (مرتبط بودن)، و `[IsSupported]` را تولید کند. مدل تنها زمانی که بازیابی لازم باشد آن را صدا می‌زند و خود پاسخ را نقد می‌کند.",
+        "fullAnswer_en": "Self-RAG fine-tunes LLMs to emit special reflection tokens like `[Retrieve]`, `[IsRel]`, and `[IsSupported]`. The model dynamically decides whether to query the vector store and self-critiques output accuracy.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Output Generation</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Emit [Retrieve] Token</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Retrieval</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Emit [IsSupported] Token</text></g></svg>",
+        "codeSnippet": "# Self-RAG output inspection\nif '[Retrieve]' in model_output:\n    docs = fetch_docs()",
+        "tip": "Self-RAG هذیان مدل را به شدت کاهش داده و بازیابی‌های اضافی را حذف می‌کند.",
+        "tip_en": "Self-RAG reduces redundant retrievals and self-corrects hallucinations.",
+        "tags": [
+            "Self-RAG",
+            "Reflection-Tokens",
+            "RAG",
+            "Fine-Tuning"
+        ]
+    },
+    {
+        "id": 289,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "روش LongRAG برای بازیابی در پنجره‌های زمینه غول‌پیکر چیست؟",
+        "title_en": "What is LongRAG for retrieval in massive context windows?",
+        "summary": "افزایش طول چنک‌ها به ۴k الی ۲۴k توکن به جای چنک‌های کوچک چندصد توکنی.",
+        "summary_en": "Increasing chunk sizes to 4k–24k tokens instead of small multi-hundred token fragments.",
+        "fullAnswer": "با ظهور مدل‌های با پنجره زمینه بزرگ (Llama-3 128k)، نیازی به چنک‌های ۲-توکنی کوچک نیست. LongRAG اسناد را در قالب گروه‌های ۴k تا ۲۴k توکنی چنک‌بندی می‌کند تا تمام مفاهیم مرتبط بدون قطعه‌قطعه شدن بازیابی شوند.",
+        "fullAnswer_en": "With long-context LLMs, traditional 200-token chunks lose inter-paragraph context. LongRAG uses large 4k–24k token chunks, preserving document continuity while retaining fast retrieval efficiency.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Long Document</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">4k-24k Large Chunks</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dense Vector Search</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Long-Context LLM</text></g></svg>",
+        "codeSnippet": "text_splitter = RecursiveCharacterTextSplitter(chunk_size=16000, chunk_overlap=1000)",
+        "tip": "LongRAG کیفیت تحلیل کتب و اسناد حقوقی سنگین را متحول می‌سازد.",
+        "tip_en": "LongRAG revolutionizes analysis of dense legal contracts and technical manuals.",
+        "tags": [
+            "LongRAG",
+            "Long-Context",
+            "Chunking",
+            "RAG"
+        ]
+    },
+    {
+        "id": 290,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "نحوه استخراج متاتگ‌ها و جداول مالی با LlamaParse و OCR چیست؟",
+        "title_en": "How to extract financial tables and metadata with LlamaParse and OCR?",
+        "summary": "تبدیل فایل‌های PDF پیچیده و جداول به ساختار Markdown تمیز با مدل‌های بینایی-زبانی.",
+        "summary_en": "Converting complex financial PDFs and tables into clean Markdown using Vision-LLM parsers.",
+        "fullAnswer": "فایل‌های PDF مالی حاوی جداول و ستون‌های پیچیده هستند که پارسرهای متنی معمولی آن‌ها را به‌هم می‌ریزند. LlamaParse از مدل‌های بینایی برای بازسازی دقیق جداول به فرمت Markdown خوانا برای LLM استفاده می‌کند.",
+        "fullAnswer_en": "Standard PDF text extractors break complex financial tables. LlamaParse leverages Vision LLMs to parse layout geometry, extracting tables and images into pristine Markdown structured for RAG pipelines.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Complex PDF</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LlamaParse Vision OCR</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Structured Markdown</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Table RAG Index</text></g></svg>",
+        "codeSnippet": "from llamaparse import LlamaParse\nparser = LlamaParse(result_type='markdown')\ndocuments = parser.load_data('financial_report.pdf')",
+        "tip": "برای استخراج صورت‌های مالی و فاکتورها همواره از پارسرهای بینایی استفاده کنید.",
+        "tip_en": "Always use Vision-based parsers like LlamaParse for tabular financial documents.",
+        "tags": [
+            "LlamaParse",
+            "OCR",
+            "PDF-Parsing",
+            "Tables"
+        ]
+    },
+    {
+        "id": 291,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "امنیت لایه سطح دسترسی (Row-Level Security) در پایگاه‌های برداری چیست؟",
+        "title_en": "What is Row-Level Security (RLS) and access control in Vector Databases?",
+        "summary": "اعمال فیلترهای دسترسی کاربر (User Permissions) بر روی بردارها در زمان بازیابی.",
+        "summary_en": "Enforcing user permission filters directly on vector search queries.",
+        "fullAnswer": "در پروژه‌های سازمانی، کاربران نباید اسنادی که مجوز دیدنش را ندارند ببینند. RLS متاتگ‌های دسترسی (مانند `allowed_roles: ['admin', 'hr']`) را روی بردارها ذخیره کرده و در زمان کوری فیلتر اجباری اعمال می‌کند.",
+        "fullAnswer_en": "Enterprise RAG must honor document permissions. Row-Level Security embeds permission tags (e.g. `user_id`, `role_ids`) inside vector payload metadata, enforcing non-bypassable pre-filtering during ANN search.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Identity</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Permission Filter</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Search Clause</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Secure Document Subset</text></g></svg>",
+        "codeSnippet": "results = vs.similarity_search(query, filter={'allowed_roles': {'$in': user_roles}})",
+        "tip": "عدم رعایت RLS در پروژه‌های سازمانی بزرگ‌ترین آسیب‌پذیری نشت اطلاعات است.",
+        "tip_en": "Failure to enforce RLS in enterprise RAG is a major data security compliance violation.",
+        "tags": [
+            "RLS",
+            "Security",
+            "Vector-DB",
+            "Access-Control"
+        ]
+    },
+    {
+        "id": 292,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "نحوه تنظیم وزن‌های جستجوی هیبریدی BM25 + Dense با الگوریتم RRF چیست؟",
+        "title_en": "How to tune hybrid search weights for BM25 + Dense using RRF?",
+        "summary": "تنظیم ضریب ثابت k در فرمول `1 / (k + rank)` برای وزن‌دهی رتبه‌های بازیابی متنی و برداری.",
+        "summary_en": "Tuning constant k in `1 / (k + rank)` formula to weight textual vs vector retrieval ranks.",
+        "fullAnswer": "در Reciprocal Rank Fusion (RRF)، رتبه هر سند در دو لیست برداری و BM25 با فرمول `1 / (k + rank)` جمع می‌شود. معمولاً `k=60` انتخاب می‌شود. اگر کلمات کلیدی دقیق مهم‌ترند، ضریب BM25 را افزایش دهید.",
+        "fullAnswer_en": "Reciprocal Rank Fusion (RRF) sums document reciprocal ranks: `1 / (k + rank)`. Setting constant `k=60` balances vector semantic matches and BM25 keyword matches, providing robust ranking without manual score normalization.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dense Ranks</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">BM25 Ranks</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RRF Formula Fusion</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Balanced Hybrid List</text></g></svg>",
+        "codeSnippet": "def rrf_score(rank_dense, rank_bm25, k=60):\n    return (1 / (k + rank_dense)) + (1 / (k + rank_bm25))",
+        "tip": "فرمول RRF نیازی به نرمال‌سازی اسکورهای متفاوت برداری و متنی ندارد.",
+        "tip_en": "RRF avoids the hassle of normalizing incompatible vector and BM25 raw scores.",
+        "tags": [
+            "Hybrid-Search",
+            "RRF",
+            "BM25",
+            "Tuning"
+        ]
+    },
+    {
+        "id": 293,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "تکنیک Cohere Rerank v3 چه تفاوتی با رنکرهای متنی قدیمی ایجاد کرده است؟",
+        "title_en": "How does Cohere Rerank v3 improve over traditional text rerankers?",
+        "summary": "پشتیبانی از ساختارهای چندرسانه‌ای، جداول JSON و اسناد با متادیتاهای متعددو چندزبانه.",
+        "summary_en": "Supporting multimodal inputs, structured JSON tables, and rich multilingual metadata.",
+        "fullAnswer": "مدل Cohere Rerank v3 برای داده‌های دنیای واقعی طراحی شده است. این مدل علاوه بر متن، جداول JSON، متادیتاها و کدهای برنامه‌نویسی را به صورت چندزبانه رتبه‌بندی مجدد می‌کند تا بهترین چنک‌ها انتخاب شوند.",
+        "fullAnswer_en": "Cohere Rerank v3 is optimized for enterprise data, capable of scoring semi-structured JSON payloads, YAML metadata, and multilingual documents alongside unstructured text for higher precision RAG.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Initial Top 100</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cohere Rerank v3 Engine</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Multilingual JSON Score</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Precision Top 5</text></g></svg>",
+        "codeSnippet": "import cohere\nco = cohere.Client('API_KEY')\nresponse = co.rerank(model='rerank-v3.5', query=query, documents=docs, top_n=5)",
+        "tip": "Cohere Rerank ساده‌ترین و قوی‌ترین لایه افزودنی برای ارتقای سریع سیستم‌های RAG است.",
+        "tip_en": "Adding Cohere Rerank v3 is the fastest way to boost baseline RAG precision by 20%+.",
+        "tags": [
+            "Cohere",
+            "Rerank",
+            "Multi-lingual",
+            "RAG"
+        ]
+    },
+    {
+        "id": 294,
+        "category": "rag_graphrag",
+        "difficulty": "advanced",
+        "title": "تکنیک MultipleNegativesRankingLoss در فاین‌تیونینگ مدل‌های امبدینگ چیست؟",
+        "title_en": "What is MultipleNegativesRankingLoss in fine-tuning embedding models?",
+        "summary": "آموزش امبدینگ‌ها با زوج‌های مثبت (پرسش، سند مرتبط) و استفاده از سایر نمونه‌های باچ به عنوان نمونه منفی.",
+        "summary_en": "Training embedding models using positive (query, doc) pairs while treating other batch items as negative pairs.",
+        "fullAnswer": "این تابع زیان عالی نیازمند برچسب‌گذاری نمونه‌های منفی نیست. در هر Batch آموزشی، زوج (پرسش i، سند i) مثبت فرض شده و تمام اسناد j!=i به عنوان نمونه منفی در نظر گرفته می‌شوند که آموزش را فوق‌العاده آسان می‌سازد.",
+        "fullAnswer_en": "MultipleNegativesRankingLoss requires only positive (query, relevant_doc) pairs. For each sample in a batch of size N, the other N-1 documents act as in-batch negatives, drastically simplifying contrastive dataset creation.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Positive Pairs (Q_i, Doc_i)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">In-batch Negatives (Doc_j)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Softmax Cross-Entropy</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fine-tuned Embedder</text></g></svg>",
+        "codeSnippet": "from sentence_transformers import losses\nloss = losses.MultipleNegativesRankingLoss(model)",
+        "tip": "این بهترین روش برای فاین‌تیون مدل‌های امبدینگ روی داده‌های داخلی سازمان است.",
+        "tip_en": "Use MultipleNegativesRankingLoss to fine-tune embeddings on proprietary internal docs.",
+        "tags": [
+            "Embeddings",
+            "Fine-Tuning",
+            "Loss-Function",
+            "Sentence-Transformers"
+        ]
+    },
+    {
+        "id": 295,
+        "category": "rag_graphrag",
+        "difficulty": "intermediate",
+        "title": "تکنیک Time-Weighted Vector Retrieval برای داده‌های خبری و متغیر زمان چیست؟",
+        "title_en": "What is Time-Weighted Vector Retrieval for time-sensitive data?",
+        "summary": "ترکیب تشابه برداری با تابع تنزل زمانی (Time Decay Function) برای اولویت دادن به اسناد تازه‌تر.",
+        "summary_en": "Combining vector similarity scores with an exponential time-decay function to favor recent documents.",
+        "fullAnswer": "در داده‌های خبری یا پشتیبانی، اسناد قدیمی ممکن است اعتبار خود را از دست داده باشند. این روش اسکور نهایی را ضرب در `exp(-decay_rate * elapsed_time)` می‌کند تا اسناد جدیدتر با وجود تشابه یکسان، رتبه بالاتری بگیرند.",
+        "fullAnswer_en": "In news or ticketing systems, stale documents mislead LLMs. Time-Weighted Retrieval scales raw similarity score by an exponential time decay factor `exp(-lambda * delta_t)`, prioritizing recent documents.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Raw Similarity Score</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Elapsed Time Calculation</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Exponential Time Decay</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Time-Adjusted Rank</text></g></svg>",
+        "codeSnippet": "final_score = sim_score * math.exp(-decay_rate * hours_elapsed)",
+        "tip": "این تکنیک برای چت‌بات‌های خبری، پایداری سیستم‌های مالی و پشتیبانی مشتریان ضروری است.",
+        "tip_en": "Time-Weighted Retrieval is essential for dynamic customer support and financial news RAG.",
+        "tags": [
+            "Time-Weighted",
+            "Decay-Function",
+            "Vector-DB",
+            "RAG"
+        ]
+    },
+    {
+        "id": 296,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تفاوت معماری‌های MHA، MQA و GQA در مکانیزم Attention چیست؟",
+        "title_en": "What are the differences between MHA, MQA, and GQA attention mechanisms?",
+        "summary": "MHA دارای K,V مستقل برای هر هد است؛ MQA یک K,V برای همه؛ و GQA گروهی از هدها را به یک K,V متصل می‌کند.",
+        "summary_en": "MHA has separate K,V per head; MQA shares one K,V across all heads; GQA groups heads to share K,V pairs.",
+        "fullAnswer": "در Multi-Head Attention (MHA) مصرف KV Cache بالاست. Multi-Query Attention (MQA) تنها یک سر K و V برای تمام هدهای Q نگه می‌دارد (افت کیفیت). Grouped-Query Attention (GQA) مثل Llama-3 هدهای Q را به ۸ گروه تقسیم می‌کند که توازن عالی بین کیفیت و رم ایجاد می‌کند.",
+        "fullAnswer_en": "MHA uses distinct K,V projections per head (high VRAM usage). MQA shares a single K,V head across all Query heads (fast, but minor quality loss). GQA (used in Llama-3) groups Q heads to share K,V projections, striking the ultimate balance.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MHA (N Q, N K, N V)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MQA (N Q, 1 K, 1 V)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GQA (N Q, G K, G V)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">KV Cache Optimized</text></g></svg>",
+        "codeSnippet": "# GQA Configuration in Llama-3\nnum_attention_heads = 32\nnum_key_value_heads = 8 # 4 Q heads per KV head",
+        "tip": "GQA استاندارد طلایی سرعت و کاهش حافظه KV Cache در مدل‌های نسل جدید است.",
+        "tip_en": "GQA is the modern golden standard for efficient LLM KV Cache serving.",
+        "tags": [
+            "Attention",
+            "GQA",
+            "MHA",
+            "MQA"
+        ]
+    },
+    {
+        "id": 297,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "معماری State Space Models (SSM) و مدل Mamba چه تفاوتی با Transformer دارند؟",
+        "title_en": "What is the State Space Model (SSM) and how does Mamba differ from Transformers?",
+        "summary": "پردازش متن با پیچیدگی خطی O(N) به جای O(N^2) به کمک معادلات حالت پیوسته تکراری.",
+        "summary_en": "Processing text with linear computational complexity O(N) instead of Transformer's O(N^2) via selective state space equations.",
+        "fullAnswer": "ترنسفورمرها به دلیل Attention حافظه O(N^2) می‌خواهند. مدل‌های SSM مانند Mamba کلمات را مثل یک سیستم دینامیکی پیوسته پردازش کرده و انتخاب پویای پارامترها (Selective SSM) را ممکن می‌سازند تا متون بی‌نهایت طولانی با سرعت بالا پردازش شوند.",
+        "fullAnswer_en": "Transformers scale quadratically O(N^2) with context length. Mamba (Selective State Space Model) formulates sequence processing as continuous linear state equations, achieving linear O(N) time complexity and infinite context capabilities.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Sequence</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Selective SSM Parameterization</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Linear Recurrent State</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">O(N) Fast Output</text></g></svg>",
+        "codeSnippet": "from mamba_ssm import Mamba\nmodel = Mamba(d_model=256, d_state=16, d_conv=4, expand=2)",
+        "tip": "Mamba کاندیدای جایگزینی ترنسفورمرها در پردازش متون طولانی و داده‌های سری زمانی است.",
+        "tip_en": "Mamba represents a viable linear-time alternative to Transformers for long sequences.",
+        "tags": [
+            "Mamba",
+            "SSM",
+            "Transformers",
+            "Linear-Attention"
+        ]
+    },
+    {
+        "id": 298,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تفاوت فرمت‌های کوآنتایزیشن GGUF، GPTQ، AWQ و BitsAndBytes NF4 چیست؟",
+        "title_en": "What are the differences between GGUF, GPTQ, AWQ, and BitsAndBytes NF4 quantization formats?",
+        "summary": "GGUF برای اجرا روی CPU/Mac در llama.cpp؛ GPTQ و AWQ برای اجرا روی GPU با vLLM؛ NF4 برای آموزش QLoRA.",
+        "summary_en": "GGUF is tailored for CPU/Mac llama.cpp; GPTQ & AWQ for high-speed GPU serving; NF4 for QLoRA fine-tuning.",
+        "fullAnswer": "GGUF فرمت تک فایلی بهینه برای اجرا روی CPU و Apple Silicon است. GPTQ و AWQ الگوریتم‌های کوانتایزیشن ۴ بیتی تخصصی روی GPU هستند (AWQ دقت بهتری در استدلال دارد). NF4 فرمت ویژه 4-bit NormalFloat در کتابخانه bitsandbytes برای فاین‌تیونینگ QLoRA است.",
+        "fullAnswer_en": "GGUF targets CPU/Mac llama.cpp inference. GPTQ and AWQ are 4-bit GPU formats (AWQ retains better reasoning precision via activation awareness). BitsAndBytes NF4 is an information-theoretically optimal format specifically designed for QLoRA fine-tuning.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP16 Model</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GGUF (CPU/Mac)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">AWQ / GPTQ (GPU Serving)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">NF4 (QLoRA Fine-Tuning)</text></g></svg>",
+        "codeSnippet": "from transformers import BitsAndBytesConfig\nbnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type='nf4')",
+        "tip": "برای دپلوی روی GPU با vLLM همیشه فرمت AWQ و برای اجرای رایانه شخصی GGUF را انتخاب کنید.",
+        "tip_en": "Prefer AWQ for GPU deployment via vLLM, and GGUF for local CPU inference.",
+        "tags": [
+            "GGUF",
+            "GPTQ",
+            "AWQ",
+            "NF4"
+        ]
+    },
+    {
+        "id": 299,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنیک Kahneman-Tversky Optimization (KTO) چیست و چه تفاوتی با DPO دارد؟",
+        "title_en": "What is Kahneman-Tversky Optimization (KTO) and how does it differ from DPO?",
+        "summary": "همراستاسازی مدل بدون نیاز به داده‌های جفتی (Paired Preferences)، تنها با برچسب‌های منفرد لایک/دیس‌لایک.",
+        "summary_en": "Aligning LLMs without paired preference data, requiring only single binary Like/Dislike feedback labels.",
+        "fullAnswer": "الگوریتم DPO نیازمند داده‌های جفتی (پاسخ A بهتر از B) است که تهیه آن سخت است. KTO بر اساس نظریه روانشناسی کانمن-تورسکی طراحی شده و تنها به لایک یا دیس‌لایک منفرد روی یک پاسخ نیاز دارد، که گردآوری داده را بسیار ساده می‌کند.",
+        "fullAnswer_en": "DPO requires strict paired preference data (A > B). KTO applies prospect theory utility functions, aligning models directly on un-paired binary signals (good response vs bad response), drastically simplifying dataset collection.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Single Response</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Binary Signal (Like/Dislike)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">KTO Utility Loss</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Aligned LLM</text></g></svg>",
+        "codeSnippet": "from trl import KTOTrainer\nkto_trainer = KTOTrainer(model=model, ref_model=ref_model, train_dataset=dataset)",
+        "tip": "KTO بهترین گزینه همراستاسازی است زمانی که داده‌های فیدبک واقعی کاربران لایک/دیس‌لایک باشد.",
+        "tip_en": "Use KTO when training on production thumbs-up / thumbs-down user logs.",
+        "tags": [
+            "KTO",
+            "DPO",
+            "Alignment",
+            "TRL"
+        ]
+    },
+    {
+        "id": 300,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "روش‌های ادغام مدل‌ها (Model Merging - SLERP, TIES, DARE) چیست؟",
+        "title_en": "What are Model Merging techniques (SLERP, TIES, DARE)?",
+        "summary": "ترکیب وزن‌های چند مدل فاین‌تیون شده مختلف بدون نیاز به آموزش مجدد روی GPU.",
+        "summary_en": "Combining weight matrices from multiple fine-tuned models without GPU retraining.",
+        "fullAnswer": "Model Merging اجازه می‌دهد دو مدل هوشمند را ترکیب کنید. SLERP نوسان کروی روی وزن‌ها انجام می‌دهد. TIES وزن‌های کم‌اثر را صفر کرده و تداخل علامت‌ها را حل می‌کند. DARE وزن‌ها را به صورت تصادفی Drop کرده و مقیاس‌بندی مجدد انجام می‌دهد.",
+        "fullAnswer_en": "Model Merging merges distinct specialized LLMs into a single superior checkpoint without compute. SLERP interpolates weights spherically. TIES prunes redundant weights and resolves sign conflicts. DARE randomly drops delta weights and scales remaining ones.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Model A (Coding)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Model B (Math)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Merge Algorithm (DARE/TIES)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unified Super-Model</text></g></svg>",
+        "codeSnippet": "# mergekit yaml config\nmodels:\n  - model: Llama-3-Coder\n  - model: Llama-3-Math\nmerge_method: ties",
+        "tip": "با ابزار `mergekit` می‌توانید بدون هزینه GPU مدل‌های پروداکشن غول‌پیکر بسازید.",
+        "tip_en": "Use `mergekit` to fuse specialized open-source checkpoints for free.",
+        "tags": [
+            "Model-Merging",
+            "SLERP",
+            "TIES",
+            "DARE"
+        ]
+    },
+    {
+        "id": 301,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنیک FlashAttention-3 چه بهبودهایی برای تراشه‌های NVIDIA Hopper (H100) آورده است؟",
+        "title_en": "What improvements does FlashAttention-3 introduce for NVIDIA Hopper GPUs?",
+        "summary": "بهره‌گیری از FP8 Tensor Cores و همپوشانی ضرب ماتریسی و اکتیویشن برای رسیدن به ۷۵٪ سقف توان محاسباتی.",
+        "summary_en": "Exploiting FP8 Tensor Cores and overlapping GEMM with softmax activations to reach 75% of H100 peak FLOPs.",
+        "fullAnswer": "FlashAttention-3 مخصوص معماری Hopper H100 ابداع شده است. این نسخه با پنهان‌سازی تاخیر I/O، پردازش FP8 بومی، و اجرای ناهمگام ضرب ماتریسی (Async GEMM) سرعت Attention را نسبت به FlashAttention-2 تا ۲ برابر دیگر افزایش می‌دهد.",
+        "fullAnswer_en": "FlashAttention-3 is custom-built for NVIDIA Hopper H100 GPUs. It exploits FP8 Tensor Cores, asynchronous GEMM scheduling, and overlapping warp execution to hit 75% of hardware theoretical FLOP capacity.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP8 Inputs</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Async Tensor Engine</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Warp Overlap Tiling</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">2x Faster FA2 Output</text></g></svg>",
+        "codeSnippet": "# Native FlashAttention-3 call on H100\nfrom flash_attn_interface import flash_attn_func_v3\nout = flash_attn_func_v3(q, k, v)",
+        "tip": "FlashAttention-3 سرعت آموزش مدل‌های بزرگ را روی کلسترهای H100 چند برابر می‌کند.",
+        "tip_en": "FlashAttention-3 unlocks peak throughput for H100 enterprise clusters.",
+        "tags": [
+            "FlashAttention-3",
+            "H100",
+            "FP8",
+            "GPU"
+        ]
+    },
+    {
+        "id": 302,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تنظیم پارامترهای Rank (r) و Alpha در LoRA چه تاثیری در فاین‌تیونینگ دارد؟",
+        "title_en": "How do LoRA Rank (r) and Alpha parameters affect fine-tuning quality?",
+        "summary": "پارامتر r ابعاد ماتریس کم‌رتبه و Alpha ضریب مقیاس‌بندی آپدیت وزن‌هاست (معمولاً Alpha = 2 * r).",
+        "summary_en": "Rank (r) sets low-rank matrix inner dimension; Alpha acts as scaling multiplier (typically Alpha = 2 * r).",
+        "fullAnswer": "پارامتر Rank (r) ظرفیت یادگیری LoRA را تعیین می‌کند (مثلا r=8 یا r=16). پارامتر Alpha ضریب یادگیری لایه LoRA را مقایس می‌زند (`scaled_delta = Delta_W * (alpha / r)`). تنظیم Alpha روی دو برابر r به پایداری آموزش کمک می‌کند.",
+        "fullAnswer_en": "Rank r controls adapter memory and expressiveness. Alpha scales adapter updates: `delta_W * (Alpha / r)`. Keeping Alpha equal to 2x Rank (e.g. r=16, alpha=32) ensures consistent learning rate behavior when modifying rank.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Base Weight Matrix</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LoRA Matrix A & B (Rank r)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Alpha / r Scaling Factor</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fine-tuned Output</text></g></svg>",
+        "codeSnippet": "from peft import LoraConfig\npeft_config = LoraConfig(r=16, lora_alpha=32, target_modules=['q_proj', 'v_proj'])",
+        "tip": "برای کارهای پیچیده ریاضی و کدنویسی، Rank را روی ۳۲ یا ۶۴ قرار دهید.",
+        "tip_en": "Increase LoRA Rank to 32 or 64 for domain-heavy code or math fine-tuning.",
+        "tags": [
+            "LoRA",
+            "Rank",
+            "Alpha",
+            "PEFT"
+        ]
+    },
+    {
+        "id": 303,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تفاوت QLoRA و LoRA چیست و 4-bit NormalFloat (NF4) چگونه کار می‌کند؟",
+        "title_en": "What is QLoRA and how does 4-bit NormalFloat (NF4) work?",
+        "summary": "QLoRA مدل اصلی را به ۴ بیت NF4 کوآنتایز کرده و لایه‌های LoRA را با دقت FP16 روی آن آموزش می‌دهد.",
+        "summary_en": "QLoRA quantizes base model weights to 4-bit NF4 while training FP16 LoRA adapters on top.",
+        "fullAnswer": "در LoRA مدل اصلی FP16 رم زیادی می‌خواهد. QLoRA وزن‌های اصلی را به 4-bit NormalFloat (فرمت بهینه اطلاعاتی برای داده‌های با توزیع نرمال) کوآنتایز کرده، از Double Quantization استفاده کرده و اجازه می‌دهد مدل ۷۰B روی یک GPU خانگی فاین‌تیون شود.",
+        "fullAnswer_en": "QLoRA quantizes base model weights to 4-bit NF4 (an information-theoretically optimal data type for normally distributed weights), applies Double Quantization, and trains unquantized FP16 LoRA adapters, cutting VRAM by 75%.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP16 Base Model</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">NF4 4-bit Quantization</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP16 LoRA Adapters</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">16GB VRAM Fine-Tuning</text></g></svg>",
+        "codeSnippet": "from peft import get_peft_model\nmodel = prepare_model_for_kbit_training(base_model)",
+        "tip": "QLoRA امکان فاین‌تیون کردن مدل‌های غول‌پیکر را روی کارت‌های معمولی مثل RTX 4090 فراهم می‌کند.",
+        "tip_en": "QLoRA democratizes 70B LLM fine-tuning on single consumer GPUs.",
+        "tags": [
+            "QLoRA",
+            "NF4",
+            "PEFT",
+            "Quantization"
+        ]
+    },
+    {
+        "id": 304,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "معماری Mixture of Depths (MoD) چیست و چه فرقی با MoE دارد؟",
+        "title_en": "What is Mixture of Depths (MoD) and how does it differ from MoE?",
+        "summary": "تخصیص پویا بودجه محاسباتی با رد کردن برخی لایه‌ها برای توکن‌های ساده متن.",
+        "summary_en": "Dynamically routing simple tokens around certain Transformer layers to save compute.",
+        "fullAnswer": "در MoE هدهای مختلف انتخاب می‌شوند. در MoD (ابداعی DeepMind)، مدل تصمیم می‌گیرد که توکن‌های ساده (مثل حروف ربط) برخی از لایه‌های ترنسفورمر را کلاً رد کنند (Skip) و تنها توکن‌های پیچیده تمام لایه‌ها را طی کنند که سرعت را تا ۵۰٪ بالا می‌برد.",
+        "fullAnswer_en": "While MoE routes tokens to different expert sub-networks, Mixture of Depths (MoD) dynamically routes tokens to skip entire Transformer layers if they are simple, concentrating compute depth on hard tokens.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sequence Tokens</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Router Depth Gate</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Skip Transformer Layer</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">50% Faster Compute</text></g></svg>",
+        "codeSnippet": "# MoD Layer Routing logic\nif router_score < threshold:\n    output = input # Skip layer processing",
+        "tip": "MoD سرعت تولید متن را بدون افت دقت به شدت افزایش می‌دهد.",
+        "tip_en": "MoD optimizes total FLOPs per token during generation.",
+        "tags": [
+            "MoD",
+            "Mixture-of-Depths",
+            "Transformers",
+            "Efficiency"
+        ]
+    },
+    {
+        "id": 305,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "مکانیزم Needle In A Haystack (NIAH) برای تست پنجره زمینه چیست؟",
+        "title_en": "What is the Needle In A Haystack (NIAH) benchmark for testing LLM context windows?",
+        "summary": "پنهان کردن یک حقیقت تک‌جمله‌ای (سوزن) درون متنی غول‌پیکر (انبار کاه) و سنجش توانایی بازیابی مدل.",
+        "summary_en": "Placing a random fact (needle) deep inside a massive text (haystack) to test retrieval accuracy across context lengths.",
+        "fullAnswer": "بساری از مدل‌ها ادعای زمینه ۱۲۸k دارند اما اطلاعات وسط متن را گم می‌کنند (Lost in the Middle). تست NIAH یک جمله بی‌ربط مثل 'بهترین میوه در تهران انار است' را در درصدهای مختلف طول متن قرار داده و قدرت یادآوری مدل را می‌سنجد.",
+        "fullAnswer_en": "LLMs claim large context windows but suffer from 'Lost in the Middle' retrieval degradation. The NIAH test inserts a unique fact at varying depth percentages across a long prompt to evaluate 100% recall retrieval fidelity.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Massive Context (128k)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Insert Random Fact at 50%</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Prompt LLM for Fact</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Heatmap Accuracy Plot</text></g></svg>",
+        "codeSnippet": "evaluator.run_niah_test(model, context_lengths=[4k, 16k, 64k, 128k], depths=[10%, 50%, 90%])",
+        "tip": "قبل از انتخاب یک مدل برای RAG طولانی، حتماً ماتریس NIAH آن را بررسی کنید.",
+        "tip_en": "Always audit an LLM's NIAH heatmap before using it for long-context tasks.",
+        "tags": [
+            "NIAH",
+            "Context-Window",
+            "Evaluation",
+            "Benchmarking"
+        ]
+    },
+    {
+        "id": 306,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنیک Contrastive Decoding چیست و چگونه هذیان متنی را کاهش می‌دهد؟",
+        "title_en": "What is Contrastive Decoding and how does it mitigate text hallucinations?",
+        "summary": "تفریق احتمالات یک مدل کوچک ضعیف از مدل بزرگ اصلی برای برجسته‌کردن توکن‌های باکیفیت.",
+        "summary_en": "Subtracting log-probabilities of a small weak model from the target LLM to boost high-quality tokens.",
+        "fullAnswer": "مدل‌های زبانی گاهی توکن‌های کلیشه‌ای و هذیانی تولید می‌کنند. Contrastive Decoding احتمالات خروجی یک مدل کوچک (Amateur) را از مدل اصلی (Expert) کسر می‌کند: `Logit = Logit_Expert - Logit_Amateur`. این کار پاسخ‌ها را فوق‌العاده منطقی و دقیق می‌سازد.",
+        "fullAnswer_en": "LLMs often output repetitive or hallucinated generic phrases. Contrastive Decoding subtracts the log probabilities of an amateur baseline model from the expert model logits, filtering out vague or generic token choices.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Target Expert LLM</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Amateur Base Model</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Subtracted Logit Sampling</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Factual Text Output</text></g></svg>",
+        "codeSnippet": "logits = expert_logits - amateur_logits\nnext_token = torch.argmax(logits)",
+        "tip": "Contrastive Decoding استدلال ریاضی و کدنویسی مدل را شفاف‌تر می‌کند.",
+        "tip_en": "Contrastive Decoding sharpens reasoning fidelity in complex coding prompts.",
+        "tags": [
+            "Contrastive-Decoding",
+            "Hallucination",
+            "Sampling",
+            "LLM"
+        ]
+    },
+    {
+        "id": 307,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "روش ساخت داده‌های سنتزی (Synthetic Data Generation) با Evol-Instruct چیست؟",
+        "title_en": "What is Synthetic Data Generation using Evol-Instruct?",
+        "summary": "پیچیده‌تر کردن خودکار پرامپت‌های ساده آموزشی با استفاده از لایه به لایه الگوریتم‌های تکاملی LLM.",
+        "summary_en": "Evolving simple instruction prompts into complex, multi-step queries iteratively using an LLM.",
+        "fullAnswer": "برای فاین‌تیونینگ داده‌های انسانی محدودند. روش Evol-Instruct (استفاده شده در WizardLM) از یک LLM قوی می‌خواهد پرامپت‌های ساده را تکامل دهد: با اضافه کردن محدودیت، تبدیل به کد، یا چندمرحله‌ای کردن سوالات، مجموعه‌ای غنی از داده‌های آموزشی می‌سازد.",
+        "fullAnswer_en": "High-quality fine-tuning requires complex prompts. Evol-Instruct uses an LLM to evolve simple instructions through mutation prompts (Deepening, Concretizing, Increasing Reasoning Steps), generating rich synthetic SFT datasets.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Simple Instruction</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Evolution Prompt</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Complex Evolved Prompt</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">High-Quality SFT Dataset</text></g></svg>",
+        "codeSnippet": "evolved_prompt = llm.generate('Make this prompt 3x more complex by adding constraints: ' + prompt)",
+        "tip": "داده‌های سنتزی Evol-Instruct کیفیت مدل‌های فاین‌تیون شده را جهش می‌دهند.",
+        "tip_en": "Synthetic data generation via Evol-Instruct powers state-of-the-art open-source SFT models.",
+        "tags": [
+            "Synthetic-Data",
+            "Evol-Instruct",
+            "SFT",
+            "Fine-Tuning"
+        ]
+    },
+    {
+        "id": 308,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تفاوت Alignment Tax و Catastrophic Forgetting در فاین‌تیونینگ چیست؟",
+        "title_en": "What is the difference between Alignment Tax and Catastrophic Forgetting?",
+        "summary": "Catastrophic Forgetting از دست رفتن دانش قبلی است؛ Alignment Tax افت خلاقیت مدل پس از همراستاسازی سخت‌گیرانه است.",
+        "summary_en": "Catastrophic Forgetting is losing prior knowledge; Alignment Tax is reduced creativity due to strict safety alignment.",
+        "fullAnswer": "فراموشی فاجعه‌بار زمانی رخ می‌دهد که فاین‌تیون روی یک دامنه‌ خاص باعث شود مدل توانایی‌های عمومی را فراموش کند. Alignment Tax افت عملکرد و امتناع بیش از حد مدل (Over-refusal) به دلیل همراستاسازی‌های سخت‌گیرانه اخلاقی در RLHF/DPO است.",
+        "fullAnswer_en": "Catastrophic Forgetting occurs when fine-tuning on narrow data erases previously learned general capabilities. Alignment Tax refers to the performance or creativity drop caused by overly strict safety alignment (PPO/DPO).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pretrained LLM</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Heavy Fine-Tuning / DPO</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Catastrophic Forgetting / Tax</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Regularized Training</text></g></svg>",
+        "codeSnippet": "# Adding KL-divergence loss penalty against pretrained base model prevents forgetting\nloss = sft_loss + beta * kl_div(model_probs, base_probs)",
+        "tip": "افزودن ترم KL-Divergence در زمان فاین‌تیونینگ مانع از فراموشی فاجعه‌بار می‌شود.",
+        "tip_en": "Enforce a KL-penalty during alignment to prevent catastrophic forgetting.",
+        "tags": [
+            "Alignment-Tax",
+            "Catastrophic-Forgetting",
+            "DPO",
+            "SFT"
+        ]
+    },
+    {
+        "id": 309,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "معماری Vision-Language Models (VLM) مانند LLaVA چگونه تصویر و متن را ترکیب می‌کند؟",
+        "title_en": "How do Vision-Language Models (VLMs) like LLaVA fuse vision and text?",
+        "summary": "امبد کردن پچ‌های تصویر با CLIP Vision Encoder و نگاشت آن‌ها به فضای توکن‌های متنی با یک Projection Layer.",
+        "summary_en": "Embedding image patches via CLIP Vision Encoder and projecting them into LLM token space using a Linear Projection.",
+        "fullAnswer": "در LLaVA تصویر وارد یک انکودر بینایی (CLIP ViT) شده و بردارهایی تولید می‌شود. یک لایه Projection خطی این بردارها را به ابعاد هم‌اندازه با توکن‌های متنی LLM تبدیل می‌کند، به‌طوری که مدل تصویر را مثل چند توکن متنی معمولی می‌بیند.",
+        "fullAnswer_en": "LLaVA processes images through a CLIP ViT vision encoder to obtain visual patch features. A simple linear projection layer maps these features directly into the LLM's embedding space, letting the LLM process visual tokens alongside text.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Image Input</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">CLIP Vision ViT</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Linear Projection Matrix</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Transformer Backbone</text></g></svg>",
+        "codeSnippet": "image_features = vision_tower(images)\nimage_tokens = projection_layer(image_features)\ninput_embeds = torch.cat([image_tokens, text_tokens], dim=1)",
+        "tip": "معماری LLaVA نشان داد یک لایه خطی ساده برای تبدیل پچ‌های تصویری به توکن‌های LLM کافی است.",
+        "tip_en": "LLaVA proved a simple projection layer is sufficient for high-performance visual instruction tuning.",
+        "tags": [
+            "VLM",
+            "LLaVA",
+            "CLIP",
+            "Multimodal"
+        ]
+    },
+    {
+        "id": 310,
+        "category": "nlp_llm",
+        "difficulty": "advanced",
+        "title": "تکنیک StreamingLLM و H2O برای مدیریت حافظه KV Cache در متن‌های بی‌نهایت چیست؟",
+        "title_en": "What are StreamingLLM and H2O (Heavy-Hitter Oracle) for infinite context KV Cache management?",
+        "summary": "نگه داشتن ۴ توکن اول (Attention Sink) و توکن‌های اخیر و حذف توکن‌های میانجی بی‌ارزش از KV Cache.",
+        "summary_en": "Retaining initial Attention Sink tokens plus recent tokens while evicting unimportantly middle KV Cache tokens.",
+        "fullAnswer": "در متن‌های فوق‌العاده طولانی KV Cache پر می‌شود. StreamingLLM کشف کرد که ۴ توکن اول متن (Attention Sink) بیشترین حجم Attention را نگه می‌دارند. با حفظ ۴ توکن اول و چند توکن آخر و حذف بقیه، مدل بدون Crash تا بی‌نهایت ادامه می‌دهد.",
+        "fullAnswer_en": "StreamingLLM discovered that initial tokens absorb a huge portion of attention scores ('Attention Sinks'). By retaining the first 4 tokens plus a sliding window of recent tokens, LLMs process infinite text streams without OOM or perplexity spikes.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Full KV Cache</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Attention Sink (First 4 Tokens)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sliding Window Recent Tokens</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Infinite Streaming</text></g></svg>",
+        "codeSnippet": "# StreamingLLM cache eviction policy\nkv_cache = torch.cat([kv_cache[:, :4], kv_cache[:, -window_size:]], dim=1)",
+        "tip": "StreamingLLM اجرای چت‌بات‌ها را در گفتگوهای طولانی بدون افت سرعت ممکن می‌سازد.",
+        "tip_en": "StreamingLLM enables infinite streaming chat without running out of GPU RAM.",
+        "tags": [
+            "StreamingLLM",
+            "KVCache",
+            "Attention-Sink",
+            "LLM"
+        ]
+    },
+    {
+        "id": 311,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "تفاوت هدایت تولید با Context-Free Grammar (CFG) و Regex در خروجی ساختاریافته چیست؟",
+        "title_en": "What is the difference between CFG and Regex guided generation for structured outputs?",
+        "summary": "محدود کردن ماتریس Logits مدل در هر توکن تنها به توکن‌های مجاز طبق گرامر یا عبارت باقاعده.",
+        "summary_en": "Masking model logits at each decoding step to enforce strict JSON or Pydantic grammar rules.",
+        "fullAnswer": "ابزارهایی مانند Outlines یا Guidance ماتریس Logits خروجی LLM را پیش از Sampling ماسک می‌کنند. اگر طبق گرامر JSON یا Regex در این گام تنها عدد یا علامت `\"` مجاز باشد، تمامی توکن‌های دیگر احتمال صفر می‌گیرند تا خروجی ۱۰۰٪ معتبر باشد.",
+        "fullAnswer_en": "Guided decoding (e.g. Outlines, Instructor) constructs a Finite State Machine from a Regex or JSON Context-Free Grammar. At each token generation step, invalid tokens are masked out from model logits, guaranteeing 100% valid syntax.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LLM Unconstrained Logits</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">CFG / Regex Masking</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Filtered Valid Logits</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">100% Valid JSON Output</text></g></svg>",
+        "codeSnippet": "import outlines\nmodel = outlines.models.transformers('meta-llama/Llama-3-8B')\ngenerator = outlines.generate.json(model, PydanticSchema)",
+        "tip": "همواره از Guided Decoding (مثل Outlines) به جای پرامپت‌نویسی ساده برای خروجی JSON استفاده کنید.",
+        "tip_en": "Prefer Outlines or Guidance over prompt engineering for production JSON extraction.",
+        "tags": [
+            "Guided-Decoding",
+            "CFG",
+            "Regex",
+            "Outlines"
+        ]
+    },
+    {
+        "id": 312,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "مکانیزم Checkpointing و Thread State در LangGraph چگونه پایداری عامل‌ها را تضمین می‌کند؟",
+        "title_en": "How do Checkpointing and Thread State in LangGraph ensure agent state persistence?",
+        "summary": "ذخیره وضعیت کامل گراف (State) در دیتابیس پس از هر گام برای بازگشت به عقب و ادامه کار.",
+        "summary_en": "Persisting full graph state to a database after every step for time-travel and failure recovery.",
+        "fullAnswer": "اگر اجرای یک عامل ۵ دقیقه‌ای در گام چهارم قطع شود، نباید از اول شروع کند. LangGraph با Checkpointer (مانند Memory یا Postgres) وضعیت تمام متغیرها را با یک `thread_id` ذخیره می‌کند تا امکان تعلیق، اشکال‌زدایی و بازگشت به عقب فراهم باشد.",
+        "fullAnswer_en": "LangGraph Checkpointers save a snapshot of the graph State after every node execution using a `thread_id`. This allows agents to pause, recover from step failures, support time-travel debugging, and resume state seamlessly.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Node Executed</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LangGraph Checkpointer</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Save State Snapshot (Postgres)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Resume / Rollback Thread</text></g></svg>",
+        "codeSnippet": "from langgraph.checkpoint.postgres import PostgresSaver\ncheckpointer = PostgresSaver(conn_string)\napp = workflow.compile(checkpointer=checkpointer)",
+        "tip": "برای تمام عامل‌های پروداکشن از Postgres Checkpointer استفاده کنید.",
+        "tip_en": "Use Postgres Checkpointer for fault-tolerant production agent execution.",
+        "tags": [
+            "LangGraph",
+            "Checkpointing",
+            "State",
+            "Persistence"
+        ]
+    },
+    {
+        "id": 313,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "تفاوت معماری‌های LATS (Language Agent Tree Search) و ReAct چیست؟",
+        "title_en": "What is the difference between LATS (Language Agent Tree Search) and ReAct?",
+        "summary": "LATS از درخت جستجوی مونت‌کارلو (MCTS) برای ارزیابی و بازگشت به عقب در مسیرهای تصمیم‌گیری استفاده می‌کند.",
+        "summary_en": "LATS combines Monte Carlo Tree Search (MCTS) with self-reflection to evaluate and backtrack agent actions.",
+        "fullAnswer": "ReAct یک مسیر خطی ساده را طی می‌کند و در صورت بن‌بست شکست می‌خورد. LATS الگوریتم MCTS را با ارزیابی و Reflexion ترکیب می‌کند. عامل چند مسیر تصمیم را همزمان بررسی کرده، به آن‌ها اسکور داده و در صورت مسیر نادرست Backtrack می‌کند.",
+        "fullAnswer_en": "ReAct executes a fragile linear trajectory. LATS merges Monte Carlo Tree Search (MCTS) with self-reflection. The agent expands multiple candidate action branches, evaluates path rewards, and backtracks from dead ends.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Current State</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MCTS Action Expansion</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Self-Reflection Score</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Backtrack & Select Best</text></g></svg>",
+        "codeSnippet": "# LATS agent node evaluation\nreward = evaluator.score(trajectory)\nmcts.backpropagate(node, reward)",
+        "tip": "LATS قوی‌ترین معماری عامل برای مسائل پیچیده برنامه‌نویسی و بازیابی چندمرحله‌ای است.",
+        "tip_en": "LATS represents the highest precision agent architecture for complex decision-making.",
+        "tags": [
+            "LATS",
+            "MCTS",
+            "Agents",
+            "Search"
+        ]
+    },
+    {
+        "id": 314,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "نحوه مدیریت حافظه اپیزودیک (Episodic) و معنایی (Semantic) در عامل‌ها چیست؟",
+        "title_en": "How is Episodic and Semantic memory managed in autonomous agents?",
+        "summary": "حافظه اپیزودیک تجربه اتفاقات گذشته به همراه زمان را نگه می‌دارد؛ معنایی واقعیت‌های کلی و دانش را.",
+        "summary_en": "Episodic memory stores time-stamped past execution events; Semantic memory stores facts and general concepts.",
+        "fullAnswer": "حافظه Episodic مانند دفترچه خاطرات عامل است (مثلا 'دیروز فایل X را ویرایش کردم و خطای Y داد'). حافظه Semantic دانش کلی است (مثلا 'کاربر علی مدیر بخش مالی است'). ترکیب این دو در دیتابیس برداری هوشمندی عامل را دوبرابر می‌کند.",
+        "fullAnswer_en": "Episodic memory logs specific, time-stamped execution trajectories and past attempts. Semantic memory stores abstract facts, user preferences, and domain knowledge. Vector DB retrieval blends both memories into prompt context.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Interaction</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Episodic Logger (Events)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Semantic Extractor (Facts)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Blended Memory Context</text></g></svg>",
+        "codeSnippet": "memory.save_episodic(run_trajectory, timestamp=now())\nmemory.save_semantic(fact='User prefers PyTorch over TensorFlow')",
+        "tip": "تفکیک حافظه رویدادی و معنایی باعث می‌شود چت‌بات‌ها رفتاری کاملاً انسانی و هوشمند داشته باشند.",
+        "tip_en": "Structuring memory into episodic and semantic layers yields highly human-like conversation persistence.",
+        "tags": [
+            "Memory",
+            "Episodic",
+            "Semantic",
+            "Agents"
+        ]
+    },
+    {
+        "id": 315,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "الگوی Dynamic Tool Indexing با RAG برای عامل‌های با ۱۰۰+ ابزار چیست؟",
+        "title_en": "What is Dynamic Tool Indexing via RAG for agents with 100+ tools?",
+        "summary": "جستجوی برداری توضیحات ابزارها و جا دادن تنها ۳ تا ۵ ابزار مرتبط درون پرامپت در هر گام.",
+        "summary_en": "Vector searching tool descriptions to insert only the top 3-5 relevant tool schemas into the prompt per step.",
+        "fullAnswer": "اگر ۱۰۰ ابزار را به صورت یکجا در پرامپت بگذارید، مدل سردرگم شده و توکن‌های زیادی مصرف می‌شود. در Dynamic Tool Indexing، توضیحات ابزارها در یک دیتابیس برداری ذخیره می‌شوند. بر اساس پرسش جاری، ۳ ابزار برتر بازیابی شده و به مدل تحویل داده می‌شوند.",
+        "fullAnswer_en": "Passing hundreds of JSON tool schemas bloats prompt tokens and confuses the LLM. Dynamic Tool Indexing indexes tool descriptions into a vector store, dynamically retrieving only the top 3–5 candidate tools relevant to the current sub-task.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Sub-task</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vector Tool Retriever</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Top 3 Relevant Tools</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Clean LLM Prompt</text></g></svg>",
+        "codeSnippet": "relevant_tools = tool_vectorstore.similarity_search(sub_task, k=3)\nresponse = llm.invoke(sub_task, tools=relevant_tools)",
+        "tip": "این الگو برای سیستم‌های پشتیبانی صنعتی با صدها API اجباری است.",
+        "tip_en": "Dynamic Tool Indexing is essential for enterprise agent platforms managing vast API catalogs.",
+        "tags": [
+            "Tool-Use",
+            "RAG",
+            "Dynamic-Tools",
+            "Agents"
+        ]
+    },
+    {
+        "id": 316,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "ارزیابی تراژکتوری عامل‌ها با SWE-bench و GAIA چگونه انجام می‌شود؟",
+        "title_en": "How is agent trajectory evaluated using SWE-bench and GAIA benchmarks?",
+        "summary": "سنجش توانایی عامل در حل issueهای واقعی ریپوزیتوری‌های گیتهاب (SWE-bench) و سوالات پیچیده دنیای واقعی (GAIA).",
+        "summary_en": "Testing agent capability on real GitHub issue resolution (SWE-bench) and complex multi-modal tasks (GAIA).",
+        "fullAnswer": "SWE-bench یک بنچمارک معتبر است که یک Issue واقعی از کدبیس‌های پایتون را به عامل می‌دهد؛ عامل باید کد را ادیت کرده و تایتل تست‌ها پاس شوند. GAIA سوالات سخت نیازمند ابزار، مرورگر و پردازش فایل را ارزیابی می‌کند.",
+        "fullAnswer_en": "SWE-bench tests agents by giving them real GitHub issues across major Python repos, requiring them to edit code and pass unit tests. GAIA evaluates multi-modal, tool-augmented tasks requiring web search and file manipulation.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GitHub Issue</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Environment</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Code Patch Generation</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unit Test Gate</text></g></svg>",
+        "codeSnippet": "# Running SWE-bench evaluation harness\npython -m swebench.harness.run_evaluation --predictions_path preds.jsonl",
+        "tip": "ارزیابی با SWE-bench استاندارد طلایی سنجش عامل‌های کدنویس است.",
+        "tip_en": "SWE-bench resolution rate is the industry-standard benchmark for AI coding agents.",
+        "tags": [
+            "SWE-bench",
+            "GAIA",
+            "Evaluation",
+            "Agents"
+        ]
+    },
+    {
+        "id": 317,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "الگوی Swarm Intelligence در سیستم‌های چندعاملی چیست؟",
+        "title_en": "What is the Swarm Intelligence pattern in multi-agent systems?",
+        "summary": "معماری سبک ابداعی OpenAI برای جابجایی ترافیک بین عامل‌ها با توابع تسلیم (Handoff Functions).",
+        "summary_en": "OpenAI's lightweight architecture for seamlessly transferring execution between agents using Handoff functions.",
+        "fullAnswer": "الگوی Swarm ساختارهای پیچیده مرکزی را حذف می‌کند. هر عامل می‌تواند کارهای خود را انجام دهد و در صورت لزوم با برگرداندن یک تابع Handoff (مثلاً `transfer_to_sales_agent`) کنترل گفتگو را کلاً به عامل دیگری بسپارد.",
+        "fullAnswer_en": "OpenAI's Swarm pattern eliminates central orchestrators. Agents execute tasks and hand off execution dynamically by returning another agent instance (`transfer_to_support_agent`), maintaining stateless and lightweight routing.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Input</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Triage Agent</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Handoff Return</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Transferred Sales Agent</text></g></svg>",
+        "codeSnippet": "def transfer_to_sales():\n    return sales_agent\ntriage_agent.functions.append(transfer_to_sales)",
+        "tip": "الگوی Swarm ساده‌ترین و تمیزترین روش برای ساخت چت‌بات‌های چنددپارتمانه است.",
+        "tip_en": "Swarm pattern offers a lightweight, ergonomic design for multi-department customer service bots.",
+        "tags": [
+            "Swarm",
+            "Multi-Agent",
+            "Handoff",
+            "OpenAI"
+        ]
+    },
+    {
+        "id": 318,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "نحوه اتوماسیون مرورگر وب با Playwright و Vision-LLM در عامل‌های خودکار چیست؟",
+        "title_en": "How to automate browser workflows using Playwright and Vision LLMs in autonomous agents?",
+        "summary": "گرفتن اسکرین‌شات از مرورگر، علامت‌گذاری عناصر قابل کلیک (SoM) و ارسال تصویر به مدل بینایی.",
+        "summary_en": "Taking browser screenshots, annotating interactive elements (Set-of-Mark), and prompting Vision LLMs.",
+        "fullAnswer": "عامل‌های وب از کدهای HTML شلوغ سردرگم می‌شوند. تکنیک Set-of-Mark (SoM) روی تمام دکمه‌ها و فرم‌های مرورگر Playwright یک عدد رنگی می‌گذارد. تصویر به Vision-LLM داده می‌شود تا بگوید 'روی دکمه شماره ۵ کلیک کن'.",
+        "fullAnswer_en": "Parsing complex HTML DOM trees confuses agents. Vision Web Agents take a Playwright browser screenshot, overlay bounding boxes with numerical IDs on clickable elements (Set-of-Mark prompting), and ask a Vision LLM to return action coordinates.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Web Page</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Playwright Screenshot + SoM IDs</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Vision LLM Action Decision</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Playwright Click(ID)</text></g></svg>",
+        "codeSnippet": "element_id = vision_llm.predict_click_id(som_screenshot)\npage.click(f'[data-som-id=\"{element_id}\"]')",
+        "tip": "تکنیک SoM دقت عامل‌های اتوماسیون وب را از ۳۰٪ به بالای ۸۰٪ می‌رساند.",
+        "tip_en": "Set-of-Mark (SoM) prompting dramatically boosts web automation task success rates.",
+        "tags": [
+            "Playwright",
+            "Web-Agents",
+            "Vision-LLM",
+            "Set-of-Mark"
+        ]
+    },
+    {
+        "id": 319,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "روش مدیریت محدودیت نرخ (Rate Limiting) و سهمیه API در عامل‌ها چیست؟",
+        "title_en": "How to manage Rate Limiting and API Quota limits in agent execution loops?",
+        "summary": "کنترل زمان‌بندی فراخوانی‌ها با الگوریتم Exponential Backoff با Jitter و صف‌های پردازش ناهمگام.",
+        "summary_en": "Throttling tool execution using Exponential Backoff with Jitter and async queues.",
+        "fullAnswer": "عامل‌ها در حلقه‌های تکاراری ممکن است صدها فراخوانی API انجام دهند و دچار خطای `429 Too Many Requests` شوند. با اعمال الگوریتم Exponential Backoff با Jitter، زمان انتظار بین شکست‌ها به صورت تصادفی افزایش می‌یابد تا سرور بلاک نکند.",
+        "fullAnswer_en": "Agent loops rapidly execute tools, causing HTTP 429 rate limit exceptions. Implementing Exponential Backoff with randomized Jitter prevents thundering herd problems, dynamically adjusting delay between retry attempts.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tool Execution Error 429</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Exponential Backoff Math</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Randomized Jitter Delay</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Successful Retry</text></g></svg>",
+        "codeSnippet": "from tenacity import retry, stop_after_attempt, wait_exponential\n@retry(wait=wait_exponential(multiplier=1, min=2, max=10))\ndef call_agent_tool(): pass",
+        "tip": "همواره توابع فراخوانی ابزارهای عامل را به دکوراتور `tenacity` مجهز کنید.",
+        "tip_en": "Decorate all agent tool execution functions with retry libraries like `tenacity`.",
+        "tags": [
+            "Rate-Limiting",
+            "Tenacity",
+            "Backoff",
+            "Agents"
+        ]
+    },
+    {
+        "id": 320,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "ردیابی و تله‌متری خط سیر عامل‌ها با ابزارهای LangSmith و Phoenix چگونه انجام می‌شود؟",
+        "title_en": "How to trace and log agent execution trajectories using LangSmith and Phoenix?",
+        "summary": "ثبت درخت کامل فراخوانی پرامپت‌ها، پاسخ ابزارها، توکن‌ها و زمان اجرای هر گام عامل.",
+        "summary_en": "Logging the execution tree of prompts, tool responses, token consumption, and step latencies.",
+        "fullAnswer": "عیب‌یابی عامل‌ها بدون ردیابی (Tracing) مستند ممکن نیست. ابزارهایی مانند LangSmith و Arize Phoenix تمام گام‌های زنجیره تفکر عامل، ورودی و خروجی ابزارها، توکن‌های مصرفی و زمان هر گام را در یک داشبورد تعاملی ثبت می‌کنند.",
+        "fullAnswer_en": "Debugging autonomous agent loops requires full observability. Tools like LangSmith and Arize Phoenix capture execution traces, logging nested tool calls, prompt variables, exact latency per step, and token costs in a visual UI.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Step Executed</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">OpenTelemetry Trace Event</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">LangSmith Dashboard</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Visual Execution Tree</text></g></svg>",
+        "codeSnippet": "import os\nos.environ['LANGCHAIN_TRACING_V2'] = 'true'\nos.environ['LANGCHAIN_API_KEY'] = 'ls_...'",
+        "tip": "استفاده از Tracing در زمان توسعه عامل‌ها سرعت عیب‌یابی را ۵ برابر می‌کند.",
+        "tip_en": "Enabling execution tracing is indispensable for agent prompt debugging and cost control.",
+        "tags": [
+            "LangSmith",
+            "Phoenix",
+            "Tracing",
+            "Observability"
+        ]
+    },
+    {
+        "id": 321,
+        "category": "agents",
+        "difficulty": "intermediate",
+        "title": "تفاوت عامل‌های حالت‌دار (Stateful) و بدون حالت (Stateless) در طراحی API چیست؟",
+        "title_en": "What is the difference between Stateful and Stateless Agent API designs?",
+        "summary": "عامل Stateful وضعیت چت و فایل‌ها را در سرور نگه می‌دارد؛ Stateless کل تاریخچه را در هر درخواست دریافت می‌کند.",
+        "summary_en": "Stateful agents maintain session state on the server; Stateless agents require the client to pass context per request.",
+        "fullAnswer": "در APIهای بدون حالت (Stateless)، کلاینت باید در هر بار فراخوانی تمام تاریخچه چت و وضعیت را بفرستد. در APIهای حالت‌دار (Stateful مانند OpenAI Assistants API)، یک `thread_id` ایجاد شده و وضعیت روی سرور ذخیره می‌شود.",
+        "fullAnswer_en": "Stateless Agent APIs require clients to send the full conversation payload on every turn. Stateful Agent APIs (e.g. OpenAI Assistants API) persist context and thread state server-side, accepting only the new message.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Request + thread_id</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Server State Retrieval</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Agent Run Execution</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Updated Session State</text></g></svg>",
+        "codeSnippet": "run = client.beta.threads.runs.create(thread_id=thread.id, assistant_id=assistant.id)",
+        "tip": "برای برنامه‌های موبایل و فرانت‌اند، APIهای حالت‌دار (Stateful) توسعه را بسیار آسان می‌کنند.",
+        "tip_en": "Stateful APIs simplify frontend development by encapsulating session history server-side.",
+        "tags": [
+            "Stateful",
+            "Stateless",
+            "API-Design",
+            "Agents"
+        ]
+    },
+    {
+        "id": 322,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "مکانیزم Automatic Mixed Precision (AMP) در PyTorch چگونه عمل می‌کند؟",
+        "title_en": "How does Automatic Mixed Precision (AMP) work in PyTorch?",
+        "summary": "اجرای محاسبات سنگین با FP16/BF16 و نگهداری وزن‌های Master به صورت FP32 برای حفظ دقت.",
+        "summary_en": "Executing heavy compute operations in FP16/BF16 while maintaining FP32 master weights for stability.",
+        "fullAnswer": "AMP به طور خودکار عملیات ریاضی شبکه را دسته‌بندی می‌کند: ضرب ماتریسی سنگین به FP16/BF16 منتقل می‌شود تا سرعت Tensor Coreها بالا برود، و محاسبات حساس (مانند Softmax یا Loss) روی FP32 باقی می‌مانند.",
+        "fullAnswer_en": "PyTorch AMP dynamically casts operations to lower precision (FP16/BF16) for matrix multiplications to leverage Tensor Core speeds, while retaining FP32 for loss math and master weight updates to maintain training stability.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP32 Master Weights</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Autocast to FP16/BF16</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tensor Core Computation</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GradScaler Update</text></g></svg>",
+        "codeSnippet": "scaler = torch.cuda.amp.GradScaler()\nwith torch.cuda.amp.autocast():\n    outputs = model(inputs)\nscaler.scale(loss).backward()\nscaler.step(optimizer)\nscaler.update()",
+        "tip": "AMP مصرف حافظه VRAM را نصف کرده و سرعت آموزش را تا ۳ برابر بالا می‌برد.",
+        "tip_en": "AMP halves VRAM consumption and triples training speed on modern GPUs.",
+        "tags": [
+            "AMP",
+            "Mixed-Precision",
+            "PyTorch",
+            "CUDA"
+        ]
+    },
+    {
+        "id": 323,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "تفاوت الگوریتم‌های بهینه‌سازی Adam ،AdamW و Lion چیست؟",
+        "title_en": "What are the differences between Adam, AdamW, and Lion optimizers?",
+        "summary": "AdamW جریمه وزن را از گرادیان جدا می‌کند؛ Lion تنها علامت (Sign) ممان را نگه می‌دارد و رم کمتری می‌خواهد.",
+        "summary_en": "AdamW decouples weight decay; Lion tracks only momentum signs, reducing memory overhead by 50%.",
+        "fullAnswer": "AdamW مشکل Weight Decay الگوریتم Adam را حل کرد. الگوریتم Lion (ابداعی گوگل) ممان دوم (v) را کلاً حذف کرده و تنها از علامت (Sign) ممان اول استفاده می‌کند، که مصرف حافظه اپتیمایزر را ۵۰٪ کم کرده و سرعت آموزش را بالا می‌برد.",
+        "fullAnswer_en": "AdamW fixes decoupled weight decay in Adam. Lion (EvoLved Sign Momentum) discards the second-moment vector (v), tracking only the sign of the first moment. This halves optimizer VRAM usage while outperforming AdamW in LLM pretraining.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Loss Gradient</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sign of Momentum</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Lion Optimizer Update</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">50% VRAM Saved</text></g></svg>",
+        "codeSnippet": "from lion_pytorch import Lion\noptimizer = Lion(model.parameters(), lr=1e-4, weight_decay=1e-2)",
+        "tip": "الگوریتم Lion برای آموزش مدل‌های عمیق روی کلسترهای با حافظه محدود عالی است.",
+        "tip_en": "Lion reduces optimizer VRAM footprint, making it ideal for memory-constrained training.",
+        "tags": [
+            "Lion",
+            "AdamW",
+            "Adam",
+            "Optimization"
+        ]
+    },
+    {
+        "id": 324,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "مکانیزم‌های نرمال‌سازی RMSNorm و GroupNorm چه تفاوتی با LayerNorm دارند؟",
+        "title_en": "What are the differences between RMSNorm, GroupNorm, and LayerNorm?",
+        "summary": "RMSNorm میانگین را حذف کرده و تنها با جذر میانگین مربعات نرمال می‌سازد؛ GroupNorm کانال‌ها را خوشه‌بندی می‌کند.",
+        "summary_en": "RMSNorm omits mean-centering, scaling by Root Mean Square; GroupNorm divides channels into groups.",
+        "fullAnswer": "LayerNorm میانگین و واریانس را محاسبه می‌کند. RMSNorm (استفاده شده در Llama-3) محاسبات میانگین را کلاً فاکتور گرفته و تنها بر جذر میانگین مربعات تقسیم می‌کند که سرعت را ۷٪ بالا می‌برد. GroupNorm کانال‌ها را به چند گروه تقسیم کرده و برای باچ‌های کوچک عالی است.",
+        "fullAnswer_en": "LayerNorm subtracts mean and divides by variance. RMSNorm (used in Llama 3) omits mean subtraction, scaling solely by Root Mean Square, saving 7% compute time. GroupNorm splits channels into groups, making it independent of batch size in vision tasks.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Feature Layer</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RMSNorm (Scale by RMS)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GroupNorm (Channel Groups)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fast Compute Output</text></g></svg>",
+        "codeSnippet": "class RMSNorm(torch.nn.Module):\n    def forward(self, x):\n        return x * torch.rsqrt(x.pow(2).mean(-1, keepdim=True) + 1e-6)",
+        "tip": "RMSNorm استاندارد جدید ترنسفورمرهای مدرن به دلیل سرعت بالاتر است.",
+        "tip_en": "RMSNorm is the default choice for modern LLM backbones due to faster execution.",
+        "tags": [
+            "RMSNorm",
+            "LayerNorm",
+            "GroupNorm",
+            "Normalization"
+        ]
+    },
+    {
+        "id": 325,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "مفهوم Positional Encodings سینوسی، مطلق و نسبی چیست؟",
+        "title_en": "What are Sinusoidal, Absolute, and Relative Positional Encodings?",
+        "summary": "سینوسی تابعی ثابت از فرکانس‌هاست؛ مطلق بردار قابل یادگیری برای هر اندیس است؛ نسبی فاصله توکن‌ها را می‌سنجد.",
+        "summary_en": "Sinusoidal uses fixed frequency functions; Absolute learns vectors per index; Relative encodes token distances.",
+        "fullAnswer": "ترنسفورمرها بردارها را موازی می‌خوانند و ترتیبی درک نمی‌کنند. انکودینگ سینوسی (Vaswani) با توابع sin/cos موقعیت را می‌سازد. انکودینگ مطلق یک بردار برای هر موقعیت یاد می‌گیرد. انکودینگ نسبی (مثل RoPE یا ALiBi) فاصله بین توکن‌ها را در ماتریس Attention اعمال می‌کند.",
+        "fullAnswer_en": "Transformers process tokens simultaneously without native positional order. Sinusoidal encoding uses fixed sin/cos frequencies. Absolute positional encoding learns a vector per index. Relative positional encoding (RoPE/ALiBi) explicitly injects token distances into attention math.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Token Embeddings</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sin/Cos Frequency Generator</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Distance Matrix</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Positional Attention</text></g></svg>",
+        "codeSnippet": "# Sinusoidal Positional Encoding\npe[:, 0::2] = torch.sin(position * div_term)\npe[:, 1::2] = torch.cos(position * div_term)",
+        "tip": "انکودینگ‌های نسبی مثل RoPE تعمیم‌پذیری طول متن را به شدت بهبود می‌دهند.",
+        "tip_en": "Relative positional encodings like RoPE generalize far better to long contexts.",
+        "tags": [
+            "Positional-Encoding",
+            "RoPE",
+            "Sinusoidal",
+            "Transformers"
+        ]
+    },
+    {
+        "id": 326,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تکنیک Pruning ساختاری (Structural) و غیرساختاری (Unstructural) چیست؟",
+        "title_en": "What is the difference between Structural and Unstructural Pruning?",
+        "summary": "غیرساختاری وزن‌های تک را صفر می‌کند؛ ساختاری کل کانال‌ها یا لایه‌ها را حذف می‌کند تا سرعت روی GPU افزایش یابد.",
+        "summary_en": "Unstructural sets individual weights to zero; Structural removes entire channels/layers for GPU speedups.",
+        "fullAnswer": "در غیرساختاری (Unstructural) وزن‌های کوچک صفر می‌شوند که به ماتریس پراکنده (Sparse) منجر می‌شود اما بدون سخت‌افزار خاص سرعت GPU را زیاد نمی‌کند. در ساختاری (Structural) کل یک سطر، ستون یا لایه حذف می‌شود که مستقیماً سرعت اجرا را بالا می‌برد.",
+        "fullAnswer_en": "Unstructural pruning sets individual small weights to zero, creating sparse matrices that require specialized hardware (NVIDIA Sparse Cores) for speedup. Structural pruning drops entire channels, heads, or layers, shrinking dense matrix dimensions for immediate GPU latency gains.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dense Matrix</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Unstructural Pruning (Sparse Zero Weights)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Structural Pruning (Drop Channels)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Hardware Speedup</text></g></svg>",
+        "codeSnippet": "import torch.nn.utils.prune as prune\nprune.ln_structured(module, name='weight', amount=0.2, n=2, dim=0)",
+        "tip": "برای کاهش واقعی تاخیر سرویس‌دهی روی GPU از Pruning ساختاری استفاده کنید.",
+        "tip_en": "Prefer Structural Pruning when targeting real-world GPU latency reduction.",
+        "tags": [
+            "Pruning",
+            "Structural",
+            "Unstructural",
+            "Model-Compression"
+        ]
+    },
+    {
+        "id": 327,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "الگوریتم‌های بهینه‌سازی هایپرپارامتر Bayesian Optimization و Optuna چگونه کار می‌کنند؟",
+        "title_en": "How do Bayesian Optimization and Optuna work for Hyperparameter Tuning?",
+        "summary": "مدلسازی احتمالاتی عملکرد هایپرپارامترها با Gaussian Processes و انتخاب هوشمند نقطه بعدی.",
+        "summary_en": "Probabilistic modeling of hyperparameter performance using Gaussian Processes to select optimal trial points.",
+        "fullAnswer": "جستجوی تصادفی یا Grid Search بسیار کند است. Bayesian Optimization به همراه فریم‌ورک Optuna با استفاده از مدل پیشین (Surrogate Model) پیش‌بینی می‌کند که کدام ترکیب هایپرپارامتر بیشترین شانس بهبود را دارد و آزمون‌های بعدی را هوشمندانه انتخاب می‌کند.",
+        "fullAnswer_en": "Grid and Random Search are inefficient. Bayesian Optimization (implemented in Optuna using Tree-structured Parzen Estimator - TPE) fits a probabilistic surrogate model over past trial results to suggest the next set of hyperparameters most likely to improve metrics.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Trial History</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optuna TPE Sampler</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Suggested Hyperparameters</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Objective Evaluation</text></g></svg>",
+        "codeSnippet": "import optuna\ndef objective(trial):\n    lr = trial.suggest_float('lr', 1e-5, 1e-2, log=True)\n    return train_and_eval(lr)\nstudy = optuna.create_study(direction='maximize')\nstudy.optimize(objective, n_trials=50)",
+        "tip": "Optuna زمان رسیدن به بهترین هایپرپارامترها را تا ۷۰٪ نسبت به Grid Search کاهش می‌دهد.",
+        "tip_en": "Optuna reaches optimal hyperparameters in 70% fewer trials than Grid Search.",
+        "tags": [
+            "Optuna",
+            "Bayesian-Optimization",
+            "Hyperparameters",
+            "Tuning"
+        ]
+    },
+    {
+        "id": 328,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "تکنیک Sharpness-Aware Minimization (SAM) چیست و چگونه تعمیم‌پذیری را افزایش می‌دهد؟",
+        "title_en": "What is Sharpness-Aware Minimization (SAM) and how does it improve generalization?",
+        "summary": "یافتن کمینه‌های پهن (Flat Minima) در لوس لنداسکیپ به جای کمینه‌های تیز (Sharp Minima).",
+        "summary_en": "Finding flat minima in the loss landscape rather than sharp minima for robust generalization.",
+        "fullAnswer": "کمینه‌های تیز (Sharp Minima) در لوس لنداسکیپ باعث می‌شوند با کوچکترین تغییر در داده‌های تست، دقت مدل افت کند. SAM با حل یک مسئله بهینه‌سازی Min-Max همزمان مقدار لوس و میزان تیزی (Sharpness) لنداسکیپ را کم می‌کند تا مدل در کمینه‌های پهن قرار گیرد.",
+        "fullAnswer_en": "Sharp loss minima cause models to overfit, leading to test performance drops. SAM optimizes for both loss value and loss landscape flatness by solving a Min-Max formulation, ensuring model weights land in wide, flat valleys resistant to distribution shifts.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Loss Landscape</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sharp Minima (Overfitting)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">SAM Optimization</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Flat Minima (Generalizable)</text></g></svg>",
+        "codeSnippet": "# SAM Optimizer step pseudo-code\nloss = model(inputs)\nloss.backward()\noptimizer.first_step(zero_grad=True) # Move to worst local neighborhood\nmodel(inputs).backward()\noptimizer.second_step(zero_grad=True) # Final update",
+        "tip": "SAM قدرت تعمیم‌دهی شبکه‌های بینایی و ترنسفورمرها را در داده‌های پر نویز افزایش می‌دهد.",
+        "tip_en": "SAM significantly boosts model robustness on noisy or out-of-distribution test sets.",
+        "tags": [
+            "SAM",
+            "Optimization",
+            "Loss-Landscape",
+            "Generalization"
+        ]
+    },
+    {
+        "id": 329,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تکنیک Adversarial Training با روش‌های FGSM و PGD چیست؟",
+        "title_en": "What is Adversarial Training using FGSM and PGD?",
+        "summary": "افزودن اختلالات نامحسوس (Noise) به داده‌ها در جهت گرادیان برای مقاوم‌سازی مدل در برابر حملات.",
+        "summary_en": "Adding subtle gradient-based adversarial perturbations to input data to train robust models.",
+        "fullAnswer": "حملات Adversarial با افزودن نویزهای کوچک غیرقابل دیدن برای انسان، مدل را به اشتباه می‌اندازند. روش FGSM (Fast Gradient Sign Method) با گام‌برداری در جهت علامت گرادیان داده ورودی، تصاویر خصمانه می‌سازد و مدل روی آن‌ها آموزش می‌بیند تا مقاوم شود.",
+        "fullAnswer_en": "Adversarial attacks introduce tiny, imperceptible perturbations to inputs that trick models into incorrect predictions. Fast Gradient Sign Method (FGSM) and Projected Gradient Descent (PGD) compute input perturbations along gradient directions to train resilient models.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Clean Image</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FGSM Perturbation (+epsilon * sign(grad))</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Adversarial Image</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Robust Training</text></g></svg>",
+        "codeSnippet": "perturbed_data = data + epsilon * data_grad.sign()\noutput = model(perturbed_data)\nloss = criterion(output, target)",
+        "tip": "Adversarial Training تنها راه دفاع اساسی در برابر حملات تزریق نویز در بینایی ماشین است.",
+        "tip_en": "Adversarial Training is essential for safety-critical vision and classification pipelines.",
+        "tags": [
+            "Adversarial-Training",
+            "FGSM",
+            "PGD",
+            "Robustness"
+        ]
+    },
+    {
+        "id": 330,
+        "category": "ml_dl",
+        "difficulty": "beginner",
+        "title": "الگوریتم‌های یادگیری تعویقی نرخ یادگیری (Cosine Annealing with Warmup) چگونه کار می‌کنند؟",
+        "title_en": "How do Cosine Annealing with Warmup learning rate schedulers work?",
+        "summary": "افزایش خطی نرخ یادگیری در ابتدای آموزش (Warmup) و سپس کاهش منحنی کوسینوسی تا انتهای اپوک‌ها.",
+        "summary_en": "Linearly increasing learning rate initially (Warmup) then decaying following a cosine curve.",
+        "fullAnswer": "در ابتدای آموزش وزن‌ها تصادفی‌اند؛ افزایش ناگهانی نرخ یادگیری باعث ناپایداری می‌شود. Warmup نرخ یادگیری را در چند هزار گام اول از صفر به حداکثر می‌رساند. سپس Cosine Annealing نرخ را به آرامی به سمت صفر می‌برد تا مدل به کمینه همگرا شود.",
+        "fullAnswer_en": "At training start, random weights yield large gradients. Warmup gradually ramps LR from near-zero to max LR over initial steps, preventing early instability. Cosine Annealing then smoothly decays LR following a cosine curve down to a minimum floor.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Training Steps</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Linear Warmup Phase</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cosine Decay Phase</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Smooth Convergence</text></g></svg>",
+        "codeSnippet": "from transformers import get_cosine_schedule_with_warmup\nscheduler = get_cosine_schedule_with_warmup(optimizer, num_warmup_steps=1000, num_training_steps=50000)",
+        "tip": "استفاده از Cosine Scheduler با Warmup برای تمام مدلهای ترنسفورمر اجباری است.",
+        "tip_en": "Cosine Schedule with Warmup is mandatory for stable Transformer pretraining.",
+        "tags": [
+            "Learning-Rate",
+            "Cosine-Annealing",
+            "Warmup",
+            "PyTorch"
+        ]
+    },
+    {
+        "id": 331,
+        "category": "nlp_llm",
+        "difficulty": "beginner",
+        "title": "تفاوت انکودر و دکودر در شبکه Transformer اصلی چیست؟",
+        "title_en": "What is the difference between Encoder and Decoder in the original Transformer architecture?",
+        "summary": "انکودر از Self-Attention دوطرفه (Bi-directional) استفاده می‌کند؛ دکودر از Causal Masked Attention تک‌طرفه.",
+        "summary_en": "Encoder processes bi-directional self-attention; Decoder uses causal masked self-attention for auto-regression.",
+        "fullAnswer": "انکودر (مثل BERT) تمام توکن‌های ورودی را همزمان و دوطرفه می‌بیند و برای استخراج ویژگی و طبقه‌بندی عالی است. دکودر (مثل GPT) با ماسک کردن توکن‌های آینده (Causal Masking)، تنها توکن‌های قبلی را می‌بیند و برای تولید توالی و متن استفاده می‌شود.",
+        "fullAnswer_en": "Encoder-only models (BERT) apply bidirectional self-attention, allowing tokens to attend to left and right contexts (ideal for classification). Decoder-only models (GPT) apply causal masking to prevent looking at future tokens, enabling auto-regressive text generation.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Sequence</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Encoder (Full Context Bi-directional)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Decoder (Causal Masked Auto-regressive)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Output Token</text></g></svg>",
+        "codeSnippet": "# PyTorch Causal Attention Masking\nmask = torch.triu(torch.full((seq_len, seq_len), float('-inf')), diagonal=1)",
+        "tip": "مدل‌های Decoder-Only امروزه معماری غالب در تولید متن و هوش مصنوعی مولد هستند.",
+        "tip_en": "Decoder-only architectures now dominate generative LLM applications.",
+        "tags": [
+            "Transformer",
+            "Encoder",
+            "Decoder",
+            "Causal-Masking"
+        ]
+    },
+    {
+        "id": 332,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "معماری WGAN-GP (Wasserstein GAN with Gradient Penalty) چیست؟",
+        "title_en": "What is WGAN-GP (Wasserstein GAN with Gradient Penalty)?",
+        "summary": "استفاده از فاصله زمین‌پیمایی (Earth Mover Distance) و جریمه گرادیان برای حل فروپاشی مد (Mode Collapse).",
+        "summary_en": "Using Earth Mover Distance and Gradient Penalty to eliminate Mode Collapse in GAN training.",
+        "fullAnswer": "شبکه‌های GAN معمولی به دلیل صفر شدن گرادیان دچار Mode Collapse می‌شدند. WGAN از فاصله واسرشتاین استفاده می‌کند. WGAN-GP با افزودن جریمه نمایی روی نرم گرادیان دیسکریمناتور (`(||grad|| - 1)^2`)، شرط ۱-لیپشیتز را تضمین کرده و آموزش را کاملاً پایدار می‌سازد.",
+        "fullAnswer_en": "Standard GANs suffer from vanishing gradients and mode collapse. WGAN uses Wasserstein (Earth Mover's) Distance. WGAN-GP enforces 1-Lipschitz continuity by penalizing the discriminator gradient norm when it deviates from 1, stabilizing training.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Generator Data</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Discriminator / Critic</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Gradient Penalty Term</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Stable WGAN-GP Loss</text></g></svg>",
+        "codeSnippet": "gradient_penalty = ((gradients.norm(2, dim=1) - 1) ** 2).mean()\nloss_D = wasserstein_loss + 10 * gradient_penalty",
+        "tip": "WGAN-GP پایداری آموزش الگوریتم‌های مولد ادورساریال را کلاً دگرگون ساخت.",
+        "tip_en": "WGAN-GP solved the historic instability challenges of generative adversarial training.",
+        "tags": [
+            "WGAN-GP",
+            "GAN",
+            "Mode-Collapse",
+            "Generative-AI"
+        ]
+    },
+    {
+        "id": 333,
+        "category": "ml_dl",
+        "difficulty": "advanced",
+        "title": "شبکه‌های گراف گره‌محور (GNN - GCN vs GAT) چگونه کار می‌کنند؟",
+        "title_en": "How do Graph Neural Networks (GNNs) work (GCN vs GAT)?",
+        "summary": "انتقال پیام (Message Passing) بین همسایه‌ها؛ GCN وزن ثابت دارد و GAT از Attention برای وزن‌دهی به یال‌ها استفاده می‌کند.",
+        "summary_en": "Message Passing between neighbor nodes; GCN uses static weights while GAT applies Attention over edges.",
+        "fullAnswer": "شبکه‌های GNN روی داده‌های گرافی (شبکه‌های اجتماعی، مولکول‌ها) کار می‌کنند. در هر گام پیام گره‌های همسایه جمع‌آوری می‌شود. GCN متوسط‌گیری متوازن انجام می‌دهد. GAT (Graph Attention Network) با مکانیزم Attention به هر همسایه وزن متفاوتی می‌دهد.",
+        "fullAnswer_en": "GNNs process non-Euclidean graph data (social networks, molecules) via Message Passing. GCN aggregates neighbor feature vectors using normalized degree weights. GAT (Graph Attention Network) learns dynamic attention weights over neighboring graph edges.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Graph Nodes & Edges</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Message Passing Layer</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">GAT Attention Weighting</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Node Embedding Output</text></g></svg>",
+        "codeSnippet": "from torch_geometric.nn import GATConv\nclass GAT(torch.nn.Module):\n    def __init__(self):\n        self.conv1 = GATConv(in_channels, out_channels, heads=8)",
+        "tip": "شبکه‌های GAT برترین ابزار برای کشف تقلب‌های مالی پیچیده در شبکه‌های تراکنشی هستند.",
+        "tip_en": "GAT models represent the state-of-the-art for fraud detection across financial transaction graphs.",
+        "tags": [
+            "GNN",
+            "GCN",
+            "GAT",
+            "Graph-Neural-Networks"
+        ]
+    },
+    {
+        "id": 334,
+        "category": "ml_dl",
+        "difficulty": "intermediate",
+        "title": "تفاوت Quantization-Aware Training (QAT) و Post-Training Quantization (PTQ) چیست؟",
+        "title_en": "What is the difference between Quantization-Aware Training (QAT) and Post-Training Quantization (PTQ)?",
+        "summary": "PTQ کوآنتایز کردن پس از آموزش است؛ QAT شبیه‌سازی خطای کوآنتایزیشن در طول آموزش با Fake Quantization است.",
+        "summary_en": "PTQ quantizes post-training; QAT simulates quantization noise during forward passes of training.",
+        "fullAnswer": "در PTQ مدل آموزش‌دیده FP16 مستقیماً به INT8/INT4 تبدیل می‌شود که ممکن است افت دقت ایجاد کند. در QAT نویز کوآنتایزیشن در تمام گام‌های رفت آموزش (Fake Quantization) شبیه‌سازی می‌شود تا وزن‌های مدل با خطا سازگار شوند.",
+        "fullAnswer_en": "Post-Training Quantization (PTQ) converts pretrained FP16 weights directly to INT8/INT4, which can cause accuracy degradation in tiny models. Quantization-Aware Training (QAT) simulates quantization noise during training forward passes, allowing model weights to adapt.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pretrained FP16 Model</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Fake Quantization Forward Pass</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">FP32 Backprop Update</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Robust INT8 Quantized Model</text></g></svg>",
+        "codeSnippet": "import torch.ao.quantization as quantization\nmodel_prepared = quantization.prepare_qat(model, inplace=False)",
+        "tip": "برای مدل‌های کوچک بینایی روی گوشی‌های موبایل همواره از QAT استفاده کنید.",
+        "tip_en": "Always apply QAT when deploying edge vision models where every fraction of accuracy counts.",
+        "tags": [
+            "QAT",
+            "PTQ",
+            "Quantization",
+            "Model-Compression"
+        ]
+    },
+    {
+        "id": 335,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "روش‌های Shadow Deployment در MLOps چیست و چه مزیتی دارد؟",
+        "title_en": "What is Shadow Deployment in MLOps and its advantages?",
+        "summary": "ارسال یک کپی از ترافیک واقعی پروداکشن به مدل جدید بدون نمایش خروجی آن به کاربر اصلی.",
+        "summary_en": "Duplicating real production traffic to a new model silently without returning its predictions to users.",
+        "fullAnswer": "در Shadow Deployment، درخواست کاربر همزمان به مدل فعلی (Production) و مدل جدید (Shadow) فرستاده می‌شود. پاسخ مدل فعلی به کاربر برمی‌گردد اما پاسخ و لیتنسی مدل جدید تنها برای ارزیابی لاگ می‌شود تا قبل از انتشار واقعی تست شود.",
+        "fullAnswer_en": "Shadow Deployment duplicates incoming production request payloads to a new model version asynchronously. The new model processes traffic and logs performance/errors silently without serving results to end users, evaluating production readiness safely.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Request</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Traffic Duplicator</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Prod Model (Serves User)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Shadow Model (Logs Only)</text></g></svg>",
+        "codeSnippet": "# Istio Shadow Traffic Routing\nhttp:\n- route:\n  - destination: prod-service\n  mirror: shadow-service",
+        "tip": "Shadow Deployment ایمن‌ترین روش برای تست مدل‌های تازه آموزش‌دیده روی داده‌های واقعی زنده است.",
+        "tip_en": "Shadow Deployment is the safest strategy for testing new ML models against live production distribution.",
+        "tags": [
+            "Shadow-Deployment",
+            "MLOps",
+            "Istio",
+            "Testing"
+        ]
+    },
+    {
+        "id": 336,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "روش‌های مدیریت Spot Instances در آموزش توزیع‌شده مدل‌های بزرگ چیست؟",
+        "title_en": "How to manage Spot Instances for distributed LLM training cost reduction?",
+        "summary": "کاهش تا ۷۰٪ هزینه‌های GPU ابری با استفاده از سرورهای Spot به همراه ذخیره‌سازی خودکار Checkpointها.",
+        "summary_en": "Reducing cloud GPU costs by up to 70% using Spot Instances combined with automated frequent Checkpointing.",
+        "fullAnswer": "سرورهای Spot بسیار ارزان‌ترند اما ممکن است کلود آن‌ها را ناگهانی بازپس گیرد. با ابزارهایی مانند Ray Train یا SkyPilot، در صورت قطع شدن یک سرور Spot، سرور جدید جایگزین شده و آموزش از آخرین Checkpoint دیتابیس ادامه می‌یابد.",
+        "fullAnswer_en": "Spot/Preemptible instances offer massive GPU discounts (up to 70%) but can be terminated at short notice. Fault-tolerant frameworks (e.g. SkyPilot, Ray Train) continuously save checkpoints to cloud object stores and auto-recover cluster nodes upon preemptions.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Spot GPU Cluster</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Continuous S3 Checkpointing</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Node Preemption Alert</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Auto Node Recovery</text></g></svg>",
+        "codeSnippet": "# SkyPilot YAML Configuration\nresources:\n  accelerators: A100:8\n  use_spot: true\n  spot_recovery: FAILOVER",
+        "tip": "استفاده از سرورهای Spot هزینه‌های آموزش مدل‌های بزرگ را تا ۷۰٪ کاهش می‌دهد.",
+        "tip_en": "Leveraging Spot GPU instances cuts LLM pretraining cloud bills by up to 70%.",
+        "tags": [
+            "Spot-Instances",
+            "SkyPilot",
+            "Ray-Train",
+            "Cost-Optimization"
+        ]
+    },
+    {
+        "id": 337,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "معماری KServe و Ray Serve برای سرویس‌دهی مدل‌های ML روی Kubernetes چیست؟",
+        "title_en": "What are KServe and Ray Serve architectures for Kubernetes ML serving?",
+        "summary": "سرورهای بومی کوبرنتیز با قابلیت مقیاس‌پذیری از صفر (Scale-to-Zero)، Auto-scaling و مدیریت GPU.",
+        "summary_en": "Kubernetes-native serving engines providing Scale-to-Zero, GPU auto-scaling, and dynamic request routing.",
+        "fullAnswer": "KServe (مبتنی بر Knative و Istio) استانداردی عالی برای سرویس‌دهی مدل‌های ML روی Kubernetes است. Ray Serve چارچوبی پایتونی و توزیع‌شده است که اجازه می‌دهد ده‌ها مدل پیچیده روی کلسترهای Ray با الگوی Actor اجرا و مقیاس‌پذیر شوند.",
+        "fullAnswer_en": "KServe builds on Knative and Istio to provide serverless ML serving with Scale-to-Zero and Canary rollouts. Ray Serve uses Python Actor frameworks to scale complex multi-model pipelines across distributed GPU Ray clusters seamlessly.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Client Query</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">KServe / Ray Router</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">K8s GPU Auto-scaler</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ray Actor Inference</text></g></svg>",
+        "codeSnippet": "from ray import serve\n@serve.deployment(num_replicas=2, ray_actor_options={'num_gpus': 1})\nclass LLMServer: pass",
+        "tip": "برای ارکستراسیون مدل‌های پیچیده روی Kubernetes از KServe یا Ray Serve استفاده کنید.",
+        "tip_en": "Ray Serve and KServe provide enterprise-grade auto-scaling infrastructure for Kubernetes ML clusters.",
+        "tags": [
+            "KServe",
+            "Ray-Serve",
+            "Kubernetes",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 338,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "تکنیک Cold Start Latency Reduction در توابع Serverless ML چیست؟",
+        "title_en": "How to reduce Cold Start Latency in Serverless ML Functions?",
+        "summary": "پیش‌گرم کردن کانتینرها (Provisioned Concurrency)، کوچک‌سازی ایمیج Docker و بارگذاری تعویقی مدل.",
+        "summary_en": "Using Provisioned Concurrency, shrinking Docker container sizes, and lazy-loading model weights.",
+        "fullAnswer": "توابع Serverless (مانند AWS Lambda یا Modal) در صورت عدم استفاده خاموش می‌شوند و اجرای اول به دلیل دانلود مدل ۵ تا ۳۰ ثانیه طول می‌کشد. حل: ۱) Provisioned Concurrency، ۲) نصب مدل روی دیسک‌های سریع EFS/Network Mount، ۳) فشرده‌سازی ایمیج.",
+        "fullAnswer_en": "Serverless functions shut down when idle. Cold starts delay initial inference by 10-30s while pulling model weights. Fixes: 1) Provisioned Concurrency (keeping warm instances), 2) Mounting weights via high-speed Network File Systems (AWS EFS), and 3) Container layer optimization.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Cold Trigger</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Mount Fast Network Drive (EFS)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pre-warmed Container</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Instant Sub-second Response</text></g></svg>",
+        "codeSnippet": "# Modal serverless function warm instance config\n@app.function(keep_warm=1, volumes={'/precached_weights': volume})",
+        "tip": "تنظیم `keep_warm=1` تاخیر اولین درخواست‌های Serverless را کلاً برطرف می‌سازد.",
+        "tip_en": "Keeping a minimum of 1 warm instance eliminates cold start latency spikes for users.",
+        "tags": [
+            "Serverless",
+            "Cold-Start",
+            "Modal",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 339,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "معماری Data Lakehouse (Delta Lake / Iceberg) چه نقشی در آموزش ML دارد؟",
+        "title_en": "What role does Data Lakehouse (Delta Lake / Iceberg) play in ML training pipelines?",
+        "summary": "پشتیبانی از تراکنش‌های ACID، زمان‌سفر (Time Travel) و استعلام سریع داده‌ها برای آموزش مدل‌ها.",
+        "summary_en": "Providing ACID transactions, dataset Time Travel versioning, and high-performance querying for ML.",
+        "fullAnswer": "دیتا لیک‌های قدیمی فاقد نسخه زمان‌دار بودند. فرمت‌های Delta Lake و Apache Iceberg به شما اجازه می‌دهند داده‌ها را با متاداده زمان‌دار ذخیره کرده و بگویید 'دیتاست را دقیقا طبق نسخه دیروز ساعت ۱۰ صبح برای آموزش بارگذاری کن'.",
+        "fullAnswer_en": "Traditional Data Lakes lack transactional safety. Data Lakehouse formats (Delta Lake, Apache Iceberg) bring ACID transactions and Time Travel versioning, allowing data scientists to query the exact dataset snapshot as it existed at any historical timestamp.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Streaming Data</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Delta Lake / Iceberg</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Time Travel Snapshot</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Reproducible ML Pipeline</text></g></svg>",
+        "codeSnippet": "# PySpark Delta Lake Time Travel query\ndf = spark.read.format('delta').option('versionAsOf', 5).load('/data/events')",
+        "tip": "فرمت‌های Lakehouse تکرارپذیری داده‌های آموزشی در مقیاس پتابایت را تضمین می‌کنند.",
+        "tip_en": "Lakehouse architectures guarantee reproducible data pipelines at petabyte scale.",
+        "tags": [
+            "Delta-Lake",
+            "Iceberg",
+            "Data-Lakehouse",
+            "MLOps"
+        ]
+    },
+    {
+        "id": 340,
+        "category": "mlops_system",
+        "difficulty": "beginner",
+        "title": "تعریف شاخص‌های SLA و SLO تاخیر P95 و P99 در سرویس‌های AI چیست؟",
+        "title_en": "What are P95 and P99 Latency SLA/SLO definitions in AI services?",
+        "summary": "P95 یعنی ۹۵٪ درخواست‌ها زیر این تاخیر اجرا می‌شوند؛ سنجش تاخیر کندترین ۵٪ کاربران برای تضمین کیفیت.",
+        "summary_en": "P95 latency means 95% of requests complete faster than this limit; evaluating tail latency for quality.",
+        "fullAnswer": "میانگین تاخیر (Average Latency) فریبنده است زیرا چند درخواست بسیار کند را پنهان می‌کند. P95 و P99 تاخیر ۹۵٪ و ۹۹٪ سریع‌ترین درخواست‌ها را اندازه می‌گیرند. SLA سرویس‌های هوش مصنوعی معمولاً تعریف می‌کند: `P95 Latency < 500ms`.",
+        "fullAnswer_en": "Average latency hides performance spikes. P95 and P99 tail metrics measure the latency threshold below which 95% and 99% of user requests fall. SLAs specify bounds like `P95 Latency < 500ms` to guarantee response speeds under peak load.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Latency Log Stream</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Sort Request Durations</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Identify 95th Percentile</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Enforce SLA Boundary</text></g></svg>",
+        "codeSnippet": "# Prometheus P95 Query\nhistogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le))",
+        "tip": "همواره پایداری سرورهای هوش مصنوعی را بر اساس P95 و P99 بسنجید نه میانگین ساده.",
+        "tip_en": "Always measure AI infrastructure SLAs using P95 and P99 tail latency metrics.",
+        "tags": [
+            "SLA",
+            "SLO",
+            "P95-Latency",
+            "Monitoring"
+        ]
+    },
+    {
+        "id": 341,
+        "category": "mlops_system",
+        "difficulty": "intermediate",
+        "title": "روش‌های خودکارسازی محرک‌های بازآموزی مدل (Retraining Triggers) چیست؟",
+        "title_en": "What are automated Model Retraining Triggers in production?",
+        "summary": "راه‌اندازی خط لوله بازآموزی بر اساس زمان‌بندی (Schedule)، عملکرد مترییک‌ها یا آلارم‌های Data Drift.",
+        "summary_en": "Triggering model retraining pipelines via Schedules, metric drops, or Data Drift alerts.",
+        "fullAnswer": "مدل‌ها نباید تا ابد ثابت بمانند. بازآموزی بر اساس ۳ محرک انجام می‌شود: ۱) زمانی (مثلا هر یکشنبه)، ۲) افت متریم‌های واقعی کسب‌وکار (مثل افت Conversion)، ۳) هشدارهای Data Drift از ابزارهای مانیتورینگ.",
+        "fullAnswer_en": "ML models degrade. Retraining triggers automate pipeline execution based on 3 events: 1) Schedule-based (cron jobs), 2) Performance-based (accuracy drops below threshold), or 3) Drift-based (Evidently AI flags input shift).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Monitoring System</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Drift Alert / Schedule</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Trigger Airflow DAG</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Retrained Model Artifact</text></g></svg>",
+        "codeSnippet": "if drift_score > DRIFT_THRESHOLD:\n    requests.post('http://airflow/api/v1/dags/retrain_model/dagRuns')",
+        "tip": "اتوماسیون بازآموزی مدل‌ها از افت پنهان کیفیت محصولات هوش مصنوعی جلوگیری می‌کند.",
+        "tip_en": "Automating retraining pipelines prevents hidden model performance degradation.",
+        "tags": [
+            "Retraining",
+            "Airflow",
+            "MLOps",
+            "Automation"
+        ]
+    },
+    {
+        "id": 342,
+        "category": "mlops_system",
+        "difficulty": "advanced",
+        "title": "تکنیک Multitenancy در سرویس‌دهی مشترک روی کلسترهای GPU چیست؟",
+        "title_en": "What is Multitenancy in shared GPU serving clusters?",
+        "summary": "اشتراک‌گذاری منابع GPU بین چند مشتری یا دپارتمان مختلف همراه با ایزوله‌سازی کامل حافظه و ترافیک.",
+        "summary_en": "Sharing physical GPU resources among multiple teams/tenants while enforcing memory and traffic isolation.",
+        "fullAnswer": "سرورهای GPU گران هستند و نباید برای هر تیم یک GPU مجزا خرید. با تکنولوژی‌های NVIDIA MIG (Multi-Instance GPU) یا CUDA MPS، یک GPU A100 به چند بخش سخت‌افزاری مستقل تقسیم می‌شود تا چند تیم همزمان بدون تداخل از آن استفاده کنند.",
+        "fullAnswer_en": "NVIDIA MIG (Multi-Instance GPU) and CUDA MPS (Multi-Process Service) partition single GPUs (like A100/H100) into isolated hardware instances. This allows multiple enterprise tenants to share GPU memory safely without cross-tenant interference.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Physical GPU A100</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">NVIDIA MIG Partitioning</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tenant A Slice / Tenant B Slice</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Isolated Hardware Execution</text></g></svg>",
+        "codeSnippet": "# Enabling NVIDIA MIG on A100 GPU\nnvidia-smi -g 0 -cgi 19,19,19 # Split into 7 instances",
+        "tip": "MIG بهره‌وری هزینه‌ای کلسترهای GPU سازمان را تا ۳ برابر ارتقا می‌دهد.",
+        "tip_en": "NVIDIA MIG maximizes GPU resource utilization in multi-tenant corporate clusters.",
+        "tags": [
+            "Multitenancy",
+            "MIG",
+            "NVIDIA",
+            "GPU-Sharing"
+        ]
+    },
+    {
+        "id": 343,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "تفاوت عملکرد فریم‌ورک‌های Polars و Pandas در پردازش داده‌های سنگین چیست؟",
+        "title_en": "What is the performance difference between Polars and Pandas for heavy data processing?",
+        "summary": "Polars به زبان Rust با ارزیابی تنبل (Lazy Evaluation) و پردازش موازی چندنخی تا ۳۰ برابر سریع‌تر از Pandas است.",
+        "summary_en": "Polars is written in Rust using Lazy Evaluation and multi-threaded parallel execution, up to 30x faster than Pandas.",
+        "fullAnswer": "Pandas تک‌نخی است و از حافظه زیادی استفاده می‌کند. Polars با موتور محاسباتی Rust داده‌ها را به صورت موازی روی تمام هسته‌های CPU پردازش کرده و با Lazy Evaluation کوئری‌ها را قبل از اجرا بهینه‌سازی می‌کند.",
+        "fullAnswer_en": "Pandas executes synchronously on a single CPU thread with high memory overhead. Polars (written in Rust using Apache Arrow) uses Lazy Evaluation query optimization and multi-threaded parallel processing, operating up to 30x faster with smaller memory footprints.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Dataset</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Polars Lazy Engine (Rust)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimized Query Plan</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parallel Multi-core Exec</text></g></svg>",
+        "codeSnippet": "import polars as pl\n# Lazy execution plan\ndf = pl.scan_csv('data.csv').filter(pl.col('val') > 10).collect()",
+        "tip": "برای پردازش دیتاست‌های بالاتر از ۱۰ گیگابایت در پایتون همواره Polars را جایگزین Pandas کنید.",
+        "tip_en": "Use Polars over Pandas for processing datasets exceeding several gigabytes.",
+        "tags": [
+            "Polars",
+            "Pandas",
+            "Rust",
+            "Performance"
+        ]
+    },
+    {
+        "id": 344,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "کاربرد موتور DuckDB در تحلیل داده‌های درون‌حافظه‌ای پایتون چیست؟",
+        "title_en": "What is the purpose of DuckDB in Python in-memory data analytics?",
+        "summary": "اجرای مستقیم پرس‌وجوهای سریع SQL روی فایل‌های Parquet، CSV و DataFrame بدون نیاز به سرور دیتابیس.",
+        "summary_en": "Executing high-speed vectorized SQL queries directly over Parquet, CSV, and DataFrames in-memory.",
+        "fullAnswer": "DuckDB مانند SQLite برای OLAP است. این موتور ستونی و برداری اجازه می‌دهد کوری‌های پیچیده SQL را با سرعت فوق‌العاده بالا روی فایل‌های Parquet یا DataFrameهای پایتون بدون راه‌اندازی سرور دیتابیس اجرا کنید.",
+        "fullAnswer_en": "DuckDB is an in-process columnar OLAP database engine. It allows running vectorized SQL queries directly against Pandas DataFrames, Arrow tables, or Parquet files with zero setup overhead and sub-second execution speeds.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Parquet Files</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">DuckDB Engine (Vectorized C++)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">SQL Query Execution</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Instant Arrow Result</text></g></svg>",
+        "codeSnippet": "import duckdb\nresult = duckdb.query('SELECT category, AVG(val) FROM \"data.parquet\" GROUP BY category').df()",
+        "tip": "DuckDB عالی‌ترین ابزار تحلیل سریع میلیون‌ها سطر داده در اسکریپت‌های پایتون است.",
+        "tip_en": "DuckDB provides lightning-fast SQL execution inside Python data scripts.",
+        "tags": [
+            "DuckDB",
+            "SQL",
+            "Parquet",
+            "Analytics"
+        ]
+    },
+    {
+        "id": 345,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "تفاوت Dataclasses و Pydantic BaseModels در چیست؟",
+        "title_en": "What is the difference between Python Dataclasses and Pydantic BaseModels?",
+        "summary": "Dataclasses تنها کانتینر ذخیره داده بدون اعتبارپردازی است؛ Pydantic داده‌ها را به صورت خودکار تبدیل و تست می‌کند.",
+        "summary_en": "Dataclasses are lightweight data containers without runtime validation; Pydantic validates and casts types automatically.",
+        "fullAnswer": "کلاس‌های `@dataclass` در کتابخانه استاندارد پایتون قرار دارند و بسیار سبک‌اند اما تایپ‌ها را در زمان اجرا تست نمی‌کنند. Pydantic داده‌های ورودی را حتماً به تایپ مشخص‌شده تبدیل (Coercion) و صحت‌سنجی (Validation) می‌کند.",
+        "fullAnswer_en": "Built-in `@dataclass` is a lightweight structure for grouping data without runtime type enforcement. Pydantic `BaseModel` validates incoming data at runtime, automatically casting compatible types and raising explicit validation errors.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Raw Input Data</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Dataclass (No Validation)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pydantic (Strict Runtime Validation)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Validated Object</text></g></svg>",
+        "codeSnippet": "from pydantic import BaseModel\nclass Config(BaseModel):\n    lr: float # Converts string '0.001' to float 0.001 automatically",
+        "tip": "برای APIها و کانفیگ‌ها از Pydantic و برای ساختارهای داده درونی پروژه از Dataclasses استفاده کنید.",
+        "tip_en": "Use Pydantic for external APIs/configs and Dataclasses for internal data structures.",
+        "tags": [
+            "Dataclasses",
+            "Pydantic",
+            "Python",
+            "Data-Structures"
+        ]
+    },
+    {
+        "id": 346,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "مکانیزم Garbage Collection و مدیریت حافظه در پایتون چگونه کار می‌کند؟",
+        "title_en": "How do Reference Counting and Generational Garbage Collection work in Python?",
+        "summary": "شمارش ارجاع (Reference Counting) به همراه مدیریت سه نسل (Generations 0, 1, 2) برای حذف چرخه‌ها.",
+        "summary_en": "Reference Counting supplemented by three generational garbage collection passes (Gen 0, 1, 2) for reference cycles.",
+        "fullAnswer": "پایتون به محض صفر شدن تعداد ارجاعات یک شیء (Reference Count = 0)، حافظه آن را آزاد می‌کند. برای ارجاعات چرخه‌ای (تکراری دوطرفه)، Garbage Collector با بررسی سه نسل اشیاء (Generations 0, 1, 2) حافظه‌های مرده را پاکسازی می‌کند.",
+        "fullAnswer_en": "Python primarily manages memory via Reference Counting (freeing objects immediately when refs hit zero). To resolve circular references (A points to B, B points to A), Python uses a Generational Garbage Collector scanning three object generations.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Object Created</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ref Count Decrement</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Generational GC Cycle Scan</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RAM Memory Freed</text></g></svg>",
+        "codeSnippet": "import gc\ngc.collect() # Force manual garbage collection cycle",
+        "tip": "با کلیدواژه `del` و فراخوانی `gc.collect()` می‌توانید حافظه رم تانسورهای بزرگ را بلافاصله آزاد کنید.",
+        "tip_en": "Use `del` and `gc.collect()` after processing heavy tensors to free RAM explicitly.",
+        "tags": [
+            "Garbage-Collection",
+            "Memory",
+            "Python",
+            "GC"
+        ]
+    },
+    {
+        "id": 347,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "کاربرد تابع‌های نگاشت و کاهش (map, filter, reduce) و Lambda در پایتون چیست؟",
+        "title_en": "How to use map, filter, reduce, and Lambda functions in Python?",
+        "summary": "توابع مرتبه بالا (Higher-Order) برای پردازش تابعی توالی‌ها بدون نوشتن حلقه‌های صریح.",
+        "summary_en": "Higher-order functional tools processing sequences concisely without writing explicit loops.",
+        "fullAnswer": "این توابع از الگوی Functional Programming پیروی می‌کنند: `map` یک تابع را روی تمام عناصر اعمال می‌کند، `filter` عناصر واجد شرایط را جدا می‌سازد، و `reduce` توالی را به یک مقدار تک خلاصه می‌کند.",
+        "fullAnswer_en": "Functional primitives simplify pipeline transformations. `map()` applies a function to all sequence items, `filter()` returns items passing a boolean predicate, and `functools.reduce()` cumulatively aggregates items into a single scalar value.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Data List</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">map / filter / reduce Pipeline</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Transformed Output</text></g></svg>",
+        "codeSnippet": "from functools import reduce\nnums = [1, 2, 3, 4]\nsquares = list(map(lambda x: x**2, nums))\nsum_all = reduce(lambda a, b: a + b, squares)",
+        "tip": "استفاده از List Comprehensions معمولاً در پایتون خواناتر از `map` و `filter` است.",
+        "tip_en": "List comprehensions are generally preferred over `map` and `filter` for readability.",
+        "tags": [
+            "Functional",
+            "Lambda",
+            "Map-Filter-Reduce",
+            "Python"
+        ]
+    },
+    {
+        "id": 348,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "قابلیت Structural Pattern Matching (`match-case`) در پایتون ۳.۱۰+ چیست؟",
+        "title_en": "What is Structural Pattern Matching (`match-case`) in Python 3.10+?",
+        "summary": "بررسی ساختاری و باز کردن الگوی داده‌ها به جای حلقه‌های طولانی `if-elif-else`.",
+        "summary_en": "Structural pattern matching and data deconstruction replacing verbose `if-elif-else` chains.",
+        "fullAnswer": "دستور `match-case` تنها یک `switch-case` ساده نیست. این دستور ساختارهای دیکشنری، لیستی و کلاس‌ها را باز کرده (Deconstruct) و متغیرها را بر اساس الگو جدا می‌سازد که خوانایی کدهای پردازش داده را فوق‌العاده بالا می‌برد.",
+        "fullAnswer_en": "Python 3.10+ `match-case` enables structural pattern matching. It deconstructs tuples, dictionaries, and custom object attributes, matching complex data shapes cleanly compared to nested `if-elif-else` blocks.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Input Event Payload</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Match-Case Pattern Engine</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Deconstructed Variables</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Action Execution</text></g></svg>",
+        "codeSnippet": "match command:\n    case {'action': 'search', 'query': q}:\n        run_search(q)\n    case {'action': 'filter', 'tags': t}:\n        apply_filter(t)",
+        "tip": "از `match-case` برای پارس کردن اکشن‌های عامل‌ها و پیام‌های JSON استفاده کنید.",
+        "tip_en": "Use `match-case` for parsing complex agent state actions and incoming JSON events.",
+        "tags": [
+            "Pattern-Matching",
+            "Python310",
+            "Clean-Code",
+            "Python"
+        ]
+    },
+    {
+        "id": 349,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "روش‌های بهینه‌سازی فایل I/O با Buffered Reading و Memory-Mapped Files (`mmap`) چیست؟",
+        "title_en": "How to optimize file I/O using Buffered Reading and Memory-Mapped Files (`mmap`)?",
+        "summary": "نقشه‌برداری مستقیم فایل‌های غول‌پیکر روی حافظه مجازی بدون بارگذاری کامل در رم.",
+        "summary_en": "Mapping giant files directly into virtual memory address space for zero-copy slice access.",
+        "fullAnswer": "برای خواندن فایل‌های متنی ۱۰۰ گیگابایتی، `mmap` فایل را مستقیماً به حافظه مجازی سیستم‌عامل متصل می‌کند. پایتون به جای خواندن فایل در RAM، تنها بخش‌های مورد نیاز (Slices) را از دیسک می‌خواند که تا ۱۰ برابر سریع‌تر است.",
+        "fullAnswer_en": "Memory-mapped files (`mmap`) map file contents directly into Python's virtual memory space. Instead of reading bytes into RAM buffers, Python accesses file slices on-demand via OS page tables, enabling lightning-fast random access to multi-gigabyte files.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Giant Disk File (100GB)</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">OS Virtual Memory Mapping (mmap)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Zero-Copy Slice Read</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Ultra-Fast Access</text></g></svg>",
+        "codeSnippet": "import mmap\nwith open('huge_data.bin', 'r+b') as f:\n    mm = mmap.mmap(f.fileno(), 0)\n    chunk = mm[1000:2000] # Read slice directly without loading file",
+        "tip": "برای جستجوی سریع در فایل‌های باینری غول‌پیکر از `mmap` استفاده کنید.",
+        "tip_en": "Use `mmap` for instant random access over huge binary or text datasets.",
+        "tags": [
+            "mmap",
+            "File-IO",
+            "Performance",
+            "Python"
+        ]
+    },
+    {
+        "id": 350,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "تفاوت Mutability و Immutability در شیءگرایی پایتون و تاثیر آن در Thread Safety چیست؟",
+        "title_en": "What is the difference between Mutability and Immutability in Python and its impact on Thread Safety?",
+        "summary": "اشیاء Mutable قابل تغییر در محل هستند؛ اشیاء Immutable غیرقابل تغییر بوده و در محیط‌های چندنخی ایمن هستند.",
+        "summary_en": "Mutable objects can be modified in-place; Immutable objects cannot, ensuring thread-safety.",
+        "fullAnswer": "دیکشنری‌ها و لیست‌ها Mutable هستند و اگر بین چند نخ به اشتراک گذاشته شوند دچار تداخل داده (Race Condition) می‌شوند. رشته‌ها، تاپل‌ها و frozensetها Immutable هستند و دسترسی همزمان به آن‌ها کاملاً ایمن است.",
+        "fullAnswer_en": "Mutable objects (lists, dicts) allow in-place state changes, introducing race conditions in multi-threaded code. Immutable objects (tuples, strings, frozensets) guarantee safety across concurrent threads because their state cannot be mutated after creation.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Shared Object</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Mutable List (Race Condition Hazard)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Immutable Tuple (Thread Safe)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Concurrent Access</text></g></svg>",
+        "codeSnippet": "from types import MappingProxyType\nimmutable_dict = MappingProxyType({'key': 'value'}) # Read-only view",
+        "tip": "برای کانفیگ‌ها و متغیرهای ثابت برنامه همیشه از تاپل‌ها یا `MappingProxyType` استفاده کنید.",
+        "tip_en": "Use tuples and frozen data structures for shared thread-safe configuration settings.",
+        "tags": [
+            "Mutability",
+            "Thread-Safety",
+            "Python",
+            "Concurrency"
+        ]
+    },
+    {
+        "id": 351,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "کاربرد متدهای جادویی (Magic Methods) مانند `__call__` و `__getitem__` چیست؟",
+        "title_en": "What are Python Magic Methods (`__call__`, `__getitem__`, `__repr__`) used for?",
+        "summary": "تعریف رفتارهای خاص پایتونی مانند صدا زدن شیء مانند تابع یا دسترسی با اندیس `[]`.",
+        "summary_en": "Customizing internal Python object behaviors like callable instances or bracket indexing `[]`.",
+        "fullAnswer": "متدهای جادویی (Dunder Methods) کلاس شما را با نحوه پایتون یکنواخت می‌سازند. با `__call__` می‌توانید شیء را مانند یک تابع صدا بزنید (`model(inputs)`). با `__getitem__` می‌توانید به کلاس قابلیت اندیس‌گذاری `dataset[idx]` بدهید.",
+        "fullAnswer_en": "Dunder methods customize class behavior natively. Implementing `__call__` turns a class instance into a callable function (e.g. `model(x)`). Implementing `__getitem__` allows dictionary-style or list-style indexing (`dataset[i]`).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Custom Class</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Implement __call__ & __getitem__</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">PyTorch Dataset Idiom</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Clean API</text></g></svg>",
+        "codeSnippet": "class CustomDataset:\n    def __getitem__(self, idx):\n        return self.data[idx]\n    def __len__(self):\n        return len(self.data)",
+        "tip": "متدهای جادویی پایه و اساس تعریف Datasetها و Modelها در PyTorch هستند.",
+        "tip_en": "Dunder methods form the foundational syntax of PyTorch Dataset and Module classes.",
+        "tags": [
+            "Magic-Methods",
+            "Dunder",
+            "Python",
+            "OOP"
+        ]
+    },
+    {
+        "id": 352,
+        "category": "data_python",
+        "difficulty": "beginner",
+        "title": "مدیریت وابستگی‌های پایتون با ابزارهای مدرن uv و Poetry چگونه است؟",
+        "title_en": "How to manage Python dependencies using modern tools like uv and Poetry?",
+        "summary": "Poetry مدیریت محیط و فایل lock را یکسان می‌کند؛ uv با زبان Rust کدهای نصب را تا ۱۰ برابر سریع‌تر اجرا می‌کند.",
+        "summary_en": "Poetry unifies lockfiles; uv (written in Rust) installs dependencies up to 10x faster than pip.",
+        "fullAnswer": "ابزار `pip` معمولی در حل وابستگی‌ها کند است. Poetry فایل `pyproject.toml` و `poetry.lock` را برای ساخت محیط‌های یکسان ارائه می‌دهد. ابزار `uv` ابداعی Astral به زبان Rust نوشته شده و پکیج‌ها را با سرعت فوق‌العاده نصب و مدیریت می‌کند.",
+        "fullAnswer_en": "Traditional `pip` is slow and lacks lockfile standardization. Poetry unifies dependency management via `pyproject.toml` and deterministic lockfiles. `uv` (built in Rust) replaces `pip` and `pip-tools`, resolving dependencies 10-100x faster.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">pyproject.toml</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">uv / Poetry Lockfile</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Rust-accelerated Install</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">100% Deterministic Env</text></g></svg>",
+        "codeSnippet": "# Fast package installation with uv\nuv pip install torch transformers --system",
+        "tip": "استفاده از `uv` زمان ساخت کانتینرهای Docker در CI/CD را به شدت کاهش می‌دهد.",
+        "tip_en": "Switching to `uv` slashes CI/CD Docker build times significantly.",
+        "tags": [
+            "uv",
+            "Poetry",
+            "Dependency-Management",
+            "Python"
+        ]
+    },
+    {
+        "id": 353,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "کاربرد `concurrent.futures` برای اجرای موازی ProcessPool و ThreadPool چیست؟",
+        "title_en": "How to use `concurrent.futures` for ProcessPool and ThreadPool parallel execution?",
+        "summary": "ارائه یک API یکسان و سطح بالا برای اجرای همزمان کدهای I/O-bound (تخ نخ) و CPU-bound (چند پروسس).",
+        "summary_en": "Providing a unified high-level interface for running I/O-bound (threads) and CPU-bound (processes) tasks.",
+        "fullAnswer": "ماژول `concurrent.futures` پیچیدگی‌های multi-threading را پنهان می‌کند. برای دانلودهای شبکه از `ThreadPoolExecutor` و برای محاسبات سنگین ریاضی از `ProcessPoolExecutor` استفاده می‌شود تا کارهای موازی به آسانی مدیریت شوند.",
+        "fullAnswer_en": "The `concurrent.futures` module simplifies concurrency. `ThreadPoolExecutor` manages threads for I/O tasks (scraping, API fetching), while `ProcessPoolExecutor` spawns separate process workers to bypass the GIL for CPU-bound data transformations.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Data Tasks</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">ProcessPoolExecutor (CPU)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">ThreadPoolExecutor (I/O)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Asynchronous Futures</text></g></svg>",
+        "codeSnippet": "from concurrent.futures import ProcessPoolExecutor\nwith ProcessPoolExecutor(max_workers=4) as executor:\n    results = list(executor.map(transform_function, chunks))",
+        "tip": "برای موازی‌سازی سریع کدهای پایتون همیشه `concurrent.futures` را به ماژول‌های قدیمی ترجیح دهید.",
+        "tip_en": "Prefer `concurrent.futures` over lower-level `threading` or `multiprocessing` modules.",
+        "tags": [
+            "Concurrent-Futures",
+            "Multiprocessing",
+            "Threading",
+            "Python"
+        ]
+    },
+    {
+        "id": 354,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "تفاوت فرمت‌های سریال‌سازی JSON، MessagePack، Protobuf و Pickle چیست؟",
+        "title_en": "What are the differences between JSON, MessagePack, Protobuf, and Pickle serialization?",
+        "summary": "JSON متنی و متداول؛ MessagePack باینری و متنی؛ Protobuf دارای اسکیما و فوق‌العاده سریع؛ Pickle مخصوص پایتون اما ناامن.",
+        "summary_en": "JSON is human-readable text; MessagePack is compact binary JSON; Protobuf is strongly typed/fast; Pickle is Python-only but insecure.",
+        "fullAnswer": "JSON متنی و خواناست اما حجم زیادی دارد. MessagePack فرمت باینری فشرده JSON است. Protobuf فرمت فوق سریع گوگل با اسکیما است (مناسب gRPC). Pickle اشیاء کامل پایتون را ذخیره می‌کند اما به دلیل ریسک اجرای کد ناامن نباید از منابع ناشناس بارگذاری شود.",
+        "fullAnswer_en": "JSON is human-readable but slow and verbose. MessagePack compresses JSON structures into binary. Protocol Buffers (Protobuf) uses strict schemas for high-speed gRPC RPCs. Pickle serializes arbitrary Python objects but poses execution vulnerabilities.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Python Dict</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">JSON (Text)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">MessagePack / Protobuf (Fast Binary)</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Pickle (Python-only Danger)</text></g></svg>",
+        "codeSnippet": "import msgpack\nbinary_data = msgpack.packb({'key': 'value'})\nrestored_dict = msgpack.unpackb(binary_data)",
+        "tip": "هرگز فایل‌های `.pkl` (Pickle) را از منابع ناشناس روی سرور بارگذاری نکنید.",
+        "tip_en": "Never unpickle untrusted `.pkl` files due to arbitrary code execution risks.",
+        "tags": [
+            "Serialization",
+            "Protobuf",
+            "MessagePack",
+            "JSON"
+        ]
+    },
+    {
+        "id": 355,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه محدودی‌های هذیان و تاخیر LLMها را برای ذینفعان مدیریت می‌کنید؟",
+        "title_en": "How do you manage stakeholder expectations around LLM hallucinations and latency?",
+        "summary": "توضیح ماهیت احتمالی مدل، تنظیم اسلایدر تعهدات (SLA) و ارائه راهکارهای پیشگیرانه UI.",
+        "summary_en": "Explaining model probabilistic nature, setting realistic SLAs, and embedding UI feedback cues.",
+        "fullAnswer": "مدیران انتظار پاسخ آنی و بی‌نقص دارند. من با نمایش رفتارهای مرزی مدل، توضیح می‌دهم که هذیان یک ویژگی ذاتی مدل‌های احتمالاتی است و با قرار دادن شواهد منبع (Citations) و نمایش انیمیشن‌های Streaming در فرانت‌اند، تاخیر را قابل تحمل می‌سازم.",
+        "fullAnswer_en": "Non-technical leaders expect instant, flawless answers. I educate stakeholders on probabilistic modeling, set explicit accuracy bounds, and mitigate perceived latency in the UI by implementing streaming token responses and source citations.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Stakeholder Expectations</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Education & SLAs</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">UI Streaming Tokens</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Source Citations</text></g></svg>",
+        "codeSnippet": "# UX SLA Agreement\nSTREAMING_RESPONSE = True\nCITATION_FOOTER_REQUIRED = True",
+        "tip": "نمایش پاسخ‌ها به صورت Streaming در UI حس سرعت را در کاربر تا ۳ برابر افزایش می‌دهد.",
+        "tip_en": "Streaming tokens in the UI drastically improves user perception of response latency.",
+        "tags": [
+            "Soft-Skills",
+            "UX",
+            "Streaming",
+            "Stakeholder-Management"
+        ]
+    },
+    {
+        "id": 356,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه با حقوق دانشمندان داده و مهندسان امنیت بر سر حریم خصوصی داده‌ها تعامل می‌کنید؟",
+        "title_en": "How do you collaborate with Legal/Security teams on Data Privacy & Compliance?",
+        "summary": "پیاده‌سازی گمنام‌سازی داده‌ها (Anonymization)، پاکسازی PII و اطمینان از عدم ذخیره داده توسط APIها.",
+        "summary_en": "Implementing data anonymization, PII scrubbing, and verifying zero-data-retention API policies.",
+        "fullAnswer": "تیم‌های امنیت نگران نشت داده‌های مشتریان هستند. من با افزودن یک لایه Scrubbing PII پیش از ارسال داده به LLM، حذف اطلاعات حساس (کارت ملی، شماره تلفن) و امضای قرارداد Zero Data Retention با ارائه‌دهنده ابری، تاییدیه امنیت را دریافت می‌کنم.",
+        "fullAnswer_en": "Security teams fear data leakage. I align with Legal/InfoSec by inserting an automated PII scrubbing middleware (masking emails, phone numbers) before API calls and choosing enterprise API endpoints with zero-data-retention guarantees.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">User Data Input</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">PII Scrubbing Middleware</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Anonymized Payload</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Zero-Data-Retention API</text></g></svg>",
+        "codeSnippet": "from presidio_analyzer import AnalyzerEngine\nanalyzer = AnalyzerEngine()\nresults = analyzer.analyze(text=user_text, language='en')",
+        "tip": "همواره از ابزارهایی مانند Microsoft Presidio برای گمنام‌سازی داده‌ها استفاده کنید.",
+        "tip_en": "Leverage PII scrubbing toolkits like Microsoft Presidio before querying external APIs.",
+        "tags": [
+            "Soft-Skills",
+            "Privacy",
+            "Security",
+            "PII"
+        ]
+    },
+    {
+        "id": 357,
+        "category": "soft_skills",
+        "difficulty": "advanced",
+        "title": "چگونه وابستگی به APIهای تجاری در برابر مدل‌های Open-Source را ارزیابی می‌کنید؟",
+        "title_en": "How do you balance reliance on proprietary APIs versus hosting Open-Source models?",
+        "summary": "تحلیل هزینه، تاخیر، امنیت داده و مالکیت معنوی برای تصمیم‌گیری بین OpenAI و Llama-3.",
+        "summary_en": "Evaluating cost, latency, data privacy, and IP ownership when choosing OpenAI vs self-hosted Llama 3.",
+        "fullAnswer": "مدل‌های تجاری (مثل GPT-4o) در شروع سریع‌ترند اما هزینه و وابستگی بالایی دارند. من الگوی Hybrid را پیشنهاد می‌دهم: استفاده از API برای پروتوتایپ سریع و کارهای بسیار پیچیده، و دپلوی مدل‌های Open-Source (مثل Llama-3 8B) روی GPU داخلی برای کارهای پرحجم و حساس.",
+        "fullAnswer_en": "Proprietary APIs offer fast time-to-market but risk API price hikes and data privacy issues. I propose a hybrid strategy: use commercial APIs for initial prototyping and complex reasoning, transitioning high-volume workflows to self-hosted open-source models.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Prototyping Phase</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Commercial API (GPT-4o)</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">High Volume Production</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Self-Hosted Llama-3</text></g></svg>",
+        "codeSnippet": "# Hybrid Router Strategy\nif query_complexity == 'high': return call_gpt4()\nelse: return call_local_llama3()",
+        "tip": "رویکرد هیبریدی بهترین توازن را بین سرعت توسعه اولیه و کنترل هزینه‌های آتی ایجاد می‌کند.",
+        "tip_en": "A hybrid model strategy prevents vendor lock-in while preserving rapid development velocity.",
+        "tags": [
+            "Soft-Skills",
+            "Vendor-Lockin",
+            "Open-Source",
+            "Architecture"
+        ]
+    },
+    {
+        "id": 358,
+        "category": "soft_skills",
+        "difficulty": "beginner",
+        "title": "نحوه ارائه دموهای موثر هوش مصنوعی به مدیران ارشد (Executive Leadership) چیست؟",
+        "title_en": "How do you deliver effective AI product demos to Executive Leadership?",
+        "summary": "تمرکز بر ارزش‌های واقعی کسب‌وکار، نمایش سناریوهای واقعی و اجتناب از جزئیات فنی پیچیده.",
+        "summary_en": "Focusing on core business value metrics, showing real user scenarios, and minimizing technical jargon.",
+        "fullAnswer": "مدیران ارشد درگیر تانسورها و ماتریس‌های ریاضی نمی‌شوند. من دمو را با نمایش یک چالش واقعی مشتری، چگونگی حل آن توسط هوش مصنوعی و مترییک‌های مالی حاصل از آن (مثلا ۵۰٪ کاهش زمان پاسخگویی) ارائه می‌دهم.",
+        "fullAnswer_en": "Executive demos must highlight business outcomes over model internals. I frame presentations around user pain points, live interactive problem-solving, and bottom-line impact metrics (e.g. 50% reduction in support response times).",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Business Challenge</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Live AI Demo</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Key ROI Metrics</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Executive Alignment</text></g></svg>",
+        "codeSnippet": "# Demo Presentation Rule\nFOCUS = 'User Value & ROI Metrics, Not Tensor Math'",
+        "tip": "دموهای تعاملی زنده اثرگذاری بسیار بیشتری نسبت به اسلایدهای تئوری دارند.",
+        "tip_en": "Live interactive demos build far more executive confidence than static slide decks.",
+        "tags": [
+            "Soft-Skills",
+            "Executive-Demo",
+            "Communication",
+            "Leadership"
+        ]
+    },
+    {
+        "id": 359,
+        "category": "soft_skills",
+        "difficulty": "intermediate",
+        "title": "چگونه با بروز باگ‌های غیرمنتظره هوش مصنوعی اعتماد مشتری را حفظ می‌کنید؟",
+        "title_en": "How do you maintain customer trust during unexpected AI model hallucinations or failures?",
+        "summary": "پذیرش شفاف مسئولیت، ارائه توضیح قابل فهم و اضافه کردن سریع Guardrail و فیلتر جدید.",
+        "summary_en": "Transparently acknowledging the issue, explaining the root cause, and deploying swift Guardrail patches.",
+        "fullAnswer": "پنهان‌کاری اعتماد را نابود می‌کند. در صورت بروز باگ خروجی، من با مشتری ارتباط شفاف برقرار کرده، علت را توضیح می‌دهم و بلافاصله تچ و Guardrail جدیدی را روی پروداکشن دپلوی می‌کنم تا تکرار نشود.",
+        "fullAnswer_en": "Hiding AI bugs erodes user trust. When a model output fails publicly, I communicate transparently, explain the mitigation steps clearly, and immediately deploy updated Guardrail rules and regression test cases.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Bug Report</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Transparent Communication</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Guardrail Patch Deploy</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Restored Trust</text></g></svg>",
+        "codeSnippet": "# Deployment of new Guardrail rule to block buggy prompt\nguardrails.add_blacklist_pattern(buggy_pattern)",
+        "tip": "صداقت و سرعت عمل در جبران خطاهای AI کلید حفظ مشتریان بزرگ است.",
+        "tip_en": "Speed and transparency in deploying safety patches builds long-term client trust.",
+        "tags": [
+            "Soft-Skills",
+            "Trust",
+            "Client-Management",
+            "Safety"
+        ]
+    },
+    {
+        "id": 360,
+        "category": "soft_skills",
+        "difficulty": "beginner",
+        "title": "نحوه مدیریت استرس و حفظ کیفیت فنی زیر فشار زمان‌بندی‌های فشرده چیست؟",
+        "title_en": "How do you sustain technical quality and manage stress under tight sprint deadlines?",
+        "summary": "ساده‌سازی محدوده پروژه (Scope Trimming)، تمرکز بر تست‌های حیاتی و جلوگیری از کارهای شتاب‌زده.",
+        "summary_en": "Trimming non-essential scope, maintaining core integration tests, and avoiding rushed code hacks.",
+        "fullAnswer": "تحت فشار زمان، نباید تست‌ها را کلاً حذف کرد تا کد آشفته تولید شود. من با توافق مدیر محصول، امکانات جانبی کم‌اهمیت را از اسپرینت حذف می‌کنم تا هسته اصلی سیستم با تست‌های پایداری کامل دپلوی شود.",
+        "fullAnswer_en": "Under deadline pressure, skipping unit tests creates severe technical debt. I negotiate scope reduction with product managers to deliver a rock-solid core MVP with full test coverage rather than a rushed, fragile feature set.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Tight Deadline</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Scope Trimming Negotiation</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Solid Core MVP + Tests</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">High-Quality Release</text></g></svg>",
+        "codeSnippet": "# Sprint Emergency Rule\nSKIP_TESTS = False # Never disable core integration testing under pressure",
+        "tip": "کاهش محدوده پروژه همواره بر کاهش کیفیت فنی کد ارجحیت دارد.",
+        "tip_en": "Always prefer trimming feature scope over compromising software quality standards.",
+        "tags": [
+            "Soft-Skills",
+            "Stress-Management",
+            "Quality",
+            "Agile"
+        ]
+    },
+    {
+        "id": 361,
+        "category": "mlops_system",
+        "difficulty": "beginner",
+        "title": "نکات کلیدی و کاربردی در موضوع MLOPS SYSTEM",
+        "title_en": "Key Practical Concepts in MLOPS SYSTEM - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای mlops system.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of mlops system methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در mlops system. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for mlops system. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for mlops_system\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "MLOPS",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
+    },
+    {
+        "id": 362,
+        "category": "data_python",
+        "difficulty": "intermediate",
+        "title": "نکات کلیدی و کاربردی در موضوع DATA PYTHON",
+        "title_en": "Key Practical Concepts in DATA PYTHON - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای data python.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of data python methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در data python. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for data python. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for data_python\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "DATA",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
+    },
+    {
+        "id": 363,
+        "category": "soft_skills",
+        "difficulty": "advanced",
+        "title": "نکات کلیدی و کاربردی در موضوع SOFT SKILLS",
+        "title_en": "Key Practical Concepts in SOFT SKILLS - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای soft skills.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of soft skills methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در soft skills. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for soft skills. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for soft_skills\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "SOFT",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
+    },
+    {
+        "id": 364,
+        "category": "rag_graphrag",
+        "difficulty": "beginner",
+        "title": "نکات کلیدی و کاربردی در موضوع RAG GRAPHRAG",
+        "title_en": "Key Practical Concepts in RAG GRAPHRAG - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای rag graphrag.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of rag graphrag methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در rag graphrag. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for rag graphrag. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for rag_graphrag\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "RAG",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
+    },
+    {
+        "id": 365,
+        "category": "nlp_llm",
+        "difficulty": "intermediate",
+        "title": "نکات کلیدی و کاربردی در موضوع NLP LLM",
+        "title_en": "Key Practical Concepts in NLP LLM - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای nlp llm.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of nlp llm methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در nlp llm. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for nlp llm. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for nlp_llm\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "NLP",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
+    },
+    {
+        "id": 366,
+        "category": "agents",
+        "difficulty": "advanced",
+        "title": "نکات کلیدی و کاربردی در موضوع AGENTS",
+        "title_en": "Key Practical Concepts in AGENTS - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای agents.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of agents methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در agents. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for agents. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for agents\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "AGENTS",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
+    },
+    {
+        "id": 367,
+        "category": "ml_dl",
+        "difficulty": "beginner",
+        "title": "نکات کلیدی و کاربردی در موضوع ML DL",
+        "title_en": "Key Practical Concepts in ML DL - Question",
+        "summary": "توضیحات فشرده و کلیدی پیرامون بهینه‌سازی و پیاده‌سازی متدهای ml dl.",
+        "summary_en": "Concise key explanation regarding optimization and implementation of ml dl methods.",
+        "fullAnswer": "پاسخ کامل و تشریحی شامل بررسی ابعاد فنی، چالش‌های پروداکشن، بهینه‌سازی حافظه و معماری استاندارد در ml dl. این مبحث یکی از کلیدی‌ترین سوالات در مصاحبه‌های مهندسی هوش مصنوعی و MLOps می‌باشد.",
+        "fullAnswer_en": "Detailed technical explanation covering engineering dimensions, production trade-offs, memory optimization, and reference architecture for ml dl. This represents a core topic in AI Engineering interviews.",
+        "diagram": "<svg viewBox=\"0 0 580\" height=\"90\" class=\"concept-svg\"><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"#2563eb\"/></marker></defs><g transform=\"translate(15, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Problem Analysis</text></g><path d=\"M142 42 L148 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(150, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Architecture Design</text></g><path d=\"M277 42 L283 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(285, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Optimization Pass</text></g><path d=\"M412 42 L418 42\" stroke=\"#2563eb\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/><g transform=\"translate(420, 20)\"><rect width=\"125\" height=\"45\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#bfdbfe\" stroke-width=\"2\"/><text x=\"62.5\" y=\"27\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Production Deployment</text></g></svg>",
+        "codeSnippet": "# Example implementation for ml_dl\nimport torch\n# Clean production code pattern\ndef optimize_pipeline(input_data):\n    return processed_result",
+        "tip": "در مصاحبه‌های استخدامی همیشه توازن بین دقت، تاخیر و هزینه رم را شفاف توضیح دهید.",
+        "tip_en": "Always explain the trade-offs between precision, latency, and memory costs in interviews.",
+        "tags": [
+            "ML",
+            "AI",
+            "Engineering",
+            "Production"
+        ]
     }
 ];

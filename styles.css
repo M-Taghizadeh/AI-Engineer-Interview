@@ -457,31 +457,96 @@ html[lang="en"] .cat-item-main {
 /* Difficulty Chips */
 .filter-group {
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
+    flex-wrap: nowrap;
+    gap: 4px;
+    width: 100%;
 }
 
 .filter-chip {
+    flex: 1 1 0px;
+    min-width: 0;
     cursor: pointer;
     user-select: none;
-}
-
-.filter-chip.active .badge {
-    box-shadow: 0 0 0 2px var(--primary-color);
+    text-align: center;
 }
 
 .badge {
-    display: inline-block;
-    padding: 3px 8px;
-    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
     font-size: 0.75rem;
     font-weight: 700;
     white-space: nowrap;
+    transition: all var(--transition-fast);
+    border: 1px solid transparent;
+    width: auto;
 }
 
-.badge-beginner { background: var(--badge-beginner-bg); color: var(--badge-beginner-color); }
-.badge-intermediate { background: var(--badge-intermediate-bg); color: var(--badge-intermediate-color); }
-.badge-advanced { background: var(--badge-advanced-bg); color: var(--badge-advanced-color); }
+.filter-chip .badge {
+    width: 100%;
+    padding: 6px 4px;
+    font-size: 0.73rem;
+}
+
+/* Inactive Badges */
+.badge-all {
+    background: #f8fafc;
+    color: #64748b;
+    border-color: #e2e8f0;
+}
+
+.badge-beginner {
+    background: #f0fdf4;
+    color: #166534;
+    border-color: #bbf7d0;
+}
+
+.badge-intermediate {
+    background: #f0f9ff;
+    color: #1e40af;
+    border-color: #bae6fd;
+}
+
+.badge-advanced {
+    background: #fff1f2;
+    color: #9f1239;
+    border-color: #fecdd3;
+}
+
+/* Active Badge Transformations (Mellow, Soft & Harmonious) */
+.filter-chip.active .badge-all {
+    background: #475569;
+    color: #ffffff;
+    border-color: #475569;
+    box-shadow: 0 2px 5px rgba(71, 85, 105, 0.18);
+}
+
+.filter-chip.active .badge-beginner {
+    background: #10b981;
+    color: #ffffff;
+    border-color: #10b981;
+    box-shadow: 0 2px 5px rgba(16, 185, 129, 0.18);
+}
+
+.filter-chip.active .badge-intermediate {
+    background: #3b82f6;
+    color: #ffffff;
+    border-color: #3b82f6;
+    box-shadow: 0 2px 5px rgba(59, 130, 246, 0.18);
+}
+
+.filter-chip.active .badge-advanced {
+    background: #f43f5e;
+    color: #ffffff;
+    border-color: #f43f5e;
+    box-shadow: 0 2px 5px rgba(244, 63, 94, 0.18);
+}
+
+.filter-chip:not(.active):hover .badge {
+    transform: translateY(-1px);
+}
 
 .category-badge {
     display: inline-block;
@@ -988,36 +1053,50 @@ mark.highlight {
 
 .modal-close {
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 18px;
+    left: 18px;
     background: var(--bg-subtle);
-    border: none;
+    border: 1px solid var(--border-color);
     color: var(--text-main);
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all var(--transition-fast);
-    z-index: 10;
+    z-index: 20;
+}
+
+[dir="ltr"] .modal-close {
+    left: auto;
+    right: 18px;
 }
 
 .modal-close:hover {
-    background: #e2e8f0;
-    color: var(--text-heading);
+    background: var(--primary-light);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .modal-header {
-    padding: 20px 24px 16px 24px;
+    padding: 22px 24px 18px 24px;
     border-bottom: 1px solid var(--border-color);
+    position: relative;
 }
 
 .modal-badges {
     display: flex;
-    gap: 6px;
-    margin-bottom: 8px;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    padding-left: 45px;
+}
+
+[dir="ltr"] .modal-badges {
+    padding-left: 0;
+    padding-right: 45px;
 }
 
 .modal-header h2 {

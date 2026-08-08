@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             catHeading: "دسته‌بندی موضوعی",
             diffHeading: "سطح دشواری",
             resetBtn: "بازنشانی",
-            allLevels: "همه سطوح",
+            allLevels: "همه",
             beginner: "مبتدی",
             intermediate: "متوسط",
             advanced: "پیشرفته",
