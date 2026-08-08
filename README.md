@@ -28,11 +28,8 @@ An open-source, bilingual (Persian & English), interactive interview preparation
   - **Data Analysis & Python**: NumPy, PyTorch, Vectorization, Profiling
   - **Soft Skills & Behavioral**: Conflict Resolution, Cross-functional Communication, Failure Handling
 - **Dynamic Bilingual Support**: Instant toggling between Persian (RTL) and English (LTR) with automatic font adaptations (Vazirmatn & Inter).
-- **Minimalist Hand-Crafted UI**: Clean, product-focused Light Mode aesthetic with crisp typography, precise alignment, and subtle micro-interactions.
-- **100% Static & GitHub Pages Ready**: Built purely with standard vanilla HTML5, CSS3, and ES6 JavaScript. No backend, database, or build step required.
 - **Real-time Search & Multi-filtering**: Client-side instant keyword search, difficulty filter chips (Beginner, Intermediate, Advanced), and category navigation.
 - **Practice & Quiz Mode**: Interactive flashcard-style quiz mode for self-assessment.
-- **Mobile & Touch Optimized**: Native horizontal scroll category pills and responsive layout for seamless phone and tablet browsing.
 
 ---
 
@@ -63,21 +60,6 @@ Run a lightweight local server:
 python -m http.server 8085
 ```
 Open your browser and navigate to: **`http://localhost:8085`**
-
----
-
-## Deploying to GitHub Pages
-
-1. Push the code to your GitHub repository:
-   ```bash
-   git add .
-   git commit -m "Deploy AI Engineer Interview Platform"
-   git push origin main
-   ```
-2. In your GitHub Repository, go to **Settings** > **Pages**.
-3. Under **Build and deployment** > **Source**, select **Deploy from a branch**.
-4. Choose **main** branch and `/ (root)` directory, then click **Save**.
-5. Your site will be published at `https://<username>.github.io/<repo-name>/`.
 
 ---
 
