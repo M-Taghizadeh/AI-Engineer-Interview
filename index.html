@@ -86,16 +86,22 @@
             </div>
 
             <div class="header-actions">
-                <!-- Language Switcher Button -->
-                <button id="lang-toggle" class="btn btn-outline lang-btn" title="تغییر زبان / Switch Language">
+                <!-- Mobile Filter/Menu Toggle Button -->
+                <button id="mobile-filter-btn" class="btn btn-outline mobile-filter-btn" title="منو و فیلترها">
+                    <i class="fa-solid fa-bars"></i>
+                    <span data-i18n="filterBtn">منو</span>
+                </button>
+
+                <!-- Language Switcher Button (Desktop Header Only) -->
+                <button id="lang-toggle" class="btn btn-outline lang-btn desktop-only-action" title="تغییر زبان / Switch Language">
                     <i class="fa-solid fa-globe"></i>
                     <span id="lang-text">EN</span>
                 </button>
 
-                <!-- Practice Quiz Button -->
-                <button id="quiz-btn" class="btn btn-secondary">
+                <!-- Practice Quiz Button (Desktop Header Only) -->
+                <button id="quiz-btn" class="btn btn-secondary desktop-only-action">
                     <i class="fa-solid fa-bolt"></i>
-                    <span data-i18n="quizBtn">حالت تمرین و آزمون</span>
+                    <span data-i18n="quizBtn">آزمون و تمرین</span>
                 </button>
             </div>
         </div>
@@ -103,10 +109,33 @@
 
 
 
+    <!-- Sidebar Backdrop Overlay for Mobile Drawer -->
+    <div class="sidebar-overlay hidden" id="sidebar-overlay"></div>
+
     <!-- Main Content App Interface -->
     <main class="container main-layout">
         <!-- Sidebar Filters -->
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-mobile-header">
+                <h3><i class="fa-solid fa-sliders"></i> <span data-i18n="filterMenuTitle">فیلترها و دسته‌بندی</span></h3>
+                <button class="mobile-close-btn" id="sidebar-close-btn" aria-label="بستن"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <!-- Quick Tools / Actions Box for Mobile Drawer -->
+            <div class="sidebar-box mobile-tools-box">
+                <h3><i class="fa-solid fa-gear"></i> <span data-i18n="toolsHeading">ابزارها و امکانات</span></h3>
+                <div class="drawer-actions-grid">
+                    <button id="drawer-quiz-btn" class="btn btn-secondary drawer-action-btn">
+                        <i class="fa-solid fa-bolt text-amber"></i>
+                        <span data-i18n="quizBtn">آزمون و تمرین</span>
+                    </button>
+                    <button id="drawer-lang-toggle" class="btn btn-outline drawer-action-btn" title="تغییر زبان / Switch Language">
+                        <i class="fa-solid fa-globe text-blue"></i>
+                        <span id="drawer-lang-text">زبان: English</span>
+                    </button>
+                </div>
+            </div>
+
             <div class="sidebar-box">
                 <div class="sidebar-header">
                     <h3><i class="fa-solid fa-filter"></i> <span data-i18n="catHeading">دسته‌بندی موضوعی</span></h3>
@@ -161,7 +190,7 @@
             <div class="controls-bar">
                 <div class="search-wrapper">
                     <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                    <input type="text" id="search-input" placeholder="جستجو در سوالات، کلمات کلیدی، مباحث (مثلا: RAG, Transformer, LoRA, Docker)..." dir="rtl">
+                    <input type="text" id="search-input" placeholder="جستجو در سوالات و مباحث..." dir="rtl">
                     <button id="clear-search" class="clear-btn hidden"><i class="fa-solid fa-xmark"></i></button>
                 </div>
 

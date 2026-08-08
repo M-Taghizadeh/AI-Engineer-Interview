@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         fa: {
             siteTitle: "سوالات استخدامی",
-            quizBtn: "حالت تمرین و آزمون",
+            quizBtn: "آزمون و تمرین",
             heroTitle: "سوالات استخدامی",
             heroHighlight: "مهندس هوش مصنوعی",
             statTotalLabel: "سوال تخصصی و کلیدی",
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             intermediate: "متوسط",
             advanced: "پیشرفته",
             allQuestions: "همه سوالات",
-            searchPlaceholder: "جستجو در سوالات، کلمات کلیدی، مباحث (مثلا: RAG, Transformer, LoRA, Docker)...",
+            searchPlaceholder: "جستجو در سوالات و مباحث...",
             sortLabel: "مرتب‌سازی:",
             sortDefault: "پیش‌فرض",
             sortDiffAsc: "سطح (مبتدی به پیشرفته)",
@@ -77,11 +77,14 @@ document.addEventListener('DOMContentLoaded', () => {
             copyright: "طراحی شده برای موفقیت شما در مصاحبه‌های هوش مصنوعی و MLOps",
             footerTag: "راهنمای جامع مصاحبه شغلی مهندس هوش مصنوعی (AI Engineer) - ویژه بازار کار",
             githubHeading: "گیت‌هاب",
-            githubLabel: "مشاهده پروفایل در گیت‌هاب"
+            githubLabel: "مشاهده پروفایل در گیت‌هاب",
+            filterBtn: "منو",
+            filterMenuTitle: "منو و فیلترها",
+            toolsHeading: "ابزارها و امکانات"
         },
         en: {
             siteTitle: "Interview Questions",
-            quizBtn: "Practice & Quiz Mode",
+            quizBtn: "Practice Quiz",
             heroTitle: "Interview Questions for",
             heroHighlight: "AI Engineers",
             statTotalLabel: "Specialized Questions",
@@ -98,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             intermediate: "Intermediate",
             advanced: "Advanced",
             allQuestions: "All Questions",
-            searchPlaceholder: "Search questions, keywords, topics (e.g. RAG, Transformer, LoRA, Docker)...",
+            searchPlaceholder: "Search questions & topics...",
             sortLabel: "Sort by:",
             sortDefault: "Default",
             sortDiffAsc: "Difficulty (Low to High)",
@@ -125,7 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
             copyright: "Designed for your success in AI Engineering & MLOps interviews",
             footerTag: "Comprehensive AI Engineer Job Interview Platform",
             githubHeading: "GitHub",
-            githubLabel: "View Profile on GitHub"
+            githubLabel: "View Profile on GitHub",
+            filterBtn: "Menu",
+            filterMenuTitle: "Menu & Filters",
+            toolsHeading: "Tools & Options"
         }
     };
 
@@ -200,6 +206,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const quizNextBtn = document.getElementById('quiz-next-btn');
     const quizNextIcon = document.getElementById('quiz-next-icon');
 
+    // Mobile Sidebar Elements
+    const mobileFilterBtn = document.getElementById('mobile-filter-btn');
+    const sidebarOverlay = document.getElementById('sidebar-overlay');
+    const sidebar = document.getElementById('sidebar');
+    const sidebarCloseBtn = document.getElementById('sidebar-close-btn');
+    const drawerQuizBtn = document.getElementById('drawer-quiz-btn');
+    const drawerLangToggle = document.getElementById('drawer-lang-toggle');
+    const drawerLangText = document.getElementById('drawer-lang-text');
+
     // Initialize Language
     setLanguage(currentLang);
 
@@ -213,6 +228,29 @@ document.addEventListener('DOMContentLoaded', () => {
         setupEventListeners();
     }
 
+    function openMobileSidebar() {
+        if (sidebar) sidebar.classList.add('open');
+        if (sidebarOverlay) {
+            sidebarOverlay.classList.remove('hidden');
+            void sidebarOverlay.offsetWidth;
+            sidebarOverlay.classList.add('active');
+        }
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileSidebar() {
+        if (sidebar) sidebar.classList.remove('open');
+        if (sidebarOverlay) {
+            sidebarOverlay.classList.remove('active');
+            setTimeout(() => {
+                if (sidebarOverlay && !sidebarOverlay.classList.contains('active')) {
+                    sidebarOverlay.classList.add('hidden');
+                }
+            }, 300);
+        }
+        document.body.style.overflow = '';
+    }
+
     /* ==========================================================================
        Language & i18n Functions
        ========================================================================== */
@@ -224,8 +262,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.setAttribute('dir', lang === 'fa' ? 'rtl' : 'ltr');
         
         if (langText) langText.textContent = lang === 'fa' ? 'EN' : 'FA';
+        if (drawerLangText) {
+            drawerLangText.textContent = lang === 'fa' ? 'زبان: English' : 'Language: فارسی';
+        }
         if (searchInput) {
-            searchInput.placeholder = translations[lang].searchPlaceholder;
+            if (window.innerWidth <= 640) {
+                searchInput.placeholder = lang === 'fa' ? "جستجو در سوالات..." : "Search questions...";
+            } else {
+                searchInput.placeholder = translations[lang].searchPlaceholder;
+            }
             searchInput.dir = lang === 'fa' ? 'rtl' : 'ltr';
         }
 
@@ -293,6 +338,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentPage = 1;
                 document.querySelectorAll('.cat-item').forEach(el => el.classList.remove('active'));
                 btn.classList.add('active');
+                if (window.innerWidth <= 960) {
+                    btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                }
                 updateActiveTags();
                 renderQuestions();
             });
@@ -370,7 +418,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const qTitle = (currentLang === 'en' && q.title_en) ? q.title_en : q.title;
             const qSummary = (currentLang === 'en' && q.summary_en) ? q.summary_en : q.summary;
-            const arrowIcon = currentLang === 'fa' ? 'fa-arrow-left' : 'fa-arrow-right';
 
             card.innerHTML = `
                 <div class="q-card-top">
@@ -384,21 +431,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="q-tags">
                     ${q.tags.map(tag => `<span class="q-tag">${tag}</span>`).join('')}
                 </div>
-                <div class="q-card-bottom">
-                    <button class="read-more-btn" data-action="view-details" title="${translations[currentLang].viewDetails}" aria-label="${translations[currentLang].viewDetails}">
-                        <i class="fa-solid ${arrowIcon}"></i>
-                    </button>
-                </div>
             `;
 
-            card.querySelector('[data-action="view-details"]').addEventListener('click', () => {
+            card.addEventListener('click', () => {
                 openQuestionModal(q.id);
-            });
-
-            card.addEventListener('click', (e) => {
-                if (!e.target.closest('button')) {
-                    openQuestionModal(q.id);
-                }
             });
 
             questionsGrid.appendChild(card);
@@ -445,6 +481,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getPageRange(current, total) {
+        const isMobile = window.innerWidth <= 640;
+        if (isMobile) {
+            if (total <= 4) {
+                return Array.from({ length: total }, (_, i) => i + 1);
+            }
+            if (current <= 2) {
+                return [1, 2, 3, '...', total];
+            }
+            if (current >= total - 1) {
+                return [1, '...', total - 2, total - 1, total];
+            }
+            return [1, '...', current, '...', total];
+        }
+
         if (total <= 7) {
             return Array.from({ length: total }, (_, i) => i + 1);
         }
@@ -699,6 +749,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setupEventListeners() {
+        // Mobile Sidebar Drawer Events
+        if (mobileFilterBtn) mobileFilterBtn.addEventListener('click', openMobileSidebar);
+        if (sidebarCloseBtn) sidebarCloseBtn.addEventListener('click', closeMobileSidebar);
+        if (sidebarOverlay) sidebarOverlay.addEventListener('click', closeMobileSidebar);
+
+        if (drawerQuizBtn) {
+            drawerQuizBtn.addEventListener('click', () => {
+                closeMobileSidebar();
+                startQuizMode();
+            });
+        }
+
+        if (drawerLangToggle) {
+            drawerLangToggle.addEventListener('click', () => {
+                const nextLang = currentLang === 'fa' ? 'en' : 'fa';
+                setLanguage(nextLang);
+            });
+        }
+
         // Language Toggle Event
         if (langToggleBtn) {
             langToggleBtn.addEventListener('click', () => {
